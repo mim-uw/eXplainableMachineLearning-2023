@@ -4,12 +4,6 @@ Lecture notes for 'Trustworthy Machine Learning' at [UoW](https://usosweb.uw.edu
 
 Slack for this course: [invite link](TODO)
 
-
-XAI stories ebook: 
-- first edition https://pbiecek.github.io/xai_stories/
-- second edition https://pbiecek.github.io/xai_stories_2/
-- this edition https://github.com/pbiecek/xai_stories_3/
-
 # Design Principles
 
 The course consists of lectures, computer labs and a project.
@@ -75,6 +69,14 @@ Home works [0-24 points]
 Presentations can be prepared by one or two students. Each group should present a single XAI related paper (journal or conference). Each group should choose a different paper. Here are some suggestions.
 
 TODO
+
+# Projects
+
+XAI stories ebook: 
+- first edition https://pbiecek.github.io/xai_stories/
+- second edition https://pbiecek.github.io/xai_stories_2/
+- this edition https://github.com/pbiecek/xai_stories_3/
+
 
 # Literature
 
