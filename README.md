@@ -28,10 +28,10 @@ Plan for the winter semester 2022/2023. UoW classes are on Fridays.
 * 2022-11-04  -- PROJECT: **First checkpoint** - show your model and initial ideas for explanations!
 * 2022-11-11  -- VIP / MCR
 * 2022-11-18  -- Fairness
-* 2022-11-25  -- Counterfactual explanations
+* 2022-11-25  -- Evaluation of explanations 
 * 2022-12-02  -- PROJECT: **Second checkpoint** - show your explanations and initial ideas for validation!
-* 2022-12-09  -- Concept based explanations
-* 2022-12-16  -- Evaluation of explanations
+* 2022-12-09  -- Counterfactual explanations (?)
+* 2022-12-16  -- Concept based explanations (?)
 * 2023-01-13  -- Student presentations
 * 2023-01-20  -- Student presentations
 * 2023-01-27  -- PROJECT:  **Final presentation** - show your model, explanations and validation!
