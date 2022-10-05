@@ -2,7 +2,6 @@
 
 Lecture notes for 'Trustworthy Machine Learning' at [UoW](https://usosweb.uw.edu.pl/kontroler.php?_action=katalog2/przedmioty/pokazPrzedmiot&amp;kod=1000-319bEML). Winter semester 2022/2023
 
-Slack for this course: [invite link](TODO)
 
 # Design Principles
 
@@ -52,17 +51,17 @@ Grades:
 There are four key components.
 
 * Homeworks (0-24)
-* Presentations (0-16)
-* Project (0-30)
+* Presentations (0-10)
+* Project (0-36)
 * Exam  (0-30)
 
 Home works [0-24 points]
- - home work 1  for 0-4 points. **Deadline: 2022-10-13**
- - home work 2  for 0-4 points. **Deadline: 2022-10-20** 
- - home work 3  for 0-4 points. **Deadline: 2022-10-27**
- - home work 4  for 0-4 points. **Deadline: 2022-11-10**
- - home work 5  for 0-4 points. **Deadline: 2022-11-17**
- - home work 6  for 0-4 points. **Deadline: 2022-11-24**
+ - [homework 1](https://github.com/mim-uw/TrustworthyMachineLearning-2023/tree/main/Homeworks/HW1)  for 0-4 points. **Deadline: 2022-10-13**
+ - [homework 2](https://github.com/mim-uw/TrustworthyMachineLearning-2023/tree/main/Homeworks/HW2)  for 0-4 points. **Deadline: 2022-10-20** 
+ - [homework 3](https://github.com/mim-uw/TrustworthyMachineLearning-2023/tree/main/Homeworks/HW3)  for 0-4 points. **Deadline: 2022-10-27**
+ - [homework 4](https://github.com/mim-uw/TrustworthyMachineLearning-2023/tree/main/Homeworks/HW4)  for 0-4 points. **Deadline: 2022-11-10**
+ - [homework 5](https://github.com/mim-uw/TrustworthyMachineLearning-2023/tree/main/Homeworks/HW5)  for 0-4 points. **Deadline: 2022-11-17**
+ - [homework 6](https://github.com/mim-uw/TrustworthyMachineLearning-2023/tree/main/Homeworks/HW6)  for 0-4 points. **Deadline: 2022-11-24**
 
 # Presentations
 
