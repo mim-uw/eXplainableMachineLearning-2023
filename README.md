@@ -20,7 +20,7 @@ The design of this course is based on four principles:
 Plan for the winter semester 2022/2023. UoW classes are on Fridays. 
 
 
-* 2022-10-07  -- Introduction
+* 2022-10-07  -- Introduction, [slides](https://htmlpreview.github.io/?https://raw.githubusercontent.com/mim-uw/TrustworthyMachineLearning-2023/main/Lectures/01_introduction.html#/title-slide), [audio](https://youtu.be/1UkrvKyvMDw)
 * 2022-10-14  -- Break-Down / SHAP
 * 2022-10-21  -- LIME / LORE
 * 2022-10-28  -- CP / PDP
