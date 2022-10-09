@@ -1,6 +1,6 @@
-# Trustworthy Machine Learning / Wyjaśnialne Uczenie Maszynowe - 2023
+# eXplainable Machine Mearning / Wyjaśnialne Uczenie Maszynowe - 2023
 
-Lecture notes for 'Trustworthy Machine Learning' at [UoW](https://usosweb.uw.edu.pl/kontroler.php?_action=katalog2/przedmioty/pokazPrzedmiot&amp;kod=1000-319bEML). Winter semester 2022/2023
+Lecture notes for 'eXplainable Machine Mearning' at [UoW](https://usosweb.uw.edu.pl/kontroler.php?_action=katalog2/przedmioty/pokazPrzedmiot&kod=1000-319bEML). Winter semester 2022/2023
 
 
 # Design Principles
@@ -25,15 +25,16 @@ Plan for the winter semester 2022/2023. UoW classes are on Fridays.
 * 2022-10-21  -- LIME / LORE
 * 2022-10-28  -- CP / PDP
 * 2022-11-04  -- PROJECT: **First checkpoint** - show your model and initial ideas for explanations!
-* 2022-11-11  -- VIP / MCR
-* 2022-11-18  -- Fairness
-* 2022-11-25  -- Evaluation of explanations 
-* 2022-12-02  -- PROJECT: **Second checkpoint** - show your explanations and initial ideas for validation!
-* 2022-12-09  -- Counterfactual explanations (?)
-* 2022-12-16  -- Concept based explanations (?)
+* 2022-11-18  -- VIP / MCR
+* 2022-11-25  -- Fairness
+* 2022-12-02  -- Evaluation of explanations 
+* 2022-12-09  -- PROJECT: **Second checkpoint** - show your explanations and initial ideas for validation!
+* 2022-12-16  -- Counterfactual explanations (?)
+* 2022-12-22  -- Concept based explanations (?)
 * 2023-01-13  -- Student presentations
 * 2023-01-20  -- Student presentations
 * 2023-01-27  -- PROJECT:  **Final presentation** - show your model, explanations and validation!
+
 
 # How to get a good grade
 
