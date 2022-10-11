@@ -1,6 +1,6 @@
-# eXplainable Machine Mearning / Wyjaśnialne Uczenie Maszynowe - 2023
+# eXplainable Machine Learning / Wyjaśnialne Uczenie Maszynowe - 2023
 
-Lecture notes for 'eXplainable Machine Mearning' at [UoW](https://usosweb.uw.edu.pl/kontroler.php?_action=katalog2/przedmioty/pokazPrzedmiot&kod=1000-319bEML). Winter semester 2022/2023
+Lecture notes for 'eXplainable Machine Learning' at [UoW](https://usosweb.uw.edu.pl/kontroler.php?_action=katalog2/przedmioty/pokazPrzedmiot&kod=1000-319bEML). Winter semester 2022/2023
 
 
 # Design Principles
