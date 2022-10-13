@@ -4,7 +4,9 @@ The goal of the second homework is to become familiar with SHapley Additive exPl
 
 Calculate these explanations on the model from Homework 1 and gather conclusions from the results.
 
-Add your second homework to this directory.
+Focus on the presentation of results; for technical issues, seek support at [Materials towards Homework 2: SHAP with XGBoost & SVM](https://github.com/mim-uw/eXplainableMachineLearning-2023/blob/main/Materials/hw2_shap_with_xgboost_on_titanic.html).
+
+Submit the homework to this directory.
 
 ## Deadline 
 
@@ -12,25 +14,30 @@ Add your second homework to this directory.
 
 ## Task
 
-For the selected models prepare a knitr/jupyter notebook based on the following points (you can use models created in Homework 1).
+For the selected models, prepare a knitr/jupyter notebook based on the following points (you can use models created in Homework 1).
 Submit your results on GitHub to the directory `Homeworks/HW2`.
 
-1. Train a tree-based ensemble model on the selected dataset, it can be one of: random forest, GBM, CatBoost, XGBoost, LightGBM (various types) etc.
+1. Train a tree-based ensemble model on the selected dataset; it can be one of random forest, GBM, CatBoost, XGBoost, LightGBM (various types) etc.
 2. Select two observations from the dataset and calculate the model's prediction.
-3. Next, for the same observations, calculate the decomposition of predictions, so called variable attributions, using SHAP from two packages of choice, e.g. for Python: `dalex` and `shap`, for R: `DALEX` and `iml`.
-4. Find any two observations in the dataset, such that they have different variables of the highest importance, e.g. age and gender have the highest (absolute) attribution for observation A, but race and class is more important for observation B.
+3. Next, for the same observations, calculate the decomposition of predictions, so-called variable attributions, using SHAP from two packages of choice, e.g. for Python: `dalex` and `shap`, for R: `DALEX` and `iml`.
+4. Find any two observations in the dataset, such that they have different variables of the highest importance, e.g. age and gender have the highest (absolute) attribution for observation A, but race and class are more important for observation B.
 5. (If possible) Select one variable X and find two observations in the dataset such that for one observation, X has a positive attribution, and for the other observation, X has a negative attribution.
 6. (How) Do the results differ across the two packages selected in point (3)?
-7. (Using one explanation package of choice) Train another model of any class: neural network, linear model, decision tree etc. and find an observation, for which SHAP attributions are different between this model and the one trained in point (1).
+7. (Using one explanation package of choice) Train another model of any class: neural network, linear model, decision tree etc. and find an observation for which SHAP attributions are different between this model and the one trained in point (1).
 8. Comment on the results obtained in points (4)-(7)
 
 
 ## **Important note:**
 
-The submitted homework should consist of two parts (try to convert the jupyter notebook into an html file): 
+Try to convert the jupyter notebook into an HTML file, e.g. using the following command in bash
 
-The 1st part is the key results and comments from points (4)-(7). In this part **PLEASE DO NOT SHOW ANY R/PYTHON CODES, ONLY RESULTS (FIGURES, COMMENTS).**
+```
+jupyter nbconvert --to=html --template=classic FILE_NAME.ipynb
+```
 
-The 2nd part should start with the word "Appendix" or "Załącznik" and should include the reproducible R/Python code used to implement points (1)-(6).
+The submitted homework should consist of two parts:
+
+1. The 1st part is the key results and comments from points (4)-(7). In this part **PLEASE DO NOT SHOW ANY R/PYTHON CODES, ONLY RESULTS (FIGURES, COMMENTS).**
+2. The 2nd part should start with the word "Appendix" or "Załącznik" and should include the reproducible R/Python code used to implement points (1)-(5) & (7).
 
 Such division: 1. will make this homework more readable, and 2. will develop good habits related to reporting.
