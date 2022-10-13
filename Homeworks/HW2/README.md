@@ -12,7 +12,7 @@ Submit the homework to this directory.
 
 2022-10-20 EOD
 
-## Task
+## Task A
 
 For the selected models, prepare a knitr/jupyter notebook based on the following points (you can use models created in Homework 1).
 Submit your results on GitHub to the directory `Homeworks/HW2`.
@@ -26,6 +26,20 @@ Submit your results on GitHub to the directory `Homeworks/HW2`.
 7. (Using one explanation package of choice) Train another model of any class: neural network, linear model, decision tree etc. and find an observation for which SHAP attributions are different between this model and the one trained in point (1).
 8. Comment on the results obtained in points (4)-(7)
 
+## Task B
+
+Calculate Shapley values for player A given the following value function
+
+```
+v() = 0
+v(A) = 20
+v(B) = 20
+v(C) = 60
+v(A,B) = 60
+v(A,C) = 70
+v(B,C) = 70
+v(A,B,C) = 100
+```
 
 ## **Important note:**
 
