@@ -100,5 +100,5 @@ A written exam will consist of simple exercises based on the materials from Lect
 We recommend to dive deep into the following books and explore their references on a particular topic of interest:
 
 * [Explanatory Model Analysis. Explore, Explain and Examine Predictive Models](https://pbiecek.github.io/ema/) by Przemysław Biecek, Tomasz Burzykowski
-* [FAIRNESS AND MACHINE LEARNING: Limitations and Opportunities](https://fairmlbook.org/) by Solon Barocas, Moritz Hardt, Arvind Narayanan
+* [Fairness and Machine Learning: Limitations and Opportunities](https://fairmlbook.org/) by Solon Barocas, Moritz Hardt, Arvind Narayanan
 * [Interpretable Machine Learning. A Guide for Making Black Box Models Explainable](https://christophm.github.io/interpretable-ml-book/) by Christoph Molnar
