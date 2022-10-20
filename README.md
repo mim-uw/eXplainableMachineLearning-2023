@@ -23,8 +23,8 @@ Plan for the winter semester 2022/2023. UW classes are on Fridays.
 
 
 * 2022-10-07  -- Introduction, [slides](https://htmlpreview.github.io/?https://raw.githubusercontent.com/mim-uw/TrustworthyMachineLearning-2023/main/Lectures/01_introduction.html#/title-slide), [audio](https://youtu.be/1UkrvKyvMDw)
-* 2022-10-14  -- Break-Down / SHAP, [slides](https://htmlpreview.github.io/?https://raw.githubusercontent.com/mim-uw/eXplainableMachineLearning-2023/main/Lectures/02_shap.html#/title-slide), [audio](https://youtu.be/SJQWAJLhMas)
-* 2022-10-21  -- LIME / LORE
+* 2022-10-14  -- Break-Down / SHAP, [slides](https://htmlpreview.github.io/?https://raw.githubusercontent.com/mim-uw/eXplainableMachineLearning-2023/main/Lectures/02_shap.html#/title-slide), [audio](https://youtu.be/SJQWAJLhMas), [code examples](https://htmlpreview.github.io/?https://raw.githubusercontent.com/mim-uw/eXplainableMachineLearning-2023/main/Materials/hw2_shap_with_xgboost_on_titanic.html)
+* 2022-10-21  -- LIME / LORE, [slides](https://htmlpreview.github.io/?https://raw.githubusercontent.com/mim-uw/eXplainableMachineLearning-2023/main/Lectures/03_lime.html), [audio](https://youtu.be/l5I1uwoKrME)
 * 2022-10-28  -- CP / PDP
 * 2022-11-04  -- PROJECT: **First checkpoint** - Choose a topic and be familiar with the attached materials.
 * 2022-11-18  -- VIP / MCR
