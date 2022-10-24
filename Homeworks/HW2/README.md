@@ -10,7 +10,10 @@ Submit the homework to this directory.
 
 ## Deadline 
 
-2022-10-20 EOD
+~~2022-10-20 EOD~~
+
+2022-10-24 EOD
+
 
 ## Task A
 
