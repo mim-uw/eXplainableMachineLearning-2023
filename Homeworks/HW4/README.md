@@ -6,7 +6,7 @@ Add your fourth homework as a pull request to this folder.
 
 ## Deadline 
 
-2022-11-10 EOD
+2022-11-10 23:59
 
 ## Task
 

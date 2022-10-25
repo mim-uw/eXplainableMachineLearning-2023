@@ -6,7 +6,7 @@ Add your first homework as a pull request to this folder.
 
 ## Deadline 
 
-2022-10-13 EOD
+2022-10-13 23:59
 
 ## Task
 
