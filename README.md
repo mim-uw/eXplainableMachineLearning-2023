@@ -71,8 +71,10 @@ There are four key components:
 
 Presentations can be prepared by one or two students. Each group should present a single paper related to XAI published in the last 3 years (journal or conference). Each group should choose a different paper. Here are some suggestions:
 
+
 * J. DeYoung et al. [ERASER : A Benchmark to Evaluate Rationalized NLP Models](https://aclanthology.org/2020.acl-main.408.pdf). ACL, 2020.
 * D. Slack et al. [Fooling LIME and SHAP: Adversarial Attacks on Post hoc Explanation Methods](https://dl.acm.org/doi/10.1145/3375627.3375830). AIES, 2020.
+* S. Lundberg et al. [From local explanations to global understanding with explainable AI for trees](https://www.nature.com/articles/s42256-019-0138-9). Nature Machine Intelligence, 2020.
 * U. Bhatt et al. [Evaluating and Aggregating Feature-based Model Explanations](https://www.ijcai.org/Proceedings/2020/0417). IJCAI, 2020.
 * S. Sinha et al. [Perturbing Inputs for Fragile Interpretations in Deep Natural Language Processing](https://arxiv.org/abs/2108.04990). EMNLP BlackboxNLP Workshop, 2021.
 * L. Yang et al. [Synthetic Benchmarks for Scientific Research in Explainable Machine Learning](https://openreview.net/forum?id=R7vr14ffhF9). NeurIPS Datasets and Benchmarks, 2021.
