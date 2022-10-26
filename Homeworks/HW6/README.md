@@ -4,7 +4,7 @@ The purpose of the sixth homework is to learn about the method of calculating fa
 
 ## Deadline 
 
-2022-11-24 EOD
+2022-11-24 23:59
 
 ## Task
 

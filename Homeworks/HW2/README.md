@@ -12,7 +12,7 @@ Submit the homework to this directory.
 
 ~~2022-10-20 EOD~~
 
-2022-10-24 EOD
+2022-10-24 23:59
 
 
 ## Task A
