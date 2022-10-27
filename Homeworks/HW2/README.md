@@ -4,7 +4,7 @@ The goal of the second homework is to become familiar with SHapley Additive exPl
 
 Calculate these explanations on the model from Homework 1 and gather conclusions from the results.
 
-Focus on the presentation of results; for technical issues, seek support at [Materials towards Homework 2: SHAP with XGBoost & SVM](https://github.com/mim-uw/eXplainableMachineLearning-2023/blob/main/Materials/hw2_shap_with_xgboost_on_titanic.html).
+Focus on the presentation of results; for technical issues, seek support at [Materials towards Homework 2: SHAP with XGBoost & SVM](https://mim-uw.github.io/eXplainableMachineLearning-2023/hw2_shap_with_xgboost_on_titanic.html).
 
 Submit the homework to this directory.
 
