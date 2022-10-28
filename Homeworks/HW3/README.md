@@ -4,13 +4,13 @@ The purpose of the third homework is to become familiar with Local Interpretable
 
 Calculate these explanations on the model from previous Homeworks and gather conclusions from the results.
 
-Focus on the presentation of results; for technical issues, seek support at [Materials towards Homework 3: LIME with XGBoost & SVM](https://github.com/mim-uw/eXplainableMachineLearning-2023/blob/main/Materials/hw3_lime_with_xgboost_on_titanic.html).
+Focus on the presentation of results; for technical issues, seek support at [Materials towards Homework 3: LIME with XGBoost & SVM](https://mim-uw.github.io/eXplainableMachineLearning-2023/hw3_lime_with_xgboost_on_titanic.html).
 
 Submit the homework to this directory.
 
 ## Deadline 
 
-2022-10-27 EOD
+2022-10-27 23:59
 
 ## Task
 
