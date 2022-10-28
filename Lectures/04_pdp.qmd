@@ -326,13 +326,13 @@ with $X_1 \sim \mathcal U[0,1]$, while $x_2=x_1$ (perfect correlation).
 Then we have
 
 $$
-g_{AL}^{1}(z) = \int_0^z E_{X_2|x_1=z} \frac{\partial ( \hat \mu + \hat \beta_1 x_1 + \hat \beta_2 x_2)}{\partial x_1} + c= 
+g_{AL}^{1}(z) = \int_0^z E_{X_2|x_1=v} \frac{\partial ( \hat \mu + \hat \beta_1 x_1 + \hat \beta_2 x_2)}{\partial x_1} dv + c= 
 $$
 $$
-\int_0^z E_{X_2|x_1=z} \hat \beta_1  +c = 
+\int_0^z E_{X_2|x_1=v} \hat \beta_1 dv  +c = 
 $$
 $$
-\int_0^z \hat \beta_1  +c = 
+\int_0^z \hat \beta_1 dv +c = 
 $$
 $$
 \hat \beta_1 z + c
