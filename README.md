@@ -63,9 +63,9 @@ There are four key components:
  - [Homework 1](https://github.com/mim-uw/TrustworthyMachineLearning-2023/tree/main/Homeworks/HW1)  for 0-4 points. **Deadline: 2022-10-13**
  - [Homework 2](https://github.com/mim-uw/TrustworthyMachineLearning-2023/tree/main/Homeworks/HW2)  for 0-4 points. **Deadline: 2022-10-20** 
  - [Homework 3](https://github.com/mim-uw/TrustworthyMachineLearning-2023/tree/main/Homeworks/HW3)  for 0-4 points. **Deadline: 2022-10-27**
- - [Homework 4](https://github.com/mim-uw/TrustworthyMachineLearning-2023/tree/main/Homeworks/HW4)  for 0-4 points. **Deadline: 2022-11-10**
- - [Homework 5](https://github.com/mim-uw/TrustworthyMachineLearning-2023/tree/main/Homeworks/HW5)  for 0-4 points. **Deadline: 2022-11-17**
- - [Homework 6](https://github.com/mim-uw/TrustworthyMachineLearning-2023/tree/main/Homeworks/HW6)  for 0-4 points. **Deadline: 2022-11-24**
+ - [Homework 4](https://github.com/mim-uw/TrustworthyMachineLearning-2023/tree/main/Homeworks/HW4)  for 0-4 points. **Deadline: 2022-11-17**
+ - [Homework 5](https://github.com/mim-uw/TrustworthyMachineLearning-2023/tree/main/Homeworks/HW5)  for 0-4 points. **Deadline: 2022-11-24**
+ - [Homework 6](https://github.com/mim-uw/TrustworthyMachineLearning-2023/tree/main/Homeworks/HW6)  for 0-4 points. **Deadline: 2022-12-01**
 
 ## Presentations (10 points)
 
