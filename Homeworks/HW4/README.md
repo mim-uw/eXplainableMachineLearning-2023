@@ -10,7 +10,7 @@ Submit the homework to this directory.
 
 ## Deadline 
 
-2022-11-10 23:59
+2022-11-17 23:59
 
 ## Task 1
 
