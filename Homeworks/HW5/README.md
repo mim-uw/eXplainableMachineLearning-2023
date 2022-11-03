@@ -6,7 +6,7 @@ Add your fifth homework as a pull request to this folder.
 
 ## Deadline 
 
-2022-11-17 EOD
+2022-11-17 23:59
 
 ## Task
 
