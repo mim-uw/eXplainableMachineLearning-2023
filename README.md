@@ -23,9 +23,9 @@ Plan for the winter semester 2022/2023. UW classes are on Fridays.
 
 
 * 2022-10-07  -- Introduction, [slides](https://htmlpreview.github.io/?https://raw.githubusercontent.com/mim-uw/TrustworthyMachineLearning-2023/main/Lectures/01_introduction.html#/title-slide), [audio](https://youtu.be/1UkrvKyvMDw)
-* 2022-10-14  -- Break-Down / SHAP, [slides](https://htmlpreview.github.io/?https://raw.githubusercontent.com/mim-uw/eXplainableMachineLearning-2023/main/Lectures/02_shap.html#/title-slide), [audio](https://youtu.be/SJQWAJLhMas), [code examples](https://htmlpreview.github.io/?https://raw.githubusercontent.com/mim-uw/eXplainableMachineLearning-2023/main/Materials/hw2_shap_with_xgboost_on_titanic.html)
-* 2022-10-21  -- LIME / LORE, [slides](https://htmlpreview.github.io/?https://raw.githubusercontent.com/mim-uw/eXplainableMachineLearning-2023/main/Lectures/03_lime.html), [audio](https://youtu.be/l5I1uwoKrME)
-* 2022-10-28  -- CP / PDP
+* 2022-10-14  -- Break-Down / SHAP, [slides](https://htmlpreview.github.io/?https://raw.githubusercontent.com/mim-uw/eXplainableMachineLearning-2023/main/Lectures/02_shap.html#/title-slide), [audio](https://youtu.be/SJQWAJLhMas), [code examples](https://mim-uw.github.io/eXplainableMachineLearning-2023/hw2_shap_with_xgboost_on_titanic.html)
+* 2022-10-21  -- LIME / LORE, [slides](https://htmlpreview.github.io/?https://raw.githubusercontent.com/mim-uw/eXplainableMachineLearning-2023/main/Lectures/03_lime.html), [audio](https://youtu.be/l5I1uwoKrME), [code examples](https://mim-uw.github.io/eXplainableMachineLearning-2023/hw3_lime_with_xgboost_on_titanic.html)
+* 2022-10-28  -- CP / PDP, [slides](https://htmlpreview.github.io/?https://raw.githubusercontent.com/mim-uw/eXplainableMachineLearning-2023/main/Lectures/04_pdp.html#/title-slide), [code examples](https://mim-uw.github.io/eXplainableMachineLearning-2023/hw4_cp_and_pdp_with_xgboost_on_titanic.html)
 * 2022-11-04  -- PROJECT: **First checkpoint** - Choose a topic and be familiar with the attached materials.
 * 2022-11-18  -- VIP / MCR
 * 2022-11-25  -- Fairness
@@ -63,16 +63,18 @@ There are four key components:
  - [Homework 1](https://github.com/mim-uw/TrustworthyMachineLearning-2023/tree/main/Homeworks/HW1)  for 0-4 points. **Deadline: 2022-10-13**
  - [Homework 2](https://github.com/mim-uw/TrustworthyMachineLearning-2023/tree/main/Homeworks/HW2)  for 0-4 points. **Deadline: 2022-10-20** 
  - [Homework 3](https://github.com/mim-uw/TrustworthyMachineLearning-2023/tree/main/Homeworks/HW3)  for 0-4 points. **Deadline: 2022-10-27**
- - [Homework 4](https://github.com/mim-uw/TrustworthyMachineLearning-2023/tree/main/Homeworks/HW4)  for 0-4 points. **Deadline: 2022-11-10**
- - [Homework 5](https://github.com/mim-uw/TrustworthyMachineLearning-2023/tree/main/Homeworks/HW5)  for 0-4 points. **Deadline: 2022-11-17**
- - [Homework 6](https://github.com/mim-uw/TrustworthyMachineLearning-2023/tree/main/Homeworks/HW6)  for 0-4 points. **Deadline: 2022-11-24**
+ - [Homework 4](https://github.com/mim-uw/TrustworthyMachineLearning-2023/tree/main/Homeworks/HW4)  for 0-4 points. **Deadline: 2022-11-17**
+ - [Homework 5](https://github.com/mim-uw/TrustworthyMachineLearning-2023/tree/main/Homeworks/HW5)  for 0-4 points. **Deadline: 2022-11-24**
+ - [Homework 6](https://github.com/mim-uw/TrustworthyMachineLearning-2023/tree/main/Homeworks/HW6)  for 0-4 points. **Deadline: 2022-12-01**
 
 ## Presentations (10 points)
 
 Presentations can be prepared by one or two students. Each group should present a single paper related to XAI published in the last 3 years (journal or conference). Each group should choose a different paper. Here are some suggestions:
 
+
 * J. DeYoung et al. [ERASER : A Benchmark to Evaluate Rationalized NLP Models](https://aclanthology.org/2020.acl-main.408.pdf). ACL, 2020.
 * D. Slack et al. [Fooling LIME and SHAP: Adversarial Attacks on Post hoc Explanation Methods](https://dl.acm.org/doi/10.1145/3375627.3375830). AIES, 2020.
+* S. Lundberg et al. [From local explanations to global understanding with explainable AI for trees](https://www.nature.com/articles/s42256-019-0138-9). Nature Machine Intelligence, 2020.
 * U. Bhatt et al. [Evaluating and Aggregating Feature-based Model Explanations](https://www.ijcai.org/Proceedings/2020/0417). IJCAI, 2020.
 * S. Sinha et al. [Perturbing Inputs for Fragile Interpretations in Deep Natural Language Processing](https://arxiv.org/abs/2108.04990). EMNLP BlackboxNLP Workshop, 2021.
 * L. Yang et al. [Synthetic Benchmarks for Scientific Research in Explainable Machine Learning](https://openreview.net/forum?id=R7vr14ffhF9). NeurIPS Datasets and Benchmarks, 2021.

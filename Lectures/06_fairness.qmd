@@ -1,0 +1,81 @@
+---
+title: "Fairness and bias"
+subtitle: "eXplainable AI"
+author: "Przemysław Biecek"
+date: "Machine Learning @ MIMUW 2022"
+format:
+  revealjs: 
+    theme: [default]
+    slide-number: true
+    touch: true
+    scrollable: true
+    chalkboard: 
+      buttons: false
+    logo: images/XAI.png
+    footer: eXplainable AI -- Fairness and bias -- MIM UW -- 2022
+---
+
+```{r setup, include=FALSE, echo=FALSE}
+knitr::opts_chunk$set(echo = TRUE, out.width="70%", fig.width = 8, fig.height = 5.5)
+```
+
+<p><img src="images/aitech.png" width="100%"/></p>
+
+# Paper of the day
+
+
+
+```{css, echo=FALSE}
+.reveal {
+  font-size: 24px;
+  line-height: 1.6!important;
+}
+code {
+  font-size: 18px!important;
+  line-height: 1.2!important;
+}
+pre {
+  line-height: 1.2!important;
+}
+```
+
+
+# Materials
+
+## Start with Why
+
+What We Learned Auditing Sophisticated AI for Bias
+https://www.oreilly.com/radar/what-we-learned-auditing-sophisticated-ai-for-bias/
+
+AI Assurance: Do deepfakes discriminate?
+https://www.iqt.org/ai-assurance-do-deepfakes-discriminate/
+
+Model Cards
+https://modelcards.withgoogle.com/about
+
+Datasheets for Datasets
+https://arxiv.org/abs/1803.09010
+
+ARTIFICIAL INTELLIGENCE ETHICS FRAMEWORK FOR THE INTELLIGENCE COMMUNITY
+https://www.intelligence.gov/artificial-intelligence-ethics-framework-for-the-intelligence-community
+
+
+
+
+
+# Take-home message
+
+- LIME method explains local model behavior with **interpretable linear surrogate model**
+- LIME generates **sparse explanations**, with K features
+- Explanations use an **interpretable feature space**, like superpixels for image data, tokens for NLP, quartiles for numeric tabular data
+- Sampling strategy is very important. In LIME sampling operates on binary interpretable features space. In LORE sampling results in balanced data.
+- **From local to global**. Based on local explanations, global explanations can be constructed
+
+
+# Code-examples
+
+
+- See [Materials at GitHub](https://github.com/mim-uw/eXplainableMachineLearning-2023/Materials)
+
+<p><img src="images/lime_code.png" width="100%"/></p>
+
