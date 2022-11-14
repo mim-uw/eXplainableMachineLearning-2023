@@ -13105,7 +13105,15 @@ div#notebook {
 <h1 id="Homework-4---CP---PDP">Homework 4 - CP - PDP<a class="anchor-link" href="#Homework-4---CP---PDP">&#182;</a></h1><p>I've chosen <code>Alcohol Effects On Study</code> dataset from Kaggle competition. For this particular homework I've used only <code>Maths.csv</code> dataframe.
 My prediction model of choice is XGBRegressor which is a tree-based ensemble regression model. 
 Model's task is to predict final grade marked as &quot;G3&quot; based on other observations. Target values spans from 0 to 20.</p>
-<h1 id="(2)">(2)<a class="anchor-link" href="#(2)">&#182;</a></h1><p>This task was completed with (*) own implementation of Ceteris Paribus.</p>
+<h2 id="TASK-1">TASK 1<a class="anchor-link" href="#TASK-1">&#182;</a></h2><p>We are consdering a model:
+f(x1, x2) = (x1 + x2)^2</p>
+<p>And we assume that:
+x1, x2 ~ U[-1,1] and x1=x2 (full dependency)</p>
+<p>So if we want to create a CP profle for this model and assumptions it will be defined as
+f(x1, x2) = (x1 + x1)^2
+f(x1, x2) = 4*x1^2</p>
+<p>Which will be simply a quadratic function defined on [-1,1] with max value of 4 at x1=-1 and x1=1 and min value of 0 at x1=0.</p>
+<h2 id="TASK-2">TASK 2<a class="anchor-link" href="#TASK-2">&#182;</a></h2><h1 id="(2)">(2)<a class="anchor-link" href="#(2)">&#182;</a></h1><p>This task was completed with (*) own implementation of Ceteris Paribus.</p>
 <p>For this and most of the future tasks I've chosen two samples that our model predicts as 15 and 12 respectively.
 When analyzing it with our implementation of CP algorithm we observe that most of the predictions are based on previous grades (features G1 and G2), and grades from second year have the most impact on prediction as the plot for CP is very steep.</p>
 <p><img src="images/cp_g2_1.png" alt="alt text" />
@@ -13140,6 +13148,7 @@ When analyzing it with our implementation of CP algorithm we observe that most o
 <h1 id="(5)">(5)<a class="anchor-link" href="#(5)">&#182;</a></h1><p>I've compared the <code>XGBRegressor</code> model with <code>LinearRegression</code> model with PDP profiles. Profiles are clearly linear functions (duh) and doesn't provide as much information as forest method. One thing that we can see here is how different features affect predictions on average. For example <code>dalc</code> and <code>age</code> features have a falling trend while the <code>g1</code> and <code>g2</code> profiles have rising trend. But it doesn't suprise as at all since these rising and falling trends just represent if the coefficient next to the feature variable is positive or negative.</p>
 <p><img src="images/linear_age.png" alt="alt text" />
 <img src="images/linear_dalc.png" alt="alt text" />
+<img src="images/linear_g1.png" alt="alt text" />
 <img src="images/linear_g2.png" alt="alt text" /></p>
 
 </div>
