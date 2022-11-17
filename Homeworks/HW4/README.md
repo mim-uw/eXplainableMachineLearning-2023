@@ -10,9 +10,22 @@ Submit the homework to this directory.
 
 ## Deadline 
 
-2022-11-10 23:59
+2022-11-17 23:59
 
-## Task
+## Task 1
+
+Consider a following model:
+
+f(x1, x2) = (x1 + x2)^2
+
+Assume that x1, x2 ~ U[-1,1] and x1=x2 (full dependency)
+
+Calculate PD profile for variable x1 in this model.
+
+Extra task if you do not fear conditional expected values: Calculate ME and ALE profiles for variable x1 in this model.
+
+
+## Task 2
 
 For the selected dataset and models, prepare a knitr/jupyter notebook based on the following points (you can reuse models from previous Homeworks).
 Submit your results on GitHub to the directory `Homeworks/HW4`.
