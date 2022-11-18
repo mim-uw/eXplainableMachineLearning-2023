@@ -87,11 +87,14 @@ Presentations can be prepared by one or two students. Each group should present 
 
 // More suggestions for computer vision:
 
+* Z. Huang & Y. Li. [Interpretable and Accurate Fine-grained Recognition via Region Grouping](https://openaccess.thecvf.com/content_CVPR_2020/html/Huang_Interpretable_and_Accurate_Fine-grained_Recognition_via_Region_Grouping_CVPR_2020_paper.html). CVPR, 2020.
 * K. Hanawa et al. [Evaluation of Similarity-based Explanations](https://openreview.net/forum?id=9uvhpyQwzM_). ICLR, 2021.
+* A. Kapishnikov et al. [Guided Integrated Gradients: An Adaptive Path Method for Removing Noise](https://arxiv.org/abs/2106.09788). CVPR, 2021.
 * V. Petsiuk et al. [Black-Box Explanation of Object Detectors via Saliency Maps](https://openaccess.thecvf.com/content/CVPR2021/html/Petsiuk_Black-Box_Explanation_of_Object_Detectors_via_Saliency_Maps_CVPR_2021_paper.html). CVPR, 2021.
 * L. Arras et al. [CLEVR-XAI: A benchmark dataset for the ground truth evaluation of neural network explanations](https://doi.org/10.1016/j.inffus.2021.11.008). Information Fusion, 2022.
 * A. Khakzar et al. [Do Explanations Explain? Model Knows Best](https://openaccess.thecvf.com/content/CVPR2022/html/Khakzar_Do_Explanations_Explain_Model_Knows_Best_CVPR_2022_paper.html). CVPR, 2022.
 * S. Chen & Q. Zhao. [REX: Reasoning-Aware and Grounded Explanation](https://openaccess.thecvf.com/content/CVPR2022/html/Chen_REX_Reasoning-Aware_and_Grounded_Explanation_CVPR_2022_paper.html). CVPR, 2022.
+* T. Makino et al. [Differences between human and machine perception in medical diagnosis](https://www.nature.com/articles/s41598-022-10526-z). Scientific Reports, 2022.
 * XAI-related papers from [CVPR 2022 Workshop: Fair, Data-Efficient, and Trusted Computer Vision](https://openaccess.thecvf.com/CVPR2022_workshops/FaDE-TCV), [CVPR 2021 Workshop: Fair, Data-Efficient, and Trusted Computer Vision](https://openaccess.thecvf.com/CVPR2021_workshops/TCV) 
 
 ## Project (36 points)
