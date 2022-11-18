@@ -84,6 +84,7 @@ Presentations can be prepared by one or two students. Each group should present 
 * X. Zhao et al. [BayLIME: Bayesian Local Interpretable Model-Agnostic Explanations](https://proceedings.mlr.press/v161/zhao21a.html). UAI, 2021.
 * Y. Zhou et al. [Do Feature Attribution Methods Correctly Attribute Features?](https://ojs.aaai.org/index.php/AAAI/article/view/21196). AAAI, 2022.
 * J. Adebayo et al. [Post hoc Explanations may be Ineffective for Detecting Unknown Spurious Correlation](https://openreview.net/forum?id=xNOVfCCvDpM). ICLR, 2022.
+* Papers from: [NeurIPS 2021 Workshop on eXplainable AI approaches for debugging and diagnosis](https://xai4debugging.github.io/)
 
 // More suggestions for computer vision:
 
@@ -95,7 +96,11 @@ Presentations can be prepared by one or two students. Each group should present 
 * A. Khakzar et al. [Do Explanations Explain? Model Knows Best](https://openaccess.thecvf.com/content/CVPR2022/html/Khakzar_Do_Explanations_Explain_Model_Knows_Best_CVPR_2022_paper.html). CVPR, 2022.
 * S. Chen & Q. Zhao. [REX: Reasoning-Aware and Grounded Explanation](https://openaccess.thecvf.com/content/CVPR2022/html/Chen_REX_Reasoning-Aware_and_Grounded_Explanation_CVPR_2022_paper.html). CVPR, 2022.
 * T. Makino et al. [Differences between human and machine perception in medical diagnosis](https://www.nature.com/articles/s41598-022-10526-z). Scientific Reports, 2022.
-* XAI-related papers from [CVPR 2022 Workshop: Fair, Data-Efficient, and Trusted Computer Vision](https://openaccess.thecvf.com/CVPR2022_workshops/FaDE-TCV), [CVPR 2021 Workshop: Fair, Data-Efficient, and Trusted Computer Vision](https://openaccess.thecvf.com/CVPR2021_workshops/TCV) 
+* M. Watson et al. [Agree to Disagree: When Deep Learning Models With Identical Architectures Produce Distinct Explanations](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9706847). WACV, 2022.
+* Q. Zheng et al. [Shap-CAM: Visual Explanations for Convolutional Neural Networks based on Shapley Value](https://arxiv.org/abs/2208.03608). ECCV, 2022.
+* XAI-related papers from:
+    * [CVPR 2022 Workshop on Fair, Data-Efficient, and Trusted Computer Vision](https://openaccess.thecvf.com/CVPR2022_workshops/FaDE-TCV)
+    * [CVPR 2021 Workshop on Fair, Data-Efficient, and Trusted Computer Vision](https://openaccess.thecvf.com/CVPR2021_workshops/TCV) 
 
 ## Project (36 points)
 
