@@ -76,6 +76,7 @@ Presentations can be prepared by one or two students. Each group should present 
 * D. Slack et al. [Fooling LIME and SHAP: Adversarial Attacks on Post hoc Explanation Methods](https://dl.acm.org/doi/10.1145/3375627.3375830). AIES, 2020.
 * S. Lundberg et al. [From local explanations to global understanding with explainable AI for trees](https://www.nature.com/articles/s42256-019-0138-9). Nature Machine Intelligence, 2020.
 * U. Bhatt et al. [Evaluating and Aggregating Feature-based Model Explanations](https://www.ijcai.org/Proceedings/2020/0417). IJCAI, 2020.
+* J. Adebayo et al. [Debugging Tests for Model Explanations](https://proceedings.neurips.cc/paper/2020/hash/075b051ec3d22dac7b33f788da631fd4-Abstract.html). NeurIPS, 2020.
 * S. Sinha et al. [Perturbing Inputs for Fragile Interpretations in Deep Natural Language Processing](https://arxiv.org/abs/2108.04990). EMNLP BlackboxNLP Workshop, 2021.
 * L. Yang et al. [Synthetic Benchmarks for Scientific Research in Explainable Machine Learning](https://openreview.net/forum?id=R7vr14ffhF9). NeurIPS Datasets and Benchmarks, 2021.
 * M. Neely et al. [Order in the Court: Explainable AI Methods Prone to Disagreement](https://arxiv.org/abs/2105.03287). ICML XAI Workshop, 2021.
@@ -83,6 +84,15 @@ Presentations can be prepared by one or two students. Each group should present 
 * X. Zhao et al. [BayLIME: Bayesian Local Interpretable Model-Agnostic Explanations](https://proceedings.mlr.press/v161/zhao21a.html). UAI, 2021.
 * Y. Zhou et al. [Do Feature Attribution Methods Correctly Attribute Features?](https://ojs.aaai.org/index.php/AAAI/article/view/21196). AAAI, 2022.
 * J. Adebayo et al. [Post hoc Explanations may be Ineffective for Detecting Unknown Spurious Correlation](https://openreview.net/forum?id=xNOVfCCvDpM). ICLR, 2022.
+
+// More suggestions for computer vision:
+
+* K. Hanawa et al. [Evaluation of Similarity-based Explanations](https://openreview.net/forum?id=9uvhpyQwzM_). ICLR, 2021.
+* V. Petsiuk et al. [Black-Box Explanation of Object Detectors via Saliency Maps](https://openaccess.thecvf.com/content/CVPR2021/html/Petsiuk_Black-Box_Explanation_of_Object_Detectors_via_Saliency_Maps_CVPR_2021_paper.html). CVPR, 2021.
+* L. Arras et al. [CLEVR-XAI: A benchmark dataset for the ground truth evaluation of neural network explanations](https://doi.org/10.1016/j.inffus.2021.11.008). Information Fusion, 2022.
+* A. Khakzar et al. [Do Explanations Explain? Model Knows Best](https://openaccess.thecvf.com/content/CVPR2022/html/Khakzar_Do_Explanations_Explain_Model_Knows_Best_CVPR_2022_paper.html). CVPR, 2022.
+* S. Chen & Q. Zhao. [REX: Reasoning-Aware and Grounded Explanation](https://openaccess.thecvf.com/content/CVPR2022/html/Chen_REX_Reasoning-Aware_and_Grounded_Explanation_CVPR_2022_paper.html). CVPR, 2022.
+* XAI-related papers from [CVPR 2022 Workshop: Fair, Data-Efficient, and Trusted Computer Vision](https://openaccess.thecvf.com/CVPR2022_workshops/FaDE-TCV), [CVPR 2021 Workshop: Fair, Data-Efficient, and Trusted Computer Vision](https://openaccess.thecvf.com/CVPR2021_workshops/TCV) 
 
 ## Project (36 points)
 
