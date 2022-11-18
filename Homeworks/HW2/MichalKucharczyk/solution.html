@@ -13070,12 +13070,12 @@ div#notebook {
                 },
                 displayAlign: 'center',
                 CommonHTML: {
-                    linebreaks: { 
-                    automatic: true 
+                    linebreaks: {
+                    automatic: true
                     }
                 }
             });
-        
+
             MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
         }
     }
@@ -13096,7 +13096,23 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
+<p>Train Random Forest on Fifa dataset.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="calculate-SHAP-values">calculate SHAP values<a class="anchor-link" href="#calculate-SHAP-values">&#182;</a></h1>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Pick two observations, calculate model's predictions and coresponding shap values using shap and dalex package.</p>
+
 </div>
 </div>
 </div>
@@ -13377,7 +13393,7 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<ol>
+<ol start="4">
 <li>These two observations have different most important feature: for the first one it is Reaction, for the second one Dribbling Total.</li>
 </ol>
 
@@ -13387,7 +13403,7 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<ol>
+<ol start="5">
 <li>Looking at Defending Total we can see that its value (55) contributes negatively in the first observation, but for the second observation value 72 influences the outcome positively.</li>
 </ol>
 
@@ -13397,8 +13413,8 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<ol>
-<li>The results seem to be similar. Based on these two observations salex seem to spread contributions slightly more evenly compared to shap.</li>
+<ol start="6">
+<li>The results seem to be similar. Based on these two observations dalex seem to spread contributions slightly more evenly compared to shap.</li>
 </ol>
 
 </div>
@@ -13408,6 +13424,14 @@ div#notebook {
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="7.-LinearRegressor">7. LinearRegressor<a class="anchor-link" href="#7.-LinearRegressor">&#182;</a></h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Train a linear model, make predictions for the same observations and explain them using SHAP values from shap package.</p>
+
 </div>
 </div>
 </div>
@@ -13681,7 +13705,7 @@ A can extend 2-element set in only one way putting additional 100 - 70 = 30</p>
 
 
 
- 
+
 
 
 </html>
