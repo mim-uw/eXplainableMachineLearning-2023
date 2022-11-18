@@ -27,7 +27,7 @@ Plan for the winter semester 2022/2023. UW classes are on Fridays.
 * 2022-10-21  -- LIME / LORE, [slides](https://htmlpreview.github.io/?https://raw.githubusercontent.com/mim-uw/eXplainableMachineLearning-2023/main/Lectures/03_lime.html), [audio](https://youtu.be/l5I1uwoKrME), [code examples](https://mim-uw.github.io/eXplainableMachineLearning-2023/hw3_lime_with_xgboost_on_titanic.html)
 * 2022-10-28  -- CP / PDP, [slides](https://htmlpreview.github.io/?https://raw.githubusercontent.com/mim-uw/eXplainableMachineLearning-2023/main/Lectures/04_pdp.html#/title-slide), [code examples](https://mim-uw.github.io/eXplainableMachineLearning-2023/hw4_cp_and_pdp_with_xgboost_on_titanic.html)
 * 2022-11-04  -- PROJECT: **First checkpoint** - Choose a topic and be familiar with the attached materials.
-* 2022-11-18  -- VIP / MCR, [slides](https://htmlpreview.github.io/?https://raw.githubusercontent.com/mim-uw/eXplainableMachineLearning-2023/main/Lectures/05_vip.html#/title-slide), [code examples](https://mim-uw.github.io/eXplainableMachineLearning-2023/hw5_pvi_with_xgboost_on_titanic.html)
+* 2022-11-18  -- VIP / MCR, [slides](https://htmlpreview.github.io/?https://raw.githubusercontent.com/mim-uw/eXplainableMachineLearning-2023/main/Lectures/05_vip.html#/title-slide), [audio](https://youtu.be/6IU4kMv2x9Y), [code examples](https://mim-uw.github.io/eXplainableMachineLearning-2023/hw5_pvi_with_xgboost_on_titanic.html)
 * 2022-11-25  -- Fairness
 * 2022-12-02  -- Explanations for neural networks & Evaluation of explanations 
 * 2022-12-09  -- PROJECT: **Second checkpoint** - Provide initial experimental results and/or code implementation.
