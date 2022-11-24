@@ -27,7 +27,7 @@ Plan for the winter semester 2022/2023. UW classes are on Fridays.
 * 2022-10-21  -- LIME / LORE, [slides](https://htmlpreview.github.io/?https://raw.githubusercontent.com/mim-uw/eXplainableMachineLearning-2023/main/Lectures/03_lime.html), [audio](https://youtu.be/l5I1uwoKrME), [code examples](https://mim-uw.github.io/eXplainableMachineLearning-2023/hw3_lime_with_xgboost_on_titanic.html)
 * 2022-10-28  -- CP / PDP, [slides](https://htmlpreview.github.io/?https://raw.githubusercontent.com/mim-uw/eXplainableMachineLearning-2023/main/Lectures/04_pdp.html#/title-slide), [code examples](https://mim-uw.github.io/eXplainableMachineLearning-2023/hw4_cp_and_pdp_with_xgboost_on_titanic.html)
 * 2022-11-04  -- PROJECT: **First checkpoint** - Choose a topic and be familiar with the attached materials.
-* 2022-11-18  -- VIP / MCR, [code examples](https://mim-uw.github.io/eXplainableMachineLearning-2023/hw5_pvi_with_xgboost_on_titanic.html)
+* 2022-11-18  -- VIP / MCR, [slides](https://htmlpreview.github.io/?https://raw.githubusercontent.com/mim-uw/eXplainableMachineLearning-2023/main/Lectures/05_vip.html#/title-slide), [audio](https://youtu.be/6IU4kMv2x9Y), [code examples](https://mim-uw.github.io/eXplainableMachineLearning-2023/hw5_pvi_with_xgboost_on_titanic.html)
 * 2022-11-25  -- Fairness
 * 2022-12-02  -- Explanations for neural networks & Evaluation of explanations 
 * 2022-12-09  -- PROJECT: **Second checkpoint** - Provide initial experimental results and/or code implementation.
@@ -76,6 +76,7 @@ Presentations can be prepared by one or two students. Each group should present 
 * D. Slack et al. [Fooling LIME and SHAP: Adversarial Attacks on Post hoc Explanation Methods](https://dl.acm.org/doi/10.1145/3375627.3375830). AIES, 2020.
 * S. Lundberg et al. [From local explanations to global understanding with explainable AI for trees](https://www.nature.com/articles/s42256-019-0138-9). Nature Machine Intelligence, 2020.
 * U. Bhatt et al. [Evaluating and Aggregating Feature-based Model Explanations](https://www.ijcai.org/Proceedings/2020/0417). IJCAI, 2020.
+* J. Adebayo et al. [Debugging Tests for Model Explanations](https://proceedings.neurips.cc/paper/2020/hash/075b051ec3d22dac7b33f788da631fd4-Abstract.html). NeurIPS, 2020.
 * S. Sinha et al. [Perturbing Inputs for Fragile Interpretations in Deep Natural Language Processing](https://arxiv.org/abs/2108.04990). EMNLP BlackboxNLP Workshop, 2021.
 * L. Yang et al. [Synthetic Benchmarks for Scientific Research in Explainable Machine Learning](https://openreview.net/forum?id=R7vr14ffhF9). NeurIPS Datasets and Benchmarks, 2021.
 * M. Neely et al. [Order in the Court: Explainable AI Methods Prone to Disagreement](https://arxiv.org/abs/2105.03287). ICML XAI Workshop, 2021.
@@ -83,6 +84,23 @@ Presentations can be prepared by one or two students. Each group should present 
 * X. Zhao et al. [BayLIME: Bayesian Local Interpretable Model-Agnostic Explanations](https://proceedings.mlr.press/v161/zhao21a.html). UAI, 2021.
 * Y. Zhou et al. [Do Feature Attribution Methods Correctly Attribute Features?](https://ojs.aaai.org/index.php/AAAI/article/view/21196). AAAI, 2022.
 * J. Adebayo et al. [Post hoc Explanations may be Ineffective for Detecting Unknown Spurious Correlation](https://openreview.net/forum?id=xNOVfCCvDpM). ICLR, 2022.
+* Papers from: [NeurIPS 2021 Workshop on eXplainable AI approaches for debugging and diagnosis](https://xai4debugging.github.io/)
+
+// More suggestions for computer vision:
+
+* Z. Huang & Y. Li. [Interpretable and Accurate Fine-grained Recognition via Region Grouping](https://openaccess.thecvf.com/content_CVPR_2020/html/Huang_Interpretable_and_Accurate_Fine-grained_Recognition_via_Region_Grouping_CVPR_2020_paper.html). CVPR, 2020.
+* K. Hanawa et al. [Evaluation of Similarity-based Explanations](https://openreview.net/forum?id=9uvhpyQwzM_). ICLR, 2021.
+* A. Kapishnikov et al. [Guided Integrated Gradients: An Adaptive Path Method for Removing Noise](https://arxiv.org/abs/2106.09788). CVPR, 2021.
+* V. Petsiuk et al. [Black-Box Explanation of Object Detectors via Saliency Maps](https://openaccess.thecvf.com/content/CVPR2021/html/Petsiuk_Black-Box_Explanation_of_Object_Detectors_via_Saliency_Maps_CVPR_2021_paper.html). CVPR, 2021.
+* L. Arras et al. [CLEVR-XAI: A benchmark dataset for the ground truth evaluation of neural network explanations](https://doi.org/10.1016/j.inffus.2021.11.008). Information Fusion, 2022.
+* A. Khakzar et al. [Do Explanations Explain? Model Knows Best](https://openaccess.thecvf.com/content/CVPR2022/html/Khakzar_Do_Explanations_Explain_Model_Knows_Best_CVPR_2022_paper.html). CVPR, 2022.
+* S. Chen & Q. Zhao. [REX: Reasoning-Aware and Grounded Explanation](https://openaccess.thecvf.com/content/CVPR2022/html/Chen_REX_Reasoning-Aware_and_Grounded_Explanation_CVPR_2022_paper.html). CVPR, 2022.
+* T. Makino et al. [Differences between human and machine perception in medical diagnosis](https://www.nature.com/articles/s41598-022-10526-z). Scientific Reports, 2022.
+* M. Watson et al. [Agree to Disagree: When Deep Learning Models With Identical Architectures Produce Distinct Explanations](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9706847). WACV, 2022.
+* Q. Zheng et al. [Shap-CAM: Visual Explanations for Convolutional Neural Networks based on Shapley Value](https://arxiv.org/abs/2208.03608). ECCV, 2022.
+* XAI-related papers from:
+    * [CVPR 2022 Workshop on Fair, Data-Efficient, and Trusted Computer Vision](https://openaccess.thecvf.com/CVPR2022_workshops/FaDE-TCV)
+    * [CVPR 2021 Workshop on Fair, Data-Efficient, and Trusted Computer Vision](https://openaccess.thecvf.com/CVPR2021_workshops/TCV) 
 
 ## Project (36 points)
 
