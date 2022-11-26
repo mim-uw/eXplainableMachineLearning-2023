@@ -6,7 +6,29 @@ The purpose of the sixth homework is to learn about the method of calculating fa
 
 2022-12-08 23:59
 
-## Task
+## Task 1
+We have two populations Blue (privileged) and Red (unprivileged), with the Blue population being 9 times larger than the Red population.
+
+Individuals from both populations are requesting to attend XAI training to improve competency in this important area. Number of places is limited. The administrators of the training have decided to give priority to enrolling individuals who may need this training in the future, although unfortunately it is difficult to predict who will benefit.
+
+The decision rule adopted:
+1. In the Red group, half of the people will find the skills useful in future and half will not. Administrators randomly allocate 50% of people to training.
+2. in the Blue group, 80% of people will find the training useful in future and 20% will not, although of course it is not known who will find it useful. The administrators have built a predictive model based on user behaviour in predicting for whom it will be useful and whom will not. The model has the following performance:
+
+
+| Blue                     	| Will use XAI 	| Will not use XAI 	| Total 	|
+|--------------------------	|--------------	|------------------	|-------	|
+| Enrolled in training     	| 60           	| 5               	| 65    	|
+| not enrolled in training 	| 20            	| 15               	| 35    	|
+| Total                    	| 80           	| 20               	| 100   	|
+
+
+Task: Calculate the Demographic parity, equal opportunity and predictive rate parity coefficients for this decision rule.
+
+Starred task: How can this decision rule be changed to improve its fairness?
+
+
+## Task 2
 
 For this homework, train models on one of the following datasets:
 
