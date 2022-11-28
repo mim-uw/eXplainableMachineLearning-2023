@@ -132,10 +132,10 @@ Sound like a spell from Harry Potter?
 - It is a function defined for model $f$, observation $x$, and variable $j$ as:
 
 \begin{equation}
-h^{f,j}_{x}(z) = f\left(x^{j|=z}\right),
+h^{f}_{x,j}(z) = f\left(x_{j|=z}\right),
 \end{equation}
 
-where $x^{j|=z}$ stands for observation $x$ with $j$-th coordinate replaced by value $z$.
+where $x_{j|=z}$ stands for observation $x$ with $j$-th coordinate replaced by value $z$.
 
 - The Ceteris Paribus profile is a function that describes how the model response would change if $j$-th variable will be changed to $z$  while values of all other variables are kept fixed at the values specified by $x$. 
 
@@ -188,7 +188,7 @@ where $x^{j|=z}$ stands for observation $x$ with $j$-th coordinate replaced by v
 - Ceteris Paribus averaged profile following marginal distribution of variables $X^{-j}$.
 
 $$
-g_{PD}^{j}(z) = E_{X^{-j}}  f(X^{j|=z}) .
+g^{PD}_{j}(z) = E_{X_{-j}}  f(X_{j|=z}) .
 $$
 
 
@@ -196,7 +196,7 @@ $$
 - The computational complexity is $N \times Z$ model evaluations, where $N$ is the number of observations and $Z$ is the number of points at which the CP profile is calculated (*how to select these points?*).
 
 $$
-\hat g_{PD}^{j}(z) =  \frac{1}{n} \sum_{i=1}^{n} f(x_i^{j|=z}).
+\hat g^{PD}_{j}(z) =  \frac{1}{n} \sum_{i=1}^{n} f(x^i_{j|=z}).
 $$
 
 ## Partial Dependence, an example
@@ -244,14 +244,14 @@ Marginal distribution of $X_2$ on the left and conditional distribution of $X_2|
 - Ceteris Paribus averaged over conditional distribution of variables $X^{-j}|x^j=z$.
 
 $$
-g_{MP}^{j}(z) = E_{X^{-j}|x^j=z}  f(x^{j|=z}) .
+g^{MP}_{j}(z) = E_{X_{-j}|x_j=z}  f(x_{j|=z}) .
 $$
 
-- Note that, in general, the estimation of the conditional distribution $X^{-j}|x^j=z$ can be difficult. 
-- One of the possible approaches: divide the variable $x^j$ into $k$ intervals. And then estimate $X^{-j}|x^j=z$ as the joint empirical distribution of observations $i \in N(x_j)$, i.e. for which $x^j$ falls into the same interval.
+- Note that, in general, the estimation of the conditional distribution $X_{-j}|x^j=z$ can be difficult. 
+- One of the possible approaches: divide the variable $x_j$ into $k$ intervals. And then estimate $X_{-j}|x_j=z$ as the joint empirical distribution of observations $i \in N(x_j)$, i.e. for which $x^j$ falls into the same interval.
 
 $$
-\hat g_{MP}^{j}(z) = \frac{1}{|N(x_j)|} \sum_{i \in N(x_j)}   f(x_i^{j|=z}).
+\hat g^{MP}_{j}(z) = \frac{1}{|N(x_j)|} \sum_{i \in N(x_j)}   f(x^i_{j|=z}).
 $$
 
 <p><center><img src="images/pdp_mprofile2.png" width="80%"/></center></p>
@@ -270,7 +270,7 @@ with $X_1 \sim \mathcal U[0,1]$, while $x_2=x_1$ (perfect correlation).
 Then we have
 
 $$
-g_{MP}^{1}(z) = E_{X_2|x_1=z} [\hat \mu + \hat \beta_1 z + \hat \beta_2 x_2] = 
+g^{MP}_{1}(z) = E_{X_2|x_1=z} [\hat \mu + \hat \beta_1 z + \hat \beta_2 x_2] = 
 $$
 $$
 \hat \mu + \hat \beta_1 z + \hat \beta_2 E_{X_2|x_1=z} [x_2] = 
@@ -297,16 +297,16 @@ $$
 
 
 $$
-g_{AL}^{j}(z) = \int_{z_0}^z \left[E_{X^{-j}|X^j=v} 
+g^{AL}_{j}(z) = \int_{z_0}^z \left[E_{X_{-j}|x_j=v} 
 \frac{\partial f(x)}{\partial x_j}  \right] dv .
 $$
 - As before, estimating the conditional distribution is difficult. We can deal with it by using a similar trick with $k$ segments of the variable $x_j$.
 - Let $k_j(x)$ denote the interval in which the observation $x$ is located in respect to the variable $j$.
-- We will accumulate local model changes on the interval$[z_{k-1}^j, z_k^j]$.
+- We will accumulate local model changes on the interval$[z^{k-1}_j, z^k_j]$.
 
 $$
-\hat g_{AL}^{j}(z) = \sum_{k=1}^{k_j(x)} \frac{1}{|N_j(k)|}
-\sum_{i:x_{i,j} \in N_j(k)} [f(x^{j|=z_k^j}) - f(x^{j|=z_{k-1}^j})] + c.
+\hat g^{AL}_{j}(z) = \sum_{k=1}^{k_j(x)} \frac{1}{|N_j(k)|}
+\sum_{i:x_{i,j} \in N_j(k)} [f(x_{j|=z^k_j}) - f(x_{j|=z^{k-1}_j})] + c.
 $$
 
 <p><center><img src="images/pdp_mprofile3.png" width="80%"/></center></p>
@@ -326,7 +326,7 @@ with $X_1 \sim \mathcal U[0,1]$, while $x_2=x_1$ (perfect correlation).
 Then we have
 
 $$
-g_{AL}^{1}(z) = \int_0^z E_{X_2|x_1=v} \frac{\partial ( \hat \mu + \hat \beta_1 x_1 + \hat \beta_2 x_2)}{\partial x_1} dv + c= 
+g^{AL}_{1}(z) = \int_0^z E_{X_2|x_1=v} \frac{\partial ( \hat \mu + \hat \beta_1 x_1 + \hat \beta_2 x_2)}{\partial x_1} dv + c= 
 $$
 $$
 \int_0^z E_{X_2|x_1=v} \hat \beta_1 dv  +c = 
@@ -344,7 +344,7 @@ $$
 Let's consider a following model
 
 $$
-f(x^1, x^2) = (x^1 +1)  x^2
+f(x_1, x_2) = (x_1 +1)  x_2
 $$
 
 where $X^1 \sim \mathcal U[-1,1]$ and $x_1=x_2$. 
@@ -359,19 +359,19 @@ $$
 - Partial Dependence
 
 $$
-g^1_{PD}(z) = E_{X^2} (z+1)x_2 = 0
+g^1_{PD}(z) = E_{X_2} (z+1)x_2 = 0
 $$
 
 - Marginal Effects
 
 $$
-g^1_{MP}(z) = E_{X^2|x^1=z} (z+1)x_2 = z(z+1)
+g_1^{MP}(z) = E_{X_2|x_1=z} (z+1)x_2 = z(z+1)
 $$
 
 - Accumulated Local Effects
 
 $$
-g^1_{AL}(z) = \int_{-1}^z E_{X^2|x^1=v} \frac{\partial (x_1+1)x_2}{\partial x_1} dv = \int_{-1}^z E_{X^2|x^1=v} x_2 dv = 
+g_1^{AL}(z) = \int_{-1}^z E_{X_2|x_1=v} \frac{\partial (x_1+1)x_2}{\partial x_1} dv = \int_{-1}^z E_{X_2|x_1=v} x_2 dv = 
 $$
 $$
 \int_{-1}^z v dv =  (z^2  - 1)/2
