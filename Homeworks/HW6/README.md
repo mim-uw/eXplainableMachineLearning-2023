@@ -1,6 +1,12 @@
 # Homework 6
 
-The purpose of the sixth homework is to learn about the method of calculating fairness statistics. Calculate these statistics for a dataset of 'credit scoring' or 'adult income'.
+The purpose of the sixth homework is to learn about the method of calculating fairness statistics.
+
+Calculate these statistics for a dataset of 'credit scoring' or 'adult income'.
+
+Focus on the presentation of results; for technical issues, seek support at [Materials towards Homework 6: Fairness with XGBoost](https://mim-uw.github.io/eXplainableMachineLearning-2023/hw6_fairness_with_xgboost_on_titanic.html).
+
+Submit the homework to this directory.
 
 ## Deadline 
 
