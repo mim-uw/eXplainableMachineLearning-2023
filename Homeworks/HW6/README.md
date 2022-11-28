@@ -32,7 +32,7 @@ Starred task: How can this decision rule be changed to improve its fairness?
 
 For this homework, train models on one of the following datasets:
 
-- credit scoring https://www.kaggle.com/competitions/GiveMeSomeCredit/
+- credit scoring https://www.kaggle.com/datasets/brycecf/give-me-some-credit-dataset (https://www.kaggle.com/competitions/GiveMeSomeCredit/)
 - adult income https://www.kaggle.com/datasets/wenruliu/adult-income-dataset
 
 Prepare a knitr/jupiter notebook with the following points.
