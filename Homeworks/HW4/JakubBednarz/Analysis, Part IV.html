@@ -13132,7 +13132,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Toy-example">Toy example<a class="anchor-link" href="#Toy-example">&#182;</a></h2><p>We will compute PDP for a following model: $$f(x_1, x_2) = (x_1 + x_2)^2$$, where $x_1, x_2 \sim \mathcal{U}[-1, 1]$ and $x_1 = x_2$. From the definition of the PD profile for $x_1$, $$g_{PD}^{x_1}(t) = E_{x_2}[f(x_1, x_2) \mid x_1 = t] E_{x_2}= 4t^2$$, and the same holds for $x_2$ since they're interchangeable.</p>
+<h2 id="Toy-example">Toy example<a class="anchor-link" href="#Toy-example">&#182;</a></h2><p>We will compute PDP for a following model: $$f(x_1, x_2) = (x_1 + x_2)^2$$, where $x_1, x_2 \sim \mathcal{U}[-1, 1]$ and $x_1 = x_2$. From the definition of the PD profile for $x_1$, $$g_{PD}^{x_1}(t) = E_{x_2}[f(x_1, x_2) \mid x_1 = t] = E_{x_2 \sim \mathcal{U}[-1, 1]}[(t + x_2)^2] = t^2 + 1/3$$, since $E(X) = 0, E(X^2) = 1/3$ for $X \sim \mathcal{U}[-1, 1]$, and the same holds for $x_2$ since they're interchangeable.</p>
 
 </div>
 </div>
