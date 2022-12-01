@@ -273,7 +273,7 @@ Source: [https://fairmlbook.org/](https://fairmlbook.org/)
 
 ## You can't be fair, but you can know how unfair you are
 
-The possible fulfilment of had fairness can be summarised in a single graph - the fairness check.
+The possible fulfilment of fairness can be summarised in a single graph - the fairness check.
 
 <p><center><img src="images/fairness_measure_13.png" width="70%"></center></p>
 
@@ -314,6 +314,6 @@ AI Fairness 360 - Demo: [https://aif360.mybluemix.net/data](https://aif360.myblu
 
 # Code-examples
 
--   See [Materials at GitHub](https://github.com/mim-uw/eXplainableMachineLearning-2023/Materials)
+-   See [Materials at GitHub](https://mim-uw.github.io/eXplainableMachineLearning-2023/hw6_fairness_with_xgboost_on_titanic.html)
 
-<p><img src="images/lime_code.png" width="100%"/></p>
+<p><img src="images/fairness_code.png" width="100%"/></p>
