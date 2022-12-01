@@ -234,7 +234,7 @@ the differing feature should be given a non-zero attribution.
 
 . . .
 
-> **Completeness** implies **Sensivity** because the latter refers to a case where the baseline and the input differ only in one variable. Then Completeness asserts that the difference in the two output values is equal to the attribution to this variable. [Sundararajan et al. (2017)](https://proceedings.mlr.press/v70/sundararajan17a.html)
+> **Completeness** implies **Sensitivity** because the latter refers to a case where the baseline and the input differ only in one variable. Then Completeness asserts that the difference in the two output values is equal to the attribution to this variable. [Sundararajan et al. (2017)](https://proceedings.mlr.press/v70/sundararajan17a.html)
 
 Note that vanilla gradient breaks this axiom (see Slide 9).
 
@@ -243,7 +243,7 @@ Note that vanilla gradient breaks this axiom (see Slide 9).
 **3. Input Invariance**
 
 IG satisfy **Input Invariance** meaning that it can explain any differentiable neural network and feature attributions are always identical
-for two *functionally equivalent* networks. 
+for two **functionally equivalent** networks. 
 
 Two networks are **functionally equivalent** if their outputs are equal for all inputs.
 
