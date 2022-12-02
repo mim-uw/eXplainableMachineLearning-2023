@@ -155,7 +155,7 @@ $$
 
 <p style="text-align:center;"><img src="images/networks_lrp.png" width="70%"/></p>
 
-<p style="text-align:center;"><img src="images/networks_lrp_error.png" width="80%"/></p>
+<!-- <p style="text-align:center;"><img src="images/networks_lrp_error.png" width="80%"/></p> -->
 
 
 # Integrated Gradients (IG)
@@ -240,9 +240,9 @@ Note that vanilla gradient breaks this axiom (see Slide 9).
 
 ## Axioms [2/2]
 
-**3. Input Invariance**
+**3. Implementation Invariance**
 
-IG satisfy **Input Invariance** meaning that it can explain any differentiable neural network and feature attributions are always identical
+IG satisfy **Implementation Invariance** meaning that it can explain any differentiable neural network and feature attributions are always identical
 for two **functionally equivalent** networks. 
 
 Two networks are **functionally equivalent** if their outputs are equal for all inputs.
