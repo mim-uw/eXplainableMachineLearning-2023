@@ -1,0 +1,19 @@
+_target_: module.module.Module
+
+model:
+  _target_: model.resnet.get_resnet18
+  in_channels: 3
+  out_features: 2
+
+optimizer:
+  _target_: torch.optim.Adam
+  _partial_: true
+  lr: 0.005
+  weight_decay: 0.0
+
+scheduler:
+  _target_: torch.optim.lr_scheduler.ReduceLROnPlateau
+  _partial_: true
+  mode: min
+  factor: 0.1
+  patience: 10
