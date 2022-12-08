@@ -1,0 +1,23 @@
+$Y$ - Will use XAI
+
+$\hat{Y}$ - Enrolled in training
+
+$A$ - protected attribute ($a$ - Blue (privileged), $b$ - Red (unprivileged))
+
+Demographic parity:
+
+$P(\hat{Y} | A=a) = P(\hat{Y} | Blue) = \frac{65}{100} = 0.65 \\
+P(\hat{Y} | A=b) = P(\hat{Y} | Red) = 0.5 \\
+\frac{P(\hat{Y} | A=a)}{P(\hat{Y} | A=b)} = 1.3$
+
+Equal opportunity:
+
+$ P(\hat{Y} | A=a, Y) = P(\hat{Y} | Blue, Y) = \frac{60}{80} = 0.75 \\
+P(\hat{Y} | A=b, Y) = P(\hat{Y} | Red, Y) = 0.5 \\
+\frac{P(\hat{Y} | A=a, Y)}{P(\hat{Y} | A=b, Y)} = 1.5$
+
+Predictive rate parity:
+
+$P(Y | \hat{Y}, A=a) = P(Y | \hat{Y}, Blue) = \frac{60}{65} = \frac{12}{13} \\
+P(Y | \hat{Y}, A=b) = P(Y | \hat{Y}, Red) = 0.5 \\
+\frac{P(Y | \hat{Y}, A=a)}{P(Y | \hat{Y}, A=b)} = \frac{12}{13} * 2 = \frac{24}{13}$
