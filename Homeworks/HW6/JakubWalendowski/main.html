@@ -13676,6 +13676,8 @@ Ratios of metrics, based on &#39;0.0&#39;. Parameter &#39;epsilon&#39; was set t
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
+<p>For NumberOfDependents Positive predictive value metric seems to be good comparing a sample of 0 dependent people to any quantity greater than 0.
+While Equal Opportunity (TPR) is worse, even bad, and Statistical parity is very bad</p>
 
 </div>
 </div>
@@ -13746,6 +13748,13 @@ Ratios of metrics, based on &#39;0.0&#39;. Parameter &#39;epsilon&#39; was set t
 </div>
 </div>
 
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Fairlness results are similar to the previous model, but there is an improvement.</p>
+
+</div>
+</div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
@@ -13835,6 +13844,13 @@ Ratios of metrics, based on &#39;0.0&#39;. Parameter &#39;epsilon&#39; was set t
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
+<p>The fairness scores are even better, albeit slightly, than the previous model, while the efficiency has decreased significantly.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="5.-Compare-the-quality-(performance)-of-the-three-models-with-their-fairness-coefficients.-Is-there-any-correlation?">5. Compare the quality (performance) of the three models with their fairness coefficients. Is there any correlation?<a class="anchor-link" href="#5.-Compare-the-quality-(performance)-of-the-three-models-with-their-fairness-coefficients.-Is-there-any-correlation?">&#182;</a></h3>
 </div>
 </div>
@@ -13906,6 +13922,13 @@ Ratios of metrics, based on &#39;0.0&#39;. Parameter &#39;epsilon&#39; was set t
 </div>
 </div>
 
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>A better model (deeper random forest) also turned out to be fairer for NumberOfDependents. However, when I tried to force the model to be more honest by reweight technic, the effectiveness decreased.</p>
+
+</div>
+</div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
