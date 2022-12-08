@@ -1,0 +1,3766 @@
+image_name,patient_id,sex,age_approx,anatom_site_general_challenge,target
+ISIC_9382494,IP_7111848,male,50.0,torso,0
+ISIC_2353030,IP_0612651,female,25.0,torso,0
+ISIC_1667108,IP_4565105,female,55.0,head/neck,0
+ISIC_6653225,IP_2506892,female,45.0,torso,0
+ISIC_0887530,IP_3358218,female,45.0,lower extremity,0
+ISIC_3688362,IP_5768092,female,55.0,torso,0
+ISIC_0440291,IP_8049735,male,40.0,lower extremity,0
+ISIC_0030653,HAM_0003957,female,65.0,posterior torso,1
+ISIC_7733258,IP_4488328,male,40.0,torso,0
+ISIC_2451803,IP_2673125,male,60.0,torso,0
+ISIC_9562731,IP_3549978,female,40.0,upper extremity,0
+ISIC_2137033,IP_2310783,male,45.0,torso,0
+ISIC_2150010,IP_8869881,female,25.0,lower extremity,0
+ISIC_6120279,IP_6658881,male,80.0,lower extremity,0
+ISIC_4330074,IP_4042098,male,45.0,lower extremity,0
+ISIC_1120654,IP_4116267,female,65.0,lower extremity,0
+ISIC_9670400,IP_4584109,female,60.0,torso,0
+ISIC_8582918,IP_4362664,female,55.0,head/neck,0
+ISIC_3197616,IP_7330399,female,55.0,upper extremity,0
+ISIC_2712447,IP_9455054,male,45.0,head/neck,0
+ISIC_3854244,IP_7460121,female,55.0,torso,0
+ISIC_8096907,IP_9563768,female,50.0,lower extremity,0
+ISIC_9244889,IP_0301948,male,50.0,torso,0
+ISIC_4794020,IP_5399626,male,30.0,lower extremity,0
+ISIC_5739570,IP_3232631,female,65.0,torso,0
+ISIC_3262904,IP_9373614,female,45.0,lower extremity,0
+ISIC_6502887,IP_9122609,male,65.0,torso,0
+ISIC_1031166,IP_4936463,female,70.0,lower extremity,0
+ISIC_8262345,IP_8136122,female,40.0,upper extremity,0
+ISIC_6256314,IP_3091321,male,40.0,torso,0
+ISIC_6116801,IP_0857646,male,65.0,torso,0
+ISIC_1975192,IP_7691333,female,30.0,lower extremity,0
+ISIC_1478794,IP_8491618,male,45.0,torso,0
+ISIC_0465385,IP_1512731,male,40.0,torso,0
+ISIC_2975904,IP_9453080,female,50.0,lower extremity,0
+ISIC_3314555,IP_1197949,male,45.0,upper extremity,0
+ISIC_1674754,IP_4109313,male,30.0,torso,0
+ISIC_2898108,IP_5031178,female,50.0,lower extremity,0
+ISIC_7840728,IP_0843629,male,45.0,torso,0
+ISIC_8689583,IP_5889408,female,45.0,torso,0
+ISIC_0797473,IP_4208266,female,30.0,torso,0
+ISIC_0791761,IP_5972253,male,75.0,upper extremity,0
+ISIC_1015264,IP_3549978,female,40.0,torso,0
+ISIC_0413084,IP_9346829,female,60.0,lower extremity,0
+ISIC_9478517,IP_6601134,female,55.0,torso,0
+ISIC_1977315,IP_4169963,female,55.0,torso,0
+ISIC_0383804,IP_7270568,female,65.0,head/neck,0
+ISIC_1985984,IP_1645936,female,65.0,lower extremity,0
+ISIC_9885997,IP_5365464,female,70.0,upper extremity,0
+ISIC_5914196,IP_1310148,male,75.0,torso,0
+ISIC_8446043,IP_7406922,male,40.0,torso,0
+ISIC_4686662,IP_6204577,female,70.0,lower extremity,0
+ISIC_4161718,IP_4235783,male,60.0,torso,0
+ISIC_4674378,IP_3858753,male,40.0,lower extremity,0
+ISIC_7095245,IP_3423256,female,60.0,lower extremity,0
+ISIC_6926620,IP_1885773,female,65.0,torso,0
+ISIC_9538671,IP_7610036,male,65.0,torso,0
+ISIC_9615264,IP_4234031,female,40.0,torso,0
+ISIC_5615347,IP_7313005,male,30.0,torso,0
+ISIC_0067512,BCN_0003258,male,55.0,head/neck,1
+ISIC_6108396,IP_3858753,male,40.0,palms/soles,0
+ISIC_0054312,BCN_0005146,female,75.0,palms/soles,1
+ISIC_1630301,IP_1039004,female,75.0,upper extremity,1
+ISIC_3025780,IP_0716558,male,30.0,torso,0
+ISIC_7248566,IP_1976214,female,35.0,torso,0
+ISIC_8549193,IP_0942159,female,25.0,lower extremity,0
+ISIC_7051800,IP_7252102,male,35.0,torso,0
+ISIC_3727059,IP_8550908,male,45.0,torso,0
+ISIC_5419016,IP_6945048,male,35.0,lower extremity,0
+ISIC_0061078,BCN_0004178,male,65.0,head/neck,1
+ISIC_8687356,IP_8494731,female,40.0,torso,0
+ISIC_9828800,IP_0148851,female,60.0,torso,0
+ISIC_3782359,IP_5903849,male,75.0,torso,0
+ISIC_6522713,IP_3054486,male,70.0,upper extremity,0
+ISIC_3483000,IP_5064631,male,20.0,upper extremity,0
+ISIC_8720514,IP_5295861,male,70.0,torso,0
+ISIC_4166364,IP_5805281,male,50.0,torso,0
+ISIC_4144198,IP_8534235,female,60.0,lower extremity,0
+ISIC_4530249,IP_9087899,male,40.0,torso,0
+ISIC_0058947,BCN_0003884,male,55.0,anterior torso,1
+ISIC_8119203,IP_7243781,male,75.0,torso,0
+ISIC_7798770,IP_9268401,female,40.0,torso,0
+ISIC_4016654,IP_3854976,female,45.0,torso,0
+ISIC_5500067,IP_1716665,male,35.0,torso,0
+ISIC_1735703,IP_9712836,female,45.0,head/neck,0
+ISIC_6393699,IP_4669931,female,25.0,upper extremity,0
+ISIC_6413170,IP_5295861,male,70.0,upper extremity,0
+ISIC_1425961,IP_7684360,male,55.0,torso,0
+ISIC_8949331,IP_1697215,female,35.0,upper extremity,0
+ISIC_2306653,IP_8680583,female,45.0,torso,0
+ISIC_6414490,IP_3927229,female,40.0,head/neck,0
+ISIC_9135750,IP_2760044,male,40.0,torso,0
+ISIC_3726680,IP_6936664,female,55.0,lower extremity,0
+ISIC_7643257,IP_3938557,male,30.0,torso,0
+ISIC_8715792,IP_8759634,female,50.0,torso,0
+ISIC_3560466,IP_7497232,male,25.0,lower extremity,0
+ISIC_0089401,IP_7948039,female,25.0,torso,0
+ISIC_8107990,IP_4208266,female,35.0,lower extremity,0
+ISIC_0876992,IP_2047697,female,35.0,torso,0
+ISIC_2595571,IP_1740600,male,75.0,head/neck,0
+ISIC_3961647,IP_9718268,female,85.0,torso,0
+ISIC_0640806,IP_3534839,male,45.0,torso,0
+ISIC_1899683,IP_1517386,male,40.0,torso,0
+ISIC_5392465,IP_2428722,female,45.0,torso,0
+ISIC_6033222,IP_4698288,male,25.0,torso,0
+ISIC_2493730,IP_3025705,female,35.0,lower extremity,0
+ISIC_0000554,,,,,1
+ISIC_8153237,IP_4379852,female,60.0,lower extremity,0
+ISIC_3740798,IP_0968880,male,60.0,head/neck,0
+ISIC_6232899,IP_0878241,male,70.0,upper extremity,0
+ISIC_9967671,IP_5808038,male,30.0,torso,0
+ISIC_7461086,IP_0454573,male,55.0,upper extremity,0
+ISIC_9543945,IP_6096257,male,60.0,lower extremity,0
+ISIC_1190994,IP_6788300,female,45.0,head/neck,0
+ISIC_3678791,IP_5085022,female,55.0,lower extremity,0
+ISIC_8722181,IP_4488328,male,40.0,torso,0
+ISIC_4723179,IP_3422736,female,40.0,torso,0
+ISIC_4384199,IP_0718832,female,50.0,torso,0
+ISIC_7478024,IP_8534235,female,60.0,torso,0
+ISIC_7829947,IP_1512731,male,30.0,upper extremity,0
+ISIC_3789929,IP_6352254,female,60.0,torso,0
+ISIC_2176822,IP_1697215,female,45.0,oral/genital,0
+ISIC_4600505,IP_9679829,male,30.0,torso,0
+ISIC_3926929,IP_8715388,female,50.0,lower extremity,0
+ISIC_9273777,IP_9563768,female,50.0,torso,0
+ISIC_4354772,IP_0394288,female,45.0,upper extremity,0
+ISIC_6448312,IP_5104615,male,45.0,torso,0
+ISIC_8101720,IP_7765741,male,55.0,torso,0
+ISIC_3408231,IP_3034671,male,65.0,head/neck,1
+ISIC_1545353,IP_3116217,female,55.0,lower extremity,0
+ISIC_2141003,IP_5698400,female,25.0,upper extremity,0
+ISIC_1894741,IP_2026598,male,15.0,head/neck,0
+ISIC_0979974,IP_1096358,male,35.0,upper extremity,0
+ISIC_1384176,IP_9180273,male,75.0,torso,0
+ISIC_3141912,IP_3564160,female,65.0,upper extremity,0
+ISIC_6607519,IP_8011614,female,40.0,upper extremity,0
+ISIC_6069595,IP_6049920,female,40.0,lower extremity,0
+ISIC_3074710,IP_9147454,female,55.0,torso,0
+ISIC_0062340,BCN_0003907,female,65.0,anterior torso,1
+ISIC_0069706,BCN_0005666,male,60.0,lower extremity,1
+ISIC_6944481,IP_5805281,male,50.0,torso,0
+ISIC_0060883,BCN_0003213,female,60.0,palms/soles,1
+ISIC_5573340,IP_3423256,female,60.0,torso,0
+ISIC_0058125,BCN_0005365,male,60.0,anterior torso,1
+ISIC_5987980,IP_0408346,male,65.0,torso,0
+ISIC_9849018,IP_1152723,male,25.0,lower extremity,0
+ISIC_0013491_downsampled,MSK4_0010939,male,60.0,lower extremity,1
+ISIC_5460120,IP_3776544,male,40.0,upper extremity,0
+ISIC_5558729,IP_6730678,female,35.0,torso,0
+ISIC_1599679,IP_5528290,male,50.0,upper extremity,0
+ISIC_8045618,IP_8173459,female,50.0,upper extremity,0
+ISIC_9941161,IP_6512345,male,70.0,lower extremity,0
+ISIC_8065962,IP_4645992,male,35.0,torso,0
+ISIC_0064672,BCN_0003084,female,45.0,lower extremity,1
+ISIC_0064448,BCN_0001285,female,40.0,head/neck,1
+ISIC_8608894,IP_1730314,male,30.0,upper extremity,0
+ISIC_0062364,BCN_0004070,male,30.0,head/neck,1
+ISIC_5790534,IP_3713422,male,50.0,torso,0
+ISIC_7205745,IP_2548997,female,40.0,torso,1
+ISIC_2136193,IP_8413345,female,40.0,upper extremity,0
+ISIC_4968624,IP_7584179,male,35.0,torso,0
+ISIC_9327229,IP_5176722,male,60.0,lower extremity,0
+ISIC_6953334,IP_0989858,female,35.0,lower extremity,0
+ISIC_0452356,IP_5872065,male,50.0,lower extremity,0
+ISIC_1957587,IP_4419570,male,50.0,upper extremity,0
+ISIC_6717452,IP_0503166,female,50.0,lower extremity,0
+ISIC_9339096,IP_2238880,female,45.0,lower extremity,0
+ISIC_3023048,IP_3523452,female,20.0,head/neck,0
+ISIC_7449020,IP_3789903,male,55.0,torso,0
+ISIC_3343476,IP_0274810,male,60.0,lower extremity,0
+ISIC_0682086,IP_1152723,male,25.0,torso,0
+ISIC_0013908_downsampled,MSK4_0010423,male,75.0,posterior torso,1
+ISIC_6304412,IP_4488328,male,40.0,torso,0
+ISIC_5635961,IP_7291657,female,40.0,torso,0
+ISIC_8555610,IP_6215369,male,80.0,lower extremity,0
+ISIC_5598766,IP_6894159,female,75.0,lower extremity,0
+ISIC_8299820,IP_7397472,female,55.0,upper extremity,0
+ISIC_1979473,IP_9156695,female,40.0,lower extremity,0
+ISIC_2129226,IP_1976214,female,35.0,torso,0
+ISIC_8066391,IP_4419570,male,50.0,torso,0
+ISIC_1819531,IP_2325148,male,65.0,torso,0
+ISIC_7720684,IP_6251220,male,75.0,torso,0
+ISIC_5632905,IP_4520332,male,35.0,torso,0
+ISIC_9232519,IP_2166250,male,30.0,lower extremity,0
+ISIC_4391942,IP_8414061,male,50.0,torso,0
+ISIC_3222205,IP_1672936,female,20.0,lower extremity,0
+ISIC_3460864,IP_4382720,female,50.0,lower extremity,0
+ISIC_7504553,IP_3522576,male,45.0,upper extremity,0
+ISIC_0069197,BCN_0004305,female,60.0,anterior torso,1
+ISIC_8673238,IP_2214113,female,55.0,upper extremity,0
+ISIC_7876793,IP_7690396,female,40.0,torso,0
+ISIC_3404364,IP_5168777,female,35.0,head/neck,0
+ISIC_8961394,IP_8806573,female,60.0,torso,0
+ISIC_3370423,IP_5365464,female,70.0,upper extremity,0
+ISIC_7887321,IP_9756394,male,55.0,upper extremity,0
+ISIC_0500253,IP_0648521,male,60.0,upper extremity,0
+ISIC_5589185,IP_9346829,female,60.0,upper extremity,0
+ISIC_0057450,BCN_0005060,female,50.0,lower extremity,1
+ISIC_7040108,IP_0139601,female,45.0,torso,0
+ISIC_6124241,IP_4370559,male,25.0,torso,0
+ISIC_3338629,IP_8210115,male,55.0,head/neck,1
+ISIC_2478860,IP_3444084,male,40.0,torso,0
+ISIC_7663291,IP_9851472,female,45.0,torso,0
+ISIC_3824050,IP_7261254,female,20.0,upper extremity,0
+ISIC_2212933,IP_2999492,male,65.0,head/neck,0
+ISIC_5775068,IP_3365162,male,65.0,head/neck,0
+ISIC_7835537,IP_8687520,male,60.0,upper extremity,0
+ISIC_0818550,IP_7313005,male,30.0,torso,0
+ISIC_4956352,IP_2908137,male,50.0,torso,0
+ISIC_3173314,IP_3631578,female,75.0,upper extremity,0
+ISIC_5850459,IP_3489420,male,50.0,upper extremity,0
+ISIC_6108865,IP_3846489,male,40.0,lower extremity,0
+ISIC_4891204,IP_9418573,male,60.0,torso,0
+ISIC_0024644,HAM_0004171,female,85.0,lower extremity,1
+ISIC_8639128,IP_9282375,female,65.0,torso,0
+ISIC_7755194,IP_0901675,female,70.0,upper extremity,0
+ISIC_9701171,IP_3970525,female,45.0,torso,0
+ISIC_4120704,IP_8759634,female,50.0,palms/soles,0
+ISIC_3285892,IP_0039318,male,35.0,torso,0
+ISIC_5552041,IP_7940004,female,75.0,torso,0
+ISIC_9178485,IP_3075186,female,45.0,upper extremity,0
+ISIC_7394862,IP_7050886,female,45.0,head/neck,0
+ISIC_8420927,IP_4005662,male,45.0,torso,0
+ISIC_5969837,IP_0078294,male,60.0,upper extremity,0
+ISIC_3315146,IP_6894159,female,75.0,torso,0
+ISIC_1239785,IP_2871134,male,60.0,torso,0
+ISIC_1265609,IP_0583343,male,65.0,torso,0
+ISIC_3101458,IP_4996313,female,50.0,lower extremity,0
+ISIC_0268179,IP_3522576,male,45.0,torso,0
+ISIC_8463131,IP_4645992,male,35.0,torso,0
+ISIC_3361955,IP_8442345,male,35.0,upper extremity,0
+ISIC_9307797,IP_5368914,male,65.0,lower extremity,0
+ISIC_9706789,IP_9901629,female,60.0,torso,0
+ISIC_3917284,IP_6945048,male,35.0,head/neck,0
+ISIC_6089817,IP_5424227,female,55.0,lower extremity,0
+ISIC_9292220,IP_2961528,male,45.0,torso,0
+ISIC_9603756,IP_4281194,female,80.0,torso,0
+ISIC_3125078,IP_1999627,male,80.0,lower extremity,0
+ISIC_9125216,IP_4021847,male,45.0,upper extremity,0
+ISIC_0056710,BCN_0002624,female,30.0,anterior torso,1
+ISIC_3461869,IP_4292424,male,40.0,torso,0
+ISIC_0057707,BCN_0003760,male,35.0,head/neck,1
+ISIC_5373091,IP_3714517,male,45.0,lower extremity,0
+ISIC_2779797,IP_2214113,female,55.0,torso,0
+ISIC_8523262,IP_3785646,female,30.0,torso,0
+ISIC_0064823,BCN_0004464,female,65.0,lower extremity,1
+ISIC_4701889,IP_2835119,male,60.0,torso,0
+ISIC_9766238,IP_5167473,female,60.0,lower extremity,0
+ISIC_5263643,IP_7610036,male,65.0,torso,0
+ISIC_8044983,IP_1264754,female,65.0,lower extremity,0
+ISIC_5342109,IP_7824066,male,65.0,upper extremity,0
+ISIC_0000013,,female,30.0,posterior torso,1
+ISIC_6746168,IP_6601134,female,55.0,lower extremity,0
+ISIC_9763829,IP_9422872,female,60.0,torso,0
+ISIC_5879917,IP_6808872,male,30.0,lower extremity,0
+ISIC_0054874,BCN_0003148,male,65.0,anterior torso,1
+ISIC_2800015,IP_3860796,female,55.0,upper extremity,0
+ISIC_9740742,IP_5176722,male,60.0,lower extremity,0
+ISIC_0028463,HAM_0002186,female,60.0,posterior torso,1
+ISIC_4188624,IP_4302652,female,20.0,upper extremity,0
+ISIC_3665147,IP_7252102,male,35.0,lower extremity,0
+ISIC_1940321,IP_9380920,male,65.0,upper extremity,0
+ISIC_3745639,IP_3128221,male,45.0,torso,0
+ISIC_6888402,IP_6885799,female,45.0,torso,0
+ISIC_0032372,HAM_0000125,male,60.0,lower extremity,1
+ISIC_4402731,IP_2520657,male,40.0,lower extremity,0
+ISIC_0014189_downsampled,MSK4_0010909,male,85.0,anterior torso,1
+ISIC_6781665,IP_5229014,male,55.0,upper extremity,0
+ISIC_5851895,IP_7160012,male,60.0,torso,0
+ISIC_0578534,IP_3222187,female,40.0,torso,0
+ISIC_1323471,IP_3751991,female,40.0,lower extremity,0
+ISIC_7124623,IP_9513376,male,35.0,head/neck,0
+ISIC_9509757,IP_5336201,male,80.0,head/neck,1
+ISIC_8024841,IP_7330399,female,55.0,torso,0
+ISIC_8334249,IP_4409916,female,40.0,torso,0
+ISIC_0850854,IP_6875077,male,50.0,torso,0
+ISIC_1146341,IP_6776978,female,60.0,lower extremity,0
+ISIC_3307352,IP_4938382,female,25.0,torso,0
+ISIC_1767633,IP_8019632,female,55.0,upper extremity,0
+ISIC_0010194,,male,75.0,posterior torso,1
+ISIC_3513899,IP_3370847,male,40.0,torso,0
+ISIC_9863995,IP_4639224,male,50.0,lower extremity,0
+ISIC_0704233,IP_3523549,male,30.0,torso,0
+ISIC_8666637,IP_1902763,male,60.0,lower extremity,0
+ISIC_3129363,IP_1859257,male,45.0,upper extremity,0
+ISIC_4155780,IP_9563768,female,50.0,torso,0
+ISIC_2687164,IP_6631780,female,45.0,lower extremity,0
+ISIC_8631304,IP_6247924,female,55.0,torso,0
+ISIC_7513139,IP_4544162,female,50.0,upper extremity,0
+ISIC_1506912,IP_1976214,female,35.0,torso,0
+ISIC_6159454,IP_1210062,male,85.0,head/neck,0
+ISIC_4434225,IP_8986063,male,45.0,torso,0
+ISIC_8014747,IP_1969685,male,50.0,torso,0
+ISIC_3663340,IP_7198796,female,25.0,lower extremity,0
+ISIC_4886992,IP_1193890,male,55.0,torso,0
+ISIC_0317682,IP_0148558,female,45.0,torso,0
+ISIC_0499977,IP_2006089,female,35.0,torso,0
+ISIC_7668206,IP_0663261,female,70.0,torso,0
+ISIC_8092875,IP_9756233,male,60.0,torso,0
+ISIC_0054626,BCN_0003196,female,80.0,anterior torso,1
+ISIC_9473134,IP_3240837,male,50.0,torso,0
+ISIC_8207033,IP_9820186,male,75.0,lower extremity,0
+ISIC_0031350,HAM_0003435,male,60.0,posterior torso,1
+ISIC_6732763,IP_9619666,male,70.0,torso,0
+ISIC_7135022,IP_3938557,male,30.0,upper extremity,0
+ISIC_0025941,HAM_0003171,male,55.0,posterior torso,1
+ISIC_7145788,IP_6601134,female,55.0,upper extremity,0
+ISIC_3657386,IP_8206875,male,70.0,torso,0
+ISIC_2500433,IP_3739659,female,45.0,upper extremity,0
+ISIC_0292158,IP_3402498,male,65.0,torso,0
+ISIC_7338634,IP_6245507,male,45.0,lower extremity,0
+ISIC_0072440,BCN_0002079,female,55.0,lower extremity,1
+ISIC_3299783,IP_0859301,female,50.0,torso,0
+ISIC_5934948,IP_0078763,female,30.0,torso,0
+ISIC_4189494,IP_8599812,female,45.0,lower extremity,0
+ISIC_3742470,IP_5604493,female,40.0,torso,0
+ISIC_9176472,IP_7404837,female,50.0,torso,0
+ISIC_7738955,IP_4612042,male,50.0,torso,0
+ISIC_8732757,IP_1197949,male,50.0,torso,1
+ISIC_7885531,IP_5857448,male,40.0,lower extremity,0
+ISIC_0061079,BCN_0001857,female,45.0,upper extremity,1
+ISIC_7637801,IP_5326800,female,50.0,lower extremity,0
+ISIC_9433232,IP_9853347,male,55.0,torso,0
+ISIC_7244604,IP_2810418,female,60.0,lower extremity,0
+ISIC_0640895,IP_2666042,male,50.0,lower extremity,0
+ISIC_1738649,IP_3057277,male,45.0,,0
+ISIC_2562444,IP_7229146,female,35.0,torso,0
+ISIC_1639724,IP_3350187,male,65.0,lower extremity,0
+ISIC_4993777,IP_8526194,male,70.0,torso,0
+ISIC_6805527,IP_1233669,female,55.0,upper extremity,0
+ISIC_5606906,IP_8329991,male,30.0,upper extremity,0
+ISIC_7816432,IP_8349207,male,50.0,upper extremity,0
+ISIC_4484431,IP_3293726,male,80.0,torso,0
+ISIC_0754156,IP_5474292,male,40.0,upper extremity,0
+ISIC_2487188,IP_2707228,female,50.0,torso,0
+ISIC_1513596,IP_4639224,male,40.0,torso,0
+ISIC_2092968,IP_9247426,female,45.0,torso,0
+ISIC_1009378,IP_7261254,female,25.0,lower extremity,0
+ISIC_1665254,IP_1348848,male,60.0,upper extremity,0
+ISIC_4023333,IP_9997715,female,75.0,lower extremity,0
+ISIC_7411108,IP_6808872,male,30.0,upper extremity,0
+ISIC_1167108,IP_1564049,female,70.0,upper extremity,0
+ISIC_0067417,BCN_0002133,female,35.0,head/neck,1
+ISIC_5442756,IP_9122609,male,65.0,torso,0
+ISIC_4478326,IP_7828866,male,50.0,lower extremity,0
+ISIC_3833310,IP_8233849,male,55.0,torso,0
+ISIC_1260545,IP_0063457,male,40.0,torso,0
+ISIC_5415761,IP_4749521,male,60.0,torso,1
+ISIC_0905455,IP_8338213,male,50.0,lower extremity,0
+ISIC_5226441,IP_0839290,male,60.0,lower extremity,0
+ISIC_0445396,IP_8590724,male,50.0,torso,0
+ISIC_2769835,IP_6887203,male,30.0,upper extremity,0
+ISIC_9442715,IP_3358218,female,45.0,torso,0
+ISIC_8954656,IP_9961030,male,70.0,torso,0
+ISIC_5067317,IP_8550051,female,75.0,torso,0
+ISIC_7170391,IP_6873524,female,45.0,,0
+ISIC_7065522,IP_3054486,male,70.0,upper extremity,0
+ISIC_7253930,IP_5085022,female,55.0,upper extremity,0
+ISIC_0718834,IP_2153088,female,30.0,upper extremity,0
+ISIC_3830701,IP_9644384,female,25.0,lower extremity,0
+ISIC_3167799,IP_6405528,female,60.0,torso,0
+ISIC_0195078,IP_7690396,female,40.0,lower extremity,0
+ISIC_0067758,BCN_0005236,female,75.0,anterior torso,1
+ISIC_9567935,IP_9455054,male,35.0,torso,0
+ISIC_3777842,IP_7412558,male,55.0,torso,0
+ISIC_3640690,IP_7610036,male,65.0,torso,0
+ISIC_4352303,IP_9995095,male,50.0,torso,0
+ISIC_7342914,IP_3120589,female,50.0,torso,0
+ISIC_8475025,IP_7345731,male,45.0,lower extremity,0
+ISIC_1450273,IP_9422872,female,60.0,lower extremity,0
+ISIC_0032420,HAM_0003055,female,65.0,head/neck,1
+ISIC_8672185,IP_6788300,female,45.0,upper extremity,0
+ISIC_0765585,IP_6901441,female,35.0,torso,0
+ISIC_8338138,IP_2114130,male,40.0,head/neck,0
+ISIC_8163269,IP_7979366,male,40.0,upper extremity,0
+ISIC_7031812,IP_8267064,female,30.0,lower extremity,0
+ISIC_6458249,IP_3927686,female,35.0,torso,0
+ISIC_3886458,IP_1676499,female,30.0,lower extremity,0
+ISIC_1413589,IP_1152723,male,25.0,upper extremity,0
+ISIC_1976246,IP_1792635,female,60.0,torso,0
+ISIC_4005585,IP_4267931,female,55.0,head/neck,0
+ISIC_3873641,IP_7691333,female,30.0,torso,0
+ISIC_6161876,IP_9416054,male,55.0,torso,0
+ISIC_7068548,IP_0765629,male,55.0,torso,0
+ISIC_4156689,IP_4130585,female,65.0,torso,0
+ISIC_6901611,IP_8715388,female,50.0,lower extremity,0
+ISIC_7994632,IP_4576977,male,45.0,torso,0
+ISIC_8983772,IP_4938349,male,70.0,torso,0
+ISIC_0058508,BCN_0001105,female,70.0,head/neck,1
+ISIC_0413715,IP_7979366,male,45.0,head/neck,0
+ISIC_0000173,,male,65.0,upper extremity,1
+ISIC_3248316,IP_8049735,male,45.0,upper extremity,0
+ISIC_0849385,IP_3365162,male,65.0,torso,0
+ISIC_2882129,IP_6247924,female,55.0,lower extremity,0
+ISIC_5569936,IP_5605474,female,40.0,upper extremity,0
+ISIC_4978829,IP_9901906,male,60.0,torso,0
+ISIC_1290920,IP_9056338,male,60.0,lower extremity,0
+ISIC_8219096,IP_3807016,male,80.0,torso,0
+ISIC_5964381,IP_4716377,female,30.0,torso,0
+ISIC_8572337,IP_3402498,male,65.0,torso,0
+ISIC_8700403,IP_5627853,female,30.0,head/neck,0
+ISIC_0069922,BCN_0001249,male,75.0,head/neck,1
+ISIC_3231840,IP_1122600,female,70.0,torso,0
+ISIC_3645670,IP_3246668,male,80.0,lower extremity,0
+ISIC_9744723,IP_6331820,female,55.0,lower extremity,0
+ISIC_1105263,IP_6470089,male,70.0,torso,0
+ISIC_9116587,IP_5903849,male,65.0,lower extremity,0
+ISIC_7600621,IP_3917378,female,45.0,torso,0
+ISIC_9333546,IP_2632866,female,60.0,upper extremity,0
+ISIC_6155423,IP_6838833,female,80.0,lower extremity,0
+ISIC_0430837,IP_6204577,female,65.0,lower extremity,0
+ISIC_7089788,IP_8534235,female,60.0,torso,0
+ISIC_9024615,IP_0414408,male,50.0,lower extremity,0
+ISIC_0033204,HAM_0006886,male,55.0,posterior torso,1
+ISIC_7580408,IP_9754730,female,55.0,torso,0
+ISIC_9807077,IP_6940325,female,35.0,torso,0
+ISIC_3655327,IP_3846489,male,35.0,lower extremity,0
+ISIC_3155987,IP_7250026,female,55.0,upper extremity,0
+ISIC_9501950,IP_8173459,female,50.0,torso,0
+ISIC_2988753,IP_4584109,female,60.0,torso,0
+ISIC_9174306,IP_4611463,male,70.0,head/neck,1
+ISIC_6007546,IP_9001826,female,30.0,torso,0
+ISIC_7665645,IP_9935748,male,55.0,torso,0
+ISIC_1959939,IP_2516168,male,60.0,head/neck,1
+ISIC_6682360,IP_1208141,male,45.0,upper extremity,0
+ISIC_0032921,HAM_0004927,male,70.0,anterior torso,1
+ISIC_6292863,IP_2019626,male,55.0,upper extremity,0
+ISIC_4942545,IP_4479736,female,25.0,upper extremity,0
+ISIC_8590181,IP_9639732,male,45.0,palms/soles,0
+ISIC_2553976,IP_2980320,male,40.0,torso,0
+ISIC_0552221,IP_8011614,female,40.0,upper extremity,0
+ISIC_3702669,IP_6875077,male,50.0,torso,0
+ISIC_8705626,IP_0059113,female,60.0,lower extremity,0
+ISIC_5552335,IP_8723313,female,55.0,torso,0
+ISIC_4722942,IP_4366959,female,35.0,upper extremity,0
+ISIC_5565517,IP_0951571,female,55.0,torso,0
+ISIC_6652978,IP_6269870,female,55.0,upper extremity,0
+ISIC_1748818,IP_8447624,female,50.0,,0
+ISIC_6724946,IP_3141271,male,45.0,torso,0
+ISIC_6916445,IP_0904259,female,30.0,torso,0
+ISIC_0203016,IP_1355796,male,55.0,lower extremity,0
+ISIC_9577235,IP_0612651,female,25.0,,0
+ISIC_5309101,IP_9247426,female,45.0,lower extremity,0
+ISIC_0000300,,female,60.0,lower extremity,1
+ISIC_1138232,IP_7743588,male,40.0,lower extremity,0
+ISIC_6916479,IP_9712836,female,45.0,torso,0
+ISIC_6507179,IP_9463965,female,30.0,torso,0
+ISIC_4205922,IP_9520195,female,55.0,lower extremity,0
+ISIC_6814221,IP_8555595,female,40.0,torso,0
+ISIC_7400819,IP_9190806,female,40.0,,0
+ISIC_4769266,IP_2049351,male,40.0,palms/soles,0
+ISIC_8250448,IP_0065733,female,30.0,torso,0
+ISIC_2043662,IP_2166250,male,40.0,lower extremity,0
+ISIC_6575298,IP_6624700,male,65.0,torso,0
+ISIC_2598044,IP_4382720,female,50.0,lower extremity,0
+ISIC_0497800,IP_4938382,female,25.0,torso,0
+ISIC_2913019,IP_2172761,female,35.0,torso,0
+ISIC_4547333,IP_4094708,female,50.0,torso,0
+ISIC_7156796,IP_2263888,female,65.0,torso,0
+ISIC_0185051,IP_7211398,male,50.0,lower extremity,0
+ISIC_9669876,IP_0660290,male,60.0,torso,0
+ISIC_0153265,IP_2838638,female,40.0,torso,0
+ISIC_2571614,IP_2394927,male,45.0,lower extremity,0
+ISIC_8638021,IP_5326800,female,50.0,torso,0
+ISIC_0525554,IP_7804786,male,50.0,torso,0
+ISIC_0061735,BCN_0004716,female,50.0,lower extremity,1
+ISIC_9090435,IP_1859257,male,45.0,upper extremity,0
+ISIC_4511511,IP_3927229,female,40.0,torso,0
+ISIC_1068686,IP_7412558,male,55.0,torso,1
+ISIC_0057821,BCN_0004730,male,75.0,head/neck,1
+ISIC_5787517,IP_2908137,male,45.0,torso,0
+ISIC_9392728,IP_9263039,female,55.0,upper extremity,0
+ISIC_2673586,IP_8491618,male,45.0,torso,0
+ISIC_9174092,IP_2262910,male,55.0,upper extremity,0
+ISIC_4566325,IP_6610197,male,65.0,torso,0
+ISIC_6479999,IP_0541183,female,75.0,lower extremity,0
+ISIC_0134357,IP_0660290,male,60.0,torso,0
+ISIC_8796456,IP_8051701,female,65.0,upper extremity,0
+ISIC_3797073,IP_9416054,male,55.0,torso,0
+ISIC_6447132,IP_9463965,female,30.0,torso,0
+ISIC_6814478,IP_7335423,female,70.0,torso,0
+ISIC_4057921,IP_7368120,female,40.0,palms/soles,0
+ISIC_4084878,IP_5178963,female,45.0,upper extremity,0
+ISIC_3252990,IP_8130803,male,30.0,head/neck,0
+ISIC_2906486,IP_5115535,male,40.0,head/neck,0
+ISIC_3493618,IP_0961415,male,45.0,torso,0
+ISIC_0961235,IP_8592890,female,45.0,torso,1
+ISIC_0014478_downsampled,MSK4_0010864,male,65.0,posterior torso,1
+ISIC_0744870,IP_8247808,female,35.0,lower extremity,0
+ISIC_2588167,IP_6830809,male,50.0,lower extremity,0
+ISIC_1952298,IP_1583136,female,65.0,lower extremity,0
+ISIC_5812330,IP_2760044,male,40.0,torso,0
+ISIC_0772836,IP_8369251,male,55.0,upper extremity,0
+ISIC_8846959,IP_6692103,male,45.0,lower extremity,0
+ISIC_6806540,IP_2422802,male,55.0,lower extremity,0
+ISIC_4358727,IP_8237561,female,20.0,upper extremity,0
+ISIC_5018298,IP_6997528,female,35.0,torso,0
+ISIC_4622079,IP_0962375,female,55.0,lower extremity,0
+ISIC_7826324,IP_8806573,female,60.0,lower extremity,0
+ISIC_8519402,IP_7334384,male,70.0,lower extremity,0
+ISIC_0027350,HAM_0002970,male,60.0,anterior torso,1
+ISIC_2832584,IP_8592890,female,45.0,torso,0
+ISIC_8261780,IP_0672967,female,45.0,torso,0
+ISIC_1402009,IP_1480975,female,45.0,lower extremity,0
+ISIC_2279449,IP_6292815,female,70.0,lower extremity,0
+ISIC_5173742,IP_8951606,male,60.0,torso,0
+ISIC_5341606,IP_8226501,female,25.0,torso,0
+ISIC_0056102,BCN_0000861,male,85.0,head/neck,1
+ISIC_1044290,IP_1386843,male,70.0,torso,0
+ISIC_7993561,IP_9290101,female,55.0,upper extremity,0
+ISIC_9445441,IP_9751397,female,35.0,lower extremity,0
+ISIC_6005775,IP_6676823,female,25.0,upper extremity,0
+ISIC_8307332,IP_1214216,female,60.0,torso,0
+ISIC_8564636,IP_4880648,female,40.0,torso,0
+ISIC_0031189,HAM_0006214,male,60.0,upper extremity,1
+ISIC_7334888,IP_2618037,female,25.0,lower extremity,0
+ISIC_3184390,IP_3511494,male,45.0,upper extremity,0
+ISIC_3457365,IP_7371611,male,30.0,lower extremity,0
+ISIC_0067151,BCN_0003884,male,55.0,anterior torso,1
+ISIC_1162576,IP_7132179,male,40.0,torso,0
+ISIC_0054976,BCN_0003193,male,65.0,anterior torso,1
+ISIC_5620480,IP_7132179,male,40.0,lower extremity,0
+ISIC_6010018,IP_0962375,female,55.0,torso,0
+ISIC_2577625,IP_2321962,female,30.0,torso,0
+ISIC_0951519,IP_1139701,female,45.0,lower extremity,0
+ISIC_7410794,IP_2412574,male,70.0,torso,0
+ISIC_5338721,IP_7371611,male,30.0,torso,0
+ISIC_0070920,BCN_0002598,female,85.0,lower extremity,1
+ISIC_7143504,IP_4722284,male,65.0,upper extremity,0
+ISIC_6714006,IP_0139601,female,45.0,torso,0
+ISIC_6863026,IP_1139701,female,45.0,torso,0
+ISIC_1954547,IP_7824066,male,65.0,torso,0
+ISIC_1985789,IP_9585016,male,35.0,upper extremity,0
+ISIC_8243832,IP_0412224,female,40.0,upper extremity,0
+ISIC_9918598,IP_2584339,male,40.0,upper extremity,0
+ISIC_7732765,IP_7743081,female,55.0,torso,0
+ISIC_8577523,IP_8442345,male,35.0,torso,0
+ISIC_8316416,IP_9131123,female,40.0,torso,0
+ISIC_5096569,IP_2978129,male,45.0,torso,0
+ISIC_2137041,IP_9594882,male,30.0,torso,0
+ISIC_0061085,BCN_0001203,female,40.0,upper extremity,1
+ISIC_7575246,IP_9748593,female,60.0,upper extremity,0
+ISIC_5142743,IP_5857448,male,40.0,upper extremity,0
+ISIC_0033967,HAM_0001506,female,25.0,lower extremity,1
+ISIC_2811564,IP_7330399,female,55.0,lower extremity,0
+ISIC_0758704,IP_3511266,female,20.0,torso,0
+ISIC_0565743,IP_8791409,female,55.0,lower extremity,0
+ISIC_0034051,HAM_0004056,female,55.0,upper extremity,1
+ISIC_8149864,IP_1386843,male,70.0,head/neck,0
+ISIC_1351682,IP_1582457,male,50.0,torso,0
+ISIC_4527901,IP_5208504,female,45.0,torso,0
+ISIC_0032533,HAM_0003602,female,30.0,upper extremity,1
+ISIC_3749953,IP_7842431,male,40.0,torso,0
+ISIC_4487081,IP_5974691,female,35.0,torso,0
+ISIC_3172815,IP_2316840,male,45.0,torso,0
+ISIC_5477617,IP_9147454,female,55.0,lower extremity,0
+ISIC_0025573,HAM_0004936,male,80.0,anterior torso,1
+ISIC_0069929,BCN_0003884,male,55.0,anterior torso,1
+ISIC_2584165,IP_6931421,male,30.0,torso,0
+ISIC_7034769,IP_5517026,male,60.0,torso,0
+ISIC_2582497,IP_5027399,male,40.0,torso,0
+ISIC_1866662,IP_3755407,male,50.0,torso,0
+ISIC_0886519,IP_1866634,female,55.0,torso,0
+ISIC_2729409,IP_5250256,male,45.0,torso,0
+ISIC_2159294,IP_4462726,male,75.0,upper extremity,0
+ISIC_4826546,IP_9147454,female,55.0,head/neck,0
+ISIC_6952095,IP_1419269,male,55.0,head/neck,0
+ISIC_4724738,IP_1273286,male,50.0,torso,0
+ISIC_2996391,IP_6796539,female,25.0,palms/soles,0
+ISIC_3486683,IP_6292815,female,80.0,head/neck,0
+ISIC_0770328,IP_4382720,female,50.0,upper extremity,0
+ISIC_0755565,IP_1583003,male,45.0,torso,0
+ISIC_0011305,,male,70.0,head/neck,1
+ISIC_0055680,BCN_0000081,male,20.0,anterior torso,1
+ISIC_9571107,IP_2835119,male,60.0,torso,0
+ISIC_7433711,IP_7666205,male,65.0,torso,0
+ISIC_4392916,IP_5974691,female,35.0,lower extremity,0
+ISIC_6635590,IP_5974691,female,35.0,lower extremity,0
+ISIC_8504984,IP_7123023,male,30.0,torso,0
+ISIC_0327120,IP_0718832,female,50.0,torso,0
+ISIC_5204117,IP_3140047,male,50.0,lower extremity,0
+ISIC_5214779,IP_8592890,female,45.0,lower extremity,0
+ISIC_5359123,IP_5752342,male,75.0,lower extremity,0
+ISIC_1323048,IP_5097631,female,65.0,lower extremity,0
+ISIC_5134862,IP_4391034,female,70.0,upper extremity,0
+ISIC_0032718,HAM_0003202,male,65.0,anterior torso,1
+ISIC_8692218,IP_4327880,male,75.0,lower extremity,1
+ISIC_5365919,IP_9662709,male,50.0,torso,0
+ISIC_8632929,IP_3562983,male,35.0,torso,0
+ISIC_3205052,IP_8027787,male,75.0,torso,0
+ISIC_0068234,BCN_0003184,male,45.0,palms/soles,1
+ISIC_7313348,IP_8534235,female,60.0,lower extremity,0
+ISIC_4963625,IP_5972253,male,75.0,torso,0
+ISIC_9079489,IP_3549978,female,40.0,torso,0
+ISIC_7479548,IP_6838833,female,85.0,head/neck,0
+ISIC_0001148_downsampled,,male,85.0,posterior torso,1
+ISIC_4722119,IP_2987599,male,50.0,upper extremity,0
+ISIC_5324428,IP_9496389,male,40.0,lower extremity,0
+ISIC_4538207,IP_2724119,female,45.0,torso,0
+ISIC_0029056,HAM_0004878,male,85.0,posterior torso,1
+ISIC_0166988,IP_2263216,female,45.0,lower extremity,0
+ISIC_6404810,IP_5793596,female,45.0,lower extremity,0
+ISIC_9476273,IP_6151980,female,55.0,lower extremity,0
+ISIC_5859895,IP_4419570,male,50.0,torso,0
+ISIC_0565080,IP_8753181,male,40.0,torso,0
+ISIC_9512558,IP_8007315,female,45.0,lower extremity,0
+ISIC_3481617,IP_6228063,female,20.0,torso,0
+ISIC_0894220,IP_6323321,male,35.0,torso,0
+ISIC_0013500_downsampled,MSK4_0010441,male,65.0,upper extremity,1
+ISIC_2679262,IP_4369500,male,45.0,lower extremity,0
+ISIC_6846447,IP_7890415,male,60.0,lower extremity,0
+ISIC_8183419,IP_2026598,male,20.0,lower extremity,0
+ISIC_0365540,IP_6374803,female,80.0,lower extremity,0
+ISIC_1418788,IP_9163195,female,75.0,lower extremity,0
+ISIC_2686183,IP_2613684,male,50.0,head/neck,0
+ISIC_5459795,IP_2959285,male,65.0,torso,0
+ISIC_9008026,IP_1207677,male,45.0,lower extremity,0
+ISIC_7592406,IP_2213065,female,60.0,,0
+ISIC_5235576,IP_0621614,male,40.0,torso,0
+ISIC_5787522,IP_6219396,female,65.0,lower extremity,0
+ISIC_1669883,IP_0301948,male,45.0,upper extremity,0
+ISIC_7024562,IP_2177417,male,40.0,torso,0
+ISIC_0070657,BCN_0001991,male,75.0,anterior torso,1
+ISIC_8889199,IP_9513376,male,35.0,head/neck,0
+ISIC_0057147,BCN_0004631,male,40.0,head/neck,1
+ISIC_3255000,IP_3523452,female,20.0,,0
+ISIC_2157103,IP_7491908,male,35.0,torso,0
+ISIC_0053981,BCN_0000602,female,45.0,oral/genital,1
+ISIC_7932658,IP_8111876,female,55.0,torso,0
+ISIC_9061279,IP_5431521,female,50.0,torso,0
+ISIC_7167479,IP_1515878,female,60.0,torso,0
+ISIC_4755260,IP_2707228,female,50.0,torso,0
+ISIC_5671321,IP_9051557,female,50.0,lower extremity,0
+ISIC_0062702,BCN_0000538,female,35.0,head/neck,1
+ISIC_0030995,HAM_0002131,male,55.0,upper extremity,1
+ISIC_4088444,IP_2375765,male,30.0,torso,0
+ISIC_8380605,IP_8094083,male,50.0,torso,0
+ISIC_3234017,IP_2085351,female,35.0,torso,0
+ISIC_2254066,IP_9418573,male,60.0,torso,0
+ISIC_7948728,IP_0248387,female,65.0,lower extremity,0
+ISIC_2735754,IP_7651325,female,70.0,lower extremity,0
+ISIC_0737413,IP_1769689,male,30.0,lower extremity,0
+ISIC_0068343,BCN_0004135,male,70.0,palms/soles,1
+ISIC_4470766,IP_9824037,male,60.0,upper extremity,0
+ISIC_0257755,IP_3391715,female,50.0,torso,0
+ISIC_5603218,IP_7040211,male,50.0,torso,0
+ISIC_3775417,IP_1512731,male,30.0,lower extremity,1
+ISIC_1567290,IP_6297463,male,40.0,lower extremity,0
+ISIC_1534391,IP_6567258,male,45.0,torso,0
+ISIC_0580273,IP_3523549,male,30.0,torso,0
+ISIC_3049028,IP_7252102,male,30.0,lower extremity,0
+ISIC_4667223,IP_1999627,male,80.0,torso,0
+ISIC_0060827,BCN_0003213,female,60.0,palms/soles,1
+ISIC_3732460,IP_6017019,male,35.0,torso,0
+ISIC_0824821,IP_5142207,male,35.0,lower extremity,0
+ISIC_8052877,IP_7684360,male,55.0,torso,0
+ISIC_9012868,IP_1179846,male,60.0,upper extremity,0
+ISIC_8236190,IP_5205991,,,upper extremity,0
+ISIC_8635020,IP_4252478,male,35.0,lower extremity,0
+ISIC_8333875,IP_3402498,male,65.0,torso,0
+ISIC_0034085,HAM_0007117,male,35.0,posterior torso,1
+ISIC_8992332,IP_8766487,female,40.0,upper extremity,0
+ISIC_9036765,IP_2411134,female,40.0,lower extremity,0
+ISIC_9978602,IP_1305429,male,15.0,lower extremity,0
+ISIC_6454168,IP_1096358,male,45.0,head/neck,0
+ISIC_3858113,IP_8344324,female,55.0,torso,0
+ISIC_5654955,IP_7688774,female,25.0,upper extremity,0
+ISIC_0069668,BCN_0003982,male,65.0,anterior torso,1
+ISIC_8848327,IP_3687816,female,50.0,torso,0
+ISIC_1304105,IP_5528290,male,50.0,head/neck,0
+ISIC_3838110,IP_4611365,female,30.0,torso,0
+ISIC_6134767,IP_9856163,female,55.0,torso,0
+ISIC_8253422,IP_4996313,female,50.0,torso,0
+ISIC_4455601,IP_3490992,male,60.0,lower extremity,0
+ISIC_0059768,BCN_0002823,male,65.0,head/neck,1
+ISIC_6609931,IP_5326800,female,50.0,lower extremity,0
+ISIC_9396422,IP_8277853,female,50.0,lower extremity,0
+ISIC_3113485,IP_6242332,male,60.0,torso,0
+ISIC_8159474,IP_7123023,male,30.0,torso,0
+ISIC_3236507,IP_8678278,male,35.0,lower extremity,0
+ISIC_6793778,IP_4842370,female,45.0,lower extremity,0
+ISIC_3357503,IP_2850771,male,40.0,lower extremity,0
+ISIC_7507065,IP_6071452,male,70.0,head/neck,0
+ISIC_2804780,IP_1066748,female,35.0,head/neck,0
+ISIC_9652183,IP_9563768,female,50.0,torso,0
+ISIC_7548630,IP_8330575,male,35.0,upper extremity,0
+ISIC_1561091,IP_5205991,,,upper extremity,0
+ISIC_1384614,IP_1303857,male,45.0,torso,0
+ISIC_6284930,IP_5577320,female,50.0,torso,0
+ISIC_7971509,IP_4897162,female,40.0,torso,0
+ISIC_7020177,IP_1840599,female,65.0,torso,0
+ISIC_4760800,IP_8233849,male,55.0,torso,0
+ISIC_2356539,IP_0148558,female,40.0,upper extremity,0
+ISIC_0032672,HAM_0006517,female,55.0,lower extremity,1
+ISIC_2853454,IP_0718832,female,40.0,torso,0
+ISIC_6133988,IP_3048629,male,55.0,torso,0
+ISIC_1332281,IP_0855064,male,60.0,lower extremity,0
+ISIC_4808930,IP_0400826,male,45.0,,0
+ISIC_6384559,IP_8524154,male,60.0,lower extremity,0
+ISIC_4082318,IP_5857448,male,40.0,torso,0
+ISIC_8622941,IP_7069391,male,40.0,torso,0
+ISIC_4024877,IP_5205991,,,torso,0
+ISIC_3761253,IP_2596575,female,55.0,lower extremity,0
+ISIC_1013796,IP_6538458,female,50.0,lower extremity,0
+ISIC_7880793,IP_0677357,male,40.0,upper extremity,0
+ISIC_0672985,IP_9205637,male,70.0,torso,0
+ISIC_8535844,IP_9232483,female,45.0,lower extremity,0
+ISIC_9681655,IP_1583003,male,45.0,torso,0
+ISIC_3169743,IP_3686214,female,55.0,lower extremity,0
+ISIC_0071568,BCN_0000975,male,75.0,lower extremity,1
+ISIC_0056922,BCN_0002724,female,70.0,upper extremity,1
+ISIC_5433575,IP_3169043,male,75.0,torso,0
+ISIC_3833467,IP_9102359,male,35.0,torso,0
+ISIC_4435840,IP_9995095,male,50.0,lower extremity,0
+ISIC_1034397,IP_2752722,male,35.0,lower extremity,0
+ISIC_6401819,IP_8839187,male,25.0,torso,0
+ISIC_4372519,IP_1969685,male,50.0,lower extremity,0
+ISIC_5070894,IP_7822951,female,75.0,torso,0
+ISIC_9378805,IP_9438537,female,30.0,head/neck,0
+ISIC_9975949,IP_9245079,male,40.0,,0
+ISIC_8584089,IP_5768092,female,55.0,torso,0
+ISIC_9596059,IP_6526534,male,50.0,lower extremity,0
+ISIC_9873154,IP_1576187,male,20.0,head/neck,0
+ISIC_2792214,IP_3755407,male,50.0,lower extremity,0
+ISIC_6627142,IP_6889672,male,25.0,torso,0
+ISIC_6628829,IP_1264754,female,65.0,lower extremity,0
+ISIC_5484776,IP_3402498,male,65.0,torso,0
+ISIC_8664196,IP_1389115,female,60.0,torso,0
+ISIC_2860548,IP_4988871,female,35.0,torso,0
+ISIC_0070417,BCN_0000194,female,85.0,head/neck,1
+ISIC_1390784,IP_4811352,female,75.0,torso,0
+ISIC_7331345,IP_0891666,male,65.0,torso,0
+ISIC_2161930,IP_4926060,male,50.0,torso,0
+ISIC_5497210,IP_8806573,female,60.0,upper extremity,0
+ISIC_5340305,IP_2908137,male,45.0,torso,0
+ISIC_4211990,IP_4122224,female,55.0,head/neck,0
+ISIC_7035517,IP_7335423,female,70.0,upper extremity,0
+ISIC_7515794,IP_5711917,female,60.0,torso,0
+ISIC_2022525,IP_2247155,female,80.0,lower extremity,0
+ISIC_0354589,IP_2153088,female,30.0,lower extremity,0
+ISIC_7798048,IP_6945048,male,35.0,torso,0
+ISIC_0260290,IP_2676056,female,35.0,torso,0
+ISIC_9555291,IP_3402498,male,65.0,torso,0
+ISIC_0024911,HAM_0006896,female,45.0,posterior torso,1
+ISIC_7702996,IP_7690396,female,40.0,upper extremity,0
+ISIC_2226341,IP_2360609,male,45.0,head/neck,0
+ISIC_2178817,IP_7466144,female,30.0,torso,0
+ISIC_5357288,IP_9909432,male,35.0,torso,0
+ISIC_7463963,IP_4137989,female,30.0,torso,0
+ISIC_3096016,IP_5795395,female,35.0,lower extremity,0
+ISIC_0062350,BCN_0003215,female,50.0,lower extremity,1
+ISIC_0430904,IP_6724798,male,60.0,torso,0
+ISIC_1234240,IP_0414408,male,50.0,torso,0
+ISIC_1745816,IP_9835231,female,25.0,torso,0
+ISIC_0054239,BCN_0001087,male,65.0,anterior torso,1
+ISIC_0055528,BCN_0001806,male,65.0,head/neck,1
+ISIC_4325452,IP_9316325,male,60.0,torso,0
+ISIC_0033496,HAM_0001734,male,55.0,upper extremity,1
+ISIC_8129362,IP_1264754,female,65.0,lower extremity,0
+ISIC_3055257,IP_4938382,female,25.0,torso,0
+ISIC_0013842_downsampled,MSK4_0010755,male,65.0,lower extremity,1
+ISIC_0014183_downsampled,MSK4_0010166,male,85.0,anterior torso,1
+ISIC_2119201,IP_6067392,male,60.0,torso,0
+ISIC_3260696,IP_9290101,female,55.0,lower extremity,0
+ISIC_8442828,IP_5972253,male,75.0,lower extremity,0
+ISIC_0010207,,male,70.0,head/neck,1
+ISIC_9013023,IP_6538458,female,50.0,torso,0
+ISIC_3370255,IP_4821632,female,30.0,torso,0
+ISIC_0610499,IP_5874294,male,70.0,lower extremity,0
+ISIC_0025904,HAM_0006908,male,70.0,posterior torso,1
+ISIC_0563705,IP_6071452,male,70.0,torso,0
+ISIC_4610868,IP_3048629,male,55.0,lower extremity,0
+ISIC_7601403,IP_7772951,male,45.0,lower extremity,0
+ISIC_0059525,BCN_0001995,female,55.0,upper extremity,1
+ISIC_6488089,IP_4116267,female,75.0,torso,0
+ISIC_0071258,BCN_0002746,male,60.0,head/neck,1
+ISIC_9244711,IP_4565105,female,55.0,lower extremity,0
+ISIC_0024886,HAM_0001353,female,55.0,head/neck,1
+ISIC_9325164,IP_4667127,female,40.0,lower extremity,0
+ISIC_4785358,IP_8191902,male,60.0,torso,0
+ISIC_5257429,IP_7050886,female,40.0,head/neck,0
+ISIC_0753656,IP_0963996,female,40.0,lower extremity,0
+ISIC_9103551,IP_1139701,female,45.0,head/neck,0
+ISIC_3180138,IP_4749521,male,60.0,torso,0
+ISIC_7508382,IP_9563768,female,50.0,torso,0
+ISIC_7315685,IP_2976930,female,35.0,lower extremity,0
+ISIC_2894185,IP_4050705,female,40.0,torso,0
+ISIC_0595472,IP_4842370,female,45.0,torso,0
+ISIC_8494027,IP_7826053,female,15.0,torso,0
+ISIC_1012570,IP_3358218,female,50.0,torso,0
+ISIC_4291899,IP_3358218,female,45.0,lower extremity,0
+ISIC_7877488,IP_9154808,male,30.0,torso,0
+ISIC_8971775,IP_7318404,male,50.0,head/neck,0
+ISIC_3477896,IP_3055163,female,35.0,lower extremity,0
+ISIC_3701596,IP_5519306,male,45.0,upper extremity,0
+ISIC_1296073,IP_7252102,male,40.0,lower extremity,0
+ISIC_9363564,IP_6890425,female,45.0,torso,0
+ISIC_0010225,,female,30.0,lower extremity,1
+ISIC_8614812,IP_0961415,male,45.0,torso,0
+ISIC_4603054,IP_7817315,female,60.0,upper extremity,0
+ISIC_2470790,IP_7104534,female,50.0,lower extremity,0
+ISIC_9839060,IP_6715144,male,65.0,upper extremity,0
+ISIC_2448210,IP_1583003,male,45.0,torso,0
+ISIC_0034294,HAM_0007032,female,70.0,posterior torso,1
+ISIC_0061261,BCN_0003363,male,65.0,head/neck,1
+ISIC_8692950,IP_8738175,male,70.0,torso,0
+ISIC_2444092,IP_3365162,male,65.0,torso,0
+ISIC_2027490,IP_9327025,male,50.0,torso,0
+ISIC_0509700,IP_1418292,female,40.0,torso,0
+ISIC_8668283,IP_7842431,male,40.0,torso,0
+ISIC_9245355,IP_8793264,female,65.0,torso,0
+ISIC_1432058,IP_1139701,female,45.0,torso,0
+ISIC_7185482,IP_8627268,female,35.0,lower extremity,0
+ISIC_8451130,IP_2766521,male,75.0,torso,0
+ISIC_0069988,BCN_0001029,female,45.0,palms/soles,1
+ISIC_8916370,IP_8806573,female,60.0,lower extremity,0
+ISIC_8834482,IP_2822147,female,25.0,torso,0
+ISIC_2370136,IP_0393526,male,40.0,lower extremity,0
+ISIC_7057495,IP_0656529,male,60.0,upper extremity,0
+ISIC_3527113,IP_0843629,male,35.0,torso,0
+ISIC_0029740,HAM_0003225,male,65.0,head/neck,1
+ISIC_0072175,BCN_0000657,female,60.0,anterior torso,1
+ISIC_7563949,IP_7279968,male,45.0,upper extremity,0
+ISIC_4330796,IP_3549978,female,40.0,torso,0
+ISIC_5028303,IP_2613332,female,30.0,upper extremity,0
+ISIC_0065341,BCN_0005581,female,35.0,anterior torso,1
+ISIC_4347596,IP_8940163,male,70.0,torso,0
+ISIC_6757765,IP_8247808,female,35.0,torso,0
+ISIC_2132397,IP_6475387,male,45.0,torso,0
+ISIC_7441567,IP_7691333,female,30.0,torso,0
+ISIC_0067284,BCN_0001321,male,35.0,head/neck,1
+ISIC_7819044,IP_6342052,male,65.0,torso,0
+ISIC_0061407,BCN_0000987,female,50.0,upper extremity,1
+ISIC_6836359,IP_9544996,female,35.0,upper extremity,0
+ISIC_5674857,IP_3370847,male,35.0,lower extremity,0
+ISIC_8639448,IP_1348848,male,60.0,upper extremity,0
+ISIC_7346739,IP_2947236,female,60.0,upper extremity,1
+ISIC_8892236,IP_2962626,female,35.0,lower extremity,1
+ISIC_4667287,IP_0648521,male,60.0,lower extremity,0
+ISIC_1883402,IP_5085022,female,55.0,torso,0
+ISIC_1653309,IP_8447624,female,50.0,torso,0
+ISIC_3264124,IP_1730314,male,20.0,upper extremity,0
+ISIC_9788174,IP_0637703,female,30.0,torso,0
+ISIC_7397447,IP_4023055,male,55.0,lower extremity,0
+ISIC_0056425,BCN_0000029,female,45.0,anterior torso,1
+ISIC_0786233,IP_9748593,female,65.0,upper extremity,0
+ISIC_0029958,HAM_0004507,female,65.0,head/neck,1
+ISIC_6297277,IP_2825529,female,50.0,upper extremity,0
+ISIC_6624321,IP_5639149,female,65.0,lower extremity,0
+ISIC_2117372,IP_7330399,female,55.0,upper extremity,0
+ISIC_5644962,IP_5389392,male,55.0,torso,0
+ISIC_0069891,BCN_0001792,male,85.0,anterior torso,1
+ISIC_8865220,IP_5119720,male,55.0,lower extremity,0
+ISIC_7477754,IP_3722746,male,50.0,lower extremity,0
+ISIC_3287917,IP_6318212,female,60.0,head/neck,0
+ISIC_9358317,IP_5986216,male,50.0,torso,0
+ISIC_7376243,IP_3561719,male,70.0,lower extremity,0
+ISIC_8144271,IP_3045056,male,70.0,torso,0
+ISIC_3603704,IP_3240837,male,50.0,lower extremity,0
+ISIC_4910094,IP_1890779,female,55.0,upper extremity,0
+ISIC_0355222,IP_8418821,male,55.0,lower extremity,0
+ISIC_5515986,IP_7651698,male,55.0,torso,0
+ISIC_0010597,,female,45.0,lower extremity,1
+ISIC_9844010,IP_6890425,female,45.0,lower extremity,0
+ISIC_1942980,IP_5152468,female,25.0,lower extremity,0
+ISIC_5131198,IP_0512752,male,40.0,torso,0
+ISIC_9130157,IP_7702038,male,35.0,lower extremity,1
+ISIC_4671738,IP_8442345,male,35.0,torso,0
+ISIC_1046786,IP_5496141,female,35.0,torso,0
+ISIC_6451230,IP_1051664,male,30.0,upper extremity,0
+ISIC_6057178,IP_5152468,female,25.0,head/neck,0
+ISIC_4849032,IP_6512345,male,70.0,lower extremity,0
+ISIC_9360142,IP_1184509,female,30.0,torso,0
+ISIC_8222181,IP_9583707,male,20.0,torso,0
+ISIC_4688928,IP_6572129,male,65.0,upper extremity,0
+ISIC_4263017,IP_0391953,male,80.0,head/neck,0
+ISIC_3171997,IP_2166250,male,40.0,torso,0
+ISIC_4919503,IP_4959878,female,25.0,torso,0
+ISIC_9764973,IP_1152723,male,25.0,torso,0
+ISIC_9162894,IP_9051557,female,50.0,upper extremity,0
+ISIC_3105136,IP_8237561,female,20.0,torso,0
+ISIC_2141486,IP_7685109,female,25.0,torso,0
+ISIC_4366627,IP_9619666,male,70.0,torso,0
+ISIC_1960468,IP_1615189,male,50.0,torso,0
+ISIC_1334110,IP_3370847,male,40.0,lower extremity,0
+ISIC_6572646,IP_3713422,male,50.0,upper extremity,0
+ISIC_6791996,IP_1470733,male,70.0,lower extremity,0
+ISIC_3627732,IP_7087967,female,50.0,torso,0
+ISIC_6245575,IP_9277763,female,55.0,torso,0
+ISIC_7256965,IP_2934687,female,40.0,torso,0
+ISIC_2837581,IP_4281194,female,90.0,head/neck,1
+ISIC_0064107,BCN_0000956,female,85.0,upper extremity,1
+ISIC_2754949,IP_8575171,male,40.0,torso,0
+ISIC_2525084,IP_6614604,male,25.0,upper extremity,1
+ISIC_3350388,IP_3686214,female,55.0,torso,0
+ISIC_6109274,IP_1728609,male,55.0,upper extremity,0
+ISIC_5529201,IP_6630831,male,45.0,torso,0
+ISIC_3915226,IP_8374735,male,70.0,lower extremity,0
+ISIC_6900405,IP_9718268,female,75.0,lower extremity,0
+ISIC_9694663,IP_7096079,male,40.0,palms/soles,0
+ISIC_5482759,IP_0656529,male,60.0,lower extremity,0
+ISIC_8536138,IP_5178963,female,45.0,upper extremity,0
+ISIC_1402884,IP_9985810,female,45.0,upper extremity,0
+ISIC_0644590,IP_4021847,male,40.0,lower extremity,0
+ISIC_0867090,IP_8051701,female,65.0,lower extremity,0
+ISIC_2150997,IP_2881084,female,65.0,lower extremity,0
+ISIC_7229513,IP_8069409,male,30.0,lower extremity,0
+ISIC_8132874,IP_3222187,female,40.0,lower extremity,0
+ISIC_0068000,BCN_0004877,male,40.0,head/neck,1
+ISIC_3368599,IP_9392784,female,45.0,upper extremity,0
+ISIC_1997692,IP_0414408,male,50.0,lower extremity,0
+ISIC_3376976,IP_5331792,male,55.0,torso,0
+ISIC_5090739,IP_7625285,female,40.0,torso,0
+ISIC_0012151_downsampled,,male,55.0,,1
+ISIC_3754466,IP_5772279,male,70.0,torso,0
+ISIC_5602826,IP_7644786,female,60.0,upper extremity,1
+ISIC_6332165,IP_1636784,female,40.0,lower extremity,0
+ISIC_0056232,BCN_0000708,female,35.0,lower extremity,1
+ISIC_6064946,IP_4687295,female,40.0,torso,0
+ISIC_5788057,IP_7606510,female,45.0,upper extremity,0
+ISIC_2384274,IP_4210911,female,30.0,torso,0
+ISIC_1550349,IP_6212064,male,25.0,oral/genital,0
+ISIC_3613392,IP_6235676,male,45.0,torso,0
+ISIC_0054568,BCN_0000769,female,40.0,lower extremity,1
+ISIC_1846183,IP_3537591,male,50.0,torso,0
+ISIC_5247508,IP_6049920,female,45.0,lower extremity,1
+ISIC_4624973,IP_0147446,male,45.0,torso,0
+ISIC_4992702,IP_2752722,male,35.0,lower extremity,0
+ISIC_0322967,IP_4702665,female,65.0,,0
+ISIC_6742341,IP_1139701,female,45.0,upper extremity,0
+ISIC_6533176,IP_8247808,female,35.0,torso,0
+ISIC_0027502,HAM_0005747,male,45.0,lower extremity,1
+ISIC_5410512,IP_9738076,female,90.0,head/neck,0
+ISIC_2984437,IP_5867829,male,55.0,lower extremity,0
+ISIC_8052634,IP_3281766,female,30.0,torso,0
+ISIC_5320483,IP_0901675,female,70.0,upper extremity,0
+ISIC_0072030,BCN_0002074,female,85.0,anterior torso,1
+ISIC_0069558,BCN_0001479,female,30.0,lower extremity,1
+ISIC_0886205,IP_2153088,female,30.0,torso,0
+ISIC_6790780,IP_9392784,female,45.0,torso,0
+ISIC_5111521,IP_2962626,female,45.0,upper extremity,0
+ISIC_3296152,IP_9181133,male,65.0,torso,0
+ISIC_9648563,IP_4095099,female,40.0,torso,0
+ISIC_3777026,IP_6245507,male,45.0,torso,0
+ISIC_0297558,IP_8534235,female,60.0,torso,0
+ISIC_4730764,IP_2676056,female,30.0,lower extremity,0
+ISIC_3780205,IP_7842431,male,40.0,torso,0
+ISIC_2684374,IP_9896679,female,35.0,upper extremity,0
+ISIC_8290994,IP_9856163,female,55.0,torso,0
+ISIC_5734294,IP_2825529,female,50.0,upper extremity,0
+ISIC_9023152,IP_3253955,female,55.0,torso,0
+ISIC_0015110_downsampled,,male,65.0,upper extremity,1
+ISIC_0906076,IP_3422736,female,40.0,torso,0
+ISIC_3957077,IP_8191902,male,60.0,lower extremity,0
+ISIC_1103955,IP_1470733,male,70.0,torso,0
+ISIC_2539861,IP_2989764,female,75.0,torso,0
+ISIC_7862565,IP_8640021,male,15.0,upper extremity,0
+ISIC_7938688,IP_4479736,female,25.0,lower extremity,0
+ISIC_2768929,IP_8171851,female,50.0,torso,0
+ISIC_0058518,BCN_0000861,male,85.0,head/neck,1
+ISIC_0030604,HAM_0002613,male,45.0,lower extremity,1
+ISIC_9399365,IP_6071452,male,70.0,lower extremity,0
+ISIC_3499368,IP_7808060,female,55.0,upper extremity,0
+ISIC_0060845,BCN_0002809,female,65.0,anterior torso,1
+ISIC_8065339,IP_9373614,female,50.0,torso,0
+ISIC_6692344,IP_7875145,male,50.0,torso,1
+ISIC_2922099,IP_7330399,female,55.0,torso,0
+ISIC_1667953,IP_5167473,female,60.0,lower extremity,0
+ISIC_7494221,IP_3281766,female,30.0,torso,0
+ISIC_8076451,IP_3054486,male,70.0,upper extremity,0
+ISIC_1437817,IP_1512731,male,40.0,torso,0
+ISIC_7072802,IP_5368914,male,65.0,upper extremity,0
+ISIC_0593591,IP_9558959,male,45.0,torso,0
+ISIC_6499613,IP_2810418,female,60.0,lower extremity,0
+ISIC_8523488,IP_8793264,female,65.0,torso,0
+ISIC_0985395,IP_7770500,male,60.0,torso,0
+ISIC_7143388,IP_5627853,female,35.0,upper extremity,0
+ISIC_9654366,IP_1139701,female,45.0,torso,0
+ISIC_1376528,IP_4488328,male,40.0,torso,0
+ISIC_3701887,IP_9616517,female,40.0,head/neck,0
+ISIC_6343311,IP_0656529,male,60.0,lower extremity,0
+ISIC_8445238,IP_8645527,male,55.0,lower extremity,0
+ISIC_4065712,IP_1289915,male,55.0,lower extremity,0
+ISIC_3089388,IP_6078411,male,35.0,upper extremity,0
+ISIC_9416183,IP_4983809,male,70.0,upper extremity,0
+ISIC_0548904,IP_4356379,female,40.0,lower extremity,0
+ISIC_8314115,IP_7518373,female,50.0,torso,0
+ISIC_7358415,IP_5577320,female,50.0,torso,0
+ISIC_3867665,IP_9380920,male,65.0,torso,0
+ISIC_6705662,IP_4130585,female,65.0,upper extremity,0
+ISIC_0032695,HAM_0004853,male,80.0,upper extremity,1
+ISIC_3505327,IP_3941296,female,60.0,torso,0
+ISIC_4950321,IP_6067392,male,60.0,torso,0
+ISIC_9901847,IP_0951571,female,55.0,palms/soles,0
+ISIC_8258795,IP_9087899,male,40.0,torso,0
+ISIC_0064549,BCN_0005210,male,45.0,anterior torso,1
+ISIC_0260316,IP_8702124,female,50.0,upper extremity,0
+ISIC_2612661,IP_1197949,male,35.0,lower extremity,0
+ISIC_6357690,IP_1214216,female,60.0,torso,0
+ISIC_0663446,IP_6648913,female,75.0,lower extremity,0
+ISIC_4498012,IP_3089004,female,45.0,torso,0
+ISIC_1509246,IP_4281194,female,85.0,lower extremity,0
+ISIC_5536710,IP_6341009,female,50.0,upper extremity,0
+ISIC_6753364,IP_5627853,female,20.0,upper extremity,0
+ISIC_9288921,IP_8742468,male,65.0,head/neck,0
+ISIC_8430704,IP_2943840,female,40.0,lower extremity,0
+ISIC_2680511,IP_1386843,male,70.0,torso,0
+ISIC_7381224,IP_7330399,female,55.0,upper extremity,0
+ISIC_8428562,IP_5889408,female,45.0,torso,0
+ISIC_8561070,IP_6949859,male,55.0,torso,0
+ISIC_9281339,IP_9992027,female,50.0,upper extremity,0
+ISIC_7935007,IP_7718399,female,40.0,torso,0
+ISIC_2063937,IP_9856163,female,60.0,torso,0
+ISIC_6513553,IP_9802994,female,40.0,torso,0
+ISIC_4020689,IP_7375528,female,55.0,head/neck,0
+ISIC_5718343,IP_9896679,female,35.0,lower extremity,0
+ISIC_2828236,IP_7279968,male,45.0,torso,0
+ISIC_6941441,IP_8206875,male,70.0,torso,0
+ISIC_5038808,IP_7313005,male,30.0,torso,0
+ISIC_0032532,HAM_0004405,male,80.0,posterior torso,1
+ISIC_1592874,IP_8137203,female,45.0,torso,0
+ISIC_8913166,IP_2436697,female,45.0,torso,0
+ISIC_1977026,IP_6331798,female,25.0,torso,0
+ISIC_0061971,BCN_0003671,male,75.0,head/neck,1
+ISIC_7274757,IP_3531667,male,50.0,torso,0
+ISIC_0745395,IP_2810418,female,60.0,lower extremity,0
+ISIC_2643130,IP_7104534,female,50.0,lower extremity,0
+ISIC_2156021,IP_3347700,female,55.0,torso,0
+ISIC_6278040,IP_1096358,male,50.0,lower extremity,0
+ISIC_3169340,IP_2426108,female,50.0,head/neck,0
+ISIC_6712470,IP_8412988,female,70.0,lower extremity,0
+ISIC_5392994,IP_5496892,male,50.0,upper extremity,0
+ISIC_4623037,IP_5397868,female,45.0,torso,0
+ISIC_2566005,IP_0039318,male,35.0,torso,0
+ISIC_3580824,IP_8916001,female,45.0,torso,0
+ISIC_0316826,IP_0894335,female,40.0,lower extremity,0
+ISIC_9199965,IP_4488328,male,40.0,torso,0
+ISIC_3712234,IP_0148558,female,45.0,upper extremity,0
+ISIC_0538042,IP_0776416,female,30.0,lower extremity,0
+ISIC_8404470,IP_5724759,female,55.0,torso,0
+ISIC_4622159,IP_4017726,female,50.0,,0
+ISIC_5325810,IP_5972253,male,75.0,torso,0
+ISIC_2109393,IP_6331798,female,25.0,torso,0
+ISIC_1255440,IP_3679859,female,35.0,torso,0
+ISIC_7626632,IP_9711347,male,30.0,upper extremity,0
+ISIC_5454766,IP_3846489,male,55.0,upper extremity,0
+ISIC_9593933,IP_3008149,male,65.0,head/neck,0
+ISIC_6890820,IP_9298839,male,40.0,torso,0
+ISIC_3274671,IP_2618037,female,25.0,head/neck,0
+ISIC_0032389,HAM_0003102,male,65.0,head/neck,1
+ISIC_7211424,IP_2666042,male,50.0,torso,0
+ISIC_7961365,IP_7785592,male,45.0,lower extremity,1
+ISIC_6428488,IP_8437394,female,35.0,torso,0
+ISIC_4522014,IP_9675066,male,40.0,head/neck,0
+ISIC_2482061,IP_1512731,male,40.0,upper extremity,0
+ISIC_5280331,IP_8766487,female,30.0,torso,0
+ISIC_1768733,IP_5104615,male,45.0,lower extremity,0
+ISIC_2824296,IP_1230004,male,15.0,torso,0
+ISIC_9983696,IP_5872065,male,50.0,lower extremity,0
+ISIC_0280943,IP_2584339,male,40.0,torso,0
+ISIC_5182592,IP_6512345,male,70.0,torso,0
+ISIC_0031239,HAM_0000767,male,60.0,posterior torso,1
+ISIC_0028017,HAM_0000910,female,50.0,posterior torso,1
+ISIC_5497851,IP_4488328,male,40.0,torso,0
+ISIC_5166934,IP_0019713,male,35.0,upper extremity,0
+ISIC_1213303,IP_9186570,male,60.0,lower extremity,0
+ISIC_5655181,IP_4639224,male,45.0,head/neck,0
+ISIC_0727016,IP_4210911,female,30.0,lower extremity,0
+ISIC_4338927,IP_8001428,female,40.0,torso,0
+ISIC_7426904,IP_7735373,male,55.0,torso,0
+ISIC_9162798,IP_8738175,male,70.0,lower extremity,0
+ISIC_2340287,IP_0776416,female,30.0,torso,0
+ISIC_7587006,IP_8375879,male,70.0,torso,0
+ISIC_4894156,IP_5922049,male,35.0,torso,0
+ISIC_0057534,BCN_0004133,female,35.0,lower extremity,1
+ISIC_9923630,IP_2685241,male,50.0,lower extremity,0
+ISIC_0066390,BCN_0002577,female,55.0,lower extremity,1
+ISIC_4425766,IP_6332843,male,30.0,torso,0
+ISIC_0027436,HAM_0002493,male,50.0,lower extremity,1
+ISIC_6146171,IP_1395856,male,75.0,lower extremity,0
+ISIC_3587945,IP_3358218,female,45.0,lower extremity,0
+ISIC_1885136,IP_9051557,female,50.0,torso,0
+ISIC_2524580,IP_3057277,male,45.0,,0
+ISIC_2903941,IP_3336327,female,65.0,upper extremity,0
+ISIC_2931458,IP_4431090,male,55.0,upper extremity,0
+ISIC_6026899,IP_6353955,male,55.0,torso,0
+ISIC_3417268,IP_8766487,female,40.0,head/neck,0
+ISIC_5174617,IP_2669703,female,30.0,upper extremity,0
+ISIC_6620035,IP_8215360,female,55.0,lower extremity,0
+ISIC_0789732,IP_7651325,female,70.0,torso,0
+ISIC_9796680,IP_7382179,female,65.0,torso,0
+ISIC_9080743,IP_4419570,male,50.0,torso,0
+ISIC_0066358,BCN_0001531,male,60.0,head/neck,1
+ISIC_7183272,IP_1172238,female,50.0,torso,0
+ISIC_7440993,IP_2049351,male,35.0,torso,0
+ISIC_0054748,BCN_0004597,male,70.0,anterior torso,1
+ISIC_0441415,IP_7785592,male,25.0,torso,0
+ISIC_0282281,IP_3690477,male,60.0,torso,0
+ISIC_2377039,IP_1512731,male,25.0,torso,0
+ISIC_3183210,IP_9122609,male,65.0,lower extremity,0
+ISIC_0749089,IP_3222187,female,40.0,lower extremity,0
+ISIC_0034243,HAM_0002723,female,45.0,lower extremity,1
+ISIC_5357406,IP_4811352,female,80.0,upper extremity,0
+ISIC_7716976,IP_4898383,male,30.0,torso,0
+ISIC_0903330,IP_9935748,male,50.0,torso,0
+ISIC_9146025,IP_4479736,female,25.0,lower extremity,0
+ISIC_2373760,IP_4938382,female,25.0,torso,0
+ISIC_8206400,IP_0503166,female,50.0,torso,0
+ISIC_1643439,IP_4321822,male,55.0,head/neck,0
+ISIC_0014061_downsampled,MSK4_0010932,female,60.0,posterior torso,1
+ISIC_0372299,IP_7584179,male,40.0,torso,0
+ISIC_0030824,HAM_0000330,male,60.0,anterior torso,1
+ISIC_5666345,IP_6008814,female,90.0,lower extremity,0
+ISIC_6640753,IP_6245507,male,45.0,lower extremity,0
+ISIC_9894617,IP_5119720,male,55.0,lower extremity,0
+ISIC_8258907,IP_0989858,female,30.0,upper extremity,0
+ISIC_7332892,IP_1273286,male,45.0,torso,0
+ISIC_8215710,IP_3678398,male,60.0,torso,0
+ISIC_4048509,IP_6071452,male,70.0,lower extremity,0
+ISIC_4262989,IP_9212266,female,45.0,torso,0
+ISIC_7351958,IP_0612651,female,25.0,upper extremity,0
+ISIC_7603865,IP_2617043,female,55.0,upper extremity,0
+ISIC_2537370,IP_7651325,female,70.0,lower extremity,0
+ISIC_4254237,IP_8776152,male,75.0,torso,0
+ISIC_0291473,IP_0718832,female,55.0,lower extremity,0
+ISIC_6668859,IP_9115451,male,65.0,torso,0
+ISIC_0058075,BCN_0004195,male,80.0,head/neck,1
+ISIC_3914517,IP_1139701,female,45.0,torso,0
+ISIC_4724943,IP_9453080,female,50.0,torso,0
+ISIC_0231167,IP_1676499,female,30.0,torso,0
+ISIC_8790582,IP_0660290,male,60.0,torso,0
+ISIC_4355465,IP_9051557,female,50.0,lower extremity,0
+ISIC_7388850,IP_1233669,female,55.0,lower extremity,0
+ISIC_0707619,IP_4871455,male,70.0,torso,0
+ISIC_7959669,IP_7279968,male,45.0,torso,0
+ISIC_3125030,IP_9992027,female,50.0,torso,0
+ISIC_6388531,IP_9453080,female,60.0,torso,0
+ISIC_3381550,IP_4479736,female,25.0,torso,0
+ISIC_9059071,IP_3653630,female,50.0,upper extremity,0
+ISIC_0060487,BCN_0002944,female,70.0,lower extremity,1
+ISIC_6325797,IP_4687295,female,40.0,torso,0
+ISIC_8604922,IP_9927968,male,30.0,torso,0
+ISIC_3001462,IP_6908816,female,60.0,torso,0
+ISIC_7936798,IP_8412988,female,70.0,lower extremity,0
+ISIC_1799917,IP_6567258,male,45.0,lower extremity,0
+ISIC_6827929,IP_2865063,male,65.0,torso,0
+ISIC_0012887_downsampled,MSK4_0010999,male,45.0,lateral torso,1
+ISIC_5723592,IP_5549010,female,30.0,,0
+ISIC_1698302,IP_6151980,female,55.0,torso,0
+ISIC_5933559,IP_9921339,female,55.0,torso,0
+ISIC_6348638,IP_3623410,male,60.0,torso,1
+ISIC_9419841,IP_2422802,male,55.0,torso,0
+ISIC_2077460,IP_3468257,female,60.0,lower extremity,0
+ISIC_0337541,IP_7313005,male,30.0,upper extremity,0
+ISIC_8910653,IP_8236536,male,50.0,lower extremity,0
+ISIC_5153482,IP_5889408,female,45.0,lower extremity,0
+ISIC_5395344,IP_0524772,female,40.0,upper extremity,0
+ISIC_7698642,IP_3358218,female,45.0,torso,0
+ISIC_0055776,BCN_0003724,male,70.0,anterior torso,1
+ISIC_2204100,IP_8829018,male,60.0,upper extremity,0
+ISIC_4253563,IP_2358028,male,50.0,upper extremity,0
+ISIC_0066384,BCN_0002108,male,70.0,anterior torso,1
+ISIC_7737874,IP_2147407,female,35.0,torso,0
+ISIC_7514880,IP_0093378,male,45.0,torso,0
+ISIC_5732487,IP_8663649,male,45.0,torso,0
+ISIC_0513013,IP_3127942,female,30.0,lower extremity,0
+ISIC_6459796,IP_6078411,male,30.0,torso,0
+ISIC_3424207,IP_5229014,male,55.0,torso,0
+ISIC_0402533,IP_3562983,male,35.0,head/neck,0
+ISIC_6255494,IP_9054996,male,60.0,torso,0
+ISIC_8716533,IP_0989858,female,30.0,torso,0
+ISIC_8851901,IP_4615697,male,80.0,lower extremity,0
+ISIC_0056247,BCN_0004206,male,55.0,anterior torso,1
+ISIC_2499678,IP_0500536,male,55.0,lower extremity,0
+ISIC_5679942,IP_3222187,female,40.0,torso,0
+ISIC_3599367,IP_9263039,female,55.0,torso,0
+ISIC_0060521,BCN_0001426,female,55.0,head/neck,1
+ISIC_0370932,IP_7887363,male,60.0,head/neck,0
+ISIC_6757635,IP_8173459,female,50.0,head/neck,0
+ISIC_8284602,IP_7021484,male,60.0,torso,0
+ISIC_0000551,,,,posterior torso,1
+ISIC_8209221,IP_6342369,female,30.0,torso,0
+ISIC_7301963,IP_2950485,female,40.0,torso,0
+ISIC_8779142,IP_7743081,female,55.0,lower extremity,0
+ISIC_1203434,IP_7908565,male,45.0,lower extremity,0
+ISIC_2244742,IP_8094083,male,45.0,torso,0
+ISIC_1306020,IP_5424227,female,55.0,upper extremity,0
+ISIC_6089210,IP_3878510,female,45.0,lower extremity,0
+ISIC_2372032,IP_6272363,female,25.0,lower extremity,0
+ISIC_6194235,IP_8330575,male,50.0,torso,0
+ISIC_9291926,IP_6067392,male,60.0,torso,0
+ISIC_4299159,IP_8766487,female,35.0,torso,0
+ISIC_9267267,IP_2172761,female,35.0,torso,0
+ISIC_0523251,IP_6892288,female,55.0,lower extremity,0
+ISIC_3412310,IP_8592890,female,45.0,,0
+ISIC_0012749_downsampled,MSK4_0010960,male,85.0,head/neck,1
+ISIC_0428482,IP_7645011,male,70.0,head/neck,0
+ISIC_0825763,IP_4765519,female,50.0,lower extremity,0
+ISIC_8842868,IP_7598598,female,30.0,torso,0
+ISIC_2170985,IP_5111235,male,50.0,lower extremity,0
+ISIC_8659065,IP_5142207,male,35.0,torso,0
+ISIC_3042818,IP_4548593,male,55.0,upper extremity,0
+ISIC_5667469,IP_9422872,female,60.0,torso,0
+ISIC_6240998,IP_3523452,female,20.0,head/neck,0
+ISIC_9604922,IP_9051557,female,50.0,torso,0
+ISIC_5055404,IP_3893748,male,65.0,,0
+ISIC_1497049,IP_4842370,female,45.0,torso,0
+ISIC_4057236,IP_7842255,female,65.0,torso,0
+ISIC_9223481,IP_5772279,male,70.0,head/neck,0
+ISIC_4400664,IP_0446831,male,35.0,torso,0
+ISIC_2754186,IP_8295219,female,55.0,torso,0
+ISIC_1935814,IP_8091497,male,45.0,torso,0
+ISIC_9699520,IP_6353955,male,55.0,torso,0
+ISIC_8832556,IP_7785592,male,35.0,palms/soles,0
+ISIC_7145266,IP_7594604,female,40.0,head/neck,0
+ISIC_5475423,IP_5715797,male,25.0,upper extremity,0
+ISIC_0027060,HAM_0002471,female,40.0,lower extremity,1
+ISIC_4701619,IP_0878241,male,70.0,torso,0
+ISIC_5934319,IP_5945051,male,55.0,torso,0
+ISIC_4839421,IP_5474292,male,35.0,upper extremity,0
+ISIC_1336905,IP_3365162,male,65.0,torso,0
+ISIC_5003751,IP_1657504,female,55.0,torso,0
+ISIC_3337775,IP_8791409,female,45.0,torso,0
+ISIC_1102075,IP_0656529,male,60.0,torso,0
+ISIC_0065947,BCN_0003196,female,80.0,anterior torso,1
+ISIC_7164705,IP_7442038,male,75.0,torso,0
+ISIC_6863391,IP_4179834,female,35.0,torso,0
+ISIC_1440361,IP_7261254,female,20.0,torso,0
+ISIC_4748031,IP_4983809,male,70.0,head/neck,0
+ISIC_0645950,IP_3782995,female,25.0,torso,0
+ISIC_7750956,IP_3868067,male,45.0,upper extremity,0
+ISIC_5138700,IP_6624700,male,65.0,torso,0
+ISIC_2656544,IP_8247808,female,35.0,lower extremity,0
+ISIC_3437789,IP_4109313,male,30.0,torso,0
+ISIC_3115568,IP_0358262,male,55.0,torso,0
+ISIC_5546181,IP_5872065,male,50.0,palms/soles,0
+ISIC_6081091,IP_9327025,male,50.0,lower extremity,0
+ISIC_9473016,IP_3358218,female,45.0,lower extremity,0
+ISIC_9813537,IP_1743439,male,65.0,torso,0
+ISIC_2528618,IP_4639224,male,45.0,upper extremity,0
+ISIC_7664835,IP_7696681,female,40.0,lower extremity,0
+ISIC_1837609,IP_9115451,male,65.0,lower extremity,0
+ISIC_8597073,IP_4762742,female,55.0,lower extremity,0
+ISIC_4237327,IP_0078763,female,30.0,upper extremity,0
+ISIC_3310895,IP_3057277,male,45.0,,0
+ISIC_0097997,IP_8442277,female,50.0,lower extremity,0
+ISIC_2621121,IP_1195596,male,35.0,upper extremity,0
+ISIC_5652135,IP_8715388,female,50.0,torso,0
+ISIC_4227377,IP_5174964,male,30.0,upper extremity,0
+ISIC_7563847,IP_8715388,female,55.0,head/neck,0
+ISIC_7531073,IP_6538458,female,50.0,lower extremity,0
+ISIC_1971370,IP_5295861,male,70.0,torso,0
+ISIC_0238940,IP_8543718,female,45.0,torso,0
+ISIC_2051564,IP_9712836,female,45.0,torso,0
+ISIC_0763140,IP_4698288,male,25.0,torso,0
+ISIC_7476849,IP_4687295,female,40.0,torso,0
+ISIC_0063795,BCN_0001513,female,55.0,anterior torso,1
+ISIC_8397278,IP_2506892,female,45.0,upper extremity,0
+ISIC_0196559,IP_8039381,male,65.0,torso,0
+ISIC_3258291,IP_7842431,male,40.0,lower extremity,0
+ISIC_2201390,IP_9433384,male,50.0,torso,0
+ISIC_3057335,IP_6539844,female,50.0,,0
+ISIC_1912757,IP_2189124,male,40.0,head/neck,0
+ISIC_3181394,IP_6541466,male,30.0,lower extremity,0
+ISIC_0189837,IP_0656529,male,60.0,torso,0
+ISIC_2735051,IP_6833889,male,55.0,torso,0
+ISIC_1848297,IP_9147454,female,55.0,torso,0
+ISIC_3750094,IP_0639877,male,45.0,palms/soles,0
+ISIC_6662941,IP_1273286,male,50.0,torso,0
+ISIC_5919355,IP_4382720,female,50.0,upper extremity,0
+ISIC_3612285,IP_0418246,female,50.0,torso,0
+ISIC_0024864,HAM_0003167,female,40.0,lower extremity,1
+ISIC_2069179,IP_9756394,male,55.0,torso,0
+ISIC_7546219,IP_6613083,female,80.0,upper extremity,1
+ISIC_3171104,IP_5234470,male,40.0,lower extremity,0
+ISIC_0027359,HAM_0000536,female,45.0,lower extremity,1
+ISIC_1496482,IP_2978129,male,50.0,torso,0
+ISIC_3642399,IP_1697215,female,45.0,lower extremity,0
+ISIC_9115130,IP_4199752,female,30.0,,0
+ISIC_1272768,IP_3562983,male,35.0,torso,0
+ISIC_5078356,IP_8599812,female,45.0,torso,0
+ISIC_2100640,IP_6940325,female,30.0,lower extremity,0
+ISIC_8150469,IP_6245507,male,45.0,head/neck,0
+ISIC_0595018,IP_3423256,female,60.0,torso,0
+ISIC_7368239,IP_2558686,male,30.0,lower extremity,0
+ISIC_1176099,IP_6808872,male,30.0,lower extremity,0
+ISIC_8647135,IP_4639224,male,40.0,upper extremity,0
+ISIC_9445196,IP_5772279,male,70.0,torso,0
+ISIC_6140773,IP_3751991,female,40.0,lower extremity,0
+ISIC_5960732,IP_0039318,male,35.0,torso,0
+ISIC_3858181,IP_2047697,female,35.0,upper extremity,0
+ISIC_1482167,IP_2008749,male,40.0,lower extremity,0
+ISIC_1865170,IP_9327025,male,50.0,torso,0
+ISIC_2545016,IP_7207550,male,55.0,torso,0
+ISIC_8283542,IP_2166250,male,30.0,torso,0
+ISIC_7180438,IP_6353955,male,55.0,lower extremity,0
+ISIC_9218984,IP_6342369,female,35.0,torso,0
+ISIC_8231999,IP_2516168,male,60.0,head/neck,1
+ISIC_0054663,BCN_0003069,male,70.0,lower extremity,1
+ISIC_9525273,IP_8627268,female,35.0,lower extremity,0
+ISIC_1060932,IP_4311593,female,35.0,upper extremity,0
+ISIC_0800079,IP_0646610,male,45.0,torso,0
+ISIC_9877357,IP_9965542,male,60.0,torso,0
+ISIC_7441957,IP_1005794,female,35.0,torso,0
+ISIC_0588322,IP_5805281,male,50.0,torso,0
+ISIC_1659777,IP_6247924,female,55.0,head/neck,0
+ISIC_2123513,IP_8547782,male,45.0,upper extremity,0
+ISIC_4507700,IP_1477087,female,55.0,lower extremity,0
+ISIC_8679740,IP_7785592,male,35.0,head/neck,0
+ISIC_0539604,IP_7069391,male,40.0,lower extremity,0
+ISIC_1691676,IP_6873524,female,45.0,torso,0
+ISIC_3273860,IP_2019626,male,45.0,torso,0
+ISIC_9065637,IP_8142299,male,55.0,lower extremity,0
+ISIC_1420555,IP_3116217,female,55.0,torso,0
+ISIC_0647450,IP_1226635,male,45.0,torso,0
+ISIC_0069112,BCN_0005272,female,65.0,anterior torso,1
+ISIC_0033636,HAM_0005500,male,75.0,,1
+ISIC_3832193,IP_9927968,male,35.0,lower extremity,0
+ISIC_6544382,IP_8442277,female,50.0,torso,0
+ISIC_1716193,IP_0001230,female,50.0,torso,0
+ISIC_9799596,IP_7770500,male,60.0,torso,0
+ISIC_9222807,IP_8663649,male,45.0,head/neck,0
+ISIC_1923467,IP_3490992,male,60.0,lower extremity,0
+ISIC_2639079,IP_4116267,female,65.0,lower extremity,0
+ISIC_6913272,IP_3281766,female,40.0,lower extremity,0
+ISIC_2567845,IP_8851498,male,45.0,lower extremity,0
+ISIC_7932466,IP_6630831,male,45.0,torso,0
+ISIC_9964362,IP_0989858,female,30.0,head/neck,0
+ISIC_7241614,IP_4795384,female,65.0,lower extremity,0
+ISIC_0650126,IP_0503166,female,50.0,torso,0
+ISIC_4740131,IP_8171635,male,70.0,torso,0
+ISIC_9259488,IP_5711917,female,65.0,torso,0
+ISIC_8600358,IP_0825081,male,80.0,head/neck,0
+ISIC_1612350,IP_4479736,female,25.0,lower extremity,0
+ISIC_0030119,HAM_0005557,female,75.0,lower extremity,1
+ISIC_3369408,IP_7132179,male,40.0,upper extremity,0
+ISIC_0783945,IP_7842431,male,40.0,upper extremity,0
+ISIC_7650216,IP_1981261,female,70.0,head/neck,0
+ISIC_4389708,IP_5889408,female,45.0,torso,0
+ISIC_3522342,IP_9616517,female,40.0,upper extremity,0
+ISIC_7233780,IP_7765741,male,55.0,torso,0
+ISIC_4072053,IP_0660290,male,60.0,torso,0
+ISIC_9998682,IP_2516168,male,60.0,head/neck,1
+ISIC_4071091,IP_2422802,male,55.0,torso,0
+ISIC_9167290,IP_8738175,male,70.0,torso,0
+ISIC_0683389,IP_6676060,female,45.0,torso,0
+ISIC_1492055,IP_2738065,female,20.0,torso,0
+ISIC_3209641,IP_9639732,male,40.0,lower extremity,0
+ISIC_3193768,IP_7770500,male,60.0,torso,0
+ISIC_3866946,IP_2014901,female,70.0,head/neck,0
+ISIC_0300915,IP_0065733,female,30.0,lower extremity,0
+ISIC_2991936,IP_3336327,female,65.0,head/neck,0
+ISIC_4614044,IP_1152723,male,25.0,torso,0
+ISIC_3999608,IP_1188709,female,30.0,lower extremity,0
+ISIC_0028746,HAM_0000878,male,70.0,posterior torso,1
+ISIC_7225433,IP_9346829,female,60.0,torso,0
+ISIC_9981925,IP_3689742,male,60.0,head/neck,0
+ISIC_5595160,IP_9086201,female,40.0,head/neck,0
+ISIC_1665118,IP_7785592,male,40.0,lower extremity,0
+ISIC_4435838,IP_2666042,male,50.0,torso,0
+ISIC_0485815,IP_6247245,male,65.0,torso,0
+ISIC_8799844,IP_1885773,female,65.0,torso,0
+ISIC_2236668,IP_8687520,male,60.0,torso,0
+ISIC_5517712,IP_2426108,female,50.0,torso,0
+ISIC_1346562,IP_4978372,male,60.0,lower extremity,0
+ISIC_1549857,IP_7518373,female,55.0,upper extremity,0
+ISIC_1355722,IP_2005898,female,70.0,torso,0
+ISIC_0949164,IP_0951529,male,45.0,head/neck,0
+ISIC_0815802,IP_9186570,male,55.0,,0
+ISIC_8455866,IP_2632866,female,55.0,torso,0
+ISIC_9064823,IP_0423090,female,50.0,head/neck,0
+ISIC_3729615,IP_9245079,male,40.0,torso,0
+ISIC_0062914,BCN_0000364,female,50.0,lower extremity,1
+ISIC_1468354,IP_0716558,male,30.0,lower extremity,0
+ISIC_5836021,IP_5097631,female,65.0,upper extremity,0
+ISIC_5013346,IP_3511266,female,15.0,oral/genital,0
+ISIC_1454004,IP_3190947,female,55.0,lower extremity,0
+ISIC_1582577,IP_0878241,male,70.0,lower extremity,0
+ISIC_0817654,IP_9544996,female,35.0,upper extremity,0
+ISIC_9666088,IP_9245079,male,40.0,upper extremity,0
+ISIC_9846081,IP_6574635,male,20.0,head/neck,0
+ISIC_0058432,BCN_0003796,male,45.0,anterior torso,1
+ISIC_0072641,BCN_0002285,male,65.0,upper extremity,1
+ISIC_3766980,IP_3434100,female,60.0,upper extremity,0
+ISIC_6298215,IP_6960402,female,30.0,head/neck,0
+ISIC_1930877,IP_1730314,male,20.0,lower extremity,0
+ISIC_6127074,IP_7368120,female,45.0,torso,0
+ISIC_3288342,IP_6245507,male,45.0,torso,0
+ISIC_2885086,IP_7842431,male,40.0,torso,0
+ISIC_8938282,IP_2760044,male,40.0,upper extremity,0
+ISIC_0485537,IP_7252102,male,35.0,upper extremity,0
+ISIC_3889479,IP_0612651,female,25.0,upper extremity,0
+ISIC_5869383,IP_3868067,male,45.0,upper extremity,0
+ISIC_1685833,IP_4297939,male,80.0,torso,0
+ISIC_2799892,IP_0512752,male,40.0,lower extremity,0
+ISIC_6282793,IP_2107539,male,50.0,torso,0
+ISIC_0014249_downsampled,MSK4_0010635,male,85.0,posterior torso,1
+ISIC_4890201,IP_8414061,male,50.0,torso,0
+ISIC_2637968,IP_8039381,male,65.0,torso,0
+ISIC_0310734,IP_6228063,female,20.0,lower extremity,0
+ISIC_8073310,IP_8349964,male,70.0,torso,0
+ISIC_7358425,IP_9896679,female,35.0,torso,0
+ISIC_2892384,IP_9438537,female,35.0,upper extremity,0
+ISIC_0072559,BCN_0002116,male,70.0,lower extremity,1
+ISIC_5914315,IP_1576187,male,20.0,upper extremity,0
+ISIC_8361472,IP_5831170,male,70.0,torso,0
+ISIC_9952872,IP_7702038,male,45.0,torso,0
+ISIC_3597277,IP_1982047,male,55.0,torso,0
+ISIC_0155012,IP_1211926,male,55.0,torso,0
+ISIC_0010094,,female,10.0,anterior torso,1
+ISIC_4649465,IP_3541322,male,90.0,lower extremity,0
+ISIC_2728024,IP_4409916,female,40.0,lower extremity,0
+ISIC_2795765,IP_4094708,female,50.0,torso,0
+ISIC_2758999,IP_7610036,male,65.0,torso,0
+ISIC_7787118,IP_3938557,male,30.0,torso,0
+ISIC_0000141_downsampled,,,,,1
+ISIC_7542722,IP_7743588,male,30.0,lower extremity,0
+ISIC_8029653,IP_5945814,female,35.0,torso,0
+ISIC_0070938,BCN_0005529,female,40.0,upper extremity,1
+ISIC_3267929,IP_2147407,female,35.0,lower extremity,0
+ISIC_5703274,IP_9992027,female,50.0,torso,0
+ISIC_3985782,IP_2026598,male,20.0,palms/soles,0
+ISIC_5023040,IP_5808038,male,35.0,palms/soles,0
+ISIC_0055264,BCN_0002548,male,85.0,anterior torso,1
+ISIC_0218747,IP_3200260,female,30.0,lower extremity,0
+ISIC_4396553,IP_6887203,male,40.0,upper extremity,0
+ISIC_2885265,IP_3690477,male,60.0,torso,0
+ISIC_4248187,IP_5805281,male,50.0,torso,0
+ISIC_3799343,IP_2850771,male,40.0,torso,0
+ISIC_3918134,IP_7770500,male,60.0,upper extremity,0
+ISIC_6486834,IP_6885799,female,45.0,torso,0
+ISIC_0056202,BCN_0000627,male,70.0,anterior torso,1
+ISIC_8047390,IP_3782995,female,25.0,torso,0
+ISIC_0603777,IP_1587853,female,70.0,upper extremity,0
+ISIC_3648532,IP_6901441,female,35.0,torso,0
+ISIC_9661108,IP_2101945,male,65.0,palms/soles,0
+ISIC_0070032,BCN_0003571,female,75.0,upper extremity,1
+ISIC_0669666,IP_6029629,female,50.0,upper extremity,0
+ISIC_5340815,IP_8041141,female,15.0,torso,0
+ISIC_3990124,IP_9909432,male,35.0,torso,0
+ISIC_7923858,IP_5889408,female,45.0,upper extremity,0
+ISIC_5343424,IP_4030600,female,55.0,lower extremity,0
+ISIC_9854912,IP_9711347,male,45.0,head/neck,0
+ISIC_0732636,IP_7180935,female,35.0,lower extremity,0
+ISIC_5427407,IP_1122600,female,65.0,torso,0
+ISIC_2073530,IP_0612651,female,25.0,lower extremity,0
+ISIC_5722526,IP_2606884,female,45.0,torso,0
+ISIC_0067347,BCN_0002809,female,65.0,anterior torso,1
+ISIC_6413382,IP_2352610,male,70.0,lower extremity,0
+ISIC_5353454,IP_8474574,female,60.0,lower extremity,0
+ISIC_4738525,IP_7688669,female,50.0,lower extremity,0
+ISIC_9171392,IP_0148558,female,45.0,torso,0
+ISIC_3184922,IP_7690396,female,40.0,torso,0
+ISIC_2198244,IP_8534235,female,60.0,torso,0
+ISIC_0054906,BCN_0002746,male,60.0,head/neck,1
+ISIC_0695029,IP_3395413,male,55.0,torso,0
+ISIC_2412314,IP_4302652,female,20.0,head/neck,0
+ISIC_6146290,IP_4366959,female,35.0,torso,0
+ISIC_0943717,IP_8474574,female,65.0,torso,0
+ISIC_2349743,IP_8738175,male,70.0,torso,0
+ISIC_8610377,IP_4795384,female,65.0,upper extremity,0
+ISIC_6639094,IP_3624052,female,50.0,lower extremity,0
+ISIC_6140335,IP_4795384,female,65.0,torso,0
+ISIC_0065954,BCN_0003411,male,70.0,anterior torso,1
+ISIC_0027420,HAM_0001551,male,60.0,upper extremity,1
+ISIC_7956417,IP_2317609,female,50.0,lower extremity,0
+ISIC_2399770,IP_3422736,female,40.0,upper extremity,0
+ISIC_1106860,IP_8916501,male,45.0,lower extremity,0
+ISIC_9247247,IP_6808872,male,30.0,lower extremity,0
+ISIC_8792040,IP_4488328,male,40.0,lower extremity,0
+ISIC_7688061,IP_9042214,female,30.0,lower extremity,0
+ISIC_0054974,BCN_0002353,female,35.0,upper extremity,1
+ISIC_9978328,IP_0065733,female,30.0,torso,0
+ISIC_9042973,IP_9316325,male,60.0,torso,0
+ISIC_0800628,IP_7291657,female,40.0,torso,0
+ISIC_2982945,IP_3128221,male,50.0,upper extremity,0
+ISIC_2482667,IP_1264754,female,65.0,lower extremity,0
+ISIC_9439742,IP_6342052,male,65.0,torso,0
+ISIC_0033081,HAM_0007583,female,55.0,upper extremity,1
+ISIC_3180108,IP_2443623,female,30.0,torso,0
+ISIC_8568520,IP_9453080,female,60.0,torso,0
+ISIC_4580046,IP_2107539,male,50.0,torso,0
+ISIC_9324123,IP_9290101,female,55.0,torso,0
+ISIC_9027285,IP_2263888,female,65.0,torso,0
+ISIC_7261174,IP_8041141,female,15.0,head/neck,1
+ISIC_9814041,IP_8627268,female,35.0,torso,0
+ISIC_3578989,IP_7262258,male,65.0,torso,0
+ISIC_0069254,BCN_0001426,female,55.0,head/neck,1
+ISIC_4276255,IP_4370559,male,25.0,torso,1
+ISIC_6478823,IP_7931229,male,40.0,lower extremity,0
+ISIC_7460146,IP_6977878,male,40.0,lower extremity,0
+ISIC_8195729,IP_1652699,male,55.0,torso,0
+ISIC_0061670,BCN_0005681,female,75.0,anterior torso,1
+ISIC_5219334,IP_9718268,female,85.0,torso,0
+ISIC_8890072,IP_4880648,female,40.0,lower extremity,0
+ISIC_8879126,IP_7279968,male,45.0,head/neck,0
+ISIC_3459452,IP_3172139,female,70.0,torso,0
+ISIC_9749362,IP_8555595,female,40.0,upper extremity,0
+ISIC_9204951,IP_4633933,female,55.0,head/neck,0
+ISIC_8270405,IP_5917089,male,70.0,torso,0
+ISIC_8397285,IP_3729342,male,50.0,torso,1
+ISIC_3787339,IP_0921705,male,50.0,lower extremity,0
+ISIC_0681153,IP_7429637,female,55.0,lower extremity,0
+ISIC_0062339,BCN_0002675,female,70.0,anterior torso,1
+ISIC_0053725,BCN_0001391,female,30.0,head/neck,1
+ISIC_1519698,IP_7702038,male,35.0,torso,0
+ISIC_6091348,IP_6242332,male,60.0,head/neck,0
+ISIC_0065307,BCN_0002775,female,85.0,anterior torso,1
+ISIC_2990722,IP_8224373,female,40.0,palms/soles,0
+ISIC_6801988,IP_2978129,male,50.0,upper extremity,0
+ISIC_4493347,IP_0492456,female,45.0,upper extremity,0
+ISIC_1429439,IP_8140841,male,75.0,upper extremity,0
+ISIC_0238871,IP_8247808,female,35.0,lower extremity,0
+ISIC_0982046,IP_7412558,male,55.0,torso,0
+ISIC_8887095,IP_5686827,male,70.0,torso,0
+ISIC_0014059_downsampled,MSK4_0010916,male,50.0,lateral torso,1
+ISIC_1906729,IP_4042098,male,45.0,upper extremity,0
+ISIC_3800373,IP_0063782,female,60.0,lower extremity,0
+ISIC_7759630,IP_5724756,female,50.0,torso,0
+ISIC_2988437,IP_8330575,male,50.0,lower extremity,0
+ISIC_1868816,IP_3422736,female,35.0,upper extremity,0
+ISIC_8989572,IP_6078411,male,35.0,upper extremity,0
+ISIC_0467553,IP_8004532,female,30.0,torso,0
+ISIC_9730889,IP_1730314,male,35.0,lower extremity,0
+ISIC_2073994,IP_4314793,female,20.0,upper extremity,0
+ISIC_8218609,IP_5350484,male,30.0,upper extremity,0
+ISIC_5530598,IP_9027799,female,55.0,torso,0
+ISIC_6208775,IP_0825081,male,80.0,torso,0
+ISIC_3435596,IP_9746668,female,85.0,torso,1
+ISIC_3079355,IP_9433384,male,50.0,torso,0
+ISIC_5381712,IP_7345731,male,45.0,lower extremity,0
+ISIC_7621283,IP_7491908,male,35.0,torso,0
+ISIC_5619661,IP_4702665,female,65.0,,0
+ISIC_9237244,IP_3943416,male,40.0,torso,0
+ISIC_9870508,IP_8277853,female,50.0,lower extremity,0
+ISIC_7760920,IP_3048629,male,55.0,upper extremity,0
+ISIC_3877413,IP_6538458,female,50.0,torso,0
+ISIC_2010698,IP_0689197,male,75.0,head/neck,0
+ISIC_8813415,IP_7625285,female,40.0,torso,0
+ISIC_2457446,IP_8247808,female,35.0,upper extremity,0
+ISIC_3678586,IP_0687884,male,65.0,lower extremity,0
+ISIC_1408033,IP_7279968,male,45.0,torso,0
+ISIC_2066769,IP_9013996,female,75.0,lower extremity,0
+ISIC_9985776,IP_4711011,male,20.0,lower extremity,0
+ISIC_0027822,HAM_0000059,male,85.0,head/neck,1
+ISIC_4961292,IP_2482649,male,80.0,torso,0
+ISIC_1230738,IP_7130762,female,45.0,lower extremity,0
+ISIC_4065779,IP_7674640,female,55.0,torso,0
+ISIC_0946485,IP_9186570,male,60.0,lower extremity,0
+ISIC_0230332,IP_8326844,female,70.0,upper extremity,0
+ISIC_1682693,IP_5867829,male,60.0,torso,0
+ISIC_1338069,IP_5596716,male,50.0,torso,0
+ISIC_4986451,IP_8011614,female,35.0,torso,0
+ISIC_6083284,IP_1010643,male,75.0,torso,0
+ISIC_0031900,HAM_0001113,male,55.0,posterior torso,1
+ISIC_8750103,IP_6049920,female,40.0,upper extremity,0
+ISIC_2379908,IP_6405528,female,60.0,torso,0
+ISIC_3782992,IP_6342052,male,65.0,torso,0
+ISIC_9182285,IP_4379852,female,60.0,lower extremity,0
+ISIC_9321837,IP_2442926,female,65.0,torso,0
+ISIC_6189828,IP_8940163,male,70.0,upper extremity,0
+ISIC_7384213,IP_6341009,female,50.0,lower extremity,0
+ISIC_9617137,IP_6152307,male,60.0,torso,0
+ISIC_5807682,IP_0768675,male,35.0,lower extremity,0
+ISIC_0066589,BCN_0002199,female,85.0,head/neck,1
+ISIC_6223767,IP_5203658,male,75.0,torso,0
+ISIC_0090279,IP_3397861,female,65.0,torso,0
+ISIC_0401416,IP_2214113,female,55.0,lower extremity,0
+ISIC_4486332,IP_1334660,male,50.0,torso,0
+ISIC_4496559,IP_8870268,female,70.0,head/neck,0
+ISIC_8790885,IP_3970734,male,35.0,upper extremity,0
+ISIC_3610750,IP_2008749,male,40.0,torso,0
+ISIC_0025324,HAM_0004121,female,45.0,lower extremity,1
+ISIC_8766977,IP_1697215,female,35.0,lower extremity,0
+ISIC_0602723,IP_8560544,female,55.0,head/neck,0
+ISIC_9915699,IP_8267064,female,30.0,torso,0
+ISIC_9593940,IP_7476769,male,70.0,torso,1
+ISIC_9418057,IP_4879325,female,55.0,upper extremity,0
+ISIC_9445053,IP_3116217,female,55.0,lower extremity,0
+ISIC_1688271,IP_1096358,male,30.0,lower extremity,0
+ISIC_5273268,IP_3631578,female,75.0,lower extremity,0
+ISIC_7109227,IP_2047697,female,35.0,upper extremity,0
+ISIC_6810219,IP_7645011,male,70.0,torso,0
+ISIC_1250318,IP_0942159,female,25.0,upper extremity,0
+ISIC_6225107,IP_6204577,female,65.0,lower extremity,0
+ISIC_5331204,IP_8742468,male,65.0,torso,0
+ISIC_1568752,IP_6071452,male,70.0,head/neck,0
+ISIC_1453146,IP_4702665,female,65.0,torso,0
+ISIC_7624447,IP_3060400,male,60.0,torso,0
+ISIC_1912578,IP_3623410,male,55.0,head/neck,0
+ISIC_0067339,BCN_0000857,male,85.0,lower extremity,1
+ISIC_3315573,IP_2301815,female,35.0,upper extremity,0
+ISIC_8446988,IP_7334384,male,60.0,lower extremity,0
+ISIC_6289590,IP_3154085,female,65.0,torso,0
+ISIC_1208705,IP_0963996,female,40.0,lower extremity,0
+ISIC_2946577,IP_3190947,female,55.0,upper extremity,0
+ISIC_4739527,IP_8848835,female,50.0,torso,0
+ISIC_5708658,IP_1969685,male,50.0,torso,0
+ISIC_9505231,IP_6678597,male,50.0,torso,0
+ISIC_0623386,IP_3713422,male,50.0,torso,0
+ISIC_2900069,IP_4382720,female,50.0,lower extremity,0
+ISIC_9160614,IP_3858753,male,40.0,lower extremity,0
+ISIC_7332657,IP_6175417,female,55.0,lower extremity,0
+ISIC_1732652,IP_0093378,male,45.0,lower extremity,0
+ISIC_9591934,IP_6649505,male,80.0,lower extremity,0
+ISIC_0277727,IP_8326844,female,60.0,lower extremity,0
+ISIC_4497373,IP_7979366,male,45.0,torso,0
+ISIC_1778943,IP_0878241,male,70.0,lower extremity,0
+ISIC_3883314,IP_3131410,female,50.0,torso,0
+ISIC_6340394,IP_9051557,female,50.0,lower extremity,0
+ISIC_8358020,IP_4387709,male,35.0,torso,0
+ISIC_8595133,IP_0931383,female,65.0,head/neck,0
+ISIC_3797677,IP_3522576,male,45.0,torso,0
+ISIC_7437335,IP_6332843,male,25.0,torso,0
+ISIC_0056670,BCN_0000861,male,85.0,head/neck,1
+ISIC_0013573_downsampled,MSK4_0010777,male,60.0,head/neck,1
+ISIC_0333589,IP_0877882,female,55.0,torso,0
+ISIC_5631347,IP_0699776,male,80.0,torso,0
+ISIC_8786693,IP_0648521,male,60.0,torso,0
+ISIC_0063551,BCN_0003193,male,65.0,anterior torso,1
+ISIC_1242852,IP_7130762,female,45.0,upper extremity,0
+ISIC_6951568,IP_6211675,female,45.0,head/neck,0
+ISIC_4371210,IP_7976842,male,50.0,lower extremity,0
+ISIC_7585550,IP_2987599,male,55.0,torso,0
+ISIC_0978259,IP_0067018,male,65.0,upper extremity,0
+ISIC_0029281,HAM_0001726,female,35.0,posterior torso,1
+ISIC_4182214,IP_0078763,female,30.0,torso,0
+ISIC_6258919,IP_8916001,female,45.0,torso,0
+ISIC_0983447,IP_9712836,female,45.0,torso,0
+ISIC_0068766,BCN_0002956,male,45.0,head/neck,1
+ISIC_6627237,IP_4488328,male,40.0,upper extremity,0
+ISIC_3705852,IP_5294508,male,60.0,torso,0
+ISIC_9960578,IP_2263216,female,50.0,lower extremity,0
+ISIC_4657733,IP_0398596,female,55.0,upper extremity,0
+ISIC_0001100_downsampled,,male,85.0,upper extremity,1
+ISIC_3867863,IP_8791409,female,55.0,torso,0
+ISIC_9914240,IP_7808060,female,55.0,upper extremity,0
+ISIC_7645703,IP_0078763,female,30.0,palms/soles,0
+ISIC_1657475,IP_3631578,female,75.0,torso,0
+ISIC_2103581,IP_8340768,male,60.0,lower extremity,0
+ISIC_7882022,IP_3531652,male,35.0,torso,0
+ISIC_6619411,IP_9422872,female,60.0,torso,0
+ISIC_0013549_downsampled,MSK4_0010711,male,85.0,upper extremity,1
+ISIC_8636598,IP_3203470,female,55.0,torso,0
+ISIC_8397275,IP_1152723,male,25.0,lower extremity,0
+ISIC_0009992,,male,70.0,anterior torso,1
+ISIC_9693759,IP_1165806,male,70.0,torso,0
+ISIC_0069105,BCN_0001163,female,75.0,upper extremity,1
+ISIC_2579390,IP_2117218,male,35.0,lower extremity,0
+ISIC_5646514,IP_7854426,female,75.0,lower extremity,0
+ISIC_8231704,IP_3120589,female,55.0,head/neck,0
+ISIC_6433551,IP_4669427,female,40.0,torso,0
+ISIC_6683370,IP_5766574,female,50.0,torso,0
+ISIC_9091954,IP_3713422,male,50.0,torso,0
+ISIC_0029241,HAM_0006092,male,70.0,head/neck,1
+ISIC_0544886,IP_6247245,male,65.0,torso,0
+ISIC_0596607,IP_1583136,female,65.0,torso,0
+ISIC_3043219,IP_1769689,male,25.0,torso,0
+ISIC_9719936,IP_9427625,male,20.0,lower extremity,0
+ISIC_6696536,IP_5889408,female,45.0,upper extremity,0
+ISIC_0034071,HAM_0006435,male,50.0,posterior torso,1
+ISIC_3903748,IP_5085022,female,55.0,torso,0
+ISIC_1820193,IP_6387073,male,70.0,torso,0
+ISIC_9805247,IP_2043846,female,35.0,lower extremity,0
+ISIC_1018265,IP_0961415,male,45.0,lower extremity,0
+ISIC_4024691,IP_9855344,male,70.0,head/neck,0
+ISIC_5951430,IP_4154441,female,65.0,torso,0
+ISIC_3177631,IP_0423670,male,50.0,upper extremity,0
+ISIC_7131689,IP_9316325,male,60.0,torso,0
+ISIC_5589163,IP_8051701,female,65.0,lower extremity,0
+ISIC_6464509,IP_8683055,male,70.0,torso,0
+ISIC_2510255,IP_5384571,male,65.0,palms/soles,0
+ISIC_3490640,IP_5119720,male,55.0,lower extremity,0
+ISIC_4434040,IP_8916501,male,50.0,torso,0
+ISIC_4319945,IP_6245507,male,45.0,torso,0
+ISIC_0033405,HAM_0003506,male,70.0,upper extremity,1
+ISIC_1779061,IP_8352243,female,55.0,torso,0
+ISIC_8926980,IP_3833850,male,40.0,lower extremity,0
+ISIC_2430489,IP_3141271,male,40.0,torso,0
+ISIC_0033431,HAM_0000206,female,65.0,upper extremity,1
+ISIC_7164076,IP_9616517,female,40.0,upper extremity,0
+ISIC_7569537,IP_6341009,female,50.0,torso,0
+ISIC_6239659,IP_0656529,male,60.0,head/neck,0
+ISIC_5374076,IP_6557127,male,70.0,upper extremity,0
+ISIC_3147613,IP_1962690,female,50.0,torso,0
+ISIC_0455456,IP_0787478,male,75.0,oral/genital,0
+ISIC_1157007,IP_6151980,female,55.0,lower extremity,0
+ISIC_3119175,IP_1210062,male,85.0,head/neck,0
+ISIC_0914700,IP_8329777,female,35.0,upper extremity,0
+ISIC_2833053,IP_8418821,male,55.0,lower extremity,0
+ISIC_3086038,IP_6352254,female,60.0,lower extremity,0
+ISIC_9727132,IP_4548593,male,55.0,upper extremity,0
+ISIC_0896313,IP_2250929,female,45.0,torso,0
+ISIC_6250010,IP_1969685,male,50.0,torso,0
+ISIC_0157530,IP_4488328,male,40.0,torso,0
+ISIC_2882945,IP_3200260,female,30.0,upper extremity,0
+ISIC_6675795,IP_7207550,male,55.0,upper extremity,0
+ISIC_2024502,IP_4795384,female,65.0,torso,0
+ISIC_0577311,IP_4281194,female,90.0,upper extremity,0
+ISIC_0067289,BCN_0003877,male,55.0,anterior torso,1
+ISIC_5097912,IP_9124285,male,55.0,torso,0
+ISIC_3244798,IP_3246668,male,80.0,lower extremity,0
+ISIC_4419280,IP_1362494,female,50.0,head/neck,0
+ISIC_0645777,IP_0503166,female,50.0,head/neck,0
+ISIC_0070743,BCN_0003196,female,80.0,anterior torso,1
+ISIC_2657946,IP_1652699,male,55.0,torso,0
+ISIC_4545717,IP_2860540,male,65.0,upper extremity,0
+ISIC_5397483,IP_3691360,female,40.0,torso,0
+ISIC_9478317,IP_8375053,female,40.0,torso,0
+ISIC_4166393,IP_0243839,male,50.0,lower extremity,0
+ISIC_8788485,IP_9585016,male,35.0,lower extremity,0
+ISIC_7164866,IP_8374735,male,70.0,torso,0
+ISIC_7561521,IP_2746444,female,45.0,torso,0
+ISIC_7110371,IP_5870445,male,50.0,torso,0
+ISIC_6342442,IP_8601697,male,65.0,torso,0
+ISIC_6239663,IP_0892152,male,50.0,torso,0
+ISIC_1348538,IP_9190806,female,40.0,torso,0
+ISIC_6715003,IP_6096257,male,55.0,lower extremity,0
+ISIC_1511913,IP_0963996,female,40.0,torso,0
+ISIC_0173213,IP_2049351,male,40.0,upper extremity,0
+ISIC_8255680,IP_9147454,female,55.0,torso,0
+ISIC_5674532,IP_1294580,female,55.0,lower extremity,0
+ISIC_6394129,IP_0423670,male,55.0,torso,0
+ISIC_5718805,IP_5972548,male,50.0,torso,0
+ISIC_8847321,IP_9298839,male,40.0,head/neck,0
+ISIC_8505272,IP_1517386,male,40.0,torso,0
+ISIC_0765568,IP_8869881,female,25.0,torso,0
+ISIC_0391694,IP_3057277,male,45.0,,0
+ISIC_4892083,IP_6506834,male,40.0,torso,0
+ISIC_0534529,IP_6724798,male,60.0,torso,0
+ISIC_0058791,BCN_0000247,male,75.0,anterior torso,1
+ISIC_9461926,IP_1681872,female,30.0,lower extremity,0
+ISIC_3734724,IP_2823211,male,55.0,palms/soles,0
+ISIC_8223051,IP_7522397,female,40.0,palms/soles,0
+ISIC_7685077,IP_0492456,female,35.0,torso,0
+ISIC_9328512,IP_1419269,male,55.0,torso,0
+ISIC_6114762,IP_7447953,male,55.0,torso,0
+ISIC_6638499,IP_9147454,female,55.0,upper extremity,0
+ISIC_7284377,IP_9721483,female,60.0,torso,0
+ISIC_0927719,IP_4302652,female,20.0,torso,0
+ISIC_0000145_downsampled,,,,,1
+ISIC_8078015,IP_2679808,female,60.0,upper extremity,0
+ISIC_6870407,IP_9558959,male,45.0,torso,0
+ISIC_8013225,IP_2085351,female,35.0,upper extremity,0
+ISIC_0766345,IP_7873698,female,60.0,lower extremity,0
+ISIC_7302213,IP_5439716,male,65.0,lower extremity,0
+ISIC_2036426,IP_9997715,female,75.0,torso,0
+ISIC_7122078,IP_0854065,male,40.0,torso,0
+ISIC_3858798,IP_2238880,female,45.0,lower extremity,0
+ISIC_8974464,IP_5533537,female,55.0,lower extremity,0
+ISIC_0706891,IP_0951571,female,70.0,head/neck,0
+ISIC_9791133,IP_3458395,female,40.0,lower extremity,0
+ISIC_9621327,IP_7735373,male,55.0,upper extremity,0
+ISIC_1661837,IP_6374803,female,80.0,lower extremity,0
+ISIC_5457974,IP_2014901,female,70.0,torso,0
+ISIC_3721718,IP_4080851,male,50.0,upper extremity,0
+ISIC_6803432,IP_0517623,male,75.0,torso,0
+ISIC_2075564,IP_4667127,female,40.0,torso,0
+ISIC_6753254,IP_9205477,male,50.0,torso,0
+ISIC_4958578,IP_5496892,male,65.0,torso,0
+ISIC_0401522,IP_4898383,male,30.0,torso,0
+ISIC_3083711,IP_9636064,male,30.0,upper extremity,0
+ISIC_3555847,IP_2871134,male,60.0,torso,0
+ISIC_0054599,BCN_0001285,female,40.0,head/neck,1
+ISIC_9885210,IP_7518373,female,50.0,head/neck,0
+ISIC_7384382,IP_7121757,female,35.0,torso,0
+ISIC_5001317,IP_2010919,female,50.0,torso,0
+ISIC_0069743,BCN_0001096,male,30.0,anterior torso,1
+ISIC_8490701,IP_3402498,male,65.0,torso,0
+ISIC_5863114,IP_5031568,female,50.0,lower extremity,0
+ISIC_0058453,BCN_0002016,female,35.0,head/neck,1
+ISIC_6559830,IP_4938382,female,25.0,torso,0
+ISIC_2565154,IP_3444084,male,40.0,upper extremity,0
+ISIC_4227455,IP_4871455,male,75.0,torso,0
+ISIC_8717030,IP_0045462,female,25.0,torso,0
+ISIC_9109515,IP_9188370,female,50.0,torso,0
+ISIC_2797576,IP_9544996,female,35.0,torso,0
+ISIC_0064321,BCN_0005676,female,40.0,anterior torso,1
+ISIC_1343607,IP_3358218,female,45.0,lower extremity,0
+ISIC_5657535,IP_3420228,female,30.0,torso,0
+ISIC_0526904,IP_7606510,female,45.0,torso,0
+ISIC_8735133,IP_8041141,female,15.0,torso,0
+ISIC_0237514,IP_2322991,male,45.0,upper extremity,0
+ISIC_3238015,IP_8375111,male,40.0,head/neck,0
+ISIC_5559165,IP_2310783,male,45.0,torso,0
+ISIC_4700144,IP_1559911,female,50.0,torso,0
+ISIC_9640847,IP_5440659,male,35.0,torso,0
+ISIC_7672106,IP_9985810,female,45.0,torso,0
+ISIC_6250704,IP_3434100,female,60.0,lower extremity,0
+ISIC_6201338,IP_6887203,male,25.0,lower extremity,0
+ISIC_1893232,IP_3246668,male,80.0,torso,0
+ISIC_0586782,IP_7651325,female,70.0,lower extremity,0
+ISIC_9235996,IP_0843629,male,25.0,lower extremity,0
+ISIC_0744013,IP_6204577,female,65.0,upper extremity,1
+ISIC_6637323,IP_7824066,male,65.0,torso,0
+ISIC_2104267,IP_0512752,male,40.0,torso,0
+ISIC_8459547,IP_5295861,male,70.0,torso,0
+ISIC_1862815,IP_8029095,female,45.0,torso,0
+ISIC_6459627,IP_3359673,female,55.0,upper extremity,0
+ISIC_0060216,BCN_0000680,female,45.0,head/neck,1
+ISIC_4964586,IP_4109313,male,30.0,torso,0
+ISIC_3593384,IP_7330399,female,55.0,torso,0
+ISIC_9906218,IP_1599082,male,45.0,torso,0
+ISIC_7934218,IP_6318212,female,50.0,upper extremity,0
+ISIC_6419248,IP_3358218,female,45.0,lower extremity,0
+ISIC_2325146,IP_2613684,male,50.0,lower extremity,0
+ISIC_6480491,IP_1251610,male,30.0,head/neck,0
+ISIC_7894970,IP_7203968,female,50.0,torso,0
+ISIC_7903561,IP_2511209,female,45.0,head/neck,0
+ISIC_9806768,IP_4005662,male,45.0,palms/soles,0
+ISIC_0413512,IP_2810418,female,60.0,lower extremity,0
+ISIC_7975648,IP_7765741,male,55.0,lower extremity,0
+ISIC_0698821,IP_4795384,female,65.0,upper extremity,0
+ISIC_0028306,HAM_0007238,male,55.0,upper extremity,1
+ISIC_4400186,IP_9122609,male,65.0,torso,0
+ISIC_7814868,IP_6814066,male,65.0,torso,0
+ISIC_2164802,IP_7665112,male,65.0,torso,0
+ISIC_7989205,IP_1165806,male,65.0,torso,0
+ISIC_4127690,IP_3561719,male,70.0,upper extremity,0
+ISIC_0057849,BCN_0001736,male,60.0,anterior torso,1
+ISIC_7983343,IP_3365162,male,65.0,torso,0
+ISIC_9889201,IP_0878241,male,70.0,lower extremity,0
+ISIC_4608323,IP_4488328,male,40.0,torso,0
+ISIC_4690191,IP_5889408,female,45.0,torso,0
+ISIC_9420413,IP_9290101,female,55.0,torso,0
+ISIC_1315424,IP_7442038,male,75.0,head/neck,0
+ISIC_0762367,IP_1005683,male,65.0,torso,0
+ISIC_8202573,IP_5178963,female,50.0,upper extremity,0
+ISIC_6514426,IP_2109364,male,70.0,torso,0
+ISIC_0070017,BCN_0002287,female,45.0,upper extremity,1
+ISIC_1342117,IP_6331820,female,55.0,upper extremity,0
+ISIC_2759834,IP_2793798,female,50.0,lower extremity,0
+ISIC_1371223,IP_0442139,female,65.0,head/neck,0
+ISIC_2496374,IP_5629228,female,40.0,lower extremity,0
+ISIC_5365617,IP_4996313,female,50.0,torso,1
+ISIC_0067240,BCN_0003724,male,70.0,anterior torso,1
+ISIC_8738168,IP_9906035,male,50.0,lower extremity,0
+ISIC_2221993,IP_8974438,male,40.0,upper extremity,0
+ISIC_0181678,IP_3089004,female,40.0,lower extremity,0
+ISIC_9590964,IP_4419570,male,50.0,lower extremity,0
+ISIC_1050158,IP_8675890,male,55.0,torso,0
+ISIC_0591828,IP_9853347,male,55.0,torso,0
+ISIC_4363579,IP_6512345,male,70.0,lower extremity,0
+ISIC_0070709,BCN_0001029,female,45.0,palms/soles,1
+ISIC_6482662,IP_3735763,male,50.0,torso,0
+ISIC_4905331,IP_9282375,female,60.0,torso,0
+ISIC_6780901,IP_8806573,female,60.0,upper extremity,0
+ISIC_4556592,IP_5773889,male,70.0,torso,0
+ISIC_6587534,IP_3230778,female,40.0,head/neck,0
+ISIC_6766153,IP_0301948,male,45.0,torso,0
+ISIC_2826625,IP_1152723,male,25.0,torso,0
+ISIC_0728413,IP_6945048,male,35.0,head/neck,0
+ISIC_7419281,IP_1172238,female,50.0,torso,0
+ISIC_8393181,IP_1195596,male,35.0,torso,0
+ISIC_3915289,IP_5889408,female,45.0,torso,0
+ISIC_8054620,IP_9849868,male,55.0,torso,0
+ISIC_1828419,IP_1522453,female,25.0,torso,0
+ISIC_6451703,IP_1233669,female,55.0,lower extremity,0
+ISIC_8362113,IP_6331820,female,55.0,torso,0
+ISIC_4684100,IP_0041255,female,25.0,torso,0
+ISIC_7650369,IP_1495267,female,75.0,torso,0
+ISIC_0898483,IP_6098503,female,30.0,torso,0
+ISIC_0056269,BCN_0002175,male,55.0,anterior torso,1
+ISIC_0013501_downsampled,MSK4_0010442,male,65.0,upper extremity,1
+ISIC_7424382,IP_5086592,male,55.0,,0
+ISIC_7492530,IP_9147454,female,55.0,lower extremity,0
+ISIC_5433553,IP_4017726,female,50.0,lower extremity,0
+ISIC_1863917,IP_7415009,female,50.0,torso,0
+ISIC_1492760,IP_8011614,female,40.0,upper extremity,0
+ISIC_4870936,IP_8988837,male,45.0,torso,0
+ISIC_7753753,IP_6245507,male,45.0,lower extremity,0
+ISIC_8880387,IP_3517456,male,55.0,torso,0
+ISIC_9614483,IP_9131123,female,40.0,lower extremity,0
+ISIC_1023685,IP_9327025,male,50.0,torso,0
+ISIC_5797788,IP_4639224,male,50.0,lower extremity,0
+ISIC_9781738,IP_4277352,female,40.0,lower extremity,0
+ISIC_3965872,IP_4821632,female,30.0,lower extremity,0
+ISIC_0066061,BCN_0003629,female,60.0,lower extremity,1
+ISIC_4755369,IP_8329991,male,35.0,upper extremity,0
+ISIC_8652599,IP_3534839,male,45.0,torso,0
+ISIC_2581592,IP_8442345,male,35.0,torso,0
+ISIC_6470709,IP_8247808,female,35.0,upper extremity,0
+ISIC_0055796,BCN_0005160,female,65.0,lower extremity,1
+ISIC_8545182,IP_8716491,male,60.0,upper extremity,0
+ISIC_5863435,IP_6887203,male,35.0,upper extremity,0
+ISIC_0066136,BCN_0001912,female,35.0,upper extremity,1
+ISIC_5419475,IP_6808872,male,30.0,torso,0
+ISIC_3065254,IP_7979366,male,45.0,upper extremity,0
+ISIC_9677503,IP_5086592,male,55.0,head/neck,1
+ISIC_2586109,IP_1902399,male,35.0,upper extremity,0
+ISIC_1290184,IP_5350484,male,30.0,torso,0
+ISIC_8362154,IP_7121757,female,35.0,head/neck,0
+ISIC_9551360,IP_2511209,female,45.0,torso,0
+ISIC_3425831,IP_0962375,female,55.0,head/neck,0
+ISIC_8709211,IP_7873698,female,60.0,torso,0
+ISIC_7658533,IP_4865295,male,60.0,torso,0
+ISIC_3153709,IP_5820702,male,45.0,torso,0
+ISIC_8141348,IP_6944941,male,35.0,lower extremity,0
+ISIC_3296981,IP_0306499,male,70.0,torso,0
+ISIC_0059301,BCN_0001321,male,35.0,head/neck,1
+ISIC_3401240,IP_9721483,female,60.0,torso,0
+ISIC_0895906,IP_4369500,male,40.0,lower extremity,0
+ISIC_6046442,IP_1994743,male,50.0,torso,0
+ISIC_9582708,IP_7836372,male,65.0,upper extremity,0
+ISIC_7004652,IP_6838833,female,85.0,head/neck,0
+ISIC_4056017,IP_1611625,male,45.0,lower extremity,0
+ISIC_0033710,HAM_0004304,male,85.0,upper extremity,1
+ISIC_5944377,IP_9544996,female,35.0,torso,0
+ISIC_8956001,IP_9644384,female,25.0,lower extremity,0
+ISIC_8969349,IP_0621614,male,40.0,torso,0
+ISIC_0014985_downsampled,,male,60.0,head/neck,1
+ISIC_2903423,IP_7466144,female,35.0,torso,0
+ISIC_0605180,IP_5767581,male,45.0,,0
+ISIC_0068280,BCN_0002626,male,75.0,anterior torso,1
+ISIC_1383347,IP_4399955,female,60.0,lower extremity,0
+ISIC_5602724,IP_9853347,male,55.0,torso,0
+ISIC_2500008,IP_3402498,male,65.0,torso,0
+ISIC_1932486,IP_2822147,female,25.0,lower extremity,0
+ISIC_2232442,IP_7868912,male,60.0,lower extremity,1
+ISIC_4466413,IP_9718268,female,85.0,lower extremity,0
+ISIC_8029450,IP_7330399,female,55.0,torso,0
+ISIC_4688979,IP_9115076,male,50.0,torso,0
+ISIC_0055741,BCN_0003993,male,80.0,anterior torso,1
+ISIC_7520307,IP_7691333,female,30.0,torso,0
+ISIC_0025531,HAM_0004767,male,80.0,head/neck,1
+ISIC_6707661,IP_7211398,male,50.0,torso,0
+ISIC_2408815,IP_6204577,female,65.0,upper extremity,1
+ISIC_5313574,IP_3653630,female,50.0,torso,0
+ISIC_0032331,HAM_0004813,male,80.0,anterior torso,1
+ISIC_8842295,IP_8673016,female,60.0,lower extremity,0
+ISIC_4036600,IP_5031178,female,50.0,torso,0
+ISIC_3371792,IP_4427711,female,45.0,upper extremity,0
+ISIC_1328488,IP_0516326,male,40.0,upper extremity,0
+ISIC_9947624,IP_3365162,male,65.0,torso,0
+ISIC_8082012,IP_9461058,female,45.0,lower extremity,0
+ISIC_8996855,IP_7868912,male,65.0,lower extremity,0
+ISIC_6480425,IP_2378734,female,50.0,upper extremity,0
+ISIC_0365032,IP_3908059,female,60.0,upper extremity,0
+ISIC_8395701,IP_0859301,female,50.0,torso,0
+ISIC_7331098,IP_2442926,female,65.0,lower extremity,0
+ISIC_6834297,IP_9835712,,,torso,0
+ISIC_0057313,BCN_0005611,female,50.0,upper extremity,1
+ISIC_6735728,IP_7079700,male,70.0,torso,0
+ISIC_7552521,IP_7824066,male,65.0,lower extremity,0
+ISIC_0058876,BCN_0001728,male,50.0,anterior torso,1
+ISIC_8986785,IP_0503166,female,50.0,torso,0
+ISIC_9344253,IP_4419570,male,50.0,torso,0
+ISIC_8031554,IP_3490992,male,60.0,lower extremity,0
+ISIC_3712092,IP_9450101,female,45.0,torso,0
+ISIC_4086375,IP_1994743,male,50.0,torso,0
+ISIC_8721166,IP_1636784,female,40.0,upper extremity,0
+ISIC_4023618,IP_3190947,female,55.0,lower extremity,0
+ISIC_2122488,IP_9899071,female,35.0,torso,0
+ISIC_0056751,BCN_0001458,male,70.0,head/neck,1
+ISIC_7537335,IP_7150522,male,40.0,torso,0
+ISIC_7460562,IP_7842431,male,40.0,lower extremity,0
+ISIC_3106783,IP_1244021,female,35.0,torso,0
+ISIC_1719523,IP_8041141,female,15.0,upper extremity,0
+ISIC_3600346,IP_6152307,male,60.0,torso,0
+ISIC_0238215,IP_9802994,female,40.0,torso,0
+ISIC_0820978,IP_9450101,female,45.0,torso,0
+ISIC_9987485,IP_9433384,male,50.0,torso,0
+ISIC_8551262,IP_2913292,male,35.0,torso,0
+ISIC_0176781,IP_8131348,female,45.0,lower extremity,0
+ISIC_0064483,BCN_0004405,male,60.0,palms/soles,1
+ISIC_6927228,IP_3237448,male,30.0,torso,0
+ISIC_3844439,IP_5528290,male,50.0,torso,0
+ISIC_4893911,IP_6374803,female,80.0,torso,0
+ISIC_4984668,IP_4210911,female,30.0,torso,0
+ISIC_2778247,IP_9232483,female,45.0,torso,0
+ISIC_0873358,IP_7261254,female,20.0,torso,0
+ISIC_4483070,IP_8340768,male,60.0,head/neck,0
+ISIC_6786759,IP_7685109,female,25.0,torso,0
+ISIC_6063007,IP_8631837,male,55.0,upper extremity,0
+ISIC_2793142,IP_1891465,male,85.0,head/neck,0
+ISIC_6314232,IP_9712836,female,45.0,upper extremity,0
+ISIC_2466236,IP_0408346,male,65.0,head/neck,0
+ISIC_7376684,IP_7291657,female,40.0,torso,0
+ISIC_0064180,BCN_0000763,male,45.0,anterior torso,1
+ISIC_1583715,IP_1522453,female,25.0,torso,0
+ISIC_1234310,IP_8989787,male,35.0,torso,0
+ISIC_5624273,IP_3562983,male,35.0,torso,0
+ISIC_5383064,IP_1170412,female,25.0,lower extremity,0
+ISIC_5673859,IP_1709095,male,55.0,torso,0
+ISIC_2776906,IP_6128767,male,70.0,torso,1
+ISIC_5106240,IP_0280959,female,45.0,lower extremity,0
+ISIC_3608401,IP_2107539,male,55.0,torso,0
+ISIC_8213912,IP_2026598,male,20.0,torso,0
+ISIC_8357384,IP_4199752,female,30.0,torso,0
+ISIC_1089617,IP_9438537,female,30.0,head/neck,0
+ISIC_0033027,HAM_0001174,male,70.0,head/neck,1
+ISIC_7731108,IP_0998852,female,60.0,torso,0
+ISIC_5795064,IP_0639877,male,50.0,palms/soles,0
+ISIC_4102250,IP_6078411,male,35.0,lower extremity,0
+ISIC_3499223,IP_1615189,male,50.0,upper extremity,0
+ISIC_8707477,IP_3937212,female,40.0,,0
+ISIC_2680689,IP_4204657,female,50.0,torso,0
+ISIC_6500740,IP_4162876,male,65.0,lower extremity,0
+ISIC_0761693,IP_5368914,male,65.0,torso,0
+ISIC_9395519,IP_3423256,female,60.0,torso,0
+ISIC_3934537,IP_2325148,male,65.0,torso,0
+ISIC_1860548,IP_5872065,male,45.0,lower extremity,0
+ISIC_8829317,IP_5389392,male,55.0,head/neck,0
+ISIC_6571597,IP_9435698,female,75.0,torso,0
+ISIC_5117209,IP_4702665,female,65.0,,0
+ISIC_6511816,IP_0765629,male,55.0,torso,0
+ISIC_3487151,IP_2584339,male,40.0,torso,0
+ISIC_7893391,IP_6894159,female,70.0,torso,0
+ISIC_8378094,IP_8491618,male,45.0,torso,0
+ISIC_4378584,IP_4842370,female,45.0,torso,0
+ISIC_0460608,IP_8534235,female,60.0,torso,0
+ISIC_5541223,IP_7890415,male,60.0,torso,0
+ISIC_4897852,IP_3232631,female,65.0,torso,0
+ISIC_0631420,IP_8171635,male,70.0,torso,0
+ISIC_9725585,IP_1264754,female,65.0,torso,0
+ISIC_0063792,BCN_0002861,female,80.0,head/neck,1
+ISIC_1846179,IP_4023055,male,60.0,lower extremity,0
+ISIC_5329118,IP_4277352,female,40.0,torso,0
+ISIC_5860269,IP_2290360,male,50.0,torso,0
+ISIC_1980135,IP_4898383,male,30.0,torso,0
+ISIC_9842000,IP_2980320,male,40.0,lower extremity,0
+ISIC_0067005,BCN_0005585,female,80.0,palms/soles,1
+ISIC_1353051,IP_7946270,male,45.0,torso,0
+ISIC_7230304,IP_0687884,male,65.0,torso,0
+ISIC_3403816,IP_3927998,female,40.0,torso,0
+ISIC_0060218,BCN_0001912,female,35.0,upper extremity,1
+ISIC_5759703,IP_8004532,female,30.0,torso,0
+ISIC_3694194,IP_9450101,female,45.0,torso,0
+ISIC_6305230,IP_5945442,female,35.0,lower extremity,0
+ISIC_7707538,IP_8329991,male,35.0,torso,0
+ISIC_2860230,IP_5691366,female,55.0,torso,0
+ISIC_9894782,IP_2950485,female,40.0,upper extremity,0
+ISIC_8027491,IP_5328472,male,65.0,torso,0
+ISIC_3444719,IP_5197350,male,50.0,torso,0
+ISIC_0567676,IP_6887429,male,40.0,torso,0
+ISIC_2321699,IP_4273535,male,45.0,torso,0
+ISIC_4036915,IP_6739626,female,40.0,torso,0
+ISIC_3444192,IP_8916501,male,40.0,torso,0
+ISIC_8501844,IP_3782995,female,25.0,torso,0
+ISIC_4756595,IP_8012985,male,35.0,head/neck,0
+ISIC_7785723,IP_8447624,female,50.0,lower extremity,1
+ISIC_9654161,IP_1188709,female,30.0,torso,0
+ISIC_0682255,IP_5752342,male,75.0,upper extremity,0
+ISIC_1330008,IP_9373614,female,45.0,lower extremity,1
+ISIC_0072182,BCN_0000970,male,50.0,anterior torso,1
+ISIC_7177998,IP_4254406,female,70.0,torso,0
+ISIC_0065843,BCN_0003196,female,80.0,anterior torso,1
+ISIC_9985224,IP_7765741,male,55.0,torso,0
+ISIC_8639771,IP_7688669,female,55.0,torso,0
+ISIC_4923606,IP_2666042,male,50.0,torso,0
+ISIC_0539380,IP_6796539,female,30.0,torso,0
+ISIC_0032903,HAM_0005608,male,75.0,posterior torso,1
+ISIC_7689821,IP_9765850,male,30.0,torso,0
+ISIC_5322071,IP_1419269,male,55.0,torso,0
+ISIC_8232451,IP_0347699,male,20.0,lower extremity,0
+ISIC_0014288_downsampled,MSK4_0010820,female,65.0,lower extremity,1
+ISIC_3766998,IP_2101945,male,65.0,lower extremity,0
+ISIC_2231307,IP_7599389,male,65.0,torso,0
+ISIC_6900448,IP_9576478,male,50.0,torso,0
+ISIC_9347736,IP_4938349,male,70.0,upper extremity,0
+ISIC_7273853,IP_1051664,male,35.0,torso,0
+ISIC_3510004,IP_6842734,male,30.0,upper extremity,0
+ISIC_2960377,IP_7141746,male,75.0,upper extremity,0
+ISIC_0221590,IP_4023055,male,60.0,torso,0
+ISIC_1472868,IP_7765741,male,55.0,lower extremity,0
+ISIC_2260249,IP_6617725,female,30.0,torso,0
+ISIC_0507787,IP_1077703,female,60.0,torso,0
+ISIC_8593825,IP_3937212,female,40.0,upper extremity,0
+ISIC_2279679,IP_4681183,male,40.0,torso,0
+ISIC_2920639,IP_9712836,female,45.0,torso,0
+ISIC_9797578,IP_8650344,male,65.0,torso,0
+ISIC_2613323,IP_5295861,male,70.0,torso,0
+ISIC_3380520,IP_7499536,male,40.0,lower extremity,0
+ISIC_1531204,IP_1890779,female,55.0,lower extremity,0
+ISIC_0481453,IP_4572846,male,65.0,torso,0
+ISIC_1157850,IP_5076578,male,60.0,head/neck,0
+ISIC_8695109,IP_6078411,male,35.0,torso,0
+ISIC_0407005,IP_3713422,male,50.0,torso,0
+ISIC_6616450,IP_8599812,female,45.0,lower extremity,0
+ISIC_4537937,IP_5649357,female,20.0,palms/soles,0
+ISIC_6977097,IP_9115451,male,65.0,lower extremity,0
+ISIC_7803163,IP_0093378,male,60.0,lower extremity,0
+ISIC_9648696,IP_6538458,female,50.0,torso,0
+ISIC_9899644,IP_6506834,male,40.0,upper extremity,0
+ISIC_0030333,HAM_0004853,male,80.0,upper extremity,1
+ISIC_9978498,IP_3549978,female,40.0,torso,0
+ISIC_3811819,IP_6017019,male,35.0,lower extremity,0
+ISIC_9551406,IP_7147862,male,45.0,lower extremity,0
+ISIC_2508901,IP_9147454,female,55.0,torso,0
+ISIC_9096302,IP_8627268,female,35.0,torso,0
+ISIC_2286273,IP_9899071,female,35.0,torso,0
+ISIC_8820527,IP_6624700,male,65.0,torso,0
+ISIC_2256461,IP_7817315,female,60.0,upper extremity,0
+ISIC_6813250,IP_2710085,male,60.0,lower extremity,0
+ISIC_6922243,IP_2026598,male,20.0,lower extremity,0
+ISIC_3458173,IP_8004532,female,30.0,torso,0
+ISIC_5623356,IP_1419269,male,55.0,torso,0
+ISIC_7284436,IP_1751467,male,60.0,torso,0
+ISIC_8637407,IP_4096670,female,50.0,upper extremity,0
+ISIC_4749142,IP_9712836,female,45.0,head/neck,0
+ISIC_1360595,IP_4926060,male,60.0,torso,0
+ISIC_6132976,IP_9115451,male,65.0,lower extremity,0
+ISIC_0013663_downsampled,MSK4_0010102,female,55.0,upper extremity,1
+ISIC_3017950,IP_5629228,female,40.0,torso,0
+ISIC_0063289,BCN_0001285,female,40.0,head/neck,1
+ISIC_8811316,IP_5208504,female,45.0,torso,0
+ISIC_8531381,IP_1676499,female,30.0,torso,0
+ISIC_2720971,IP_9373614,female,50.0,torso,1
+ISIC_3866641,IP_6071452,male,70.0,lower extremity,0
+ISIC_8898156,IP_7599389,male,65.0,torso,0
+ISIC_2894223,IP_5805281,male,50.0,lower extremity,0
+ISIC_0061139,BCN_0002577,female,55.0,lower extremity,1
+ISIC_7338201,IP_5638009,male,55.0,torso,0
+ISIC_1367357,IP_9427625,male,20.0,lower extremity,0
+ISIC_3133127,IP_5805281,male,50.0,torso,0
+ISIC_2049836,IP_2153088,female,30.0,torso,0
+ISIC_8550301,IP_9802994,female,40.0,lower extremity,0
+ISIC_2354682,IP_2247155,female,80.0,lower extremity,0
+ISIC_0687554,IP_4409916,female,40.0,torso,0
+ISIC_7106587,IP_8590096,male,75.0,torso,0
+ISIC_4281872,IP_6017204,female,35.0,upper extremity,0
+ISIC_3564461,IP_7685109,female,25.0,lower extremity,0
+ISIC_6289765,IP_2025600,female,45.0,lower extremity,0
+ISIC_8387944,IP_5097631,female,65.0,torso,0
+ISIC_4170698,IP_6630831,male,50.0,torso,1
+ISIC_3135941,IP_9122609,male,65.0,torso,0
+ISIC_5030416,IP_3232631,female,65.0,upper extremity,0
+ISIC_1738738,IP_8839187,male,25.0,torso,0
+ISIC_2450135,IP_7808060,female,55.0,lower extremity,0
+ISIC_6971343,IP_1602525,female,25.0,torso,0
+ISIC_0059773,BCN_0002079,female,55.0,lower extremity,1
+ISIC_3123835,IP_6071452,male,70.0,torso,0
+ISIC_4569321,IP_2772363,female,60.0,upper extremity,0
+ISIC_0188432,IP_0135517,female,50.0,upper extremity,1
+ISIC_1977265,IP_7522397,female,35.0,torso,0
+ISIC_0604062,IP_2139337,male,30.0,torso,0
+ISIC_5047956,IP_2322991,male,65.0,upper extremity,0
+ISIC_2363574,IP_4387709,male,40.0,lower extremity,0
+ISIC_0057593,BCN_0003501,male,70.0,anterior torso,1
+ISIC_0063766,BCN_0004884,female,70.0,lower extremity,1
+ISIC_3186856,IP_3658607,male,45.0,lower extremity,0
+ISIC_0396865,IP_4667127,female,40.0,lower extremity,0
+ISIC_3882551,IP_3523452,female,20.0,torso,0
+ISIC_3495231,IP_8575171,male,40.0,torso,0
+ISIC_5823076,IP_4698288,male,25.0,torso,0
+ISIC_4833737,IP_6245507,male,45.0,upper extremity,0
+ISIC_7152347,IP_7368120,female,50.0,lower extremity,0
+ISIC_7776593,IP_0418246,female,50.0,head/neck,0
+ISIC_3640598,IP_7890415,male,60.0,torso,0
+ISIC_1506212,IP_7792107,male,60.0,head/neck,0
+ISIC_8410793,IP_1152723,male,25.0,,0
+ISIC_3313736,IP_7232395,male,50.0,torso,0
+ISIC_4111637,IP_7121757,female,35.0,upper extremity,0
+ISIC_1165548,IP_1253185,male,40.0,lower extremity,0
+ISIC_1606398,IP_4745288,male,65.0,torso,0
+ISIC_7067750,IP_5772279,male,70.0,upper extremity,0
+ISIC_0033392,HAM_0003174,male,85.0,,1
+ISIC_5086219,IP_2679808,female,60.0,lower extremity,0
+ISIC_4782254,IP_6830809,male,50.0,lower extremity,0
+ISIC_5182179,IP_3347700,female,55.0,upper extremity,0
+ISIC_9785687,IP_9901906,male,55.0,torso,0
+ISIC_1719433,IP_5450817,male,60.0,torso,0
+ISIC_5539180,IP_2724119,female,45.0,lower extremity,0
+ISIC_9619029,IP_0507923,female,25.0,head/neck,0
+ISIC_2848654,IP_0963996,female,40.0,lower extremity,0
+ISIC_7288627,IP_0500536,male,55.0,torso,0
+ISIC_8634356,IP_2944135,female,35.0,torso,0
+ISIC_7545722,IP_6292815,female,70.0,upper extremity,0
+ISIC_7282415,IP_8326844,female,65.0,torso,0
+ISIC_5459207,IP_5543080,male,60.0,torso,0
+ISIC_5765481,IP_5889408,female,45.0,head/neck,0
+ISIC_7358848,IP_8524154,male,45.0,torso,0
+ISIC_0059869,BCN_0001498,male,65.0,anterior torso,1
+ISIC_9977346,IP_3523452,female,20.0,head/neck,0
+ISIC_2005921,IP_3858753,male,40.0,torso,0
+ISIC_6535381,IP_2147407,female,35.0,torso,0
+ISIC_1198422,IP_6601134,female,55.0,torso,0
+ISIC_6886728,IP_5903849,male,65.0,torso,0
+ISIC_4848291,IP_1787329,male,20.0,lower extremity,0
+ISIC_3139652,IP_3650745,male,65.0,upper extremity,0
+ISIC_4525143,IP_7466144,female,35.0,palms/soles,0
+ISIC_2252743,IP_7842431,male,40.0,torso,0
+ISIC_5261146,IP_4669427,female,50.0,palms/soles,0
+ISIC_0034317,HAM_0006376,female,70.0,lower extremity,1
+ISIC_1410344,IP_7468494,male,15.0,lower extremity,0
+ISIC_0686446,IP_4938382,female,25.0,torso,0
+ISIC_0066058,BCN_0002598,female,85.0,lower extremity,1
+ISIC_1270305,IP_7782559,male,70.0,torso,0
+ISIC_0012356_downsampled,,female,70.0,,1
+ISIC_6843406,IP_4208266,female,35.0,upper extremity,0
+ISIC_1924821,IP_5350484,male,30.0,torso,0
+ISIC_0418738,IP_5543080,male,60.0,torso,0
+ISIC_3128203,IP_6512345,male,70.0,torso,0
+ISIC_3593161,IP_4938382,female,25.0,upper extremity,0
+ISIC_6374821,IP_9180273,male,70.0,torso,0
+ISIC_2700558,IP_4548568,male,45.0,head/neck,0
+ISIC_5090724,IP_1480975,female,45.0,lower extremity,0
+ISIC_7261519,IP_6887429,male,40.0,torso,0
+ISIC_0803154,IP_8534235,female,60.0,head/neck,0
+ISIC_7246852,IP_7517320,male,60.0,torso,0
+ISIC_5145347,IP_3722746,male,50.0,lower extremity,0
+ISIC_6844858,IP_5550558,male,55.0,torso,0
+ISIC_0817091,IP_8349964,male,70.0,head/neck,0
+ISIC_0053542,BCN_0002079,female,55.0,lower extremity,1
+ISIC_5892680,IP_9422872,female,60.0,lower extremity,0
+ISIC_6301774,IP_3659172,female,50.0,lower extremity,0
+ISIC_6123672,IP_7180935,female,35.0,torso,0
+ISIC_0072966,BCN_0002598,female,85.0,lower extremity,1
+ISIC_1772784,IP_2511209,female,45.0,lower extremity,0
+ISIC_0452656,IP_3858753,male,35.0,upper extremity,0
+ISIC_4014307,IP_7842431,male,40.0,torso,0
+ISIC_1265230,IP_2422802,male,50.0,torso,0
+ISIC_5853048,IP_0454573,male,55.0,upper extremity,0
+ISIC_0070846,BCN_0001189,female,50.0,lower extremity,1
+ISIC_9015865,IP_0067018,male,65.0,torso,0
+ISIC_9379917,IP_4936463,female,70.0,head/neck,0
+ISIC_6807502,IP_2378734,female,50.0,torso,0
+ISIC_6193854,IP_7753447,male,60.0,palms/soles,0
+ISIC_3730238,IP_4687295,female,40.0,head/neck,0
+ISIC_2045595,IP_6204577,female,70.0,torso,0
+ISIC_1621961,IP_7357415,female,40.0,lower extremity,0
+ISIC_8409475,IP_4669427,female,40.0,torso,0
+ISIC_3524881,IP_8041141,female,20.0,upper extremity,0
+ISIC_4366055,IP_1866634,female,55.0,lower extremity,0
+ISIC_9183600,IP_0656529,male,60.0,lower extremity,0
+ISIC_4136832,IP_6894159,female,65.0,torso,0
+ISIC_3709724,IP_6175417,female,45.0,oral/genital,0
+ISIC_2031626,IP_0660290,male,60.0,torso,0
+ISIC_5432603,IP_7940004,female,75.0,torso,0
+ISIC_2364150,IP_7100012,female,70.0,upper extremity,1
+ISIC_0000552,,,,,1
+ISIC_0943299,IP_7364944,female,55.0,head/neck,0
+ISIC_0214903,IP_3789216,male,50.0,torso,0
+ISIC_6425888,IP_7004499,male,40.0,torso,0
+ISIC_1463947,IP_0656529,male,60.0,upper extremity,0
+ISIC_0072953,BCN_0005553,male,80.0,head/neck,1
+ISIC_6260969,IP_8793264,female,65.0,torso,0
+ISIC_4969221,IP_6228063,female,20.0,torso,0
+ISIC_6759319,IP_5724756,female,50.0,lower extremity,0
+ISIC_0873114,IP_3564160,female,65.0,torso,0
+ISIC_7073263,IP_5772279,male,70.0,upper extremity,0
+ISIC_4923457,IP_6071452,male,70.0,torso,0
+ISIC_2461731,IP_3434100,female,60.0,upper extremity,0
+ISIC_5996708,IP_2442926,female,65.0,torso,0
+ISIC_2729893,IP_2511209,female,45.0,lower extremity,0
+ISIC_9851634,IP_3933152,female,25.0,torso,0
+ISIC_8276574,IP_5533537,female,50.0,lower extremity,0
+ISIC_4949846,IP_7826053,female,15.0,upper extremity,0
+ISIC_4680528,IP_7207550,male,55.0,torso,0
+ISIC_5391415,IP_7452391,male,60.0,lower extremity,0
+ISIC_3228015,IP_2238880,female,40.0,lower extremity,0
+ISIC_5492526,IP_4169963,female,55.0,torso,0
+ISIC_4361405,IP_8916501,male,50.0,torso,0
+ISIC_0033801,HAM_0000611,female,30.0,posterior torso,1
+ISIC_0061791,BCN_0003578,female,50.0,anterior torso,1
+ISIC_4195990,IP_3127942,female,30.0,torso,0
+ISIC_3396790,IP_8069409,male,30.0,upper extremity,0
+ISIC_9594967,IP_8320831,female,45.0,torso,0
+ISIC_0055226,BCN_0005585,female,80.0,palms/soles,1
+ISIC_1479729,IP_9070827,male,35.0,lower extremity,0
+ISIC_1076339,IP_3054486,male,70.0,torso,0
+ISIC_3697702,IP_2809878,female,45.0,torso,1
+ISIC_9661771,IP_1697215,female,40.0,upper extremity,0
+ISIC_4341685,IP_4096670,female,50.0,lower extremity,0
+ISIC_0301931,IP_3076695,female,75.0,torso,0
+ISIC_2924748,IP_8369251,male,60.0,torso,0
+ISIC_1229835,IP_6017204,female,35.0,torso,0
+ISIC_1438382,IP_9896679,female,35.0,torso,0
+ISIC_1477990,IP_9051557,female,50.0,lower extremity,0
+ISIC_2807162,IP_1023029,female,30.0,torso,0
+ISIC_3556570,IP_8049735,male,40.0,upper extremity,0
+ISIC_5458886,IP_1723924,female,70.0,torso,0
+ISIC_0627979,IP_4382720,female,50.0,lower extremity,0
+ISIC_8316216,IP_3448782,male,50.0,upper extremity,0
+ISIC_6016759,IP_4391034,female,70.0,lower extremity,0
+ISIC_7429745,IP_6098503,female,30.0,torso,0
+ISIC_5924261,IP_0891666,male,65.0,torso,0
+ISIC_8798059,IP_3434100,female,60.0,lower extremity,0
+ISIC_6374961,IP_9422872,female,60.0,torso,0
+ISIC_0032149,HAM_0001964,male,50.0,head/neck,1
+ISIC_4892823,IP_4576977,male,45.0,torso,0
+ISIC_6514416,IP_6323321,male,30.0,torso,0
+ISIC_4067693,IP_7792107,male,60.0,torso,0
+ISIC_4561874,IP_4557152,female,60.0,upper extremity,0
+ISIC_3934613,IP_5711917,female,60.0,torso,0
+ISIC_6461631,IP_4842370,female,45.0,upper extremity,0
+ISIC_5119269,IP_2850771,male,40.0,torso,0
+ISIC_8765068,IP_1036531,male,70.0,torso,0
+ISIC_0249982,IP_8213239,male,65.0,oral/genital,0
+ISIC_0063324,BCN_0002616,male,80.0,anterior torso,1
+ISIC_2846402,IP_9669483,female,40.0,head/neck,0
+ISIC_8174968,IP_3564160,female,65.0,torso,0
+ISIC_3310364,IP_6292815,female,80.0,upper extremity,0
+ISIC_7617861,IP_7753447,male,60.0,torso,0
+ISIC_2605118,IP_5974691,female,35.0,torso,0
+ISIC_8671662,IP_8839187,male,25.0,torso,0
+ISIC_0056192,BCN_0002927,male,75.0,head/neck,1
+ISIC_3316232,IP_4005662,male,45.0,palms/soles,0
+ISIC_9841563,IP_4116267,female,75.0,head/neck,0
+ISIC_9464116,IP_6894159,female,65.0,torso,0
+ISIC_3056509,IP_7199022,female,70.0,lower extremity,0
+ISIC_8145187,IP_9290101,female,50.0,upper extremity,0
+ISIC_2060078,IP_2316840,male,45.0,torso,0
+ISIC_7596526,IP_1264754,female,65.0,lower extremity,0
+ISIC_5152000,IP_7132551,male,55.0,torso,0
+ISIC_9687369,IP_5629228,female,40.0,torso,0
+ISIC_7312977,IP_8675890,male,55.0,lower extremity,1
+ISIC_0070246,BCN_0005012,male,50.0,head/neck,1
+ISIC_9611429,IP_8041141,female,15.0,torso,0
+ISIC_9366737,IP_6512345,male,70.0,torso,0
+ISIC_5115473,IP_1122600,female,70.0,palms/soles,0
+ISIC_0032182,HAM_0006651,female,70.0,posterior torso,1
+ISIC_7671972,IP_4419570,male,50.0,torso,0
+ISIC_0070516,BCN_0001249,male,75.0,head/neck,1
+ISIC_8846065,IP_2932439,female,45.0,torso,0
+ISIC_7914875,IP_7404937,male,60.0,lower extremity,0
+ISIC_8552365,IP_8666570,male,45.0,torso,0
+ISIC_4906026,IP_6245507,male,45.0,lower extremity,0
+ISIC_0030440,HAM_0002509,female,50.0,upper extremity,1
+ISIC_6826692,IP_9392784,female,45.0,torso,0
+ISIC_0055954,BCN_0003649,female,75.0,head/neck,1
+ISIC_8748070,IP_8547782,male,50.0,torso,0
+ISIC_0291282,IP_4017726,female,50.0,lower extremity,0
+ISIC_9498942,IP_6204577,female,65.0,lower extremity,0
+ISIC_9870885,IP_3298186,female,80.0,lower extremity,1
+ISIC_3615645,IP_5168777,female,35.0,lower extremity,0
+ISIC_0234038,IP_8338213,male,50.0,lower extremity,0
+ISIC_6260086,IP_7252910,female,60.0,lower extremity,0
+ISIC_3265748,IP_4204657,female,40.0,torso,0
+ISIC_8289303,IP_6567258,male,45.0,lower extremity,0
+ISIC_5045600,IP_7005083,female,60.0,head/neck,1
+ISIC_7342658,IP_8791409,female,55.0,lower extremity,0
+ISIC_8851268,IP_1395856,male,75.0,head/neck,0
+ISIC_2636012,IP_5889408,female,45.0,torso,0
+ISIC_5503347,IP_4235783,male,60.0,torso,0
+ISIC_0561249,IP_2707228,female,50.0,torso,0
+ISIC_0065338,BCN_0004884,female,70.0,lower extremity,1
+ISIC_0060194,BCN_0001189,female,50.0,lower extremity,1
+ISIC_0708542,IP_3222187,female,40.0,torso,0
+ISIC_5044449,IP_9856163,female,55.0,upper extremity,0
+ISIC_1394029,IP_5097631,female,65.0,torso,0
+ISIC_0054892,BCN_0003501,male,70.0,anterior torso,1
+ISIC_0014163_downsampled,MSK4_0010793,male,70.0,upper extremity,1
+ISIC_0652205,IP_5115535,male,40.0,lower extremity,0
+ISIC_6047043,IP_0148851,female,65.0,,0
+ISIC_7810462,IP_4218429,female,30.0,torso,0
+ISIC_4404893,IP_9053225,female,55.0,torso,0
+ISIC_7090070,IP_0306499,male,70.0,lower extremity,0
+ISIC_5930008,IP_9738076,female,90.0,head/neck,0
+ISIC_1500060,IP_6820518,female,40.0,lower extremity,0
+ISIC_4227624,IP_1043359,female,50.0,head/neck,0
+ISIC_8030752,IP_6118207,male,45.0,lower extremity,0
+ISIC_2739481,IP_9595383,male,45.0,torso,0
+ISIC_4396411,IP_2166250,male,35.0,torso,0
+ISIC_0705313,IP_1582457,male,50.0,torso,0
+ISIC_8199247,IP_4098846,male,45.0,torso,0
+ISIC_2605880,IP_4302652,female,20.0,upper extremity,0
+ISIC_7167788,IP_9024040,male,70.0,torso,0
+ISIC_8354042,IP_6029234,female,70.0,lower extremity,0
+ISIC_0066320,BCN_0005035,male,75.0,anterior torso,1
+ISIC_3788766,IP_2147407,female,35.0,lower extremity,0
+ISIC_9751601,IP_9463965,female,30.0,torso,0
+ISIC_3073001,IP_8330575,male,35.0,torso,0
+ISIC_0033399,HAM_0003759,male,70.0,posterior torso,1
+ISIC_9731969,IP_2950485,female,40.0,upper extremity,0
+ISIC_3944634,IP_7386073,male,55.0,torso,1
+ISIC_7621674,IP_2147407,female,35.0,torso,0
+ISIC_6224829,IP_5533537,female,55.0,head/neck,0
+ISIC_0363161,IP_7096079,male,45.0,lower extremity,0
+ISIC_4752331,IP_2465701,female,60.0,torso,0
+ISIC_5038440,IP_5017621,male,40.0,lower extremity,0
+ISIC_3127347,IP_7716159,male,85.0,torso,0
+ISIC_7184722,IP_1969685,male,50.0,torso,0
+ISIC_8698578,IP_0931383,female,65.0,upper extremity,0
+ISIC_0071012,BCN_0001507,female,85.0,head/neck,1
+ISIC_2903756,IP_3752129,male,45.0,torso,0
+ISIC_0059353,BCN_0000048,male,65.0,anterior torso,1
+ISIC_7696538,IP_8627284,female,35.0,lower extremity,0
+ISIC_6966881,IP_1197949,male,45.0,lower extremity,0
+ISIC_7631254,IP_9067064,male,45.0,torso,0
+ISIC_7184491,IP_6776978,female,60.0,torso,0
+ISIC_9864402,IP_8320831,female,45.0,torso,0
+ISIC_6673875,IP_3833850,male,50.0,lower extremity,0
+ISIC_9672879,IP_7279968,male,45.0,upper extremity,0
+ISIC_3245980,IP_2606884,female,45.0,lower extremity,0
+ISIC_4265755,IP_0998852,female,55.0,torso,0
+ISIC_4075148,IP_9544996,female,35.0,torso,0
+ISIC_0599755,IP_6875077,male,50.0,torso,0
+ISIC_0064646,BCN_0000846,female,85.0,head/neck,1
+ISIC_1129508,IP_8220633,male,50.0,torso,0
+ISIC_0034256,HAM_0005636,male,70.0,posterior torso,1
+ISIC_3575777,IP_5627853,female,35.0,head/neck,0
+ISIC_0031972,HAM_0002182,female,65.0,head/neck,1
+ISIC_2646829,IP_8361815,male,80.0,head/neck,1
+ISIC_3887465,IP_9115451,male,65.0,lower extremity,0
+ISIC_3365320,IP_9644384,female,25.0,upper extremity,0
+ISIC_0213271,IP_9186570,male,55.0,lower extremity,0
+ISIC_9870704,IP_0839290,male,60.0,torso,0
+ISIC_7518447,IP_1962690,female,50.0,torso,0
+ISIC_9351189,IP_3865267,male,25.0,palms/soles,0
+ISIC_8931948,IP_3489420,male,50.0,torso,0
+ISIC_6769445,IP_7804786,male,50.0,torso,0
+ISIC_1000399,IP_2322991,male,65.0,torso,0
+ISIC_0027190,HAM_0000040,male,80.0,upper extremity,1
+ISIC_3401780,IP_7105810,female,65.0,lower extremity,0
+ISIC_2172628,IP_6960402,female,30.0,head/neck,0
+ISIC_1210620,IP_0660290,male,60.0,lower extremity,0
+ISIC_0000549,,,,,1
+ISIC_5637105,IP_0541183,female,75.0,lower extremity,0
+ISIC_2425013,IP_2160700,male,45.0,torso,0
+ISIC_0061104,BCN_0000618,female,75.0,head/neck,1
+ISIC_0876506,IP_3807016,male,80.0,torso,0
+ISIC_3567385,IP_7491908,male,35.0,lower extremity,0
+ISIC_2085855,IP_2822147,female,25.0,torso,0
+ISIC_8192311,IP_7207550,male,55.0,upper extremity,0
+ISIC_3634704,IP_8152038,male,55.0,torso,0
+ISIC_2465895,IP_3094561,male,30.0,torso,0
+ISIC_7803496,IP_6331820,female,55.0,palms/soles,0
+ISIC_8841886,IP_9327025,male,50.0,torso,0
+ISIC_7184836,IP_3169043,male,75.0,lower extremity,0
+ISIC_8369671,IP_1969685,male,50.0,torso,0
+ISIC_1896191,IP_6887203,male,40.0,lower extremity,0
+ISIC_4883688,IP_2632866,female,55.0,torso,0
+ISIC_3203344,IP_5852997,male,60.0,torso,1
+ISIC_3296136,IP_4292424,male,40.0,upper extremity,0
+ISIC_9889373,IP_3120589,female,55.0,lower extremity,0
+ISIC_7156892,IP_7491908,male,35.0,torso,0
+ISIC_9803675,IP_1962690,female,50.0,upper extremity,0
+ISIC_8340426,IP_8027787,male,75.0,lower extremity,0
+ISIC_4886493,IP_9644384,female,25.0,upper extremity,0
+ISIC_0000156_downsampled,,,,,1
+ISIC_3828321,IP_9205477,male,50.0,torso,0
+ISIC_1526608,IP_2408430,female,65.0,upper extremity,0
+ISIC_0452459,IP_9906035,male,50.0,torso,0
+ISIC_2339522,IP_2545631,male,20.0,torso,0
+ISIC_5048571,IP_4356379,female,40.0,upper extremity,0
+ISIC_3821027,IP_2584339,male,40.0,torso,0
+ISIC_8992166,IP_8004532,female,30.0,torso,0
+ISIC_8117120,IP_8385941,female,50.0,torso,0
+ISIC_0185135,IP_1645936,female,65.0,torso,0
+ISIC_7115108,IP_1173567,male,70.0,torso,0
+ISIC_9568868,IP_5691366,female,55.0,upper extremity,0
+ISIC_0072377,BCN_0000188,male,65.0,upper extremity,1
+ISIC_2704046,IP_0091605,female,45.0,torso,0
+ISIC_3706506,IP_5071744,male,20.0,head/neck,0
+ISIC_2338423,IP_9748255,male,40.0,lower extremity,0
+ISIC_7547714,IP_4871455,male,75.0,torso,0
+ISIC_7881017,IP_0392287,male,50.0,lower extremity,0
+ISIC_9315146,IP_0901675,female,70.0,torso,0
+ISIC_5172053,IP_9645497,male,65.0,upper extremity,0
+ISIC_2111605,IP_1348848,male,60.0,lower extremity,0
+ISIC_5740023,IP_0634841,male,55.0,torso,0
+ISIC_3804784,IP_5370714,female,75.0,upper extremity,0
+ISIC_3984965,IP_3358218,female,45.0,torso,0
+ISIC_3948344,IP_6071452,male,70.0,head/neck,0
+ISIC_3159924,IP_2584339,male,45.0,upper extremity,1
+ISIC_4681139,IP_4667127,female,40.0,torso,0
+ISIC_6418122,IP_5974691,female,35.0,upper extremity,0
+ISIC_0067805,BCN_0004592,male,65.0,upper extremity,1
+ISIC_1077822,IP_4842370,female,45.0,torso,0
+ISIC_7581388,IP_8326844,female,60.0,torso,0
+ISIC_0850181,IP_9826072,male,70.0,torso,0
+ISIC_5131330,IP_0392287,male,45.0,torso,0
+ISIC_7060501,IP_2411134,female,40.0,torso,0
+ISIC_1934152,IP_8753181,male,35.0,torso,0
+ISIC_5967053,IP_3140047,male,50.0,torso,0
+ISIC_5902170,IP_3650745,male,65.0,lower extremity,0
+ISIC_9986760,IP_2170331,female,50.0,upper extremity,0
+ISIC_7342840,IP_9258690,male,35.0,lower extremity,0
+ISIC_5796081,IP_4294672,female,60.0,torso,0
+ISIC_7385195,IP_5295861,male,70.0,upper extremity,0
+ISIC_2370650,IP_7522397,female,40.0,torso,0
+ISIC_5059375,IP_6331820,female,55.0,upper extremity,0
+ISIC_1464217,IP_1096358,male,45.0,upper extremity,0
+ISIC_6192289,IP_4194721,male,50.0,torso,0
+ISIC_5131121,IP_0507923,female,30.0,,0
+ISIC_2948780,IP_1447682,female,40.0,lower extremity,0
+ISIC_5163807,IP_9067064,male,45.0,head/neck,0
+ISIC_2492245,IP_1264754,female,65.0,lower extremity,0
+ISIC_4235215,IP_2214113,female,55.0,upper extremity,0
+ISIC_6638892,IP_5178963,female,45.0,lower extremity,0
+ISIC_0056677,BCN_0000627,male,70.0,anterior torso,1
+ISIC_1714941,IP_2644876,female,65.0,torso,0
+ISIC_0557067,IP_7334384,male,70.0,torso,0
+ISIC_8724791,IP_8839187,male,25.0,torso,0
+ISIC_7558980,IP_1058691,female,45.0,lower extremity,0
+ISIC_5234835,IP_6776978,female,60.0,lower extremity,0
+ISIC_2840136,IP_6420568,male,40.0,torso,0
+ISIC_7293105,IP_2321962,female,30.0,torso,0
+ISIC_0766935,IP_1512731,male,45.0,lower extremity,0
+ISIC_7571140,IP_2959285,male,65.0,torso,0
+ISIC_6345877,IP_7313005,male,30.0,lower extremity,0
+ISIC_2541562,IP_0687884,male,65.0,torso,0
+ISIC_0071169,BCN_0001762,male,55.0,upper extremity,1
+ISIC_0030486,HAM_0001150,male,80.0,head/neck,1
+ISIC_0025891,HAM_0001600,female,65.0,lower extremity,1
+ISIC_1738117,IP_1652699,male,55.0,upper extremity,0
+ISIC_5813408,IP_4302652,female,20.0,lower extremity,0
+ISIC_6900559,IP_6242332,male,60.0,torso,0
+ISIC_0068907,BCN_0001181,female,50.0,head/neck,1
+ISIC_1012387,IP_1197949,male,45.0,torso,0
+ISIC_7460887,IP_7180935,female,30.0,torso,1
+ISIC_9010907,IP_5450817,male,60.0,lower extremity,0
+ISIC_6769965,IP_3281766,female,35.0,torso,0
+ISIC_9323659,IP_3047844,male,45.0,torso,0
+ISIC_0062806,BCN_0004405,male,60.0,palms/soles,1
+ISIC_0055205,BCN_0001694,male,65.0,head/neck,1
+ISIC_1355907,IP_6512345,male,70.0,torso,0
+ISIC_3481078,IP_6887429,male,45.0,torso,0
+ISIC_8669004,IP_2375765,male,30.0,oral/genital,0
+ISIC_3586480,IP_8491618,male,45.0,lower extremity,0
+ISIC_8592235,IP_1242186,male,60.0,torso,0
+ISIC_9268137,IP_3232631,female,65.0,upper extremity,0
+ISIC_3526799,IP_6892288,female,55.0,torso,0
+ISIC_9161898,IP_5528290,male,50.0,torso,0
+ISIC_0202680,IP_0161742,female,40.0,torso,0
+ISIC_5634535,IP_4137989,female,30.0,torso,0
+ISIC_8162092,IP_8494731,female,35.0,lower extremity,0
+ISIC_0072773,BCN_0005422,female,50.0,lower extremity,1
+ISIC_0032134,HAM_0002430,female,70.0,upper extremity,1
+ISIC_3072311,IP_0904259,female,30.0,torso,0
+ISIC_5550714,IP_7373371,female,55.0,lower extremity,0
+ISIC_3905662,IP_9544996,female,35.0,torso,0
+ISIC_7040375,IP_4382720,female,50.0,lower extremity,0
+ISIC_3507446,IP_4095099,female,40.0,torso,0
+ISIC_8241171,IP_3511266,female,20.0,torso,0
+ISIC_5053904,IP_0892152,male,50.0,torso,0
+ISIC_6817228,IP_9558959,male,45.0,torso,0
+ISIC_5668727,IP_0280959,female,45.0,upper extremity,0
+ISIC_3935308,IP_9486050,male,35.0,upper extremity,0
+ISIC_0055404,BCN_0003882,male,70.0,upper extremity,1
+ISIC_3139224,IP_2760044,male,40.0,torso,0
+ISIC_1598039,IP_1362494,female,50.0,lower extremity,0
+ISIC_0424646,IP_6997528,female,35.0,lower extremity,0
+ISIC_2581536,IP_7743081,female,50.0,lower extremity,0
+ISIC_9356313,IP_7415009,female,50.0,upper extremity,0
+ISIC_2184202,IP_4449605,female,55.0,lower extremity,0
+ISIC_1662872,IP_2584339,male,40.0,lower extremity,0
+ISIC_0254698,IP_7497232,male,35.0,torso,0
+ISIC_2384341,IP_0901675,female,70.0,upper extremity,0
+ISIC_1865060,IP_3240837,male,50.0,head/neck,0
+ISIC_9216458,IP_0672967,female,45.0,torso,0
+ISIC_8143371,IP_9636064,male,30.0,upper extremity,0
+ISIC_3256887,IP_2506795,female,35.0,torso,0
+ISIC_6280185,IP_8247808,female,35.0,head/neck,0
+ISIC_8085467,IP_5390682,male,75.0,torso,0
+ISIC_3440178,IP_9802994,female,40.0,upper extremity,0
+ISIC_5790315,IP_3490992,male,60.0,lower extremity,0
+ISIC_6647883,IP_9460738,male,35.0,torso,0
+ISIC_7175857,IP_4129058,female,45.0,torso,0
+ISIC_7173463,IP_8627268,female,35.0,upper extremity,0
+ISIC_1723904,IP_3434100,female,60.0,torso,0
+ISIC_5074968,IP_3057277,male,45.0,,0
+ISIC_7190175,IP_7743588,male,35.0,lower extremity,0
+ISIC_1002473,IP_6428232,male,50.0,torso,0
+ISIC_8275281,IP_4558019,male,60.0,lower extremity,0
+ISIC_1725019,IP_9639732,male,35.0,torso,0
+ISIC_7663344,IP_8004532,female,30.0,lower extremity,0
+ISIC_6878588,IP_5627853,female,35.0,upper extremity,0
+ISIC_9021889,IP_8369251,male,55.0,lower extremity,0
+ISIC_5194331,IP_5857448,male,45.0,lower extremity,0
+ISIC_9198404,IP_3561033,male,45.0,torso,0
+ISIC_2053951,IP_4645992,male,35.0,lower extremity,0
+ISIC_1973815,IP_2732171,male,60.0,torso,0
+ISIC_0776935,IP_8791409,female,45.0,lower extremity,0
+ISIC_9437380,IP_4959878,female,30.0,torso,0
+ISIC_5920981,IP_5389392,male,55.0,head/neck,0
+ISIC_1086902,IP_8678278,male,40.0,palms/soles,0
+ISIC_3876274,IP_3846489,male,50.0,oral/genital,0
+ISIC_6285076,IP_1058691,female,45.0,head/neck,0
+ISIC_4132685,IP_1807952,male,45.0,head/neck,0
+ISIC_4705711,IP_2669371,female,45.0,torso,0
+ISIC_4016784,IP_8210115,male,55.0,torso,0
+ISIC_8010113,IP_4235783,male,60.0,head/neck,0
+ISIC_8585374,IP_3937212,female,40.0,torso,0
+ISIC_5442834,IP_9879000,male,30.0,torso,0
+ISIC_1083584,IP_1023029,female,30.0,torso,0
+ISIC_1503257,IP_2457893,male,75.0,upper extremity,0
+ISIC_7963451,IP_8743390,female,30.0,upper extremity,0
+ISIC_8802922,IP_9639732,male,45.0,lower extremity,0
+ISIC_7478025,IP_8590096,male,75.0,torso,0
+ISIC_2266715,IP_4109313,male,30.0,upper extremity,0
+ISIC_0055450,BCN_0002152,male,55.0,head/neck,1
+ISIC_9492000,IP_6631780,female,45.0,torso,0
+ISIC_0770814,IP_0854065,male,45.0,lower extremity,0
+ISIC_3648961,IP_4959878,female,30.0,lower extremity,0
+ISIC_7570825,IP_0648521,male,60.0,torso,0
+ISIC_3936223,IP_3293726,male,80.0,torso,1
+ISIC_4212044,IP_0621614,male,40.0,lower extremity,0
+ISIC_8168901,IP_6026359,male,55.0,torso,0
+ISIC_9146648,IP_8012985,male,35.0,lower extremity,0
+ISIC_7759913,IP_6601134,female,55.0,torso,0
+ISIC_4885444,IP_0099096,female,35.0,torso,0
+ISIC_0065142,BCN_0002746,male,60.0,head/neck,1
+ISIC_1448992,IP_5870445,male,45.0,lower extremity,0
+ISIC_6477752,IP_4488328,male,40.0,torso,0
+ISIC_8885809,IP_1931050,male,55.0,torso,0
+ISIC_8142461,IP_5596716,male,45.0,lower extremity,0
+ISIC_7071594,IP_1197949,male,50.0,upper extremity,0
+ISIC_0322371,IP_2760044,male,40.0,torso,0
+ISIC_9591623,IP_9712836,female,45.0,lower extremity,0
+ISIC_0071720,BCN_0003910,female,75.0,upper extremity,1
+ISIC_0483289,IP_0148558,female,50.0,lower extremity,0
+ISIC_9714160,IP_9623174,male,45.0,torso,0
+ISIC_6116536,IP_2394927,male,40.0,torso,0
+ISIC_0055208,BCN_0002655,female,50.0,lower extremity,1
+ISIC_9593796,IP_5450817,male,50.0,upper extremity,0
+ISIC_9105994,IP_8561849,male,40.0,lower extremity,0
+ISIC_0066319,BCN_0003369,male,50.0,lower extremity,1
+ISIC_6693976,IP_8130803,male,15.0,head/neck,0
+ISIC_9999127,IP_9583707,male,20.0,torso,0
+ISIC_1272071,IP_4116267,female,70.0,lower extremity,0
+ISIC_1654357,IP_5903849,male,75.0,lower extremity,0
+ISIC_2427137,IP_9579751,male,45.0,torso,0
+ISIC_0776193,IP_6526534,male,45.0,torso,0
+ISIC_2137735,IP_9692695,male,75.0,head/neck,0
+ISIC_4262522,IP_8793264,female,65.0,torso,0
+ISIC_0889988,IP_4179834,female,40.0,lower extremity,0
+ISIC_5458933,IP_0516326,male,35.0,lower extremity,0
+ISIC_3927960,IP_6049920,female,50.0,torso,0
+ISIC_3134745,IP_1077703,female,60.0,lower extremity,0
+ISIC_8633512,IP_1380269,female,55.0,torso,0
+ISIC_5125226,IP_8744388,male,55.0,torso,0
+ISIC_6422710,IP_7330399,female,55.0,torso,0
+ISIC_2404756,IP_5234470,male,30.0,lower extremity,0
+ISIC_4277207,IP_6118207,male,45.0,,0
+ISIC_0027442,HAM_0002375,male,80.0,head/neck,1
+ISIC_8236959,IP_8791409,female,45.0,torso,0
+ISIC_0751219,IP_2153088,female,30.0,torso,0
+ISIC_1920523,IP_6945048,male,35.0,upper extremity,0
+ISIC_0072977,BCN_0001085,male,70.0,lower extremity,1
+ISIC_0070215,BCN_0002074,female,85.0,anterior torso,1
+ISIC_2396605,IP_9002821,male,40.0,torso,0
+ISIC_6737576,IP_4865295,male,60.0,torso,0
+ISIC_2739702,IP_0307863,male,45.0,torso,0
+ISIC_0055743,BCN_0000780,male,55.0,head/neck,1
+ISIC_1933891,IP_3091321,male,40.0,torso,0
+ISIC_9670242,IP_5766574,female,50.0,lower extremity,0
+ISIC_6087965,IP_9624164,male,70.0,torso,0
+ISIC_6708968,IP_4969172,male,45.0,torso,0
+ISIC_8024647,IP_3713422,male,50.0,torso,0
+ISIC_4787852,IP_3116217,female,55.0,lower extremity,0
+ISIC_1434362,IP_5208504,female,45.0,torso,0
+ISIC_7988735,IP_8349964,male,70.0,lower extremity,0
+ISIC_2006783,IP_6078411,male,30.0,torso,0
+ISIC_7604178,IP_3562983,male,35.0,upper extremity,0
+ISIC_5804316,IP_8418821,male,55.0,torso,0
+ISIC_7976310,IP_3814330,female,80.0,torso,0
+ISIC_6107273,IP_5867829,male,60.0,oral/genital,0
+ISIC_0032547,HAM_0002993,male,55.0,upper extremity,1
+ISIC_0032984,HAM_0005636,male,70.0,posterior torso,1
+ISIC_0504868,IP_6892288,female,60.0,lower extremity,0
+ISIC_3521744,IP_2963366,male,75.0,torso,0
+ISIC_4791544,IP_6977878,male,40.0,lower extremity,0
+ISIC_3773860,IP_0400826,male,45.0,,0
+ISIC_4150178,IP_8663649,male,45.0,lower extremity,0
+ISIC_9343976,IP_2506795,female,35.0,upper extremity,0
+ISIC_0034052,HAM_0003566,male,50.0,anterior torso,1
+ISIC_9020712,IP_6868151,male,25.0,torso,0
+ISIC_9345892,IP_4898383,male,30.0,torso,0
+ISIC_0025927,HAM_0002557,female,50.0,upper extremity,1
+ISIC_9702940,IP_0656529,male,60.0,torso,0
+ISIC_4940947,IP_7330399,female,55.0,upper extremity,0
+ISIC_2029351,IP_3200260,female,30.0,torso,0
+ISIC_7480322,IP_5152468,female,25.0,torso,0
+ISIC_9736710,IP_3222187,female,40.0,upper extremity,0
+ISIC_4956558,IP_6234053,male,75.0,head/neck,0
+ISIC_3158860,IP_4639224,male,45.0,lower extremity,0
+ISIC_4742488,IP_8442345,male,35.0,upper extremity,0
+ISIC_6889965,IP_4983809,male,70.0,torso,0
+ISIC_2339196,IP_7005083,female,40.0,torso,0
+ISIC_5002738,IP_7743248,female,35.0,torso,0
+ISIC_1791075,IP_8041141,female,15.0,torso,0
+ISIC_2951492,IP_7890415,male,60.0,torso,0
+ISIC_1396321,IP_0621614,male,40.0,upper extremity,0
+ISIC_0462956,IP_9756233,male,60.0,torso,0
+ISIC_1384331,IP_0998852,female,50.0,torso,0
+ISIC_1955511,IP_4879325,female,55.0,torso,0
+ISIC_7071213,IP_9594882,male,25.0,head/neck,0
+ISIC_9407448,IP_6709202,female,60.0,torso,0
+ISIC_0064925,BCN_0004293,female,50.0,upper extremity,1
+ISIC_1197584,IP_1890779,female,50.0,torso,0
+ISIC_6811809,IP_7447953,male,55.0,lower extremity,0
+ISIC_3945116,IP_2508654,female,60.0,torso,0
+ISIC_7769451,IP_9585016,male,40.0,upper extremity,0
+ISIC_8766254,IP_7772951,male,45.0,lower extremity,0
+ISIC_9757438,IP_4042098,male,40.0,torso,0
+ISIC_6289684,IP_9373614,female,45.0,torso,0
+ISIC_6832732,IP_2247155,female,75.0,torso,0
+ISIC_6007760,IP_6676060,female,40.0,torso,0
+ISIC_1641839,IP_8375879,male,70.0,torso,0
+ISIC_3715736,IP_2228564,male,40.0,lower extremity,0
+ISIC_8563737,IP_6331798,female,25.0,lower extremity,0
+ISIC_4512891,IP_1096358,male,45.0,upper extremity,0
+ISIC_6785249,IP_9899071,female,35.0,torso,0
+ISIC_4960784,IP_9663529,female,75.0,upper extremity,1
+ISIC_8409323,IP_9558959,male,45.0,torso,0
+ISIC_2241388,IP_1096358,male,45.0,upper extremity,0
+ISIC_0946787,IP_9738076,female,90.0,lower extremity,1
+ISIC_9972518,IP_0892152,male,50.0,upper extremity,0
+ISIC_9814534,IP_3650745,male,65.0,torso,0
+ISIC_5986798,IP_3782995,female,25.0,torso,0
+ISIC_9918806,IP_3324603,female,90.0,lower extremity,0
+ISIC_9795868,IP_3678398,male,60.0,upper extremity,0
+ISIC_6232787,IP_1517386,male,40.0,lower extremity,0
+ISIC_0559314,IP_9205477,male,50.0,torso,0
+ISIC_7797278,IP_5085022,female,55.0,torso,0
+ISIC_1485908,IP_8791409,female,40.0,torso,0
+ISIC_9699728,IP_4821632,female,30.0,torso,0
+ISIC_3138836,IP_1885773,female,65.0,lower extremity,0
+ISIC_1537958,IP_5424227,female,55.0,upper extremity,0
+ISIC_8551124,IP_2310783,male,45.0,lower extremity,0
+ISIC_0073210,BCN_0005637,male,70.0,head/neck,1
+ISIC_3911901,IP_1564049,female,70.0,upper extremity,0
+ISIC_4458627,IP_0500903,female,25.0,upper extremity,0
+ISIC_4301919,IP_8369251,male,55.0,torso,0
+ISIC_6588881,IP_7207550,male,55.0,torso,0
+ISIC_0071536,BCN_0002453,male,45.0,anterior torso,1
+ISIC_5125960,IP_9770302,female,55.0,head/neck,0
+ISIC_9024724,IP_1419269,male,55.0,torso,0
+ISIC_8357679,IP_1010643,male,75.0,torso,0
+ISIC_3684488,IP_7375528,female,55.0,,1
+ISIC_7960251,IP_8375879,male,75.0,torso,0
+ISIC_1620801,IP_8011614,female,40.0,head/neck,0
+ISIC_2604581,IP_5287467,male,70.0,torso,0
+ISIC_0811352,IP_3424938,female,35.0,upper extremity,0
+ISIC_1548638,IP_4488328,male,40.0,torso,0
+ISIC_8851036,IP_5438943,male,70.0,torso,0
+ISIC_2450957,IP_5906250,female,55.0,lower extremity,0
+ISIC_0063606,BCN_0002742,female,80.0,anterior torso,1
+ISIC_9470922,IP_2860540,male,65.0,lower extremity,0
+ISIC_3092441,IP_7415009,female,50.0,lower extremity,0
+ISIC_1018102,IP_3723085,female,40.0,torso,0
+ISIC_1625064,IP_2669371,female,50.0,upper extremity,0
+ISIC_9590673,IP_9721483,female,60.0,torso,0
+ISIC_9498448,IP_5596716,male,50.0,lower extremity,0
+ISIC_4735106,IP_8001428,female,40.0,torso,0
+ISIC_7735102,IP_4466046,male,35.0,upper extremity,0
+ISIC_6460696,IP_1976214,female,35.0,torso,0
+ISIC_5908132,IP_0492456,female,35.0,torso,0
+ISIC_8185610,IP_4966841,male,50.0,head/neck,0
+ISIC_5049165,IP_8011614,female,40.0,torso,0
+ISIC_9569669,IP_4842370,female,45.0,torso,0
+ISIC_8274374,IP_4389876,female,50.0,lower extremity,0
+ISIC_8503192,IP_0892152,male,50.0,torso,0
+ISIC_3994656,IP_0358698,male,55.0,lower extremity,0
+ISIC_3145600,IP_6526534,male,50.0,torso,0
+ISIC_9199158,IP_1902399,male,35.0,torso,0
+ISIC_0024700,HAM_0001726,female,35.0,,1
+ISIC_6223989,IP_9422872,female,60.0,torso,0
+ISIC_3726355,IP_5076578,male,55.0,upper extremity,0
+ISIC_0062382,BCN_0004733,male,30.0,anterior torso,1
+ISIC_9279329,IP_8329777,female,35.0,lower extremity,0
+ISIC_5614711,IP_5389392,male,55.0,torso,0
+ISIC_1903346,IP_8753181,male,35.0,upper extremity,0
+ISIC_3799559,IP_2358028,male,45.0,torso,0
+ISIC_4532667,IP_5805281,male,50.0,lower extremity,0
+ISIC_4607215,IP_1195596,male,35.0,torso,0
+ISIC_6852313,IP_4382720,female,50.0,torso,0
+ISIC_4528136,IP_7123023,male,30.0,torso,0
+ISIC_2401734,IP_6540095,male,55.0,torso,0
+ISIC_5524682,IP_9644384,female,25.0,lower extremity,0
+ISIC_5529924,IP_5474292,male,40.0,torso,0
+ISIC_1610104,IP_7688774,female,25.0,head/neck,0
+ISIC_3964454,IP_8049735,male,45.0,lower extremity,0
+ISIC_3879233,IP_3564160,female,65.0,upper extremity,0
+ISIC_0742879,IP_5111058,male,75.0,head/neck,0
+ISIC_1243938,IP_0768675,male,35.0,upper extremity,0
+ISIC_3251828,IP_1419269,male,55.0,torso,0
+ISIC_7311624,IP_4370559,male,25.0,lower extremity,0
+ISIC_9924877,IP_7079700,male,70.0,head/neck,0
+ISIC_7313442,IP_7279968,male,45.0,upper extremity,0
+ISIC_6316546,IP_7792107,male,60.0,upper extremity,0
+ISIC_4505852,IP_8766487,female,40.0,oral/genital,0
+ISIC_3593382,IP_5397868,female,50.0,torso,0
+ISIC_0057881,BCN_0003886,male,55.0,palms/soles,1
+ISIC_2044613,IP_9802994,female,40.0,torso,0
+ISIC_7959339,IP_9564988,female,50.0,lower extremity,0
+ISIC_0793465,IP_5064631,male,35.0,torso,0
+ISIC_1194944,IP_7497232,male,25.0,palms/soles,0
+ISIC_4744974,IP_8004532,female,30.0,lower extremity,0
+ISIC_9257020,IP_1969685,male,50.0,torso,0
+ISIC_5591622,IP_3358218,female,45.0,lower extremity,0
+ISIC_9586758,IP_3947094,male,50.0,torso,0
+ISIC_5827217,IP_5724756,female,50.0,torso,0
+ISIC_0154338,IP_5768092,female,60.0,upper extremity,0
+ISIC_8579259,IP_0962375,female,55.0,torso,0
+ISIC_0975393,IP_5711917,female,60.0,torso,0
+ISIC_2928278,IP_4030464,female,60.0,torso,0
+ISIC_1241304,IP_4050705,female,40.0,torso,0
+ISIC_1428473,IP_9045497,male,70.0,torso,0
+ISIC_3844404,IP_7232395,male,55.0,upper extremity,0
+ISIC_5902741,IP_6512345,male,70.0,torso,0
+ISIC_4920051,IP_3658607,male,45.0,lower extremity,0
+ISIC_7975678,IP_4716377,female,30.0,lower extremity,0
+ISIC_2952684,IP_8344324,female,55.0,upper extremity,0
+ISIC_7287540,IP_1969685,male,50.0,torso,0
+ISIC_9035176,IP_4109313,male,30.0,torso,0
+ISIC_0030898,HAM_0001847,male,50.0,posterior torso,1
+ISIC_3701892,IP_0139601,female,45.0,torso,0
+ISIC_4292708,IP_0951571,female,75.0,lower extremity,0
+ISIC_0150975,IP_9212266,female,50.0,lower extremity,0
+ISIC_0671251,IP_3423256,female,60.0,head/neck,0
+ISIC_1715821,IP_9355893,male,40.0,torso,0
+ISIC_6711169,IP_4387709,male,25.0,torso,0
+ISIC_9481260,IP_1665515,male,80.0,upper extremity,0
+ISIC_0066094,BCN_0005501,female,75.0,lower extremity,1
+ISIC_0944753,IP_2669703,female,30.0,upper extremity,0
+ISIC_3966519,IP_0148558,female,50.0,upper extremity,0
+ISIC_9132088,IP_5205991,,,upper extremity,0
+ISIC_7011683,IP_6694806,female,45.0,upper extremity,0
+ISIC_9696502,IP_4116267,female,70.0,oral/genital,0
+ISIC_5564472,IP_3422736,female,35.0,lower extremity,0
+ISIC_8759744,IP_4419570,male,50.0,torso,0
+ISIC_1318781,IP_8491618,male,40.0,torso,0
+ISIC_0069245,BCN_0003907,female,65.0,anterior torso,1
+ISIC_6982343,IP_2426108,female,50.0,lower extremity,0
+ISIC_4502605,IP_1139701,female,45.0,torso,0
+ISIC_3076237,IP_9802994,female,40.0,torso,0
+ISIC_2283336,IP_7121757,female,35.0,torso,0
+ISIC_8629635,IP_7775567,male,50.0,torso,0
+ISIC_0024961,HAM_0006006,male,75.0,anterior torso,1
+ISIC_7424388,IP_4707488,male,50.0,torso,0
+ISIC_0994556,IP_8524154,male,60.0,upper extremity,0
+ISIC_7710577,IP_3350187,male,65.0,torso,0
+ISIC_9113122,IP_6450431,male,50.0,lower extremity,0
+ISIC_7185436,IP_0656529,male,60.0,upper extremity,0
+ISIC_6307553,IP_6540095,male,55.0,head/neck,0
+ISIC_3220423,IP_9513376,male,35.0,head/neck,0
+ISIC_4569239,IP_3755407,male,50.0,torso,0
+ISIC_0000035_downsampled,,female,25.0,lower extremity,1
+ISIC_0072173,BCN_0000389,male,75.0,anterior torso,1
+ISIC_4293652,IP_1636784,female,40.0,lower extremity,0
+ISIC_9721734,IP_9955501,male,65.0,torso,0
+ISIC_8236660,IP_7377609,male,20.0,torso,0
+ISIC_1880540,IP_6788300,female,45.0,lower extremity,0
+ISIC_5808758,IP_0776416,female,30.0,lower extremity,0
+ISIC_0065215,BCN_0003724,male,70.0,anterior torso,1
+ISIC_1788979,IP_2666042,male,50.0,torso,0
+ISIC_0507189,IP_3858753,male,40.0,lower extremity,0
+ISIC_1724802,IP_5805281,male,50.0,torso,0
+ISIC_3850432,IP_3531652,male,35.0,upper extremity,0
+ISIC_1680502,IP_8742468,male,65.0,torso,0
+ISIC_0068381,BCN_0000987,female,50.0,upper extremity,1
+ISIC_4765023,IP_7770083,female,45.0,upper extremity,0
+ISIC_0000487,,,,upper extremity,1
+ISIC_0494865,IP_7100012,female,70.0,torso,0
+ISIC_9977580,IP_2900789,female,50.0,upper extremity,0
+ISIC_9308275,IP_4050705,female,40.0,upper extremity,0
+ISIC_3822667,IP_8171851,female,50.0,torso,0
+ISIC_0068950,BCN_0005012,male,50.0,head/neck,1
+ISIC_7741487,IP_7770500,male,60.0,lower extremity,0
+ISIC_4074094,IP_3623410,male,65.0,torso,0
+ISIC_6243879,IP_4204657,female,40.0,lower extremity,0
+ISIC_4815277,IP_5922049,male,40.0,torso,0
+ISIC_4921648,IP_2707228,female,45.0,torso,0
+ISIC_0069747,BCN_0004850,male,45.0,anterior torso,1
+ISIC_6090313,IP_7743081,female,50.0,torso,0
+ISIC_9450541,IP_4014685,female,65.0,lower extremity,0
+ISIC_4397087,IP_1139701,female,45.0,upper extremity,0
+ISIC_9555044,IP_2871134,male,60.0,torso,0
+ISIC_5196220,IP_9558959,male,45.0,torso,0
+ISIC_3510941,IP_2117218,male,40.0,lower extremity,0
+ISIC_0026296,HAM_0004265,male,45.0,,1
+ISIC_8468512,IP_6709202,female,50.0,torso,0
+ISIC_0395456,IP_6512345,male,65.0,head/neck,0
+ISIC_0061077,BCN_0004126,female,60.0,anterior torso,1
+ISIC_0029473,HAM_0001796,male,70.0,anterior torso,1
+ISIC_6232156,IP_4898383,male,35.0,torso,0
+ISIC_8324205,IP_9131123,female,40.0,upper extremity,0
+ISIC_0072733,BCN_0002823,male,65.0,head/neck,1
+ISIC_9559922,IP_1576187,male,20.0,torso,0
+ISIC_7894682,IP_1242186,male,60.0,lower extremity,0
+ISIC_0056860,BCN_0003403,female,60.0,palms/soles,1
+ISIC_7614221,IP_9942136,male,30.0,torso,1
+ISIC_5745941,IP_7770083,female,45.0,upper extremity,0
+ISIC_8551284,IP_6346671,male,30.0,lower extremity,0
+ISIC_5008478,IP_2962626,female,45.0,lower extremity,0
+ISIC_8165434,IP_4926060,male,45.0,lower extremity,0
+ISIC_5202944,IP_8575171,male,40.0,lower extremity,0
+ISIC_0000036_downsampled,,male,70.0,upper extremity,1
+ISIC_2289043,IP_8171851,female,50.0,lower extremity,0
+ISIC_7806926,IP_0392287,male,35.0,lower extremity,0
+ISIC_0073227,BCN_0004289,male,85.0,head/neck,1
+ISIC_0057700,BCN_0000906,female,60.0,anterior torso,1
+ISIC_2678325,IP_2707228,female,50.0,torso,0
+ISIC_7025159,IP_0093378,male,40.0,torso,0
+ISIC_5208232,IP_0656529,male,60.0,lower extremity,0
+ISIC_1085285,IP_8673016,female,55.0,head/neck,0
+ISIC_1985569,IP_7005083,female,60.0,torso,0
+ISIC_5484426,IP_8975630,male,85.0,head/neck,0
+ISIC_0516183,IP_4199752,female,30.0,torso,0
+ISIC_2723438,IP_8437394,female,35.0,torso,0
+ISIC_3893659,IP_7688774,female,25.0,torso,0
+ISIC_0476670,IP_7718399,female,35.0,head/neck,0
+ISIC_4632020,IP_7145044,female,65.0,lower extremity,0
+ISIC_1828652,IP_0981335,male,50.0,lower extremity,0
+ISIC_2080351,IP_3713422,male,50.0,upper extremity,0
+ISIC_9011134,IP_2978129,male,50.0,upper extremity,0
+ISIC_0027721,HAM_0004364,male,75.0,head/neck,1
+ISIC_4175439,IP_9355893,male,60.0,oral/genital,0
+ISIC_0945844,IP_8951606,male,65.0,torso,0
+ISIC_9861674,IP_3075186,female,45.0,torso,0
+ISIC_1725997,IP_3048629,male,55.0,lower extremity,0
+ISIC_0068713,BCN_0003196,female,80.0,anterior torso,1
+ISIC_9524180,IP_6960402,female,30.0,lower extremity,0
+ISIC_8758801,IP_6342369,female,35.0,torso,0
+ISIC_8199467,IP_1195596,male,35.0,torso,0
+ISIC_1976135,IP_6887203,male,25.0,upper extremity,0
+ISIC_6467025,IP_6875077,male,50.0,torso,0
+ISIC_5852396,IP_9335261,male,75.0,torso,0
+ISIC_0061411,BCN_0000227,male,75.0,lower extremity,1
+ISIC_0014912_downsampled,,female,,lower extremity,1
+ISIC_8165133,IP_7644786,female,60.0,lower extremity,0
+ISIC_0506309,IP_8666570,male,45.0,torso,0
+ISIC_1216698,IP_7696681,female,40.0,palms/soles,0
+ISIC_0422799,IP_6332843,male,30.0,torso,0
+ISIC_0723112,IP_5711917,female,60.0,head/neck,0
+ISIC_0062684,BCN_0002268,female,60.0,head/neck,1
+ISIC_3383955,IP_0648521,male,60.0,torso,0
+ISIC_7054632,IP_4391034,female,70.0,lower extremity,0
+ISIC_6648119,IP_9438537,female,30.0,torso,0
+ISIC_9001471,IP_8385941,female,50.0,torso,0
+ISIC_2919624,IP_4096670,female,50.0,torso,0
+ISIC_6521087,IP_5526725,female,50.0,head/neck,0
+ISIC_8821107,IP_9299257,female,40.0,torso,0
+ISIC_1031178,IP_5805281,male,50.0,torso,0
+ISIC_3517311,IP_4436071,female,70.0,upper extremity,1
+ISIC_1600975,IP_9370254,male,55.0,torso,0
+ISIC_0546209,IP_8418821,male,60.0,torso,0
+ISIC_2171616,IP_7330399,female,55.0,lower extremity,0
+ISIC_0032552,HAM_0001105,female,55.0,lower extremity,1
+ISIC_5553495,IP_9635781,female,50.0,lower extremity,0
+ISIC_1323043,IP_9463965,female,30.0,lower extremity,0
+ISIC_8936764,IP_6008814,female,90.0,lower extremity,0
+ISIC_2966043,IP_0503166,female,50.0,torso,0
+ISIC_8288656,IP_5339938,female,80.0,upper extremity,0
+ISIC_0243683,IP_2666042,male,50.0,torso,0
+ISIC_2895418,IP_4938382,female,25.0,upper extremity,0
+ISIC_9182492,IP_6567258,male,45.0,lower extremity,0
+ISIC_3455585,IP_4199752,female,30.0,torso,0
+ISIC_6291884,IP_3397861,female,65.0,head/neck,0
+ISIC_0812223,IP_7345731,male,40.0,upper extremity,0
+ISIC_5213663,IP_0507923,female,25.0,torso,0
+ISIC_3875612,IP_4382720,female,50.0,upper extremity,0
+ISIC_2726570,IP_6601134,female,55.0,torso,0
+ISIC_9380228,IP_5076578,male,60.0,oral/genital,0
+ISIC_2436371,IP_8937782,male,35.0,lower extremity,0
+ISIC_8818862,IP_4548593,male,55.0,head/neck,0
+ISIC_4887995,IP_0894335,female,40.0,torso,0
+ISIC_7335785,IP_8491618,male,45.0,torso,0
+ISIC_0301734,IP_0148851,female,60.0,lower extremity,0
+ISIC_7976522,IP_0041255,female,25.0,lower extremity,0
+ISIC_0588827,IP_9669483,female,40.0,torso,0
+ISIC_6049227,IP_6503995,female,60.0,torso,0
+ISIC_0253367,IP_6219396,female,65.0,lower extremity,0
+ISIC_5963113,IP_2669703,female,30.0,head/neck,0
+ISIC_2718199,IP_8206875,male,70.0,torso,0
+ISIC_2910834,IP_7976842,male,50.0,torso,0
+ISIC_5337720,IP_4879325,female,55.0,upper extremity,0
+ISIC_2231300,IP_8447624,female,50.0,torso,0
+ISIC_6256726,IP_4879325,female,55.0,torso,0
+ISIC_0056659,BCN_0005108,male,50.0,head/neck,1
+ISIC_7145077,IP_5598284,male,70.0,torso,0
+ISIC_0287804,IP_0719925,male,60.0,upper extremity,0
+ISIC_6706365,IP_1526110,male,70.0,torso,0
+ISIC_3869717,IP_1153670,male,45.0,torso,0
+ISIC_0063102,BCN_0000339,female,60.0,upper extremity,1
+ISIC_1248876,IP_7770083,female,45.0,lower extremity,0
+ISIC_0031953,HAM_0000060,male,55.0,anterior torso,1
+ISIC_9892275,IP_7718399,female,35.0,head/neck,0
+ISIC_0634028,IP_6624700,male,65.0,torso,0
+ISIC_7457969,IP_6887203,male,30.0,lower extremity,0
+ISIC_0013365_downsampled,MSK4_0010760,female,50.0,lower extremity,1
+ISIC_0061066,BCN_0000859,female,40.0,upper extremity,1
+ISIC_1619814,IP_9818937,female,65.0,torso,0
+ISIC_0054024,BCN_0002312,male,65.0,anterior torso,1
+ISIC_1500815,IP_6367015,female,40.0,upper extremity,0
+ISIC_0068080,BCN_0003196,female,80.0,anterior torso,1
+ISIC_7472636,IP_5350484,male,30.0,torso,0
+ISIC_9194082,IP_7948039,female,25.0,torso,0
+ISIC_2358812,IP_7207550,male,55.0,upper extremity,0
+ISIC_0760892,IP_8974438,male,35.0,torso,0
+ISIC_2101624,IP_8738175,male,70.0,torso,1
+ISIC_2513343,IP_2010919,female,50.0,lower extremity,0
+ISIC_3269018,IP_7087967,female,50.0,upper extremity,0
+ISIC_9013554,IP_1583136,female,65.0,torso,0
+ISIC_3975427,IP_0454573,male,55.0,upper extremity,0
+ISIC_8976688,IP_3131410,female,45.0,lower extremity,0
+ISIC_5817346,IP_0310085,male,45.0,torso,0
+ISIC_0880095,IP_7804786,male,50.0,upper extremity,0
+ISIC_7824250,IP_2117218,male,25.0,torso,0
+ISIC_3718422,IP_0393526,male,40.0,lower extremity,0
+ISIC_0065023,BCN_0003347,female,55.0,lower extremity,1
+ISIC_2370610,IP_9450101,female,45.0,torso,0
+ISIC_8917755,IP_2238880,female,40.0,torso,0
+ISIC_6350634,IP_5111235,male,45.0,palms/soles,0
+ISIC_8295152,IP_0892152,male,50.0,lower extremity,0
+ISIC_6827364,IP_4681183,male,40.0,upper extremity,0
+ISIC_0058168,BCN_0003726,male,50.0,upper extremity,1
+ISIC_0740001,IP_6269870,female,55.0,lower extremity,0
+ISIC_0299242,IP_6058804,female,75.0,torso,0
+ISIC_2487524,IP_1242186,male,60.0,torso,0
+ISIC_8887039,IP_0963996,female,40.0,torso,0
+ISIC_3590482,IP_5870445,male,45.0,torso,0
+ISIC_1912589,IP_3048629,male,55.0,lower extremity,0
+ISIC_5816788,IP_1902763,male,65.0,torso,0
+ISIC_2223646,IP_9392784,female,50.0,lower extremity,0
+ISIC_6284722,IP_7651325,female,70.0,lower extremity,0
+ISIC_8659007,IP_2900789,female,50.0,head/neck,0
+ISIC_8584537,IP_4842370,female,45.0,torso,0
+ISIC_4208361,IP_6151980,female,60.0,torso,0
+ISIC_2926076,IP_0768675,male,35.0,lower extremity,0
+ISIC_1584861,IP_6531672,female,70.0,torso,0
+ISIC_7437503,IP_4865295,male,60.0,lower extremity,0
+ISIC_8020166,IP_3564160,female,65.0,upper extremity,0
+ISIC_0063690,BCN_0001728,male,50.0,anterior torso,1
+ISIC_6449939,IP_4821632,female,30.0,lower extremity,0
+ISIC_7014092,IP_7291657,female,40.0,torso,0
+ISIC_0441148,IP_0521041,male,65.0,torso,0
+ISIC_4603891,IP_6450431,male,50.0,torso,0
+ISIC_1269461,IP_3713422,male,50.0,torso,0
+ISIC_3230191,IP_4938382,female,25.0,lower extremity,0
+ISIC_5780588,IP_7829228,female,45.0,lower extremity,0
+ISIC_1020809,IP_9806578,male,70.0,lower extremity,0
+ISIC_8359242,IP_8152038,male,55.0,lower extremity,0
+ISIC_2000184,IP_2766521,male,70.0,torso,0
+ISIC_7091750,IP_6506834,male,40.0,torso,0
+ISIC_7853267,IP_9765850,male,30.0,torso,0
+ISIC_0277164,IP_4749521,male,60.0,torso,0
+ISIC_7927285,IP_8246666,female,60.0,torso,0
+ISIC_3097976,IP_2947236,female,65.0,torso,0
+ISIC_3831858,IP_3986523,male,40.0,torso,0
+ISIC_0030080,HAM_0006900,male,75.0,upper extremity,1
+ISIC_9277695,IP_9721483,female,55.0,head/neck,0
+ISIC_8887142,IP_9154808,male,25.0,lower extremity,0
+ISIC_5208069,IP_3623410,male,60.0,head/neck,0
+ISIC_5772144,IP_8091497,male,45.0,upper extremity,0
+ISIC_0813856,IP_2661172,female,45.0,upper extremity,0
+ISIC_5228997,IP_8019632,female,50.0,torso,0
+ISIC_8263489,IP_9111321,male,60.0,torso,1
+ISIC_9578777,IP_0968880,male,60.0,upper extremity,0
+ISIC_5320879,IP_1931050,male,55.0,torso,0
+ISIC_0414259,IP_8717497,female,60.0,lower extremity,0
+ISIC_9345670,IP_3025705,female,35.0,upper extremity,0
+ISIC_6610220,IP_4871455,male,75.0,lower extremity,0
+ISIC_6264165,IP_8326844,female,60.0,lower extremity,0
+ISIC_4949652,IP_1242186,male,60.0,lower extremity,0
+ISIC_7438913,IP_2153088,female,30.0,upper extremity,0
+ISIC_8125621,IP_2989764,female,75.0,upper extremity,0
+ISIC_9433523,IP_2665826,female,45.0,lower extremity,0
+ISIC_1951928,IP_1611625,male,40.0,lower extremity,0
+ISIC_4125718,IP_7866394,male,25.0,oral/genital,0
+ISIC_4889721,IP_7121757,female,35.0,torso,0
+ISIC_0901864,IP_6835202,female,60.0,torso,0
+ISIC_8384082,IP_4624343,female,70.0,head/neck,0
+ISIC_5777169,IP_2584339,male,40.0,torso,0
+ISIC_4243470,IP_8273979,male,70.0,torso,0
+ISIC_4797852,IP_1672532,male,55.0,torso,0
+ISIC_4814024,IP_6318212,female,45.0,upper extremity,0
+ISIC_8967971,IP_7817315,female,60.0,torso,0
+ISIC_0059605,BCN_0004978,female,75.0,palms/soles,1
+ISIC_8483458,IP_8121625,female,55.0,lower extremity,0
+ISIC_6985838,IP_1633296,male,75.0,torso,0
+ISIC_2291794,IP_7890415,male,60.0,torso,0
+ISIC_2644382,IP_9205477,male,50.0,upper extremity,0
+ISIC_0034205,HAM_0007583,female,55.0,upper extremity,1
+ISIC_5783764,IP_8793264,female,70.0,upper extremity,0
+ISIC_5446957,IP_8874484,male,45.0,torso,0
+ISIC_8699453,IP_9960131,female,35.0,head/neck,0
+ISIC_9860895,IP_8738175,male,70.0,torso,0
+ISIC_2194141,IP_0500903,female,25.0,torso,0
+ISIC_3132543,IP_4479736,female,25.0,torso,0
+ISIC_6613986,IP_2026598,male,20.0,torso,0
+ISIC_8837880,IP_5119720,male,55.0,torso,0
+ISIC_8105020,IP_7911457,female,50.0,torso,0
+ISIC_0161840,IP_1470733,male,70.0,lower extremity,0
+ISIC_1022958,IP_6658881,male,80.0,torso,0
+ISIC_3146292,IP_7207550,male,50.0,lower extremity,0
+ISIC_8286548,IP_0063457,male,40.0,torso,0
+ISIC_4568084,IP_4005662,male,50.0,lower extremity,0
+ISIC_1128317,IP_9995095,male,55.0,torso,0
+ISIC_7522708,IP_2679808,female,60.0,upper extremity,0
+ISIC_4838916,IP_8806573,female,60.0,upper extremity,0
+ISIC_7570495,IP_9282375,female,65.0,lower extremity,0
+ISIC_4549059,IP_3222187,female,40.0,upper extremity,0
+ISIC_8858919,IP_9245079,male,40.0,upper extremity,0
+ISIC_8114263,IP_2444029,male,15.0,lower extremity,0
+ISIC_2186123,IP_4667127,female,40.0,lower extremity,0
+ISIC_5627269,IP_7743588,male,30.0,lower extremity,0
+ISIC_6653780,IP_7772951,male,45.0,lower extremity,0
+ISIC_2584872,IP_5793596,female,45.0,torso,0
+ISIC_7984569,IP_2378734,female,50.0,torso,0
+ISIC_9175501,IP_4745288,male,65.0,torso,0
+ISIC_2879661,IP_8233849,male,55.0,torso,0
+ISIC_0369348,IP_4938382,female,25.0,torso,0
+ISIC_0062087,BCN_0000847,female,80.0,head/neck,1
+ISIC_2302286,IP_6780155,male,55.0,torso,0
+ISIC_9279110,IP_0408346,male,65.0,upper extremity,0
+ISIC_1083681,IP_4173362,female,35.0,torso,0
+ISIC_9753451,IP_0656529,male,60.0,lower extremity,0
+ISIC_0170101,IP_3743865,female,55.0,torso,0
+ISIC_5700316,IP_8806573,female,60.0,head/neck,0
+ISIC_3789239,IP_7279968,male,45.0,upper extremity,0
+ISIC_0056660,BCN_0004950,male,50.0,anterior torso,1
+ISIC_7516715,IP_5031178,female,50.0,torso,0
+ISIC_4655757,IP_8173459,female,50.0,upper extremity,0
+ISIC_3227802,IP_5543080,male,60.0,torso,0
+ISIC_3826872,IP_9212266,female,45.0,torso,0
+ISIC_0061606,BCN_0004305,female,60.0,anterior torso,1
+ISIC_8701206,IP_0521041,male,60.0,torso,0
+ISIC_3441161,IP_3586223,female,30.0,torso,0
+ISIC_1931408,IP_4419570,male,50.0,lower extremity,0
+ISIC_8155175,IP_6026359,male,55.0,torso,0
+ISIC_9799285,IP_1023029,female,30.0,torso,0
+ISIC_7951857,IP_6538458,female,50.0,torso,0
+ISIC_2153401,IP_9156695,female,40.0,lower extremity,1
+ISIC_2238376,IP_7334384,male,75.0,lower extremity,0
+ISIC_1888148,IP_2005898,female,70.0,torso,0
+ISIC_5237020,IP_0699776,male,85.0,torso,0
+ISIC_2655423,IP_4157535,female,45.0,lower extremity,0
+ISIC_0072747,BCN_0005585,female,80.0,palms/soles,1
+ISIC_5492318,IP_0878241,male,70.0,lower extremity,0
+ISIC_2970409,IP_3693916,male,75.0,torso,0
+ISIC_6121393,IP_6071452,male,70.0,torso,0
+ISIC_6941010,IP_9644948,female,30.0,lower extremity,0
+ISIC_8092018,IP_2318163,male,75.0,upper extremity,0
+ISIC_2817878,IP_2262910,male,55.0,upper extremity,0
+ISIC_1137043,IP_0408346,male,65.0,head/neck,0
+ISIC_4001827,IP_7770500,male,60.0,upper extremity,0
+ISIC_0066776,BCN_0002598,female,85.0,lower extremity,1
+ISIC_4711419,IP_9190806,female,40.0,,0
+ISIC_4862028,IP_7279968,male,45.0,torso,0
+ISIC_0062531,BCN_0001883,male,75.0,anterior torso,1
+ISIC_6033220,IP_7684360,male,55.0,torso,0
+ISIC_0015180_downsampled,,male,65.0,head/neck,1
+ISIC_0029558,HAM_0003683,male,75.0,upper extremity,1
+ISIC_9400162,IP_4811352,female,70.0,torso,0
+ISIC_5653572,IP_7345731,male,45.0,torso,0
+ISIC_0436161,IP_6830809,male,50.0,palms/soles,0
+ISIC_7305051,IP_8940163,male,70.0,torso,0
+ISIC_4223734,IP_0078763,female,30.0,lower extremity,0
+ISIC_5336451,IP_0648521,male,60.0,,0
+ISIC_8854277,IP_6526534,male,45.0,torso,0
+ISIC_0065864,BCN_0005676,female,40.0,anterior torso,1
+ISIC_0831884,IP_9818937,female,65.0,upper extremity,0
+ISIC_8772377,IP_7330399,female,55.0,torso,0
+ISIC_0056793,BCN_0000444,male,50.0,head/neck,1
+ISIC_6976235,IP_3690477,male,60.0,torso,0
+ISIC_7198004,IP_9001826,female,30.0,torso,0
+ISIC_7543427,IP_2101945,male,65.0,torso,0
+ISIC_1490161,IP_4783134,female,25.0,lower extremity,0
+ISIC_0064455,BCN_0002318,male,40.0,anterior torso,1
+ISIC_1988080,IP_9756394,male,50.0,torso,0
+ISIC_0993929,IP_0963996,female,40.0,lower extremity,0
+ISIC_6975701,IP_0857646,male,65.0,lower extremity,0
+ISIC_0863989,IP_9180273,male,70.0,lower extremity,0
+ISIC_1009958,IP_0768675,male,35.0,lower extremity,0
+ISIC_9722385,IP_6676060,female,40.0,torso,0
+ISIC_8001976,IP_9086201,female,40.0,lower extremity,0
+ISIC_0034118,HAM_0002824,female,25.0,lower extremity,1
+ISIC_1029536,IP_8352243,female,40.0,torso,0
+ISIC_4751809,IP_5203658,male,75.0,torso,0
+ISIC_2504659,IP_5577320,female,50.0,upper extremity,0
+ISIC_8073553,IP_0148558,female,50.0,torso,0
+ISIC_9580101,IP_1645936,female,65.0,torso,0
+ISIC_2768594,IP_3203470,female,55.0,torso,0
+ISIC_0065046,BCN_0003933,female,70.0,lower extremity,1
+ISIC_0881520,IP_3057277,male,45.0,,0
+ISIC_9502863,IP_4898383,male,30.0,torso,0
+ISIC_9505359,IP_0961415,male,45.0,torso,0
+ISIC_0063521,BCN_0005118,male,40.0,head/neck,1
+ISIC_8527330,IP_6949859,male,50.0,lower extremity,0
+ISIC_0056156,BCN_0002375,female,70.0,anterior torso,1
+ISIC_0067167,BCN_0000763,male,45.0,anterior torso,1
+ISIC_6970181,IP_8673016,female,60.0,torso,0
+ISIC_6572147,IP_5350484,male,30.0,head/neck,0
+ISIC_4426166,IP_4681183,male,25.0,torso,0
+ISIC_8242039,IP_1289915,male,65.0,upper extremity,0
+ISIC_7653121,IP_5805281,male,50.0,torso,0
+ISIC_2075655,IP_9111321,male,60.0,upper extremity,0
+ISIC_6385793,IP_5533537,female,50.0,lower extremity,0
+ISIC_5902175,IP_8369251,male,55.0,upper extremity,0
+ISIC_8264436,IP_6342052,male,65.0,torso,0
+ISIC_4756167,IP_6331798,female,25.0,torso,0
+ISIC_4273692,IP_3169043,male,75.0,torso,0
+ISIC_0326608,IP_6071452,male,70.0,head/neck,0
+ISIC_6278647,IP_2263888,female,60.0,torso,0
+ISIC_1211024,IP_5037503,male,50.0,torso,0
+ISIC_1813911,IP_6614604,male,25.0,lower extremity,0
+ISIC_6329283,IP_7775567,male,50.0,torso,0
+ISIC_3718027,IP_1512731,male,40.0,upper extremity,0
+ISIC_2729109,IP_2681677,male,25.0,lower extremity,0
+ISIC_3998306,IP_4235783,male,60.0,torso,0
+ISIC_0277320,IP_0039318,male,35.0,upper extremity,0
+ISIC_2010841,IP_7170580,male,55.0,upper extremity,0
+ISIC_9223156,IP_2166250,male,25.0,torso,0
+ISIC_6688417,IP_0961415,male,45.0,,1
+ISIC_8099354,IP_7674640,female,50.0,torso,0
+ISIC_2490481,IP_7121757,female,35.0,lower extremity,0
+ISIC_1270351,IP_5295861,male,70.0,torso,0
+ISIC_0054664,BCN_0000034,male,80.0,upper extremity,1
+ISIC_0032190,HAM_0006214,male,60.0,upper extremity,1
+ISIC_0026697,HAM_0004364,male,75.0,head/neck,1
+ISIC_3745259,IP_8734172,male,40.0,torso,0
+ISIC_7450965,IP_4548568,male,45.0,torso,0
+ISIC_3030065,IP_6617725,female,35.0,upper extremity,0
+ISIC_6114220,IP_5295861,male,70.0,head/neck,0
+ISIC_8275353,IP_4698288,male,25.0,torso,0
+ISIC_0319410,IP_3397861,female,65.0,head/neck,0
+ISIC_9565803,IP_8766487,female,25.0,torso,0
+ISIC_4536407,IP_8011614,female,40.0,upper extremity,0
+ISIC_3624318,IP_1214216,female,60.0,torso,0
+ISIC_0060376,BCN_0001729,male,65.0,lower extremity,1
+ISIC_3992201,IP_4969172,male,45.0,torso,0
+ISIC_0057192,BCN_0003345,male,65.0,head/neck,1
+ISIC_0026996,HAM_0004121,female,45.0,lower extremity,1
+ISIC_2874706,IP_9898991,female,45.0,lower extremity,0
+ISIC_4763017,IP_7651325,female,70.0,torso,0
+ISIC_5601326,IP_8001428,female,40.0,upper extremity,0
+ISIC_3114154,IP_7875145,male,55.0,upper extremity,0
+ISIC_6828115,IP_1969685,male,50.0,torso,0
+ISIC_5359621,IP_7357415,female,40.0,torso,0
+ISIC_0965885,IP_8869881,female,25.0,torso,0
+ISIC_6794899,IP_4110621,male,45.0,torso,0
+ISIC_6156296,IP_7005083,female,55.0,torso,0
+ISIC_8677110,IP_0934857,female,50.0,upper extremity,0
+ISIC_4290875,IP_8210115,male,55.0,torso,0
+ISIC_0904214,IP_9896679,female,35.0,torso,0
+ISIC_2969968,IP_1615189,male,50.0,torso,0
+ISIC_0034253,HAM_0006097,male,60.0,anterior torso,1
+ISIC_6434203,IP_2760044,male,40.0,torso,0
+ISIC_0202259,IP_8247808,female,35.0,lower extremity,0
+ISIC_7494122,IP_6526534,male,50.0,torso,0
+ISIC_2492859,IP_5311557,female,60.0,upper extremity,0
+ISIC_5414609,IP_4210911,female,30.0,upper extremity,0
+ISIC_1454692,IP_4479736,female,25.0,lower extremity,0
+ISIC_6935634,IP_9355893,male,50.0,upper extremity,0
+ISIC_0066116,BCN_0004527,male,65.0,anterior torso,1
+ISIC_8138302,IP_8447624,female,50.0,torso,0
+ISIC_7980339,IP_6887203,male,25.0,upper extremity,0
+ISIC_0054936,BCN_0003982,male,65.0,anterior torso,1
+ISIC_0055690,BCN_0005160,female,65.0,lower extremity,1
+ISIC_0062589,BCN_0002823,male,65.0,head/neck,1
+ISIC_7346228,IP_1039004,female,75.0,head/neck,1
+ISIC_8794221,IP_9315856,female,50.0,torso,0
+ISIC_2513933,IP_6142746,female,40.0,head/neck,0
+ISIC_0594289,IP_3658607,male,40.0,head/neck,0
+ISIC_5363229,IP_1730314,male,35.0,lower extremity,0
+ISIC_1114966,IP_2575279,male,65.0,lower extremity,0
+ISIC_1290677,IP_8474574,female,65.0,torso,0
+ISIC_8400393,IP_6175417,female,45.0,oral/genital,0
+ISIC_5281630,IP_5370714,female,75.0,torso,0
+ISIC_7911301,IP_6292815,female,75.0,torso,0
+ISIC_6076242,IP_1207677,male,45.0,torso,0
+ISIC_0009897,,female,55.0,anterior torso,1
+ISIC_4895464,IP_7976842,male,50.0,lower extremity,0
+ISIC_3277709,IP_8329991,male,35.0,torso,0
+ISIC_0488252,IP_9232483,female,45.0,torso,0
+ISIC_3028173,IP_1197949,male,45.0,torso,0
+ISIC_0924302,IP_0646610,male,45.0,lower extremity,0
+ISIC_8548394,IP_0776416,female,30.0,lower extremity,0
+ISIC_7301029,IP_7522397,female,55.0,lower extremity,0
+ISIC_1846528,IP_6071452,male,70.0,torso,0
+ISIC_0297032,IP_7373371,female,55.0,upper extremity,0
+ISIC_0055311,BCN_0005525,female,45.0,anterior torso,1
+ISIC_5220578,IP_6808872,male,30.0,torso,0
+ISIC_3783114,IP_3750016,male,90.0,upper extremity,0
+ISIC_8880492,IP_4750282,female,45.0,torso,0
+ISIC_9403039,IP_2501903,male,30.0,lower extremity,0
+ISIC_2923530,IP_6981218,male,55.0,torso,0
+ISIC_9996662,IP_0989858,female,30.0,torso,0
+ISIC_9309245,IP_9557980,female,50.0,upper extremity,0
+ISIC_0014044_downsampled,MSK4_0010850,female,55.0,upper extremity,1
+ISIC_2403491,IP_5528290,male,50.0,torso,0
+ISIC_0032095,HAM_0005789,male,55.0,anterior torso,1
+ISIC_8436269,IP_9122609,male,65.0,torso,0
+ISIC_9553194,IP_7651325,female,70.0,torso,0
+ISIC_1932488,IP_4576977,male,40.0,torso,0
+ISIC_0725711,IP_3523549,male,20.0,palms/soles,0
+ISIC_0009960,,female,50.0,lower extremity,1
+ISIC_7260977,IP_8534235,female,60.0,torso,0
+ISIC_6200373,IP_0989858,female,30.0,torso,0
+ISIC_4591134,IP_3200260,female,35.0,torso,0
+ISIC_0068178,BCN_0002626,male,75.0,anterior torso,1
+ISIC_9273568,IP_6247924,female,55.0,lower extremity,0
+ISIC_0054288,BCN_0001694,male,65.0,head/neck,1
+ISIC_0025783,HAM_0000417,male,65.0,posterior torso,1
+ISIC_4927560,IP_6887429,male,45.0,upper extremity,0
+ISIC_4363603,IP_7252102,male,45.0,head/neck,0
+ISIC_9998965,IP_3293337,male,50.0,torso,0
+ISIC_0762958,IP_7100012,female,60.0,torso,0
+ISIC_9284304,IP_3253955,female,55.0,torso,0
+ISIC_0013762_downsampled,MSK4_0010014,male,80.0,anterior torso,1
+ISIC_6539116,IP_8738175,male,70.0,torso,0
+ISIC_6433037,IP_4795384,female,65.0,lower extremity,0
+ISIC_4297655,IP_1244021,female,35.0,torso,0
+ISIC_7166676,IP_5328472,male,65.0,torso,0
+ISIC_4580506,IP_5064631,male,25.0,torso,0
+ISIC_0058647,BCN_0002002,male,70.0,anterior torso,1
+ISIC_0818033,IP_5304634,female,30.0,torso,0
+ISIC_5911104,IP_2285480,female,45.0,torso,0
+ISIC_1424529,IP_0825081,male,80.0,torso,0
+ISIC_1393085,IP_7198796,female,25.0,upper extremity,0
+ISIC_2472655,IP_2285480,female,45.0,torso,0
+ISIC_0313924,IP_2665826,female,45.0,lower extremity,0
+ISIC_8120622,IP_4525077,female,65.0,torso,0
+ISIC_2078787,IP_9147454,female,55.0,torso,0
+ISIC_4267696,IP_7005083,female,55.0,upper extremity,0
+ISIC_9142919,IP_6512345,male,70.0,torso,0
+ISIC_0029157,HAM_0007488,male,60.0,posterior torso,1
+ISIC_6553579,IP_2679808,female,60.0,lower extremity,0
+ISIC_9276442,IP_9087899,male,40.0,torso,0
+ISIC_0061884,BCN_0001964,female,20.0,lower extremity,1
+ISIC_0070956,BCN_0004841,male,60.0,anterior torso,1
+ISIC_1109516,IP_8702124,female,50.0,torso,0
+ISIC_2466466,IP_2809878,female,50.0,lower extremity,0
+ISIC_0055167,BCN_0000859,female,40.0,upper extremity,1
+ISIC_2616719,IP_3140047,male,50.0,torso,0
+ISIC_3443234,IP_5037503,male,50.0,torso,0
+ISIC_5174173,IP_1969685,male,50.0,lower extremity,0
+ISIC_9588095,IP_0963996,female,40.0,torso,0
+ISIC_3933828,IP_5295861,male,70.0,head/neck,0
+ISIC_5204245,IP_6215369,male,80.0,torso,0
+ISIC_4953080,IP_0093378,male,55.0,torso,0
+ISIC_3351401,IP_7160012,male,65.0,upper extremity,0
+ISIC_3882400,IP_8723313,female,55.0,upper extremity,0
+ISIC_0767028,IP_5450817,male,60.0,lower extremity,0
+ISIC_8429669,IP_1242186,male,60.0,torso,0
+ISIC_5724672,IP_1139701,female,45.0,torso,0
+ISIC_0072382,BCN_0001479,female,30.0,lower extremity,1
+ISIC_6855540,IP_4096670,female,50.0,upper extremity,0
+ISIC_5525765,IP_9583707,male,20.0,lower extremity,0
+ISIC_2781254,IP_8829018,male,55.0,torso,0
+ISIC_4545751,IP_0775515,male,45.0,torso,0
+ISIC_0013828_downsampled,MSK4_0010942,female,70.0,head/neck,1
+ISIC_7141965,IP_7997841,male,35.0,torso,0
+ISIC_5189688,IP_4302652,female,20.0,torso,0
+ISIC_0905000,IP_4698288,male,25.0,torso,0
+ISIC_2193223,IP_9898991,female,45.0,lower extremity,0
+ISIC_0941527,IP_7499536,male,45.0,torso,0
+ISIC_1204284,IP_1769689,male,45.0,lower extremity,0
+ISIC_1405454,IP_9619666,male,70.0,torso,0
+ISIC_9517752,IP_1522453,female,25.0,torso,0
+ISIC_4052175,IP_4565105,female,55.0,head/neck,0
+ISIC_3947698,IP_5623232,female,45.0,torso,0
+ISIC_5789263,IP_8124898,male,35.0,torso,0
+ISIC_3717102,IP_1602525,female,25.0,torso,0
+ISIC_3301164,IP_6331820,female,50.0,torso,0
+ISIC_0062713,BCN_0002622,male,75.0,upper extremity,1
+ISIC_8643364,IP_9814841,female,80.0,torso,0
+ISIC_6260673,IP_3562983,male,35.0,upper extremity,0
+ISIC_8601064,IP_2479386,female,40.0,lower extremity,0
+ISIC_3491877,IP_8420428,female,40.0,torso,0
+ISIC_3003513,IP_4419570,male,50.0,palms/soles,0
+ISIC_2406445,IP_0512752,male,40.0,torso,0
+ISIC_0060654,BCN_0003184,male,45.0,palms/soles,1
+ISIC_1132788,IP_2793798,female,50.0,torso,0
+ISIC_7973564,IP_7748972,male,45.0,torso,0
+ISIC_8051614,IP_4548593,male,55.0,upper extremity,0
+ISIC_5922523,IP_8663649,male,45.0,torso,0
+ISIC_2619698,IP_4716377,female,30.0,lower extremity,0
+ISIC_0707824,IP_5328472,male,70.0,lower extremity,0
+ISIC_2124213,IP_0859301,female,50.0,torso,0
+ISIC_7764874,IP_9272657,male,55.0,torso,0
+ISIC_0066520,BCN_0002406,male,80.0,anterior torso,1
+ISIC_5319885,IP_5945814,female,35.0,torso,0
+ISIC_0248321,IP_9675066,male,30.0,lower extremity,0
+ISIC_2704045,IP_0768675,male,40.0,torso,0
+ISIC_0340931,IP_2378734,female,45.0,head/neck,0
+ISIC_7880705,IP_5287467,male,70.0,lower extremity,0
+ISIC_4506356,IP_3281766,female,40.0,head/neck,0
+ISIC_0379624,IP_2422802,male,55.0,lower extremity,0
+ISIC_1329224,IP_8069409,male,30.0,upper extremity,0
+ISIC_5486725,IP_2014901,female,70.0,lower extremity,0
+ISIC_2366172,IP_7412558,male,55.0,torso,0
+ISIC_0070998,BCN_0005501,female,75.0,lower extremity,1
+ISIC_6907218,IP_4488328,male,40.0,torso,0
+ISIC_6680634,IP_0483228,female,50.0,torso,0
+ISIC_8708756,IP_5638009,male,55.0,lower extremity,0
+ISIC_0616456,IP_4129058,female,50.0,torso,0
+ISIC_0071176,BCN_0001498,male,65.0,anterior torso,1
+ISIC_0086462,IP_3200260,female,30.0,,0
+ISIC_2907732,IP_1576187,male,20.0,head/neck,0
+ISIC_5789978,IP_9639732,male,40.0,upper extremity,0
+ISIC_7838687,IP_0981335,male,50.0,upper extremity,0
+ISIC_9374061,IP_8524154,male,60.0,torso,0
+ISIC_0030784,HAM_0005078,male,85.0,upper extremity,1
+ISIC_8713598,IP_8614161,male,50.0,torso,0
+ISIC_2463014,IP_3190947,female,55.0,upper extremity,0
+ISIC_8667653,IP_5852997,male,65.0,upper extremity,0
+ISIC_3477566,IP_9583707,male,20.0,torso,0
+ISIC_3734292,IP_4938382,female,25.0,torso,0
+ISIC_8856727,IP_2842074,female,50.0,torso,0
+ISIC_4680198,IP_5550558,male,50.0,upper extremity,0
+ISIC_9572421,IP_5528290,male,50.0,torso,0
+ISIC_2889981,IP_3222187,female,40.0,lower extremity,0
+ISIC_3052085,IP_4235783,male,60.0,upper extremity,0
+ISIC_8963299,IP_6342052,male,65.0,lower extremity,0
+ISIC_1453053,IP_3347700,female,60.0,torso,0
+ISIC_0158127,IP_1676499,female,30.0,lower extremity,0
+ISIC_0027204,HAM_0001532,male,70.0,head/neck,1
+ISIC_0024792,HAM_0001847,male,50.0,posterior torso,1
+ISIC_5303717,IP_6215369,male,80.0,torso,0
+ISIC_1456444,IP_2055758,female,50.0,torso,0
+ISIC_0056788,BCN_0005503,male,55.0,upper extremity,1
+ISIC_1361391,IP_6887203,male,25.0,torso,0
+ISIC_4496665,IP_4488328,male,40.0,torso,0
+ISIC_2520419,IP_8723313,female,55.0,torso,0
+ISIC_9419847,IP_5906250,female,55.0,torso,0
+ISIC_7764987,IP_3690477,male,60.0,torso,0
+ISIC_9232615,IP_7702038,male,35.0,lower extremity,0
+ISIC_8021672,IP_3523549,male,35.0,upper extremity,0
+ISIC_2863623,IP_3145948,male,50.0,torso,0
+ISIC_0053812,BCN_0004135,male,70.0,palms/soles,1
+ISIC_0010321,,female,80.0,posterior torso,1
+ISIC_0058059,BCN_0004815,female,85.0,head/neck,1
+ISIC_4323391,IP_9644384,female,25.0,upper extremity,0
+ISIC_3343475,IP_4576785,male,80.0,head/neck,1
+ISIC_9525930,IP_8027787,male,75.0,torso,0
+ISIC_7916211,IP_1969685,male,50.0,torso,0
+ISIC_0940070,IP_0776416,female,30.0,lower extremity,0
+ISIC_9147785,IP_8513373,male,35.0,torso,0
+ISIC_3958111,IP_8329777,female,30.0,lower extremity,0
+ISIC_1045252,IP_5328472,male,65.0,torso,0
+ISIC_8357133,IP_3120589,female,55.0,torso,0
+ISIC_6974250,IP_9544996,female,35.0,torso,0
+ISIC_1564564,IP_1210062,male,85.0,upper extremity,0
+ISIC_6726818,IP_1307115,male,50.0,torso,0
+ISIC_6403592,IP_6830809,male,60.0,lower extremity,0
+ISIC_9582129,IP_6918410,male,60.0,lower extremity,0
+ISIC_1904980,IP_1658035,male,40.0,torso,0
+ISIC_9307997,IP_2944135,female,35.0,upper extremity,0
+ISIC_4071099,IP_4698288,male,25.0,upper extremity,0
+ISIC_2471483,IP_4548593,male,55.0,torso,0
+ISIC_7958943,IP_7412558,male,55.0,lower extremity,0
+ISIC_3779051,IP_4978372,male,60.0,torso,0
+ISIC_4174592,IP_9218934,male,70.0,upper extremity,0
+ISIC_9394148,IP_8295219,female,50.0,lower extremity,0
+ISIC_4255737,IP_2666042,male,50.0,torso,0
+ISIC_0055295,BCN_0002598,female,85.0,lower extremity,1
+ISIC_0027043,HAM_0007390,male,50.0,anterior torso,1
+ISIC_3819282,IP_6323321,male,35.0,torso,0
+ISIC_0069395,BCN_0002560,male,55.0,lower extremity,1
+ISIC_0060397,BCN_0001939,male,85.0,head/neck,1
+ISIC_0065697,BCN_0005149,male,80.0,head/neck,1
+ISIC_9788341,IP_0248387,female,65.0,lower extremity,0
+ISIC_0065766,BCN_0004305,female,60.0,anterior torso,1
+ISIC_3155003,IP_3075186,female,45.0,torso,0
+ISIC_4159621,IP_2047697,female,35.0,upper extremity,0
+ISIC_0033269,HAM_0006189,female,55.0,posterior torso,1
+ISIC_7628175,IP_7622888,male,30.0,torso,0
+ISIC_6655446,IP_9927968,male,45.0,torso,0
+ISIC_2762964,IP_2626937,female,60.0,torso,0
+ISIC_0063070,BCN_0002956,male,45.0,head/neck,1
+ISIC_1666652,IP_4645992,male,35.0,lower extremity,0
+ISIC_5647697,IP_7748972,male,45.0,torso,0
+ISIC_0974293,IP_6540095,male,55.0,torso,0
+ISIC_6483766,IP_8418821,male,60.0,upper extremity,0
+ISIC_0610141,IP_9536983,male,60.0,torso,0
+ISIC_2884405,IP_4109313,male,30.0,torso,0
+ISIC_2494060,IP_7590110,female,45.0,upper extremity,0
+ISIC_9614392,IP_0942159,female,25.0,torso,0
+ISIC_3203303,IP_4926060,male,45.0,torso,0
+ISIC_2924346,IP_6623396,male,20.0,torso,0
+ISIC_5226275,IP_6051587,female,90.0,upper extremity,0
+ISIC_0252448,IP_2558686,male,40.0,palms/soles,0
+ISIC_0062602,BCN_0001458,male,70.0,head/neck,1
+ISIC_4154497,IP_4898383,male,30.0,torso,0
+ISIC_0013457_downsampled,MSK4_0010790,female,50.0,lower extremity,1
+ISIC_7595416,IP_2026598,male,20.0,head/neck,0
+ISIC_2214766,IP_3908059,female,55.0,torso,0
+ISIC_1811909,IP_7629851,female,30.0,lower extremity,0
+ISIC_6718737,IP_1109756,male,70.0,head/neck,0
+ISIC_3534687,IP_8226501,female,25.0,torso,0
+ISIC_0072143,BCN_0005012,male,50.0,head/neck,1
+ISIC_6586304,IP_2426108,female,50.0,upper extremity,0
+ISIC_8629932,IP_3782995,female,25.0,lower extremity,0
+ISIC_0558046,IP_7497232,male,30.0,lower extremity,0
+ISIC_9057166,IP_0148558,female,50.0,lower extremity,0
+ISIC_5076396,IP_0963996,female,40.0,lower extremity,0
+ISIC_4768702,IP_2166250,male,45.0,torso,0
+ISIC_9244047,IP_1139701,female,45.0,torso,0
+ISIC_2876651,IP_4565105,female,55.0,torso,0
+ISIC_0208378,IP_9102359,male,40.0,upper extremity,0
+ISIC_4831895,IP_3127942,female,30.0,upper extremity,0
+ISIC_9011718,IP_5874294,male,70.0,lower extremity,0
+ISIC_9234944,IP_3253955,female,55.0,lower extremity,0
+ISIC_7779225,IP_9644384,female,25.0,lower extremity,0
+ISIC_0070250,BCN_0005368,female,45.0,lower extremity,1
+ISIC_5606360,IP_4302652,female,20.0,,0
+ISIC_0699098,IP_5765893,female,45.0,lower extremity,0
+ISIC_1737276,IP_2442926,female,65.0,lower extremity,0
+ISIC_0062325,BCN_0001587,female,50.0,anterior torso,1
+ISIC_3746498,IP_6323321,male,30.0,torso,0
+ISIC_0087290,IP_4050705,female,40.0,torso,0
+ISIC_4912369,IP_8940163,male,70.0,,0
+ISIC_1302264,IP_9422872,female,60.0,lower extremity,0
+ISIC_2442872,IP_7890415,male,60.0,torso,0
+ISIC_1699221,IP_4865295,male,60.0,torso,0
+ISIC_1361799,IP_1152723,male,25.0,upper extremity,0
+ISIC_7827131,IP_7610036,male,65.0,lower extremity,0
+ISIC_4804158,IP_9585016,male,35.0,lower extremity,0
+ISIC_1327412,IP_9544996,female,35.0,torso,0
+ISIC_0072917,BCN_0004264,male,85.0,anterior torso,1
+ISIC_5367277,IP_5370714,female,75.0,lower extremity,0
+ISIC_6765909,IP_3336327,female,65.0,lower extremity,0
+ISIC_8975961,IP_6342052,male,65.0,torso,0
+ISIC_6968124,IP_4978372,male,60.0,lower extremity,0
+ISIC_6006658,IP_9802602,male,55.0,torso,0
+ISIC_9764833,IP_3868067,male,45.0,lower extremity,0
+ISIC_6203128,IP_1152723,male,25.0,torso,0
+ISIC_7953039,IP_9645497,male,65.0,head/neck,0
+ISIC_0071944,BCN_0002560,male,55.0,lower extremity,1
+ISIC_4915889,IP_0085460,female,30.0,torso,0
+ISIC_9057206,IP_5097631,female,65.0,lower extremity,0
+ISIC_4973809,IP_2153088,female,30.0,lower extremity,0
+ISIC_1605937,IP_7198796,female,25.0,lower extremity,0
+ISIC_7257671,IP_9712836,female,45.0,lower extremity,0
+ISIC_1864210,IP_5474292,male,40.0,torso,0
+ISIC_0029242,HAM_0003449,male,85.0,posterior torso,1
+ISIC_4015288,IP_5202455,male,45.0,torso,0
+ISIC_7696730,IP_8385941,female,50.0,torso,0
+ISIC_7995237,IP_5076578,male,50.0,upper extremity,0
+ISIC_2856521,IP_1188709,female,30.0,lower extremity,0
+ISIC_8693637,IP_2047697,female,35.0,upper extremity,0
+ISIC_0753765,IP_0933819,female,65.0,torso,0
+ISIC_8349600,IP_0444327,male,50.0,lower extremity,0
+ISIC_7975248,IP_7123023,male,30.0,torso,0
+ISIC_8849004,IP_7345731,male,45.0,lower extremity,0
+ISIC_7517099,IP_5174964,male,30.0,torso,0
+ISIC_6507412,IP_4544162,female,50.0,torso,0
+ISIC_0952665,IP_4687295,female,40.0,upper extremity,0
+ISIC_5618133,IP_1386843,male,70.0,torso,0
+ISIC_0059766,BCN_0003910,female,75.0,upper extremity,1
+ISIC_0014946_downsampled,,male,65.0,posterior torso,1
+ISIC_0061686,BCN_0002626,male,75.0,anterior torso,1
+ISIC_7764957,IP_7330399,female,55.0,upper extremity,0
+ISIC_6633101,IP_9718268,female,70.0,head/neck,0
+ISIC_9115754,IP_7911457,female,55.0,lower extremity,0
+ISIC_9515811,IP_2317609,female,50.0,torso,0
+ISIC_6403268,IP_2511209,female,45.0,upper extremity,0
+ISIC_6192573,IP_1672936,female,20.0,torso,0
+ISIC_7972756,IP_7522397,female,50.0,upper extremity,0
+ISIC_4373429,IP_7141746,male,75.0,upper extremity,0
+ISIC_2633073,IP_8627268,female,35.0,lower extremity,0
+ISIC_3443898,IP_5805281,male,50.0,lower extremity,0
+ISIC_0013844_downsampled,MSK4_0010757,male,70.0,head/neck,1
+ISIC_2542073,IP_8226501,female,25.0,torso,0
+ISIC_6364524,IP_4409916,female,40.0,torso,0
+ISIC_6345464,IP_8547782,male,45.0,upper extremity,0
+ISIC_0661926,IP_5711917,female,60.0,torso,0
+ISIC_2415856,IP_4479736,female,25.0,upper extremity,0
+ISIC_0053810,BCN_0003147,male,65.0,upper extremity,1
+ISIC_0063362,BCN_0003949,female,15.0,anterior torso,1
+ISIC_2000240,IP_4204657,female,55.0,torso,0
+ISIC_0077735,IP_1109756,male,70.0,torso,0
+ISIC_1619470,IP_3755407,male,50.0,torso,0
+ISIC_6163859,IP_1023029,female,20.0,head/neck,0
+ISIC_0922292,IP_9147454,female,55.0,upper extremity,0
+ISIC_7260013,IP_2947236,female,65.0,torso,0
+ISIC_8593493,IP_3359673,female,55.0,lower extremity,0
+ISIC_3306343,IP_4194721,male,55.0,torso,0
+ISIC_1603509,IP_3048629,male,55.0,lower extremity,0
+ISIC_0680210,IP_5889408,female,45.0,lower extremity,0
+ISIC_4282579,IP_2214113,female,55.0,upper extremity,0
+ISIC_9330876,IP_7868912,male,65.0,torso,0
+ISIC_4513843,IP_7404837,female,50.0,torso,0
+ISIC_7583644,IP_8329777,female,30.0,lower extremity,0
+ISIC_8374497,IP_0968880,male,60.0,head/neck,0
+ISIC_1798800,IP_7743588,male,35.0,torso,0
+ISIC_0064742,BCN_0002806,female,40.0,head/neck,1
+ISIC_3771332,IP_5528290,male,50.0,lower extremity,0
+ISIC_0053884,BCN_0002108,male,70.0,anterior torso,1
+ISIC_9973015,IP_0583343,male,65.0,torso,0
+ISIC_0507002,IP_2411134,female,35.0,torso,0
+ISIC_0062161,BCN_0002558,male,45.0,anterior torso,1
+ISIC_6301984,IP_5533537,female,55.0,torso,0
+ISIC_9826904,IP_8759634,female,50.0,torso,0
+ISIC_5848892,IP_4865295,male,60.0,torso,0
+ISIC_0055459,BCN_0002577,female,55.0,lower extremity,1
+ISIC_1201523,IP_3458395,female,45.0,lower extremity,0
+ISIC_1611600,IP_4669931,female,25.0,upper extremity,0
+ISIC_7107303,IP_9585016,male,40.0,lower extremity,0
+ISIC_0025097,HAM_0000775,male,55.0,anterior torso,1
+ISIC_3908638,IP_5119720,male,55.0,torso,0
+ISIC_7449606,IP_9802994,female,40.0,torso,0
+ISIC_6565033,IP_2558686,male,40.0,upper extremity,0
+ISIC_3789405,IP_3423256,female,60.0,upper extremity,0
+ISIC_8108963,IP_3707904,male,70.0,lower extremity,0
+ISIC_2061327,IP_9248372,female,65.0,upper extremity,0
+ISIC_4362889,IP_6342052,male,65.0,torso,0
+ISIC_0010360,,male,40.0,posterior torso,1
+ISIC_2212352,IP_0099096,female,35.0,lower extremity,0
+ISIC_9540352,IP_2725676,female,60.0,torso,0
+ISIC_1441211,IP_0307863,male,45.0,torso,0
+ISIC_2459956,IP_1197949,male,45.0,upper extremity,0
+ISIC_2238813,IP_9644948,female,40.0,torso,0
+ISIC_4041555,IP_2707228,female,50.0,lower extremity,0
+ISIC_8888281,IP_4382720,female,50.0,upper extremity,0
+ISIC_4037959,IP_9455054,male,35.0,torso,0
+ISIC_0056728,BCN_0004135,male,70.0,palms/soles,1
+ISIC_4941646,IP_4488328,male,40.0,torso,0
+ISIC_9395707,IP_5294508,male,60.0,upper extremity,0
+ISIC_5899528,IP_9428720,male,30.0,upper extremity,0
+ISIC_4800695,IP_5691366,female,55.0,head/neck,0
+ISIC_9863065,IP_5808038,male,30.0,torso,0
+ISIC_0216296,IP_8051701,female,65.0,lower extremity,0
+ISIC_4933332,IP_5027399,male,40.0,lower extremity,0
+ISIC_4877382,IP_6945048,male,35.0,torso,0
+ISIC_1925695,IP_1214216,female,60.0,torso,0
+ISIC_7988554,IP_4199752,female,30.0,,0
+ISIC_2367392,IP_3722746,male,50.0,torso,0
+ISIC_3888054,IP_2153088,female,30.0,upper extremity,0
+ISIC_7173850,IP_5752342,male,75.0,upper extremity,0
+ISIC_4548483,IP_7357415,female,40.0,torso,0
+ISIC_4232726,IP_9453080,female,55.0,upper extremity,0
+ISIC_0342869,IP_3336327,female,65.0,torso,0
+ISIC_8158285,IP_7517320,male,60.0,lower extremity,0
+ISIC_2400515,IP_8687520,male,60.0,upper extremity,0
+ISIC_5506360,IP_0306499,male,70.0,torso,0
+ISIC_0032597,HAM_0005992,female,25.0,posterior torso,1
+ISIC_5988336,IP_9427625,male,20.0,lower extremity,0
+ISIC_7834330,IP_9422872,female,60.0,torso,0
+ISIC_0770930,IP_9186570,male,55.0,torso,0
+ISIC_6500094,IP_6724798,male,60.0,torso,0
+ISIC_9114388,IP_8329991,male,30.0,torso,0
+ISIC_5100319,IP_1582457,male,50.0,lower extremity,0
+ISIC_3026934,IP_4015774,female,35.0,lower extremity,0
+ISIC_9544059,IP_6982571,male,25.0,upper extremity,0
+ISIC_2953711,IP_0718832,female,50.0,torso,0
+ISIC_5028203,IP_9679829,male,30.0,torso,0
+ISIC_0171946,IP_9001826,female,30.0,torso,0
+ISIC_7037186,IP_2040538,male,55.0,torso,0
+ISIC_3788678,IP_3878510,female,45.0,upper extremity,0
+ISIC_3049301,IP_3970734,male,35.0,upper extremity,0
+ISIC_4267719,IP_3474679,female,50.0,upper extremity,0
+ISIC_4110997,IP_9616517,female,40.0,head/neck,0
+ISIC_7397129,IP_8326844,female,65.0,lower extremity,0
+ISIC_9880047,IP_1172238,female,50.0,lower extremity,0
+ISIC_0419875,IP_0428413,female,45.0,torso,0
+ISIC_6807803,IP_1152723,male,25.0,torso,0
+ISIC_8639491,IP_0660290,male,60.0,lower extremity,0
+ISIC_3704694,IP_0776416,female,30.0,lower extremity,0
+ISIC_2829414,IP_6486706,male,50.0,torso,0
+ISIC_0570393,IP_5326800,female,50.0,,0
+ISIC_7832309,IP_9544996,female,35.0,upper extremity,0
+ISIC_8429722,IP_9679829,male,30.0,upper extremity,0
+ISIC_5521974,IP_8615425,female,80.0,torso,0
+ISIC_4112409,IP_3713422,male,50.0,torso,0
+ISIC_8661226,IP_5326800,female,50.0,torso,0
+ISIC_3309001,IP_1616295,male,50.0,torso,0
+ISIC_3744610,IP_1153670,male,45.0,torso,0
+ISIC_0033310,HAM_0000119,male,60.0,posterior torso,1
+ISIC_7161651,IP_6332843,male,40.0,torso,0
+ISIC_5502229,IP_2160700,male,50.0,palms/soles,0
+ISIC_5820273,IP_4525077,female,65.0,head/neck,0
+ISIC_1903848,IP_6362160,male,70.0,upper extremity,0
+ISIC_4068608,IP_7984337,male,55.0,head/neck,0
+ISIC_1169095,IP_3419066,male,55.0,torso,0
+ISIC_5588968,IP_0892152,male,50.0,upper extremity,0
+ISIC_0062208,BCN_0003610,male,65.0,lower extremity,1
+ISIC_9246022,IP_0968880,male,60.0,torso,0
+ISIC_2412426,IP_2238880,female,45.0,torso,0
+ISIC_3316641,IP_6078411,male,30.0,lower extremity,0
+ISIC_9800424,IP_0981335,male,50.0,torso,0
+ISIC_0519386,IP_6211675,female,45.0,lower extremity,0
+ISIC_1367610,IP_9247426,female,45.0,lower extremity,0
+ISIC_7050328,IP_2107993,female,70.0,lower extremity,0
+ISIC_1200689,IP_4382720,female,50.0,lower extremity,0
+ISIC_1819289,IP_5086592,male,55.0,lower extremity,0
+ISIC_4868783,IP_6297463,male,45.0,torso,0
+ISIC_3819893,IP_9846692,female,35.0,torso,0
+ISIC_8343285,IP_4488328,male,40.0,torso,0
+ISIC_8409262,IP_4387709,male,30.0,upper extremity,0
+ISIC_4994695,IP_6873524,female,45.0,torso,0
+ISIC_1005683,IP_1300691,male,10.0,torso,0
+ISIC_2791903,IP_1197949,male,45.0,lower extremity,0
+ISIC_7330819,IP_7429637,female,55.0,torso,0
+ISIC_9886225,IP_5795395,female,35.0,lower extremity,0
+ISIC_1240485,IP_3523452,female,20.0,head/neck,0
+ISIC_1617520,IP_4938382,female,25.0,torso,0
+ISIC_7684290,IP_2507276,male,70.0,lower extremity,0
+ISIC_3215136,IP_1652699,male,55.0,lower extremity,0
+ISIC_8738925,IP_1522453,female,25.0,torso,0
+ISIC_7039745,IP_6459335,male,60.0,upper extremity,0
+ISIC_0059919,BCN_0003907,female,65.0,anterior torso,1
+ISIC_7557995,IP_3586223,female,30.0,torso,0
+ISIC_2544870,IP_0699776,male,80.0,torso,0
+ISIC_4089243,IP_5496892,male,65.0,upper extremity,0
+ISIC_7240424,IP_4419570,male,50.0,torso,0
+ISIC_6097616,IP_6292705,male,55.0,palms/soles,0
+ISIC_1911390,IP_1866634,female,55.0,torso,0
+ISIC_1727369,IP_9644384,female,25.0,torso,0
+ISIC_1131772,IP_2214113,female,55.0,lower extremity,0
+ISIC_7201189,IP_1036531,male,70.0,torso,0
+ISIC_1126202,IP_0687884,male,65.0,upper extremity,0
+ISIC_3857463,IP_6780155,male,55.0,torso,0
+ISIC_2618902,IP_5972253,male,75.0,torso,0
+ISIC_6731796,IP_0444327,male,55.0,lower extremity,0
+ISIC_0953133,IP_2980320,male,40.0,,0
+ISIC_0010189,,male,50.0,upper extremity,1
+ISIC_6798517,IP_7279968,male,45.0,torso,0
+ISIC_1358441,IP_5831170,male,70.0,head/neck,0
+ISIC_8330906,IP_8091497,male,45.0,torso,0
+ISIC_1668077,IP_9576478,male,50.0,torso,0
+ISIC_6759865,IP_6021072,female,65.0,lower extremity,0
+ISIC_0278126,IP_3075186,female,45.0,head/neck,0
+ISIC_4316571,IP_1386934,female,80.0,upper extremity,0
+ISIC_0470629,IP_4382720,female,50.0,lower extremity,0
+ISIC_2520840,IP_7911457,female,50.0,upper extremity,0
+ISIC_5142496,IP_6078411,male,35.0,lower extremity,0
+ISIC_0800069,IP_6116226,male,70.0,lower extremity,0
+ISIC_9184450,IP_3169043,male,70.0,torso,0
+ISIC_3046905,IP_1139701,female,45.0,torso,0
+ISIC_1540317,IP_1697215,female,40.0,lower extremity,0
+ISIC_2687175,IP_5152468,female,25.0,lower extremity,0
+ISIC_8712927,IP_0612651,female,25.0,torso,0
+ISIC_0053740,BCN_0000939,male,65.0,anterior torso,1
+ISIC_0074268,IP_8723313,female,55.0,upper extremity,0
+ISIC_2619212,IP_7498456,male,50.0,head/neck,0
+ISIC_8474432,IP_1564172,male,80.0,torso,0
+ISIC_3918318,IP_0408346,male,65.0,torso,0
+ISIC_5746845,IP_9355893,male,50.0,torso,0
+ISIC_2141054,IP_9067064,male,45.0,torso,0
+ISIC_4557337,IP_6764319,female,45.0,lower extremity,0
+ISIC_0068315,BCN_0001181,female,50.0,head/neck,1
+ISIC_4224064,IP_3735763,male,50.0,upper extremity,0
+ISIC_0058625,BCN_0005525,female,45.0,anterior torso,1
+ISIC_0066347,BCN_0005715,male,70.0,anterior torso,1
+ISIC_4722021,IP_9927968,male,35.0,torso,0
+ISIC_9160237,IP_3676113,male,45.0,torso,0
+ISIC_8575776,IP_5830187,male,45.0,torso,0
+ISIC_5144615,IP_8142299,male,55.0,torso,0
+ISIC_7841720,IP_1172238,female,50.0,lower extremity,0
+ISIC_2458609,IP_7005083,female,50.0,upper extremity,0
+ISIC_4672353,IP_4702665,female,65.0,,0
+ISIC_0034100,HAM_0004571,male,65.0,head/neck,1
+ISIC_8772241,IP_9453080,female,50.0,torso,0
+ISIC_9344664,IP_7147862,male,45.0,upper extremity,0
+ISIC_0179104,IP_6889672,male,25.0,torso,0
+ISIC_5969449,IP_1902399,male,35.0,upper extremity,0
+ISIC_5329156,IP_7252102,male,45.0,lower extremity,0
+ISIC_6000048,IP_4821632,female,30.0,lower extremity,0
+ISIC_6122044,IP_9755685,male,45.0,torso,0
+ISIC_5873438,IP_4254406,female,70.0,upper extremity,0
+ISIC_9371536,IP_9989332,female,30.0,upper extremity,0
+ISIC_0032017,HAM_0007368,male,70.0,head/neck,1
+ISIC_9590727,IP_8224538,male,55.0,lower extremity,0
+ISIC_6247314,IP_4314793,female,20.0,torso,0
+ISIC_0240365,IP_1800426,female,40.0,upper extremity,0
+ISIC_7805559,IP_1310148,male,75.0,upper extremity,0
+ISIC_1532469,IP_8135032,male,75.0,torso,0
+ISIC_1250680,IP_2006089,female,35.0,torso,0
+ISIC_8612113,IP_3562983,male,35.0,torso,0
+ISIC_6635699,IP_4479736,female,25.0,upper extremity,0
+ISIC_0062260,BCN_0001085,male,70.0,lower extremity,1
+ISIC_3571989,IP_6459335,male,65.0,head/neck,0
+ISIC_0065324,BCN_0005666,male,60.0,lower extremity,1
+ISIC_0032723,HAM_0005992,female,25.0,posterior torso,1
+ISIC_0013626_downsampled,MSK4_0010027,male,65.0,anterior torso,1
+ISIC_4487429,IP_8349964,male,70.0,upper extremity,0
+ISIC_6434605,IP_0541183,female,75.0,torso,0
+ISIC_0062160,BCN_0001954,female,50.0,anterior torso,1
+ISIC_8646276,IP_1357049,male,40.0,torso,0
