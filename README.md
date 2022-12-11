@@ -28,8 +28,8 @@ Plan for the winter semester 2022/2023. UW classes are on Fridays.
 * 2022-10-28  -- CP / PDP, [slides](https://htmlpreview.github.io/?https://raw.githubusercontent.com/mim-uw/eXplainableMachineLearning-2023/main/Lectures/04_pdp.html#/title-slide), [code examples](https://mim-uw.github.io/eXplainableMachineLearning-2023/hw4_cp_and_pdp_with_xgboost_on_titanic.html)
 * 2022-11-04  -- PROJECT: **First checkpoint** - Choose a topic and be familiar with the attached materials.
 * 2022-11-18  -- VIP / MCR, [slides](https://htmlpreview.github.io/?https://raw.githubusercontent.com/mim-uw/eXplainableMachineLearning-2023/main/Lectures/05_vip.html#/title-slide), [audio](https://youtu.be/6IU4kMv2x9Y), [code examples](https://mim-uw.github.io/eXplainableMachineLearning-2023/hw5_pvi_with_xgboost_on_titanic.html)
-* 2022-11-25  -- Fairness
-* 2022-12-02  -- Explanations for neural networks & Evaluation of explanations 
+* 2022-11-25  -- Fairness, [slides](https://htmlpreview.github.io/?https://raw.githubusercontent.com/mim-uw/eXplainableMachineLearning-2023/main/Lectures/06_fairness.html#/title-slide), [audio](https://youtu.be/OdPW06tx_Yk), [code examples](https://mim-uw.github.io/eXplainableMachineLearning-2023/hw6_fairness_with_xgboost_on_titanic.html)
+* 2022-12-02  -- Explanations specific to neural networks, [slides](https://htmlpreview.github.io/?https://raw.githubusercontent.com/mim-uw/eXplainableMachineLearning-2023/main/Lectures/07_networks.html#/title-slide) & Evaluation of explanations, [slides](https://htmlpreview.github.io/?https://raw.githubusercontent.com/mim-uw/eXplainableMachineLearning-2023/main/Lectures/08_evaluation.html#/title-slide)
 * 2022-12-09  -- PROJECT: **Second checkpoint** - Provide initial experimental results and/or code implementation.
 * 2022-12-16  -- Counterfactual explanations (?)
 * 2022-12-22  -- Concept based explanations (?)
@@ -65,7 +65,7 @@ There are four key components:
  - [Homework 3](https://github.com/mim-uw/TrustworthyMachineLearning-2023/tree/main/Homeworks/HW3)  for 0-4 points. **Deadline: 2022-10-27**
  - [Homework 4](https://github.com/mim-uw/TrustworthyMachineLearning-2023/tree/main/Homeworks/HW4)  for 0-4 points. **Deadline: 2022-11-17**
  - [Homework 5](https://github.com/mim-uw/TrustworthyMachineLearning-2023/tree/main/Homeworks/HW5)  for 0-4 points. **Deadline: 2022-11-24**
- - [Homework 6](https://github.com/mim-uw/TrustworthyMachineLearning-2023/tree/main/Homeworks/HW6)  for 0-4 points. **Deadline: 2022-12-01**
+ - [Homework 6](https://github.com/mim-uw/TrustworthyMachineLearning-2023/tree/main/Homeworks/HW6)  for 0-4 points. **Deadline: 2022-12-08**
 
 ## Presentations (10 points)
 
