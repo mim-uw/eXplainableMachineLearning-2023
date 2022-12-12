@@ -13890,9 +13890,9 @@ B) [in Python] SHAP variable importance based on the TreeSHAP algorithm availabl
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>Accuracy: 0.8571428571428571
-Recall: 0.9148936170212766
-Precision: 0.8269230769230769
+<pre>Accuracy: 0.8351648351648352
+Recall: 0.8723404255319149
+Precision: 0.82
 
 Results on train dataset:
 Accuracy: 1.0
@@ -13942,10 +13942,10 @@ Precision: 1.0
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>[[ 70.    1.  145.  174.    0.    1.    1.    2.6 125.    0.    0.    1.
     0.    0.    0.    0.    0.    0.    1. ]]
-[0.19]
+[0.15]
 [[ 64.    1.  170.  227.    0.    0.    0.    0.6 155.    1.    0.    0.
     0.    0.    1.    0.    0.    0.    1. ]]
-[0.65]
+[0.66]
 Preparation of a new explainer is initiated
 
   -&gt; data              : 91 rows 19 cols
@@ -13953,12 +13953,12 @@ Preparation of a new explainer is initiated
   -&gt; target variable   : 91 values
   -&gt; model_class       : sklearn.ensemble._forest.RandomForestClassifier (default)
   -&gt; label             : forest
-  -&gt; predict function  : &lt;function &lt;lambda&gt; at 0x7f50744321f0&gt; will be used
+  -&gt; predict function  : &lt;function &lt;lambda&gt; at 0x7ff4a921f280&gt; will be used
   -&gt; predict function  : Accepts pandas.DataFrame and numpy.ndarray.
-  -&gt; predicted values  : min = 0.0, mean = 0.561, max = 1.0
+  -&gt; predicted values  : min = 0.0, mean = 0.548, max = 0.99
   -&gt; model type        : classification will be used (default)
   -&gt; residual function : difference between y and yhat (default)
-  -&gt; residuals         : min = -0.89, mean = -0.0447, max = 0.81
+  -&gt; residuals         : min = -0.86, mean = -0.0311, max = 0.86
   -&gt; model_info        : package sklearn
 
 A new explainer has been created!
@@ -13988,11 +13988,11 @@ A new explainer has been created!
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[6]:</div>
+<div class="prompt input_prompt">In&nbsp;[8]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">pvi</span> <span class="o">=</span> <span class="n">explainer</span><span class="o">.</span><span class="n">model_parts</span><span class="p">(</span><span class="n">random_state</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
-<span class="n">pvi</span><span class="o">.</span><span class="n">result</span>
+<span class="n">pvi</span><span class="o">.</span><span class="n">plot</span><span class="p">()</span>
 </pre></div>
 
     </div>
@@ -14005,163 +14005,35 @@ A new explainer has been created!
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[6]:</div>
+    <div class="prompt"></div>
 
 
 
-<div class="output_html rendered_html output_subarea output_execute_result"><div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
+<div class="output_html rendered_html output_subarea "><div>                            <div id="7bbf50f7-32dc-4007-8a51-36e3426ee135" class="plotly-graph-div" style="height:383.0px; width:100%;"></div>            <script type="text/javascript">                require(["plotly"], function(Plotly) {                    window.PLOTLYENV=window.PLOTLYENV || {};                                    if (document.getElementById("7bbf50f7-32dc-4007-8a51-36e3426ee135")) {                    Plotly.newPlot(                        "7bbf50f7-32dc-4007-8a51-36e3426ee135",                        [{"base":0.09477756286266925,"hoverinfo":"text","hoverlabel":{"bgcolor":"rgba(0,0,0,0.8)"},"hovertext":["Model: forest loss after<br>variable: ca is permuted: 0.141<br>Drop-out loss change: +0.046","Model: forest loss after<br>variable: cp_0 is permuted: 0.11<br>Drop-out loss change: +0.015","Model: forest loss after<br>variable: thall_2 is permuted: 0.108<br>Drop-out loss change: +0.013","Model: forest loss after<br>variable: exng is permuted: 0.108<br>Drop-out loss change: +0.013","Model: forest loss after<br>variable: oldpeak is permuted: 0.107<br>Drop-out loss change: +0.012","Model: forest loss after<br>variable: thalach is permuted: 0.104<br>Drop-out loss change: +0.01","Model: forest loss after<br>variable: age is permuted: 0.104<br>Drop-out loss change: +0.009","Model: forest loss after<br>variable: sex is permuted: 0.102<br>Drop-out loss change: +0.007","Model: forest loss after<br>variable: slope is permuted: 0.099<br>Drop-out loss change: +0.004","Model: forest loss after<br>variable: cp_1 is permuted: 0.098<br>Drop-out loss change: +0.003"],"marker":{"color":"#46bac2"},"orientation":"h","showlegend":false,"text":["+0.046","+0.015","+0.013","+0.013","+0.012","+0.01","+0.009","+0.007","+0.004","+0.003"],"textposition":"outside","x":[0.0459622823984526,0.015207930367504813,0.013394584139264948,0.012741779497098621,0.012499999999999997,0.009501934235976783,0.008776595744680843,0.006890715667311406,0.004327852998065748,0.0034574468085105947],"y":["ca","cp_0","thall_2","exng","oldpeak","thalach","age","sex","slope","cp_1"],"type":"bar","xaxis":"x","yaxis":"y"}],                        {"template":{"data":{"scatter":[{"type":"scatter"}]}},"xaxis":{"anchor":"y","domain":[0.0,1.0],"type":"linear","gridwidth":2,"zeroline":false,"automargin":true,"ticks":"outside","tickcolor":"white","ticklen":3,"fixedrange":true,"range":[0.08463007736943905,0.14805851063829786]},"yaxis":{"anchor":"x","domain":[0.0,1.0],"type":"category","autorange":"reversed","gridwidth":2,"automargin":true,"ticks":"outside","tickcolor":"white","ticklen":10,"fixedrange":true},"annotations":[{"font":{"size":16},"showarrow":false,"text":"forest","x":0.5,"xanchor":"center","xref":"paper","y":1.0,"yanchor":"bottom","yref":"paper"},{"font":{"size":16},"showarrow":false,"text":"drop-out loss","x":0.5,"xanchor":"center","xref":"paper","y":0,"yanchor":"top","yref":"paper","yshift":-30}],"shapes":[{"line":{"color":"#371ea3","dash":"dot","width":1.5},"type":"line","x0":0.09477756286266925,"x1":0.09477756286266925,"xref":"x","y0":-1,"y1":10,"yref":"y"}],"title":{"text":"Variable Importance","x":0.15},"font":{"color":"#371ea3"},"margin":{"t":78,"b":71,"r":30},"height":383.0},                        {"displaylogo": false, "staticPlot": false, "toImageButtonOptions": {"height": null, "width": null}, "modeBarButtonsToRemove": ["sendDataToCloud", "lasso2d", "autoScale2d", "select2d", "zoom2d", "pan2d", "zoomIn2d", "zoomOut2d", "resetScale2d", "toggleSpikelines", "hoverCompareCartesian", "hoverClosestCartesian"], "responsive": true}                    ).then(function(){
+                            
+var gd = document.getElementById('7bbf50f7-32dc-4007-8a51-36e3426ee135');
+var x = new MutationObserver(function (mutations, observer) {{
+        var display = window.getComputedStyle(gd).display;
+        if (!display || display === 'none') {{
+            console.log([gd, 'removed!']);
+            Plotly.purge(gd);
+            observer.disconnect();
+        }}
+}});
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
+// Listen for the removal of the full notebook cells
+var notebookContainer = gd.closest('#notebook-container');
+if (notebookContainer) {{
+    x.observe(notebookContainer, {childList: true});
+}}
 
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>variable</th>
-      <th>dropout_loss</th>
-      <th>label</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>thall_1</td>
-      <td>0.089773</td>
-      <td>forest</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>cp_1</td>
-      <td>0.089966</td>
-      <td>forest</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>chol</td>
-      <td>0.090837</td>
-      <td>forest</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>_full_model_</td>
-      <td>0.091151</td>
-      <td>forest</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>thall_0</td>
-      <td>0.091151</td>
-      <td>forest</td>
-    </tr>
-    <tr>
-      <th>5</th>
-      <td>trtbps</td>
-      <td>0.091175</td>
-      <td>forest</td>
-    </tr>
-    <tr>
-      <th>6</th>
-      <td>fbs</td>
-      <td>0.091296</td>
-      <td>forest</td>
-    </tr>
-    <tr>
-      <th>7</th>
-      <td>thall_3</td>
-      <td>0.093013</td>
-      <td>forest</td>
-    </tr>
-    <tr>
-      <th>8</th>
-      <td>cp_3</td>
-      <td>0.094270</td>
-      <td>forest</td>
-    </tr>
-    <tr>
-      <th>9</th>
-      <td>cp_2</td>
-      <td>0.094995</td>
-      <td>forest</td>
-    </tr>
-    <tr>
-      <th>10</th>
-      <td>restecg</td>
-      <td>0.095455</td>
-      <td>forest</td>
-    </tr>
-    <tr>
-      <th>11</th>
-      <td>slope</td>
-      <td>0.098743</td>
-      <td>forest</td>
-    </tr>
-    <tr>
-      <th>12</th>
-      <td>sex</td>
-      <td>0.099154</td>
-      <td>forest</td>
-    </tr>
-    <tr>
-      <th>13</th>
-      <td>oldpeak</td>
-      <td>0.100822</td>
-      <td>forest</td>
-    </tr>
-    <tr>
-      <th>14</th>
-      <td>exng</td>
-      <td>0.100846</td>
-      <td>forest</td>
-    </tr>
-    <tr>
-      <th>15</th>
-      <td>age</td>
-      <td>0.101088</td>
-      <td>forest</td>
-    </tr>
-    <tr>
-      <th>16</th>
-      <td>thall_2</td>
-      <td>0.106673</td>
-      <td>forest</td>
-    </tr>
-    <tr>
-      <th>17</th>
-      <td>thalach</td>
-      <td>0.109067</td>
-      <td>forest</td>
-    </tr>
-    <tr>
-      <th>18</th>
-      <td>cp_0</td>
-      <td>0.117239</td>
-      <td>forest</td>
-    </tr>
-    <tr>
-      <th>19</th>
-      <td>ca</td>
-      <td>0.129497</td>
-      <td>forest</td>
-    </tr>
-    <tr>
-      <th>20</th>
-      <td>_baseline_</td>
-      <td>0.521663</td>
-      <td>forest</td>
-    </tr>
-  </tbody>
-</table>
-</div></div>
+// Listen for the clearing of the current output cell
+var outputEl = gd.closest('.output');
+if (outputEl) {{
+    x.observe(outputEl, {childList: true});
+}}
+
+                        })                };                });            </script>        </div></div>
 
 </div>
 
@@ -14171,7 +14043,7 @@ A new explainer has been created!
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[7]:</div>
+<div class="prompt input_prompt">In&nbsp;[9]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">forest</span> <span class="o">=</span> <span class="n">sklearn</span><span class="o">.</span><span class="n">ensemble</span><span class="o">.</span><span class="n">RandomForestClassifier</span><span class="p">(</span><span class="n">n_estimators</span><span class="o">=</span><span class="mi">17</span><span class="p">,</span> <span class="n">criterion</span><span class="o">=</span><span class="s1">&#39;entropy&#39;</span><span class="p">,</span> <span class="n">max_features</span><span class="o">=</span><span class="s1">&#39;log2&#39;</span><span class="p">)</span>
@@ -14204,7 +14076,7 @@ A new explainer has been created!
 <span class="n">explainer</span> <span class="o">=</span> <span class="n">dx</span><span class="o">.</span><span class="n">Explainer</span><span class="p">(</span><span class="n">forest</span><span class="p">,</span> <span class="n">X_test</span><span class="p">,</span> <span class="n">y_test</span><span class="p">,</span> <span class="n">predict_function</span><span class="o">=</span><span class="n">predict</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s2">&quot;forest_hp2&quot;</span><span class="p">)</span>
 
 <span class="n">pvi</span> <span class="o">=</span> <span class="n">explainer</span><span class="o">.</span><span class="n">model_parts</span><span class="p">(</span><span class="n">random_state</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
-<span class="n">pvi</span><span class="o">.</span><span class="n">result</span>
+<span class="n">pvi</span><span class="o">.</span><span class="n">plot</span><span class="p">()</span>
 </pre></div>
 
     </div>
@@ -14242,7 +14114,7 @@ Preparation of a new explainer is initiated
   -&gt; target variable   : 91 values
   -&gt; model_class       : sklearn.ensemble._forest.RandomForestClassifier (default)
   -&gt; label             : forest_hp2
-  -&gt; predict function  : &lt;function &lt;lambda&gt; at 0x7f5074401430&gt; will be used
+  -&gt; predict function  : &lt;function &lt;lambda&gt; at 0x7ff4a8cc5ee0&gt; will be used
   -&gt; predict function  : Accepts pandas.DataFrame and numpy.ndarray.
   -&gt; predicted values  : min = 0.0, mean = 0.54, max = 1.0
   -&gt; model type        : classification will be used (default)
@@ -14261,175 +14133,53 @@ A new explainer has been created!
 
 
 <div class="output_subarea output_stream output_stderr output_text">
-<pre>/home/krzysztof/anaconda3/lib/python3.9/site-packages/sklearn/base.py:450: UserWarning: X does not have valid feature names, but RandomForestClassifier was fitted with feature names
-  warnings.warn(
-/home/krzysztof/anaconda3/lib/python3.9/site-packages/sklearn/base.py:450: UserWarning: X does not have valid feature names, but RandomForestClassifier was fitted with feature names
-  warnings.warn(
-/home/krzysztof/anaconda3/lib/python3.9/site-packages/sklearn/base.py:450: UserWarning: X does not have valid feature names, but RandomForestClassifier was fitted with feature names
-  warnings.warn(
+<pre>/home/krzysztof/anaconda3/lib/python3.9/site-packages/sklearn/base.py:450: UserWarning:
+
+X does not have valid feature names, but RandomForestClassifier was fitted with feature names
+
+/home/krzysztof/anaconda3/lib/python3.9/site-packages/sklearn/base.py:450: UserWarning:
+
+X does not have valid feature names, but RandomForestClassifier was fitted with feature names
+
+/home/krzysztof/anaconda3/lib/python3.9/site-packages/sklearn/base.py:450: UserWarning:
+
+X does not have valid feature names, but RandomForestClassifier was fitted with feature names
+
 </pre>
 </div>
 </div>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[7]:</div>
+    <div class="prompt"></div>
 
 
 
-<div class="output_html rendered_html output_subarea output_execute_result"><div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
+<div class="output_html rendered_html output_subarea "><div>                            <div id="4562b505-b5ee-49e7-b2c9-1fad29bcdc97" class="plotly-graph-div" style="height:383.0px; width:100%;"></div>            <script type="text/javascript">                require(["plotly"], function(Plotly) {                    window.PLOTLYENV=window.PLOTLYENV || {};                                    if (document.getElementById("4562b505-b5ee-49e7-b2c9-1fad29bcdc97")) {                    Plotly.newPlot(                        "4562b505-b5ee-49e7-b2c9-1fad29bcdc97",                        [{"base":0.12475822050290128,"hoverinfo":"text","hoverlabel":{"bgcolor":"rgba(0,0,0,0.8)"},"hovertext":["Model: forest_hp2 loss after<br>variable: ca is permuted: 0.179<br>Drop-out loss change: +0.054","Model: forest_hp2 loss after<br>variable: oldpeak is permuted: 0.153<br>Drop-out loss change: +0.028","Model: forest_hp2 loss after<br>variable: thalach is permuted: 0.143<br>Drop-out loss change: +0.018","Model: forest_hp2 loss after<br>variable: cp_0 is permuted: 0.142<br>Drop-out loss change: +0.017","Model: forest_hp2 loss after<br>variable: thall_3 is permuted: 0.14<br>Drop-out loss change: +0.015","Model: forest_hp2 loss after<br>variable: thall_2 is permuted: 0.139<br>Drop-out loss change: +0.015","Model: forest_hp2 loss after<br>variable: slope is permuted: 0.135<br>Drop-out loss change: +0.01","Model: forest_hp2 loss after<br>variable: sex is permuted: 0.135<br>Drop-out loss change: +0.01","Model: forest_hp2 loss after<br>variable: exng is permuted: 0.134<br>Drop-out loss change: +0.009","Model: forest_hp2 loss after<br>variable: cp_3 is permuted: 0.129<br>Drop-out loss change: +0.004"],"marker":{"color":"#46bac2"},"orientation":"h","showlegend":false,"text":["+0.054","+0.028","+0.018","+0.017","+0.015","+0.015","+0.01","+0.01","+0.009","+0.004"],"textposition":"outside","x":[0.05413442940038693,0.028239845261121915,0.018471953578336642,0.016948742746615147,0.015256286266924601,0.014579303675048422,0.010106382978723488,0.009743713733075449,0.009260154738878201,0.00408607350096718],"y":["ca","oldpeak","thalach","cp_0","thall_3","thall_2","slope","sex","exng","cp_3"],"type":"bar","xaxis":"x","yaxis":"y"}],                        {"template":{"data":{"scatter":[{"type":"scatter"}]}},"xaxis":{"anchor":"y","domain":[0.0,1.0],"type":"linear","gridwidth":2,"zeroline":false,"automargin":true,"ticks":"outside","tickcolor":"white","ticklen":3,"fixedrange":true,"range":[0.10871373307543515,0.18804642166344296]},"yaxis":{"anchor":"x","domain":[0.0,1.0],"type":"category","autorange":"reversed","gridwidth":2,"automargin":true,"ticks":"outside","tickcolor":"white","ticklen":10,"fixedrange":true},"annotations":[{"font":{"size":16},"showarrow":false,"text":"forest_hp2","x":0.5,"xanchor":"center","xref":"paper","y":1.0,"yanchor":"bottom","yref":"paper"},{"font":{"size":16},"showarrow":false,"text":"drop-out loss","x":0.5,"xanchor":"center","xref":"paper","y":0,"yanchor":"top","yref":"paper","yshift":-30}],"shapes":[{"line":{"color":"#371ea3","dash":"dot","width":1.5},"type":"line","x0":0.12475822050290128,"x1":0.12475822050290128,"xref":"x","y0":-1,"y1":10,"yref":"y"}],"title":{"text":"Variable Importance","x":0.15},"font":{"color":"#371ea3"},"margin":{"t":78,"b":71,"r":30},"height":383.0},                        {"displaylogo": false, "staticPlot": false, "toImageButtonOptions": {"height": null, "width": null}, "modeBarButtonsToRemove": ["sendDataToCloud", "lasso2d", "autoScale2d", "select2d", "zoom2d", "pan2d", "zoomIn2d", "zoomOut2d", "resetScale2d", "toggleSpikelines", "hoverCompareCartesian", "hoverClosestCartesian"], "responsive": true}                    ).then(function(){
+                            
+var gd = document.getElementById('4562b505-b5ee-49e7-b2c9-1fad29bcdc97');
+var x = new MutationObserver(function (mutations, observer) {{
+        var display = window.getComputedStyle(gd).display;
+        if (!display || display === 'none') {{
+            console.log([gd, 'removed!']);
+            Plotly.purge(gd);
+            observer.disconnect();
+        }}
+}});
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
+// Listen for the removal of the full notebook cells
+var notebookContainer = gd.closest('#notebook-container');
+if (notebookContainer) {{
+    x.observe(notebookContainer, {childList: true});
+}}
 
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>variable</th>
-      <th>dropout_loss</th>
-      <th>label</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>chol</td>
-      <td>0.117868</td>
-      <td>forest_hp2</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>restecg</td>
-      <td>0.118786</td>
-      <td>forest_hp2</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>fbs</td>
-      <td>0.118835</td>
-      <td>forest_hp2</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>cp_2</td>
-      <td>0.124154</td>
-      <td>forest_hp2</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>_full_model_</td>
-      <td>0.124758</td>
-      <td>forest_hp2</td>
-    </tr>
-    <tr>
-      <th>5</th>
-      <td>thall_0</td>
-      <td>0.124758</td>
-      <td>forest_hp2</td>
-    </tr>
-    <tr>
-      <th>6</th>
-      <td>cp_1</td>
-      <td>0.125000</td>
-      <td>forest_hp2</td>
-    </tr>
-    <tr>
-      <th>7</th>
-      <td>thall_1</td>
-      <td>0.125580</td>
-      <td>forest_hp2</td>
-    </tr>
-    <tr>
-      <th>8</th>
-      <td>trtbps</td>
-      <td>0.125991</td>
-      <td>forest_hp2</td>
-    </tr>
-    <tr>
-      <th>9</th>
-      <td>age</td>
-      <td>0.126064</td>
-      <td>forest_hp2</td>
-    </tr>
-    <tr>
-      <th>10</th>
-      <td>cp_3</td>
-      <td>0.128844</td>
-      <td>forest_hp2</td>
-    </tr>
-    <tr>
-      <th>11</th>
-      <td>exng</td>
-      <td>0.134018</td>
-      <td>forest_hp2</td>
-    </tr>
-    <tr>
-      <th>12</th>
-      <td>sex</td>
-      <td>0.134502</td>
-      <td>forest_hp2</td>
-    </tr>
-    <tr>
-      <th>13</th>
-      <td>slope</td>
-      <td>0.134865</td>
-      <td>forest_hp2</td>
-    </tr>
-    <tr>
-      <th>14</th>
-      <td>thall_2</td>
-      <td>0.139338</td>
-      <td>forest_hp2</td>
-    </tr>
-    <tr>
-      <th>15</th>
-      <td>thall_3</td>
-      <td>0.140015</td>
-      <td>forest_hp2</td>
-    </tr>
-    <tr>
-      <th>16</th>
-      <td>cp_0</td>
-      <td>0.141707</td>
-      <td>forest_hp2</td>
-    </tr>
-    <tr>
-      <th>17</th>
-      <td>thalach</td>
-      <td>0.143230</td>
-      <td>forest_hp2</td>
-    </tr>
-    <tr>
-      <th>18</th>
-      <td>oldpeak</td>
-      <td>0.152998</td>
-      <td>forest_hp2</td>
-    </tr>
-    <tr>
-      <th>19</th>
-      <td>ca</td>
-      <td>0.178893</td>
-      <td>forest_hp2</td>
-    </tr>
-    <tr>
-      <th>20</th>
-      <td>_baseline_</td>
-      <td>0.511339</td>
-      <td>forest_hp2</td>
-    </tr>
-  </tbody>
-</table>
-</div></div>
+// Listen for the clearing of the current output cell
+var outputEl = gd.closest('.output');
+if (outputEl) {{
+    x.observe(outputEl, {childList: true});
+}}
+
+                        })                };                });            </script>        </div></div>
 
 </div>
 
@@ -14439,7 +14189,7 @@ A new explainer has been created!
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[8]:</div>
+<div class="prompt input_prompt">In&nbsp;[10]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">xgboost</span>
@@ -14464,7 +14214,7 @@ A new explainer has been created!
 <span class="n">explainer</span> <span class="o">=</span> <span class="n">dx</span><span class="o">.</span><span class="n">Explainer</span><span class="p">(</span><span class="n">model</span><span class="p">,</span> <span class="n">X_test</span><span class="p">,</span> <span class="n">y_test</span><span class="p">,</span> <span class="n">predict_function</span><span class="o">=</span><span class="n">pf_xgboost_classifier_categorical</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s2">&quot;xgb&quot;</span><span class="p">)</span>
 
 <span class="n">pvi</span> <span class="o">=</span> <span class="n">explainer</span><span class="o">.</span><span class="n">model_parts</span><span class="p">(</span><span class="n">random_state</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
-<span class="n">pvi</span><span class="o">.</span><span class="n">result</span>
+<span class="n">pvi</span><span class="o">.</span><span class="n">plot</span><span class="p">()</span>
 </pre></div>
 
     </div>
@@ -14481,8 +14231,10 @@ A new explainer has been created!
 
 
 <div class="output_subarea output_stream output_stderr output_text">
-<pre>/home/krzysztof/anaconda3/lib/python3.9/site-packages/xgboost/sklearn.py:1421: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
-  warnings.warn(&#34;`use_label_encoder` is deprecated in 1.7.0.&#34;)
+<pre>/home/krzysztof/anaconda3/lib/python3.9/site-packages/xgboost/sklearn.py:1421: UserWarning:
+
+`use_label_encoder` is deprecated in 1.7.0.
+
 </pre>
 </div>
 </div>
@@ -14500,7 +14252,7 @@ A new explainer has been created!
   -&gt; target variable   : 91 values
   -&gt; model_class       : xgboost.sklearn.XGBClassifier (default)
   -&gt; label             : xgb
-  -&gt; predict function  : &lt;function pf_xgboost_classifier_categorical at 0x7f50643944c0&gt; will be used
+  -&gt; predict function  : &lt;function pf_xgboost_classifier_categorical at 0x7ff4a8cbb550&gt; will be used
   -&gt; predict function  : Accepts only pandas.DataFrame, numpy.ndarray causes problems.
   -&gt; predicted values  : min = 0.00192, mean = 0.547, max = 0.998
   -&gt; model type        : classification will be used (default)
@@ -14515,163 +14267,35 @@ A new explainer has been created!
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[8]:</div>
+    <div class="prompt"></div>
 
 
 
-<div class="output_html rendered_html output_subarea output_execute_result"><div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
+<div class="output_html rendered_html output_subarea "><div>                            <div id="72e05251-3123-42c7-8639-7dc58a8983bb" class="plotly-graph-div" style="height:383.0px; width:100%;"></div>            <script type="text/javascript">                require(["plotly"], function(Plotly) {                    window.PLOTLYENV=window.PLOTLYENV || {};                                    if (document.getElementById("72e05251-3123-42c7-8639-7dc58a8983bb")) {                    Plotly.newPlot(                        "72e05251-3123-42c7-8639-7dc58a8983bb",                        [{"base":0.09961315280464222,"hoverinfo":"text","hoverlabel":{"bgcolor":"rgba(0,0,0,0.8)"},"hovertext":["Model: xgb loss after<br>variable: ca is permuted: 0.17<br>Drop-out loss change: +0.071","Model: xgb loss after<br>variable: thall_2 is permuted: 0.148<br>Drop-out loss change: +0.049","Model: xgb loss after<br>variable: cp_0 is permuted: 0.129<br>Drop-out loss change: +0.029","Model: xgb loss after<br>variable: oldpeak is permuted: 0.128<br>Drop-out loss change: +0.028","Model: xgb loss after<br>variable: sex is permuted: 0.114<br>Drop-out loss change: +0.014","Model: xgb loss after<br>variable: trtbps is permuted: 0.111<br>Drop-out loss change: +0.011","Model: xgb loss after<br>variable: thalach is permuted: 0.111<br>Drop-out loss change: +0.011","Model: xgb loss after<br>variable: age is permuted: 0.11<br>Drop-out loss change: +0.011","Model: xgb loss after<br>variable: exng is permuted: 0.107<br>Drop-out loss change: +0.007","Model: xgb loss after<br>variable: restecg is permuted: 0.107<br>Drop-out loss change: +0.007"],"marker":{"color":"#46bac2"},"orientation":"h","showlegend":false,"text":["+0.071","+0.049","+0.029","+0.028","+0.014","+0.011","+0.011","+0.011","+0.007","+0.007"],"textposition":"outside","x":[0.07074468085106375,0.04864603481624746,0.028965183752417717,0.02843326885880071,0.014313346228239765,0.010976789168278461,0.01097678916827842,0.010541586073500891,0.007398452611218492,0.00730174081237904],"y":["ca","thall_2","cp_0","oldpeak","sex","trtbps","thalach","age","exng","restecg"],"type":"bar","xaxis":"x","yaxis":"y"}],                        {"template":{"data":{"scatter":[{"type":"scatter"}]}},"xaxis":{"anchor":"y","domain":[0.0,1.0],"type":"linear","gridwidth":2,"zeroline":false,"automargin":true,"ticks":"outside","tickcolor":"white","ticklen":3,"fixedrange":true,"range":[0.08900145067698266,0.18096953578336553]},"yaxis":{"anchor":"x","domain":[0.0,1.0],"type":"category","autorange":"reversed","gridwidth":2,"automargin":true,"ticks":"outside","tickcolor":"white","ticklen":10,"fixedrange":true},"annotations":[{"font":{"size":16},"showarrow":false,"text":"xgb","x":0.5,"xanchor":"center","xref":"paper","y":1.0,"yanchor":"bottom","yref":"paper"},{"font":{"size":16},"showarrow":false,"text":"drop-out loss","x":0.5,"xanchor":"center","xref":"paper","y":0,"yanchor":"top","yref":"paper","yshift":-30}],"shapes":[{"line":{"color":"#371ea3","dash":"dot","width":1.5},"type":"line","x0":0.09961315280464222,"x1":0.09961315280464222,"xref":"x","y0":-1,"y1":10,"yref":"y"}],"title":{"text":"Variable Importance","x":0.15},"font":{"color":"#371ea3"},"margin":{"t":78,"b":71,"r":30},"height":383.0},                        {"displaylogo": false, "staticPlot": false, "toImageButtonOptions": {"height": null, "width": null}, "modeBarButtonsToRemove": ["sendDataToCloud", "lasso2d", "autoScale2d", "select2d", "zoom2d", "pan2d", "zoomIn2d", "zoomOut2d", "resetScale2d", "toggleSpikelines", "hoverCompareCartesian", "hoverClosestCartesian"], "responsive": true}                    ).then(function(){
+                            
+var gd = document.getElementById('72e05251-3123-42c7-8639-7dc58a8983bb');
+var x = new MutationObserver(function (mutations, observer) {{
+        var display = window.getComputedStyle(gd).display;
+        if (!display || display === 'none') {{
+            console.log([gd, 'removed!']);
+            Plotly.purge(gd);
+            observer.disconnect();
+        }}
+}});
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
+// Listen for the removal of the full notebook cells
+var notebookContainer = gd.closest('#notebook-container');
+if (notebookContainer) {{
+    x.observe(notebookContainer, {childList: true});
+}}
 
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>variable</th>
-      <th>dropout_loss</th>
-      <th>label</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>_full_model_</td>
-      <td>0.099613</td>
-      <td>xgb</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>thall_1</td>
-      <td>0.099613</td>
-      <td>xgb</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>thall_0</td>
-      <td>0.099613</td>
-      <td>xgb</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>cp_1</td>
-      <td>0.099613</td>
-      <td>xgb</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>cp_2</td>
-      <td>0.099613</td>
-      <td>xgb</td>
-    </tr>
-    <tr>
-      <th>5</th>
-      <td>cp_3</td>
-      <td>0.099613</td>
-      <td>xgb</td>
-    </tr>
-    <tr>
-      <th>6</th>
-      <td>thall_3</td>
-      <td>0.100145</td>
-      <td>xgb</td>
-    </tr>
-    <tr>
-      <th>7</th>
-      <td>fbs</td>
-      <td>0.101547</td>
-      <td>xgb</td>
-    </tr>
-    <tr>
-      <th>8</th>
-      <td>chol</td>
-      <td>0.103385</td>
-      <td>xgb</td>
-    </tr>
-    <tr>
-      <th>9</th>
-      <td>slope</td>
-      <td>0.103965</td>
-      <td>xgb</td>
-    </tr>
-    <tr>
-      <th>10</th>
-      <td>restecg</td>
-      <td>0.106915</td>
-      <td>xgb</td>
-    </tr>
-    <tr>
-      <th>11</th>
-      <td>exng</td>
-      <td>0.107012</td>
-      <td>xgb</td>
-    </tr>
-    <tr>
-      <th>12</th>
-      <td>age</td>
-      <td>0.110155</td>
-      <td>xgb</td>
-    </tr>
-    <tr>
-      <th>13</th>
-      <td>thalach</td>
-      <td>0.110590</td>
-      <td>xgb</td>
-    </tr>
-    <tr>
-      <th>14</th>
-      <td>trtbps</td>
-      <td>0.110590</td>
-      <td>xgb</td>
-    </tr>
-    <tr>
-      <th>15</th>
-      <td>sex</td>
-      <td>0.113926</td>
-      <td>xgb</td>
-    </tr>
-    <tr>
-      <th>16</th>
-      <td>oldpeak</td>
-      <td>0.128046</td>
-      <td>xgb</td>
-    </tr>
-    <tr>
-      <th>17</th>
-      <td>cp_0</td>
-      <td>0.128578</td>
-      <td>xgb</td>
-    </tr>
-    <tr>
-      <th>18</th>
-      <td>thall_2</td>
-      <td>0.148259</td>
-      <td>xgb</td>
-    </tr>
-    <tr>
-      <th>19</th>
-      <td>ca</td>
-      <td>0.170358</td>
-      <td>xgb</td>
-    </tr>
-    <tr>
-      <th>20</th>
-      <td>_baseline_</td>
-      <td>0.516417</td>
-      <td>xgb</td>
-    </tr>
-  </tbody>
-</table>
-</div></div>
+// Listen for the clearing of the current output cell
+var outputEl = gd.closest('.output');
+if (outputEl) {{
+    x.observe(outputEl, {childList: true});
+}}
+
+                        })                };                });            </script>        </div></div>
 
 </div>
 
@@ -14681,7 +14305,7 @@ A new explainer has been created!
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[9]:</div>
+<div class="prompt input_prompt">In&nbsp;[11]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">model</span> <span class="o">=</span> <span class="n">xgboost</span><span class="o">.</span><span class="n">XGBClassifier</span><span class="p">(</span>
@@ -14705,7 +14329,7 @@ A new explainer has been created!
 <span class="n">explainer</span> <span class="o">=</span> <span class="n">dx</span><span class="o">.</span><span class="n">Explainer</span><span class="p">(</span><span class="n">model</span><span class="p">,</span> <span class="n">X_test</span><span class="p">,</span> <span class="n">y_test</span><span class="p">,</span> <span class="n">predict_function</span><span class="o">=</span><span class="n">pf_xgboost_classifier_categorical</span><span class="p">,</span>  <span class="n">label</span><span class="o">=</span><span class="s2">&quot;xgb_hp2&quot;</span><span class="p">)</span>
 
 <span class="n">pvi</span> <span class="o">=</span> <span class="n">explainer</span><span class="o">.</span><span class="n">model_parts</span><span class="p">(</span><span class="n">random_state</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
-<span class="n">pvi</span><span class="o">.</span><span class="n">result</span>
+<span class="n">pvi</span><span class="o">.</span><span class="n">plot</span><span class="p">()</span>
 </pre></div>
 
     </div>
@@ -14722,8 +14346,10 @@ A new explainer has been created!
 
 
 <div class="output_subarea output_stream output_stderr output_text">
-<pre>/home/krzysztof/anaconda3/lib/python3.9/site-packages/xgboost/sklearn.py:1421: UserWarning: `use_label_encoder` is deprecated in 1.7.0.
-  warnings.warn(&#34;`use_label_encoder` is deprecated in 1.7.0.&#34;)
+<pre>/home/krzysztof/anaconda3/lib/python3.9/site-packages/xgboost/sklearn.py:1421: UserWarning:
+
+`use_label_encoder` is deprecated in 1.7.0.
+
 </pre>
 </div>
 </div>
@@ -14741,7 +14367,7 @@ A new explainer has been created!
   -&gt; target variable   : 91 values
   -&gt; model_class       : xgboost.sklearn.XGBClassifier (default)
   -&gt; label             : xgb_hp2
-  -&gt; predict function  : &lt;function pf_xgboost_classifier_categorical at 0x7f50643949d0&gt; will be used
+  -&gt; predict function  : &lt;function pf_xgboost_classifier_categorical at 0x7ff4a81d31f0&gt; will be used
   -&gt; predict function  : Accepts only pandas.DataFrame, numpy.ndarray causes problems.
   -&gt; predicted values  : min = 0.372, mean = 0.515, max = 0.63
   -&gt; model type        : classification will be used (default)
@@ -14756,163 +14382,35 @@ A new explainer has been created!
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[9]:</div>
+    <div class="prompt"></div>
 
 
 
-<div class="output_html rendered_html output_subarea output_execute_result"><div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
+<div class="output_html rendered_html output_subarea "><div>                            <div id="93e9e041-6478-4ac5-96af-8d9c3351cb27" class="plotly-graph-div" style="height:383.0px; width:100%;"></div>            <script type="text/javascript">                require(["plotly"], function(Plotly) {                    window.PLOTLYENV=window.PLOTLYENV || {};                                    if (document.getElementById("93e9e041-6478-4ac5-96af-8d9c3351cb27")) {                    Plotly.newPlot(                        "93e9e041-6478-4ac5-96af-8d9c3351cb27",                        [{"base":0.1332205029013538,"hoverinfo":"text","hoverlabel":{"bgcolor":"rgba(0,0,0,0.8)"},"hovertext":["Model: xgb_hp2 loss after<br>variable: thall_2 is permuted: 0.218<br>Drop-out loss change: +0.085","Model: xgb_hp2 loss after<br>variable: ca is permuted: 0.194<br>Drop-out loss change: +0.061","Model: xgb_hp2 loss after<br>variable: cp_0 is permuted: 0.183<br>Drop-out loss change: +0.05","Model: xgb_hp2 loss after<br>variable: oldpeak is permuted: 0.164<br>Drop-out loss change: +0.03","Model: xgb_hp2 loss after<br>variable: thalach is permuted: 0.148<br>Drop-out loss change: +0.015","Model: xgb_hp2 loss after<br>variable: trtbps is permuted: 0.142<br>Drop-out loss change: +0.009","Model: xgb_hp2 loss after<br>variable: cp_3 is permuted: 0.137<br>Drop-out loss change: +0.004","Model: xgb_hp2 loss after<br>variable: age is permuted: 0.136<br>Drop-out loss change: +0.003","Model: xgb_hp2 loss after<br>variable: chol is permuted: 0.134<br>Drop-out loss change: +0.001","Model: xgb_hp2 loss after<br>variable: sex is permuted: 0.134<br>Drop-out loss change: +0.0"],"marker":{"color":"#46bac2"},"orientation":"h","showlegend":false,"text":["+0.085","+0.061","+0.05","+0.03","+0.015","+0.009","+0.004","+0.003","+0.001","+0.0"],"textposition":"outside","x":[0.08498549323017426,0.06090425531914906,0.05024177949709879,0.030391682785299967,0.014651837524178063,0.00926015473887834,0.0035299806576402915,0.002780464216634554,0.0006528046421664657,0.00029013539651848164],"y":["thall_2","ca","cp_0","oldpeak","thalach","trtbps","cp_3","age","chol","sex"],"type":"bar","xaxis":"x","yaxis":"y"}],                        {"template":{"data":{"scatter":[{"type":"scatter"}]}},"xaxis":{"anchor":"y","domain":[0.0,1.0],"type":"linear","gridwidth":2,"zeroline":false,"automargin":true,"ticks":"outside","tickcolor":"white","ticklen":3,"fixedrange":true,"range":[0.11947171179883939,0.23108438104448745]},"yaxis":{"anchor":"x","domain":[0.0,1.0],"type":"category","autorange":"reversed","gridwidth":2,"automargin":true,"ticks":"outside","tickcolor":"white","ticklen":10,"fixedrange":true},"annotations":[{"font":{"size":16},"showarrow":false,"text":"xgb_hp2","x":0.5,"xanchor":"center","xref":"paper","y":1.0,"yanchor":"bottom","yref":"paper"},{"font":{"size":16},"showarrow":false,"text":"drop-out loss","x":0.5,"xanchor":"center","xref":"paper","y":0,"yanchor":"top","yref":"paper","yshift":-30}],"shapes":[{"line":{"color":"#371ea3","dash":"dot","width":1.5},"type":"line","x0":0.1332205029013538,"x1":0.1332205029013538,"xref":"x","y0":-1,"y1":10,"yref":"y"}],"title":{"text":"Variable Importance","x":0.15},"font":{"color":"#371ea3"},"margin":{"t":78,"b":71,"r":30},"height":383.0},                        {"displaylogo": false, "staticPlot": false, "toImageButtonOptions": {"height": null, "width": null}, "modeBarButtonsToRemove": ["sendDataToCloud", "lasso2d", "autoScale2d", "select2d", "zoom2d", "pan2d", "zoomIn2d", "zoomOut2d", "resetScale2d", "toggleSpikelines", "hoverCompareCartesian", "hoverClosestCartesian"], "responsive": true}                    ).then(function(){
+                            
+var gd = document.getElementById('93e9e041-6478-4ac5-96af-8d9c3351cb27');
+var x = new MutationObserver(function (mutations, observer) {{
+        var display = window.getComputedStyle(gd).display;
+        if (!display || display === 'none') {{
+            console.log([gd, 'removed!']);
+            Plotly.purge(gd);
+            observer.disconnect();
+        }}
+}});
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
+// Listen for the removal of the full notebook cells
+var notebookContainer = gd.closest('#notebook-container');
+if (notebookContainer) {{
+    x.observe(notebookContainer, {childList: true});
+}}
 
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>variable</th>
-      <th>dropout_loss</th>
-      <th>label</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>slope</td>
-      <td>0.132350</td>
-      <td>xgb_hp2</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>fbs</td>
-      <td>0.133221</td>
-      <td>xgb_hp2</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>_full_model_</td>
-      <td>0.133221</td>
-      <td>xgb_hp2</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>thall_1</td>
-      <td>0.133221</td>
-      <td>xgb_hp2</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>thall_0</td>
-      <td>0.133221</td>
-      <td>xgb_hp2</td>
-    </tr>
-    <tr>
-      <th>5</th>
-      <td>cp_1</td>
-      <td>0.133221</td>
-      <td>xgb_hp2</td>
-    </tr>
-    <tr>
-      <th>6</th>
-      <td>cp_2</td>
-      <td>0.133221</td>
-      <td>xgb_hp2</td>
-    </tr>
-    <tr>
-      <th>7</th>
-      <td>exng</td>
-      <td>0.133221</td>
-      <td>xgb_hp2</td>
-    </tr>
-    <tr>
-      <th>8</th>
-      <td>thall_3</td>
-      <td>0.133221</td>
-      <td>xgb_hp2</td>
-    </tr>
-    <tr>
-      <th>9</th>
-      <td>restecg</td>
-      <td>0.133221</td>
-      <td>xgb_hp2</td>
-    </tr>
-    <tr>
-      <th>10</th>
-      <td>sex</td>
-      <td>0.133511</td>
-      <td>xgb_hp2</td>
-    </tr>
-    <tr>
-      <th>11</th>
-      <td>chol</td>
-      <td>0.133873</td>
-      <td>xgb_hp2</td>
-    </tr>
-    <tr>
-      <th>12</th>
-      <td>age</td>
-      <td>0.136001</td>
-      <td>xgb_hp2</td>
-    </tr>
-    <tr>
-      <th>13</th>
-      <td>cp_3</td>
-      <td>0.136750</td>
-      <td>xgb_hp2</td>
-    </tr>
-    <tr>
-      <th>14</th>
-      <td>trtbps</td>
-      <td>0.142481</td>
-      <td>xgb_hp2</td>
-    </tr>
-    <tr>
-      <th>15</th>
-      <td>thalach</td>
-      <td>0.147872</td>
-      <td>xgb_hp2</td>
-    </tr>
-    <tr>
-      <th>16</th>
-      <td>oldpeak</td>
-      <td>0.163612</td>
-      <td>xgb_hp2</td>
-    </tr>
-    <tr>
-      <th>17</th>
-      <td>cp_0</td>
-      <td>0.183462</td>
-      <td>xgb_hp2</td>
-    </tr>
-    <tr>
-      <th>18</th>
-      <td>ca</td>
-      <td>0.194125</td>
-      <td>xgb_hp2</td>
-    </tr>
-    <tr>
-      <th>19</th>
-      <td>thall_2</td>
-      <td>0.218206</td>
-      <td>xgb_hp2</td>
-    </tr>
-    <tr>
-      <th>20</th>
-      <td>_baseline_</td>
-      <td>0.527031</td>
-      <td>xgb_hp2</td>
-    </tr>
-  </tbody>
-</table>
-</div></div>
+// Listen for the clearing of the current output cell
+var outputEl = gd.closest('.output');
+if (outputEl) {{
+    x.observe(outputEl, {childList: true});
+}}
+
+                        })                };                });            </script>        </div></div>
 
 </div>
 
@@ -14922,7 +14420,7 @@ A new explainer has been created!
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[10]:</div>
+<div class="prompt input_prompt">In&nbsp;[18]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">forest</span> <span class="o">=</span> <span class="n">sklearn</span><span class="o">.</span><span class="n">ensemble</span><span class="o">.</span><span class="n">RandomForestClassifier</span><span class="p">()</span>
@@ -14930,7 +14428,9 @@ A new explainer has been created!
 
 <span class="n">order</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">flip</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">argsort</span><span class="p">(</span><span class="n">forest</span><span class="o">.</span><span class="n">feature_importances_</span><span class="p">))</span>
 <span class="n">a</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;name&#39;</span><span class="p">:</span> <span class="n">forest</span><span class="o">.</span><span class="n">feature_names_in_</span><span class="p">[</span><span class="n">order</span><span class="p">],</span> <span class="s1">&#39;importance&#39;</span><span class="p">:</span> <span class="n">forest</span><span class="o">.</span><span class="n">feature_importances_</span><span class="p">[</span><span class="n">order</span><span class="p">]}</span>
-<span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="o">.</span><span class="n">from_dict</span><span class="p">(</span><span class="n">a</span><span class="p">)</span>
+<span class="n">aa</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="o">.</span><span class="n">from_dict</span><span class="p">(</span><span class="n">a</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">aa</span><span class="p">)</span>
+<span class="n">aa</span><span class="o">.</span><span class="n">plot</span><span class="o">.</span><span class="n">bar</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="s1">&#39;name&#39;</span><span class="p">)</span>
 </pre></div>
 
     </div>
@@ -14943,131 +14443,59 @@ A new explainer has been created!
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[10]:</div>
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>       name  importance
+0   oldpeak    0.113075
+1   thall_2    0.110323
+2   thalach    0.104715
+3      cp_0    0.099254
+4        ca    0.090715
+5   thall_3    0.085259
+6      chol    0.081664
+7       age    0.072114
+8    trtbps    0.061529
+9      exng    0.047232
+10      sex    0.033155
+11    slope    0.031441
+12  restecg    0.015431
+13     cp_2    0.012766
+14     cp_1    0.010712
+15     cp_3    0.010178
+16  thall_1    0.009610
+17      fbs    0.008905
+18  thall_0    0.001921
+</pre>
+</div>
+</div>
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[18]:</div>
 
 
 
-<div class="output_html rendered_html output_subarea output_execute_result"><div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
+<div class="output_text output_subarea output_execute_result">
+<pre>&lt;AxesSubplot:xlabel=&#39;name&#39;&gt;</pre>
+</div>
 
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>name</th>
-      <th>importance</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>thall_2</td>
-      <td>0.118656</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>ca</td>
-      <td>0.111996</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>oldpeak</td>
-      <td>0.107557</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>cp_0</td>
-      <td>0.090890</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>thalach</td>
-      <td>0.088190</td>
-    </tr>
-    <tr>
-      <th>5</th>
-      <td>thall_3</td>
-      <td>0.072221</td>
-    </tr>
-    <tr>
-      <th>6</th>
-      <td>chol</td>
-      <td>0.072025</td>
-    </tr>
-    <tr>
-      <th>7</th>
-      <td>age</td>
-      <td>0.069722</td>
-    </tr>
-    <tr>
-      <th>8</th>
-      <td>trtbps</td>
-      <td>0.065788</td>
-    </tr>
-    <tr>
-      <th>9</th>
-      <td>slope</td>
-      <td>0.045181</td>
-    </tr>
-    <tr>
-      <th>10</th>
-      <td>exng</td>
-      <td>0.044406</td>
-    </tr>
-    <tr>
-      <th>11</th>
-      <td>sex</td>
-      <td>0.039595</td>
-    </tr>
-    <tr>
-      <th>12</th>
-      <td>cp_2</td>
-      <td>0.016694</td>
-    </tr>
-    <tr>
-      <th>13</th>
-      <td>restecg</td>
-      <td>0.016575</td>
-    </tr>
-    <tr>
-      <th>14</th>
-      <td>cp_1</td>
-      <td>0.013201</td>
-    </tr>
-    <tr>
-      <th>15</th>
-      <td>cp_3</td>
-      <td>0.008909</td>
-    </tr>
-    <tr>
-      <th>16</th>
-      <td>fbs</td>
-      <td>0.008769</td>
-    </tr>
-    <tr>
-      <th>17</th>
-      <td>thall_1</td>
-      <td>0.007610</td>
-    </tr>
-    <tr>
-      <th>18</th>
-      <td>thall_0</td>
-      <td>0.002015</td>
-    </tr>
-  </tbody>
-</table>
-</div></div>
+</div>
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+
+
+<div class="output_png output_subarea ">
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAXoAAAEkCAYAAAAhJPoXAAAAOXRFWHRTb2Z0d2FyZQBNYXRwbG90bGliIHZlcnNpb24zLjUuMSwgaHR0cHM6Ly9tYXRwbG90bGliLm9yZy/YYfK9AAAACXBIWXMAAAsTAAALEwEAmpwYAAAmkElEQVR4nO3de7xVdZ3/8debi4A3FCRvqHjFMFAZwNL8eUuknyXNhPcpMc3SwZppxol+U9aYUzo5o47jeJk0L+l4q2nILLWLXdQURIEQL6ikmDWEBmihgp/fH9+1YbM9cNY6e51z9l68n4/HeZy9bt/9Oevs9dlrfdf3+12KCMzMrLr69HYAZmbWvZzozcwqzonezKzinOjNzCrOid7MrOKc6M3MKq5fbwfQaJtttokRI0b0dhhmZm3lkUce+X1EDOtoWcsl+hEjRjBr1qzeDsPMrK1I+vX6lrnqxsys4pzozcwqzonezKziWq6O3szay5tvvsnixYtZuXJlb4eyURg4cCDDhw+nf//+ubdxojezpixevJgtttiCESNGIKm3w6m0iGDp0qUsXryYXXfdNfd2rroxs6asXLmSoUOHOsn3AEkMHTq08NWTE72ZNc1Jvud0ZV870ZtZ2zvwwAN79P0WLVrEzTff3KPv2Yy2qKMfMf17na6z6IKjeyASM+tMnuO1iDzH9gMPPFDqe27IqlWr1iT6k046qcfetxk+ozeztrf55psDcN9993HIIYcwefJkdtttN6ZPn85NN93EhAkTGD16NM888wwAU6dO5ZOf/CTjxo1jr7324s477wTS/YZTTz2V0aNHs//++/OTn/wEgOuuu45jjjmGww8/nCOOOILp06fz85//nP3224+LL76YRYsWcfDBBzN27FjGjh275ovnvvvu49BDD2XKlCnsvffenHzyydSe6jdz5kwOPPBA9t13XyZMmMCKFStYvXo155xzDuPHj2fMmDFcddVVpeyftjijNzPLa86cOSxYsIAhQ4aw2267cfrpp/Pwww9z6aWXctlll3HJJZcAqfrl4Ycf5plnnuGwww5j4cKFXH755Uhi3rx5PPHEE0ycOJGnnnoKgNmzZzN37lyGDBnCfffdx0UXXbTmC+KPf/wj9957LwMHDuTpp5/mxBNPXDOUy6OPPsr8+fPZYYcdOOigg7j//vuZMGECxx9/PLfeeivjx49n+fLlDBo0iGuuuYbBgwczc+ZMXn/9dQ466CAmTpxYqIVNR5zozaxSxo8fz/bbbw/A7rvvzsSJEwEYPXr0mjN0gOOOO44+ffqw5557sttuu/HEE0/wi1/8grPPPhuAvffem1122WVNoj/yyCMZMmRIh+/55ptvMm3aNB577DH69u27ZhuACRMmMHz4cAD2228/Fi1axODBg9l+++0ZP348AFtuuSUA99xzD3PnzuWOO+4AYNmyZTz99NNO9GZm9QYMGLDmdZ8+fdZM9+nTh1WrVq1Z1th6pbPWLJttttl6l1188cVsu+22zJkzh7feeouBAwd2GE/fvn3XiaFRRHDZZZdx1FFHbTCWojaaRO8bumZW7/bbb+eUU07hueee49lnn2XkyJEcfPDB3HTTTRx++OE89dRTPP/884wcOZLZs2evs+0WW2zBihUr1kwvW7aM4cOH06dPH66//npWr169wfceOXIkL730EjNnzmT8+PGsWLGCQYMGcdRRR3HFFVdw+OGH079/f5566il23HHHDX7J5LHRJHozs3o777wzEyZMYPny5Vx55ZUMHDiQs846izPPPJPRo0fTr18/rrvuunXOyGvGjBlD37592XfffZk6dSpnnXUWH/7wh7nhhhuYNGlSp4l5k0024dZbb+Xss8/mT3/6E4MGDeKHP/whp59+OosWLWLs2LFEBMOGDeM73/lO03+raneAW8W4ceOicTz6Ms7GfUZv1j0WLFjAO9/5zt4Oo5CpU6fygQ98gClTpvR2KF3S0T6X9EhEjOtofTevNDOrOFfdmNlG57rrruvtEHqUz+jNzCrOid7MmtZq9/qqrCv72onezJoycOBAli5d6mTfA2rj0de308/DdfRm1pThw4ezePFilixZ0tuhbBRqT5gqwonezJrSv3//prvoW/dy1Y2ZWcX5jL4gd7wys3bjM3ozs4pzojczqzgnejOzisuV6CVNkvSkpIWSpnew/P9Imi1plaQpDctOkfR09nNKWYGbmVk+nSZ6SX2By4H3A6OAEyWNaljteWAqcHPDtkOALwIHABOAL0rauvmwzcwsrzxn9BOAhRHxbES8AdwCTK5fISIWRcRc4K2GbY8C7o2IlyPiFeBeYFIJcZuZWU55Ev2OwAt104uzeXk0s62ZmZWgJW7GSjpD0ixJs9yN2sysXHkS/YvATnXTw7N5eeTa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
+"
+>
+</div>
 
 </div>
 
@@ -15077,7 +14505,7 @@ A new explainer has been created!
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[11]:</div>
+<div class="prompt input_prompt">In&nbsp;[20]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">shap</span>
@@ -15096,47 +14524,47 @@ A new explainer has been created!
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[11]:</div>
+    <div class="prompt output_prompt">Out[20]:</div>
 
 
 
 
 <div class="output_text output_subarea output_execute_result">
 <pre>.values =
-array([[ 3.35288241e-02, -1.27535756e-02, -2.38071254e-02, ...,
-        -2.65567752e-04, -8.72872385e-02, -6.77144156e-02],
-       [ 7.86944023e-03, -2.01429871e-02, -2.55855572e-02, ...,
-        -1.46520112e-04, -5.26436405e-02, -5.71370994e-02],
-       [-2.52248817e-02, -2.31964931e-02, -2.42187337e-02, ...,
-        -4.02930226e-05, -3.48891929e-02, -4.78788581e-02],
+array([[ 3.32526161e-02, -1.37495201e-02, -2.23837868e-02, ...,
+         8.05861008e-05, -9.80385900e-02, -5.92786926e-02],
+       [ 3.20251236e-03, -1.40779691e-02, -3.88957350e-02, ...,
+         9.28571409e-04, -5.09415217e-02, -5.90239389e-02],
+       [-2.93609357e-02, -1.91550231e-02, -2.35595238e-02, ...,
+         8.57142854e-04, -3.40346675e-02, -4.27662218e-02],
        ...,
-       [ 2.76423334e-02, -1.71681052e-02,  8.35020913e-03, ...,
-         1.34746200e-04,  9.18965179e-02,  5.32609881e-02],
-       [ 9.75876558e-03, -2.34831234e-02,  1.62524856e-02, ...,
-         7.63736257e-04,  7.18219500e-02,  5.72851899e-02],
-       [-1.82144156e-02, -2.56614332e-02,  1.19324961e-02, ...,
-         7.52747266e-04,  6.54504173e-02,  3.73231285e-02]])
+       [ 1.02163787e-02, -1.28686547e-02,  1.33263995e-02, ...,
+         6.93354243e-04,  6.85799301e-02,  6.43745411e-02],
+       [ 4.16021295e-03, -2.46435106e-02,  2.03827400e-02, ...,
+         1.21978020e-03,  7.44906664e-02,  4.38923331e-02],
+       [-1.47821814e-02, -2.29606223e-02,  1.24969911e-02, ...,
+         8.39220310e-04,  7.03707471e-02,  3.17700155e-02]])
 
 .base_values =
-array([0.55043956, 0.55043956, 0.55043956, 0.55043956, 0.55043956,
-       0.55043956, 0.55043956, 0.55043956, 0.55043956, 0.55043956,
-       0.55043956, 0.55043956, 0.55043956, 0.55043956, 0.55043956,
-       0.55043956, 0.55043956, 0.55043956, 0.55043956, 0.55043956,
-       0.55043956, 0.55043956, 0.55043956, 0.55043956, 0.55043956,
-       0.55043956, 0.55043956, 0.55043956, 0.55043956, 0.55043956,
-       0.55043956, 0.55043956, 0.55043956, 0.55043956, 0.55043956,
-       0.55043956, 0.55043956, 0.55043956, 0.55043956, 0.55043956,
-       0.55043956, 0.55043956, 0.55043956, 0.55043956, 0.55043956,
-       0.55043956, 0.55043956, 0.55043956, 0.55043956, 0.55043956,
-       0.55043956, 0.55043956, 0.55043956, 0.55043956, 0.55043956,
-       0.55043956, 0.55043956, 0.55043956, 0.55043956, 0.55043956,
-       0.55043956, 0.55043956, 0.55043956, 0.55043956, 0.55043956,
-       0.55043956, 0.55043956, 0.55043956, 0.55043956, 0.55043956,
-       0.55043956, 0.55043956, 0.55043956, 0.55043956, 0.55043956,
-       0.55043956, 0.55043956, 0.55043956, 0.55043956, 0.55043956,
-       0.55043956, 0.55043956, 0.55043956, 0.55043956, 0.55043956,
-       0.55043956, 0.55043956, 0.55043956, 0.55043956, 0.55043956,
-       0.55043956])
+array([0.55087912, 0.55087912, 0.55087912, 0.55087912, 0.55087912,
+       0.55087912, 0.55087912, 0.55087912, 0.55087912, 0.55087912,
+       0.55087912, 0.55087912, 0.55087912, 0.55087912, 0.55087912,
+       0.55087912, 0.55087912, 0.55087912, 0.55087912, 0.55087912,
+       0.55087912, 0.55087912, 0.55087912, 0.55087912, 0.55087912,
+       0.55087912, 0.55087912, 0.55087912, 0.55087912, 0.55087912,
+       0.55087912, 0.55087912, 0.55087912, 0.55087912, 0.55087912,
+       0.55087912, 0.55087912, 0.55087912, 0.55087912, 0.55087912,
+       0.55087912, 0.55087912, 0.55087912, 0.55087912, 0.55087912,
+       0.55087912, 0.55087912, 0.55087912, 0.55087912, 0.55087912,
+       0.55087912, 0.55087912, 0.55087912, 0.55087912, 0.55087912,
+       0.55087912, 0.55087912, 0.55087912, 0.55087912, 0.55087912,
+       0.55087912, 0.55087912, 0.55087912, 0.55087912, 0.55087912,
+       0.55087912, 0.55087912, 0.55087912, 0.55087912, 0.55087912,
+       0.55087912, 0.55087912, 0.55087912, 0.55087912, 0.55087912,
+       0.55087912, 0.55087912, 0.55087912, 0.55087912, 0.55087912,
+       0.55087912, 0.55087912, 0.55087912, 0.55087912, 0.55087912,
+       0.55087912, 0.55087912, 0.55087912, 0.55087912, 0.55087912,
+       0.55087912])
 
 .data =
 array([[ 70.,   1., 145., ...,   0.,   0.,   1.],
@@ -15156,7 +14584,7 @@ array([[ 70.,   1., 145., ...,   0.,   0.,   1.],
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[12]:</div>
+<div class="prompt input_prompt">In&nbsp;[22]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">rf_resultX</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">shap_values</span><span class="o">.</span><span class="n">values</span><span class="p">,</span> <span class="n">columns</span> <span class="o">=</span> <span class="n">forest</span><span class="o">.</span><span class="n">feature_names_in_</span><span class="p">)</span>
@@ -15167,7 +14595,7 @@ array([[ 70.,   1., 145., ...,   0.,   0.,   1.],
                                   <span class="n">columns</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;name&#39;</span><span class="p">,</span><span class="s1">&#39;importance_shap&#39;</span><span class="p">])</span>
 <span class="n">shap_importance</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="n">by</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;importance_shap&#39;</span><span class="p">],</span>
                                <span class="n">ascending</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
-<span class="n">shap_importance</span>
+<span class="n">shap_importance</span><span class="o">.</span><span class="n">plot</span><span class="o">.</span><span class="n">bar</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="s1">&#39;name&#39;</span><span class="p">)</span>
 </pre></div>
 
     </div>
@@ -15180,134 +14608,45 @@ array([[ 70.,   1., 145., ...,   0.,   0.,   1.],
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[12]:</div>
+    <div class="prompt output_prompt">Out[22]:</div>
 
 
 
-<div class="output_html rendered_html output_subarea output_execute_result"><div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>name</th>
-      <th>importance_shap</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>10</th>
-      <td>ca</td>
-      <td>0.084313</td>
-    </tr>
-    <tr>
-      <th>17</th>
-      <td>thall_2</td>
-      <td>0.079540</td>
-    </tr>
-    <tr>
-      <th>11</th>
-      <td>cp_0</td>
-      <td>0.068458</td>
-    </tr>
-    <tr>
-      <th>18</th>
-      <td>thall_3</td>
-      <td>0.055299</td>
-    </tr>
-    <tr>
-      <th>7</th>
-      <td>oldpeak</td>
-      <td>0.051604</td>
-    </tr>
-    <tr>
-      <th>8</th>
-      <td>thalach</td>
-      <td>0.038103</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>sex</td>
-      <td>0.031986</td>
-    </tr>
-    <tr>
-      <th>9</th>
-      <td>slope</td>
-      <td>0.025195</td>
-    </tr>
-    <tr>
-      <th>6</th>
-      <td>exng</td>
-      <td>0.022847</td>
-    </tr>
-    <tr>
-      <th>0</th>
-      <td>age</td>
-      <td>0.016674</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>chol</td>
-      <td>0.015504</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>trtbps</td>
-      <td>0.013968</td>
-    </tr>
-    <tr>
-      <th>13</th>
-      <td>cp_2</td>
-      <td>0.013226</td>
-    </tr>
-    <tr>
-      <th>12</th>
-      <td>cp_1</td>
-      <td>0.007443</td>
-    </tr>
-    <tr>
-      <th>5</th>
-      <td>restecg</td>
-      <td>0.007398</td>
-    </tr>
-    <tr>
-      <th>14</th>
-      <td>cp_3</td>
-      <td>0.003454</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>fbs</td>
-      <td>0.001362</td>
-    </tr>
-    <tr>
-      <th>16</th>
-      <td>thall_1</td>
-      <td>0.000666</td>
-    </tr>
-    <tr>
-      <th>15</th>
-      <td>thall_0</td>
-      <td>0.000000</td>
-    </tr>
-  </tbody>
-</table>
-</div></div>
+<div class="output_text output_subarea output_execute_result">
+<pre>&lt;AxesSubplot:xlabel=&#39;name&#39;&gt;</pre>
+</div>
 
 </div>
 
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+
+
+<div class="output_png output_subarea ">
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAXoAAAEmCAYAAABs7FscAAAAOXRFWHRTb2Z0d2FyZQBNYXRwbG90bGliIHZlcnNpb24zLjUuMSwgaHR0cHM6Ly9tYXRwbG90bGliLm9yZy/YYfK9AAAACXBIWXMAAAsTAAALEwEAmpwYAAAsDUlEQVR4nO3de7xVdZ3/8debO4qSIpmCBCpqKIoKaN4vqfizwpkwNceR1MwcnPnNTDb0Kx3GsUm7DDnmmCamMjpa1hQVpZYxmqaCihLihZuJOQ2iIWrIxc/vj+/asNluOGuds885+yzez8fjPM5ea33Xd3/WOXt/9trf9f1+lyICMzMrr26dHYCZmbUvJ3ozs5JzojczKzknejOzknOiNzMrOSd6M7OSy5XoJY2T9KykhZIm19neW9Kd2fZHJA3N1veUdIukeZIWSPp8g+M3M7MWtJjoJXUHrgVOBkYAZ0oaUVPsPOC1iNgTmApcla0/DegdESOBg4FPVz4EzMysY/TIUWYssDAiFgNIugMYDzxdVWY8MCV7fBfwTUkCAthWUg+gL7AGeH1LT7bTTjvF0KFDCxyCmZk99thjr0TEwHrb8iT6QcCLVcvLgEM2VyYi1klaCQwgJf3xwMvANsDfRsSrW3qyoUOHMmfOnBxhmZlZhaQXNretvS/GjgXWA7sCw4C/l7R7bSFJF0iaI2nO8uXL2zkkM7OtS55E/xKwW9Xy4Gxd3TJZM01/YAXwCeDnEbE2Iv4XeBAYXfsEEXFDRIyOiNEDB9b95mFmZq2UJ9HPBoZLGiapF3AGMKOmzAzgnOzxBOC+SLOl/Q44DkDStsChwDONCNzMzPJpsY0+a3OfBNwNdAduioj5ki4H5kTEDGAaMF3SQuBV0ocBpN4635E0HxDwnYh4qj0OxMxg7dq1LFu2jNWrV3d2KNZO+vTpw+DBg+nZs2fufdRs0xSPHj06fDHWrHWWLFnCdtttx4ABA0gd36xMIoIVK1awatUqhg0btsk2SY9FxLuaxsEjY81KZfXq1U7yJSaJAQMGFP7G5kRvVjJO8uXWmv+vE72ZWcnlGTDV6YZO/mmLZZZeeUoHRGLWteR57xSR53122GGH8dBDDzX0ebdk6dKlPPTQQ3ziE5/osOfMq1+/frzxxhudHYbP6M2ssToyya9bt46lS5dy++23d9hzdkVO9GbWUP369QNg1qxZHH300YwfP57dd9+dyZMnc9tttzF27FhGjhzJokWLAJg4cSIXXngho0ePZq+99uInP/kJkC4sf/KTn2TkyJEceOCB/OpXvwLg5ptv5qMf/SjHHXccxx9/PJMnT+aBBx5g1KhRTJ06laVLl3LkkUdy0EEHcdBBB2344Jk1axbHHHMMEyZMYJ999uGss86i0utw9uzZHHbYYRxwwAGMHTuWVatWsX79ei655BLGjBnD/vvvz/XXX7/ZY3755Zc56qijGDVqFPvttx8PPPDAhm1f+MIXOOCAAzj00EP5wx/+AMCPf/xjDjnkEA488EA+9KEPbVg/ZcoUzj77bD74wQ8yfPhwvv3tbzfkf9Ilmm4awc0/Zh3vySefZMGCBey4447svvvunH/++Tz66KNcffXVXHPNNXzjG98AUvPLo48+yqJFizj22GNZuHAh1157LZKYN28ezzzzDCeeeCLPPfccAI8//jhPPfUUO+64I7NmzeJrX/vahg+It956i3vvvZc+ffrw/PPPc+aZZ26YP+uJJ55g/vz57Lrrrhx++OE8+OCDjB07ltNPP50777yTMWPG8Prrr9O3b1+mTZtG//79mT17Nm+//TaHH344J5544ru6NQLcfvvtnHTSSXzhC19g/fr1vPXWWwC8+eabHHrooXzpS1/ic5/7HN/+9rf54he/yBFHHMHDDz+MJG688Ua+8pWv8PWvfx2Ap556iocffpg333yTAw88kFNOOYVdd921Tf+HrSbRm1nHGzNmDLvssgsAe+yxByeeeCIAI0eO3HCGDvDxj3+cbt26MXz4cHbffXeeeeYZfv3rX3PxxRcDsM8++/D+979/Q6I/4YQT2HHHHes+59q1a5k0aRJz586le/fuG/YBGDt2LIMHDwZg1KhRLF26lP79+7PLLrswZswYALbffnsA7rnnHp566inuuusuAFauXMnzzz9fN9GPGTOGc889l7Vr13LqqacyatQoAHr16sWHP/xhAA4++GDuvfdeAJYtW8bpp5/Oyy+/zJo1azapc/z48fTt25e+ffty7LHH8uijj3Lqqafm/ZPX5aYbM2s3vXv33vC4W7duG5a7devGunXrNmyr7TLYUhfCbbfddrPbpk6dys4778yTTz7JnDlzWLNmTd14unfvvkkMtSKCa665hrlz5zJ37lyWLFmy4YOq1lFHHcX999/P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
+"
+>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span> 
+</pre></div>
+
+    </div>
 </div>
 </div>
 
