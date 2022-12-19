@@ -1,0 +1,1 @@
+from models.resnetv2 import ResNet50, ResNet101
