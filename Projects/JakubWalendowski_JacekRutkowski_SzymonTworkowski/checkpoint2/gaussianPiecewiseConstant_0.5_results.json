@@ -1,0 +1,136 @@
+{
+    "dataset": "gaussianPiecewiseConstant",
+    "dataset_kwargs": {
+        "mu": "np.zeros(5)",
+        "dim": 5,
+        "rho": 0.5,
+        "weight": "np.array([4, 3, 2, 1, 0])",
+        "noise": 0.01,
+        "num_train_samples": 1000,
+        "num_val_samples": 100
+    },
+    "models": {
+        "dtree": {
+            "random": {
+                "roar_faithfulness": 0.02192511876931648,
+                "roar_monotonicity": 0.4475,
+                "faithfulness": 0.018141987847795433,
+                "monotonicity": 0.45,
+                "shapley": 1.0971841614629934,
+                "shapley_corr": 0.13144879560179323,
+                "infidelity": 0.32554776853865697
+            },
+            "shap": {
+                "roar_faithfulness": 0.2758779917279708,
+                "roar_monotonicity": 0.475,
+                "faithfulness": 0.7964519804776935,
+                "monotonicity": 0.45,
+                "shapley": 0.031070750322514495,
+                "shapley_corr": 0.8675353543868448,
+                "infidelity": 0.13336150096248608
+            },
+            "shapr": {
+                "roar_faithfulness": 0.3532214721584739,
+                "roar_monotonicity": 0.4925,
+                "faithfulness": 0.8282902834371044,
+                "monotonicity": 0.44,
+                "shapley": 0.009324755328979266,
+                "shapley_corr": 0.9508109316337743,
+                "infidelity": 0.13252792420135268
+            },
+            "brutekernelshap": {
+                "roar_faithfulness": 0.2941953085889296,
+                "roar_monotonicity": 0.4525,
+                "faithfulness": 0.8171231014789098,
+                "monotonicity": 0.435,
+                "shapley": 0.02878831525441673,
+                "shapley_corr": 0.8799117793013788,
+                "infidelity": 0.13538472618733335
+            },
+            "maple": {
+                "roar_faithfulness": -0.34059404620693273,
+                "roar_monotonicity": 0.4875,
+                "faithfulness": 0.3988979907949121,
+                "monotonicity": 0.35,
+                "shapley": 0.11919970800730142,
+                "shapley_corr": 0.5227755104274489,
+                "infidelity": 0.1964192453650339
+            },
+            "lime": {
+                "roar_faithfulness": 0.3999391789803448,
+                "roar_monotonicity": 0.465,
+                "faithfulness": 0.7065073487305971,
+                "monotonicity": 0.42,
+                "shapley": 0.07982379162769038,
+                "shapley_corr": 0.7673683262492702,
+                "infidelity": 0.15020589555215214
+            }
+        },
+        "mlp": {
+            "random": {
+                "roar_faithfulness": -0.013772905234916935,
+                "roar_monotonicity": 0.475,
+                "faithfulness": 0.052228719828652785,
+                "monotonicity": 0.42,
+                "shapley": 0.9763907728222095,
+                "shapley_corr": 0.1093846674226058,
+                "infidelity": 0.18892154603311886
+            },
+            "shap": {
+                "roar_faithfulness": 0.4897576803309713,
+                "roar_monotonicity": 0.5225,
+                "faithfulness": 0.826589879844877,
+                "monotonicity": 0.4425,
+                "shapley": 0.03416059279554351,
+                "shapley_corr": 0.7988814848378647,
+                "infidelity": 0.02933690242535036
+            },
+            "shapr": {
+                "roar_faithfulness": 0.4890099407143885,
+                "roar_monotonicity": 0.5275,
+                "faithfulness": 0.8680192278488428,
+                "monotonicity": 0.4375,
+                "shapley": 0.00940086191944279,
+                "shapley_corr": 0.9128310000718456,
+                "infidelity": 0.023793299939500287
+            },
+            "brutekernelshap": {
+                "roar_faithfulness": 0.49681849560734664,
+                "roar_monotonicity": 0.535,
+                "faithfulness": 0.8247878679740652,
+                "monotonicity": 0.4525,
+                "shapley": 0.032053086131162194,
+                "shapley_corr": 0.8191974806130575,
+                "infidelity": 0.0259910243668801
+            },
+            "maple": {
+                "roar_faithfulness": 0.33328465699186066,
+                "roar_monotonicity": 0.5275,
+                "faithfulness": 0.7875297744324348,
+                "monotonicity": 0.43,
+                "shapley": 0.051782603143979034,
+                "shapley_corr": 0.7821185383628165,
+                "infidelity": 0.031531663759600835
+            },
+            "lime": {
+                "roar_faithfulness": 0.4964451435184805,
+                "roar_monotonicity": 0.505,
+                "faithfulness": 0.7990881598613676,
+                "monotonicity": 0.465,
+                "shapley": 0.07064425435753208,
+                "shapley_corr": 0.7914544479834703,
+                "infidelity": 0.040979542134277055
+            }
+        }
+    },
+    "model_perfs": {
+        "dtree": [
+            "0.00",
+            "0.06"
+        ],
+        "mlp": [
+            "0.14",
+            "0.22"
+        ]
+    }
+}
