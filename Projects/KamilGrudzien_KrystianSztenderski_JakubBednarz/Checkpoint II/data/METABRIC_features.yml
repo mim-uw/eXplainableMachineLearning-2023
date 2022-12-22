@@ -1,0 +1,33 @@
+clinical:
+  - patient_id
+  - age_at_diagnosis
+  - type_of_breast_surgery
+  - cancer_type
+  - cancer_type_detailed
+  - cellularity
+  - chemotherapy
+  - pam50_+_claudin-low_subtype
+  - cohort
+  - er_status_measured_by_ihc
+  - er_status
+  - neoplasm_histologic_grade
+  - her2_status_measured_by_snp6
+  - her2_status
+  - tumor_other_histologic_subtype
+  - hormone_therapy
+  - inferred_menopausal_state
+  - integrative_cluster
+  - primary_tumor_laterality
+  - lymph_nodes_examined_positive
+  - mutation_count
+  - nottingham_prognostic_index
+  - oncotree_code
+  - pr_status
+  - radio_therapy
+  - 3-gene_classifier_subtype
+  - tumor_size
+  - tumor_stage
+  - death_from_cancer
+response:
+  duration: overall_survival_months
+  event: overall_survival

@@ -1,0 +1,10 @@
+_target_: datamodule.main.DataModule
+batch_size: 64
+
+dataset_train:
+  _target_: dataset.main.CovidDataset
+  train_val: Train
+
+dataset_val:
+  _target_: dataset.main.CovidDataset
+  train_val: Val

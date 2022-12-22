@@ -1,0 +1,30 @@
+Demographic_parity: predicted class looks independent of the protected attribute
+    4/5 <= P(y_hat| A=Red)/P(y_hat| B=Blue) <= (4/5)^-1
+
+Equal opportunity: predicted class is independent, if the True class is given as positive
+    P(y_hat|A=a,Y=1) = P(y_hat|A=b,Y=1)
+
+    Equal TPR = TP/(TP+FN) for each subgroup
+
+Predictive rate parity: True class is independent from protected attribute given prediction
+    P(Y=1|A=a,y_hat=1) = P(Y=1|A=b,y_hat=1)
+    P(Y=1|A=a,y_hat=0) = P(Y=1|A=b,y_hat=0)
+
+    PPV = TP/(TP+FP) and NPV = NP(TN + FN) are equal for both groups
+
+P(y_hat=1|A=Red) = 0.5
+P(y_hat=1|A=Blue) = 65/100=0.65
+0.65/0.5 = 1.3>1.25
+ANSWER TO DEMOGRAPHIC PARITY: violated the 4/5ths rule (value is 1.3), disproportionately many Blue members
+
+P(y_hat|A=Red,Y=1) = 0.5
+P(y_hat|A=Blue,Y=1) = 60/80 = 0.75
+
+ANSWER TO EQUAL OPPORTUNITY: 0.5 for Red, 0.75 for Blue, not equal
+Positive predictive value: very far off, the picked members of Blue will succeed much more often than picked members of Red
+P(Y=1|A=Red,y_hat=1) = 0.5
+P(Y=1|A=Blue,y_hat=1) = 60/65 ~ 0.92
+
+Negative predictive value: they are pretty close!
+P(Y=1|A=Red,y_hat=0) = 0.5
+P(Y=1|A=Blue,y_hat=0) = 20/35 ~ 0.57
