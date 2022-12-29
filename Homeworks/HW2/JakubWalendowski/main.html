@@ -13183,7 +13183,7 @@ Random forest predicted probability: [[0.31137129 0.68862871]
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="3,-6.-Variable-attributions-and-their-differences-across-the-dalex-and-shap-packages">3, 6. Variable attributions and their differences across the dalex and shap packages<a class="anchor-link" href="#3,-6.-Variable-attributions-and-their-differences-across-the-dalex-and-shap-packages">&#182;</a></h3><p>In both observations using shap and also dalex libary, age turned out to be the key feature. In the shap solution BMI seems to be a bit more important, while in the dalex solution the type of work.</p>
+<h3 id="3,-6.-Variable-attributions-and-their-differences-across-the-dalex-and-shap-packages">3, 6. Variable attributions and their differences across the dalex and shap packages<a class="anchor-link" href="#3,-6.-Variable-attributions-and-their-differences-across-the-dalex-and-shap-packages">&#182;</a></h3><p>In both observations using shap and also dalex libary, age turned out to be the key feature. In the shap solution BMI seems to be a bit more important, while in the dalex solution the type of work. In dalex, the plot is centered around the final prediction result because it is marked with a dashed line in the center, unlike in shap where the expected value of the prediction is marked with the same line</p>
 
 </div>
 </div>
@@ -13223,113 +13223,11 @@ Random forest predicted probability: [[0.31137129 0.68862871]
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 
-<div class="output_wrapper">
-<div class="output">
-
-<div class="output_area">
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>Preparation of a new explainer is initiated
-
-  -&gt; data              : 1246 rows 12 cols
-  -&gt; target variable   : Parameter &#39;y&#39; was a pandas.Series. Converted to a numpy.ndarray.
-  -&gt; target variable   : 1246 values
-  -&gt; model_class       : sklearn.ensemble._forest.RandomForestClassifier (default)
-  -&gt; label             : Not specified, model&#39;s class short name will be used. (default)
-  -&gt; predict function  : &lt;function yhat_proba_default at 0x16b288940&gt; will be used (default)
-  -&gt; predict function  : Accepts pandas.DataFrame and numpy.ndarray.
-  -&gt; predicted values  : min = 0.0177, mean = 0.342, max = 0.792
-  -&gt; model type        : classification will be used (default)
-  -&gt; residual function : difference between y and yhat (default)
-  -&gt; residuals         : min = -0.792, mean = -0.291, max = 0.836
-  -&gt; model_info        : package sklearn
-
-A new explainer has been created!
-</pre>
-</div>
-</div>
-
-<div class="output_area">
-
-<div class="output_subarea output_stream output_stderr output_text">
-<pre>/usr/local/lib/python3.9/site-packages/sklearn/base.py:450: UserWarning:
-
-X does not have valid feature names, but RandomForestClassifier was fitted with feature names
-
-</pre>
-</div>
-</div>
-
-<div class="output_area">
-
-
-<div class="output_html rendered_html output_subarea "><div>                            <div id="5b8b1daa-14d9-416c-8f9d-3776f76c9f58" class="plotly-graph-div" style="height:373.0px; width:100%;"></div>            <script type="text/javascript">                require(["plotly"], function(Plotly) {                    window.PLOTLYENV=window.PLOTLYENV || {};                                    if (document.getElementById("5b8b1daa-14d9-416c-8f9d-3776f76c9f58")) {                    Plotly.newPlot(                        "5b8b1daa-14d9-416c-8f9d-3776f76c9f58",                        [{"base":0.342114118970913,"hoverinfo":"text","hoverlabel":{"bgcolor":"rgba(0,0,0,0.8)"},"hovertext":["Average response: 0.342<br>Prediction: 0.704<br>age = 0.9512<br>increases average response <br>by 0.27","Average response: 0.342<br>Prediction: 0.704<br>ever_married = 1.0<br>increases average response <br>by 0.039","Average response: 0.342<br>Prediction: 0.704<br>bmi = 0.4814<br>increases average response <br>by 0.025","Average response: 0.342<br>Prediction: 0.704<br>work_type_children = 0.0<br>increases average response <br>by 0.014","Average response: 0.342<br>Prediction: 0.704<br>work_type_Self-employed = 1.0<br>increases average response <br>by 0.013","Average response: 0.342<br>Prediction: 0.704<br>Residence_type = 0.0<br>decreases average response <br>by 0.003","Average response: 0.342<br>Prediction: 0.704<br>work_type_Private = 0.0<br>increases average response <br>by 0.003","Average response: 0.342<br>Prediction: 0.704<br>work_type_Govt_job = 0.0<br>increases average response <br>by 0.002","Average response: 0.342<br>Prediction: 0.704<br>hypertension = 0.0<br>decreases average response <br>by 0.002","Average response: 0.342<br>Prediction: 0.704<br>+ all other factors<br>increases average response <br>by 0.001"],"marker":{"color":["#8bdcbe","#8bdcbe","#8bdcbe","#8bdcbe","#8bdcbe","#f05a71","#8bdcbe","#8bdcbe","#f05a71","#8bdcbe"]},"orientation":"h","showlegend":false,"text":["+0.27","+0.039","+0.025","+0.014","+0.013","-0.003","+0.003","+0.002","-0.002","+0.001"],"textposition":"outside","x":[0.27,0.039,0.025,0.014,0.013,-0.003,0.003,0.002,-0.002,0.001],"y":["age = 0.9512","ever_married = 1.0","bmi = 0.4814","work_type_children = 0.0","work_type_Self-employed = 1.0","Residence_type = 0.0","work_type_Private = 0.0","work_type_Govt_job = 0.0","hypertension = 0.0","+ all other factors"],"type":"bar","xaxis":"x","yaxis":"y"}],                        {"template":{"data":{"scatter":[{"type":"scatter"}]}},"xaxis":{"anchor":"y","domain":[0.0,1.0],"type":"linear","gridwidth":2,"zeroline":false,"automargin":true,"ticks":"outside","tickcolor":"white","ticklen":3,"fixedrange":true,"range":[0.298164118970913,0.653064118970913]},"yaxis":{"anchor":"x","domain":[0.0,1.0],"type":"category","autorange":"reversed","gridwidth":2,"automargin":true,"ticks":"outside","tickcolor":"white","ticklen":10,"fixedrange":true},"annotations":[{"font":{"size":16},"showarrow":false,"text":"RandomForestClassifier","x":0.5,"xanchor":"center","xref":"paper","y":1.0,"yanchor":"bottom","yref":"paper"},{"font":{"size":16},"showarrow":false,"text":"contribution","x":0.5,"xanchor":"center","xref":"paper","y":0,"yanchor":"top","yref":"paper","yshift":-30}],"shapes":[{"line":{"color":"#371ea3","dash":"dot","width":1.5},"type":"line","x0":0.342114118970913,"x1":0.342114118970913,"xref":"x","y0":-1,"y1":11,"yref":"y"}],"title":{"text":"Shapley Values","x":0.15},"font":{"color":"#371ea3"},"margin":{"t":78,"b":71,"r":30},"height":373.0},                        {"displaylogo": false, "staticPlot": false, "toImageButtonOptions": {"height": null, "width": null}, "modeBarButtonsToRemove": ["sendDataToCloud", "lasso2d", "autoScale2d", "select2d", "zoom2d", "pan2d", "zoomIn2d", "zoomOut2d", "resetScale2d", "toggleSpikelines", "hoverCompareCartesian", "hoverClosestCartesian"], "responsive": true}                    ).then(function(){
-                            
-var gd = document.getElementById('5b8b1daa-14d9-416c-8f9d-3776f76c9f58');
-var x = new MutationObserver(function (mutations, observer) {{
-        var display = window.getComputedStyle(gd).display;
-        if (!display || display === 'none') {{
-            console.log([gd, 'removed!']);
-            Plotly.purge(gd);
-            observer.disconnect();
-        }}
-}});
-
-// Listen for the removal of the full notebook cells
-var notebookContainer = gd.closest('#notebook-container');
-if (notebookContainer) {{
-    x.observe(notebookContainer, {childList: true});
-}}
-
-// Listen for the clearing of the current output cell
-var outputEl = gd.closest('.output');
-if (outputEl) {{
-    x.observe(outputEl, {childList: true});
-}}
-
-                        })                };                });            </script>        </div></div>
-
-</div>
-
-<div class="output_area">
-
-
-<div class="output_html rendered_html output_subarea "><div>                            <div id="3de0e551-8f4c-46e3-aacb-f7359d68427e" class="plotly-graph-div" style="height:373.0px; width:100%;"></div>            <script type="text/javascript">                require(["plotly"], function(Plotly) {                    window.PLOTLYENV=window.PLOTLYENV || {};                                    if (document.getElementById("3de0e551-8f4c-46e3-aacb-f7359d68427e")) {                    Plotly.newPlot(                        "3de0e551-8f4c-46e3-aacb-f7359d68427e",                        [{"base":0.342114118970913,"hoverinfo":"text","hoverlabel":{"bgcolor":"rgba(0,0,0,0.8)"},"hovertext":["Average response: 0.342<br>Prediction: 0.228<br>age = 0.5728<br>decreases average response <br>by 0.111","Average response: 0.342<br>Prediction: 0.228<br>work_type_Govt_job = 1.0<br>decreases average response <br>by 0.04","Average response: 0.342<br>Prediction: 0.228<br>ever_married = 1.0<br>increases average response <br>by 0.028","Average response: 0.342<br>Prediction: 0.228<br>work_type_children = 0.0<br>increases average response <br>by 0.009","Average response: 0.342<br>Prediction: 0.228<br>bmi = 0.7307<br>increases average response <br>by 0.008","Average response: 0.342<br>Prediction: 0.228<br>gender = 0.0<br>increases average response <br>by 0.003","Average response: 0.342<br>Prediction: 0.228<br>avg_glucose_level = 0.2611<br>decreases average response <br>by 0.003","Average response: 0.342<br>Prediction: 0.228<br>work_type_Private = 0.0<br>decreases average response <br>by 0.002","Average response: 0.342<br>Prediction: 0.228<br>hypertension = 0.0<br>decreases average response <br>by 0.002","Average response: 0.342<br>Prediction: 0.228<br>+ all other factors<br>decreases average response <br>by 0.003"],"marker":{"color":["#f05a71","#f05a71","#8bdcbe","#8bdcbe","#8bdcbe","#8bdcbe","#f05a71","#f05a71","#f05a71","#f05a71"]},"orientation":"h","showlegend":false,"text":["-0.111","-0.04","+0.028","+0.009","+0.008","+0.003","-0.003","-0.002","-0.002","-0.003"],"textposition":"outside","x":[-0.111,-0.04,0.028,0.009,0.008,0.003,-0.003,-0.002,-0.002,-0.003],"y":["age = 0.5728","work_type_Govt_job = 1.0","ever_married = 1.0","work_type_children = 0.0","bmi = 0.7307","gender = 0.0","avg_glucose_level = 0.2611","work_type_Private = 0.0","hypertension = 0.0","+ all other factors"],"type":"bar","xaxis":"x","yaxis":"y"}],                        {"template":{"data":{"scatter":[{"type":"scatter"}]}},"xaxis":{"anchor":"y","domain":[0.0,1.0],"type":"linear","gridwidth":2,"zeroline":false,"automargin":true,"ticks":"outside","tickcolor":"white","ticklen":3,"fixedrange":true,"range":[0.210264118970913,0.390964118970913]},"yaxis":{"anchor":"x","domain":[0.0,1.0],"type":"category","autorange":"reversed","gridwidth":2,"automargin":true,"ticks":"outside","tickcolor":"white","ticklen":10,"fixedrange":true},"annotations":[{"font":{"size":16},"showarrow":false,"text":"RandomForestClassifier","x":0.5,"xanchor":"center","xref":"paper","y":1.0,"yanchor":"bottom","yref":"paper"},{"font":{"size":16},"showarrow":false,"text":"contribution","x":0.5,"xanchor":"center","xref":"paper","y":0,"yanchor":"top","yref":"paper","yshift":-30}],"shapes":[{"line":{"color":"#371ea3","dash":"dot","width":1.5},"type":"line","x0":0.342114118970913,"x1":0.342114118970913,"xref":"x","y0":-1,"y1":11,"yref":"y"}],"title":{"text":"Shapley Values","x":0.15},"font":{"color":"#371ea3"},"margin":{"t":78,"b":71,"r":30},"height":373.0},                        {"displaylogo": false, "staticPlot": false, "toImageButtonOptions": {"height": null, "width": null}, "modeBarButtonsToRemove": ["sendDataToCloud", "lasso2d", "autoScale2d", "select2d", "zoom2d", "pan2d", "zoomIn2d", "zoomOut2d", "resetScale2d", "toggleSpikelines", "hoverCompareCartesian", "hoverClosestCartesian"], "responsive": true}                    ).then(function(){
-                            
-var gd = document.getElementById('3de0e551-8f4c-46e3-aacb-f7359d68427e');
-var x = new MutationObserver(function (mutations, observer) {{
-        var display = window.getComputedStyle(gd).display;
-        if (!display || display === 'none') {{
-            console.log([gd, 'removed!']);
-            Plotly.purge(gd);
-            observer.disconnect();
-        }}
-}});
-
-// Listen for the removal of the full notebook cells
-var notebookContainer = gd.closest('#notebook-container');
-if (notebookContainer) {{
-    x.observe(notebookContainer, {childList: true});
-}}
-
-// Listen for the clearing of the current output cell
-var outputEl = gd.closest('.output');
-if (outputEl) {{
-    x.observe(outputEl, {childList: true});
-}}
-
-                        })                };                });            </script>        </div></div>
-
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>![1.png]
-![2.png]</p>
+<p><img src="1.png" alt="">
+<img src="2.png" alt=""></p>
 
 </div>
 </div>
