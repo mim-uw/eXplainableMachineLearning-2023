@@ -31,8 +31,8 @@ Plan for the winter semester 2022/2023. UW classes are on Fridays.
 * 2022-11-25  -- Fairness, [slides](https://htmlpreview.github.io/?https://raw.githubusercontent.com/mim-uw/eXplainableMachineLearning-2023/main/Lectures/06_fairness.html#/title-slide), [audio](https://youtu.be/OdPW06tx_Yk), [code examples](https://mim-uw.github.io/eXplainableMachineLearning-2023/hw6_fairness_with_xgboost_on_titanic.html)
 * 2022-12-02  -- Explanations specific to neural networks, [slides](https://htmlpreview.github.io/?https://raw.githubusercontent.com/mim-uw/eXplainableMachineLearning-2023/main/Lectures/07_networks.html#/title-slide) & Evaluation of explanations, [slides](https://htmlpreview.github.io/?https://raw.githubusercontent.com/mim-uw/eXplainableMachineLearning-2023/main/Lectures/08_evaluation.html#/title-slide)
 * 2022-12-09  -- PROJECT: **Second checkpoint** - Provide initial experimental results and/or code implementation.
-* 2022-12-16  -- Counterfactual explanations (?)
-* 2022-12-22  -- Concept based explanations (?)
+* 2022-12-16  -- Fairness and project consultations
+* 2022-12-22  -- Project consultations
 * 2023-01-13  -- Student presentations
 * 2023-01-20  -- Student presentations
 * 2023-01-27  -- PROJECT:  **Final presentation** - Present final experimental results and/or code implementation.
