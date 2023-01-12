@@ -1,0 +1,1435 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>e124a7d8c70441dba949a6b65575c47b</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      word-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<section id="presentation-of-models-trained-to-predict-players-wages-in-the-fifa-23-game" class="cell markdown" id="U5rCOjP1MbJI">
+<h1>Presentation of models trained to predict players' wages in the FIFA 23 game</h1>
+</section>
+<section id="importing-libraries-and-dataset" class="cell markdown" id="I9wRGDW5NISD">
+<h1>Importing libraries and dataset</h1>
+</section>
+<div class="cell code" data-execution_count="1" id="viJbSBtWQCp1">
+<div class="sourceCode" id="cb1"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># 1. Import basic libraries</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.metrics <span class="im">import</span> mean_absolute_error, mean_squared_error</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.model_selection <span class="im">import</span> train_test_split</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.linear_model <span class="im">import</span> LinearRegression</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.ensemble <span class="im">import</span> RandomForestRegressor</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> plotly.express <span class="im">as</span> px</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="2" id="O5Y83Ws6QYff">
+<div class="sourceCode" id="cb2"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># 2. Read and transform dataframe</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> read_csv(filepath):</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Read CSV file</span></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>    df <span class="op">=</span> pd.read_csv(filepath)</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Create a new Count Nationality column</span></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>    df[<span class="st">&#39;Nationality Count&#39;</span>] <span class="op">=</span> df.groupby(<span class="st">&#39;Nationality&#39;</span>)[<span class="st">&#39;Nationality&#39;</span>].transform(<span class="st">&#39;count&#39;</span>)</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Group together countries with less than 300 players</span></span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>    mask_nation <span class="op">=</span> df[<span class="st">&#39;Nationality Count&#39;</span>] <span class="op">&lt;</span> <span class="dv">300</span></span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>    df.loc[mask_nation, <span class="st">&#39;Nationality&#39;</span>] <span class="op">=</span> <span class="st">&#39;Other&#39;</span></span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>    df <span class="op">=</span> df.drop(columns <span class="op">=</span> <span class="st">&#39;Nationality Count&#39;</span>)</span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> df</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="3" data-colab="{&quot;height&quot;:386,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="aOpTW5U2Qebm" data-outputId="7e1daa40-de58-4821-effe-5ca221267c85">
+<div class="sourceCode" id="cb3"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># 3. Read data file</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> read_csv(<span class="st">&#39;/Fifa_23_Players_Data.csv&#39;</span>) <span class="co"># dataset needs to be uploaded as Fifa_23_Players_Data.csv</span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>df.head()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="3">
+
+  <div id="df-e7fa0f55-0bab-4ccc-b237-b6d32f156752">
+    <div class="colab-df-container">
+      <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Known As</th>
+      <th>Full Name</th>
+      <th>Overall</th>
+      <th>Potential</th>
+      <th>Value(in Euro)</th>
+      <th>Positions Played</th>
+      <th>Best Position</th>
+      <th>Nationality</th>
+      <th>Image Link</th>
+      <th>Age</th>
+      <th>...</th>
+      <th>LM Rating</th>
+      <th>CM Rating</th>
+      <th>RM Rating</th>
+      <th>LWB Rating</th>
+      <th>CDM Rating</th>
+      <th>RWB Rating</th>
+      <th>LB Rating</th>
+      <th>CB Rating</th>
+      <th>RB Rating</th>
+      <th>GK Rating</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>L. Messi</td>
+      <td>Lionel Messi</td>
+      <td>91</td>
+      <td>91</td>
+      <td>54000000</td>
+      <td>RW</td>
+      <td>CAM</td>
+      <td>Argentina</td>
+      <td>https://cdn.sofifa.net/players/158/023/23_60.png</td>
+      <td>35</td>
+      <td>...</td>
+      <td>91</td>
+      <td>88</td>
+      <td>91</td>
+      <td>67</td>
+      <td>66</td>
+      <td>67</td>
+      <td>62</td>
+      <td>53</td>
+      <td>62</td>
+      <td>22</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>K. Benzema</td>
+      <td>Karim Benzema</td>
+      <td>91</td>
+      <td>91</td>
+      <td>64000000</td>
+      <td>CF,ST</td>
+      <td>CF</td>
+      <td>France</td>
+      <td>https://cdn.sofifa.net/players/165/153/23_60.png</td>
+      <td>34</td>
+      <td>...</td>
+      <td>89</td>
+      <td>84</td>
+      <td>89</td>
+      <td>67</td>
+      <td>67</td>
+      <td>67</td>
+      <td>63</td>
+      <td>58</td>
+      <td>63</td>
+      <td>21</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>R. Lewandowski</td>
+      <td>Robert Lewandowski</td>
+      <td>91</td>
+      <td>91</td>
+      <td>84000000</td>
+      <td>ST</td>
+      <td>ST</td>
+      <td>Poland</td>
+      <td>https://cdn.sofifa.net/players/188/545/23_60.png</td>
+      <td>33</td>
+      <td>...</td>
+      <td>86</td>
+      <td>83</td>
+      <td>86</td>
+      <td>67</td>
+      <td>69</td>
+      <td>67</td>
+      <td>64</td>
+      <td>63</td>
+      <td>64</td>
+      <td>22</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>K. De Bruyne</td>
+      <td>Kevin De Bruyne</td>
+      <td>91</td>
+      <td>91</td>
+      <td>107500000</td>
+      <td>CM,CAM</td>
+      <td>CM</td>
+      <td>Belgium</td>
+      <td>https://cdn.sofifa.net/players/192/985/23_60.png</td>
+      <td>31</td>
+      <td>...</td>
+      <td>91</td>
+      <td>91</td>
+      <td>91</td>
+      <td>82</td>
+      <td>82</td>
+      <td>82</td>
+      <td>78</td>
+      <td>72</td>
+      <td>78</td>
+      <td>24</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>K. Mbappé</td>
+      <td>Kylian Mbappé</td>
+      <td>91</td>
+      <td>95</td>
+      <td>190500000</td>
+      <td>ST,LW</td>
+      <td>ST</td>
+      <td>France</td>
+      <td>https://cdn.sofifa.net/players/231/747/23_60.png</td>
+      <td>23</td>
+      <td>...</td>
+      <td>92</td>
+      <td>84</td>
+      <td>92</td>
+      <td>70</td>
+      <td>66</td>
+      <td>70</td>
+      <td>66</td>
+      <td>57</td>
+      <td>66</td>
+      <td>21</td>
+    </tr>
+  </tbody>
+</table>
+<p>5 rows × 89 columns</p>
+</div>
+      <button class="colab-df-convert" onclick="convertToInteractive('df-e7fa0f55-0bab-4ccc-b237-b6d32f156752')"
+              title="Convert this dataframe to an interactive table."
+              style="display:none;">
+        
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+       width="24px">
+    <path d="M0 0h24v24H0V0z" fill="none"/>
+    <path d="M18.56 5.44l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94zm-11 1L8.5 8.5l.94-2.06 2.06-.94-2.06-.94L8.5 2.5l-.94 2.06-2.06.94zm10 10l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94z"/><path d="M17.41 7.96l-1.37-1.37c-.4-.4-.92-.59-1.43-.59-.52 0-1.04.2-1.43.59L10.3 9.45l-7.72 7.72c-.78.78-.78 2.05 0 2.83L4 21.41c.39.39.9.59 1.41.59.51 0 1.02-.2 1.41-.59l7.78-7.78 2.81-2.81c.8-.78.8-2.07 0-2.86zM5.41 20L4 18.59l7.72-7.72 1.47 1.35L5.41 20z"/>
+  </svg>
+      </button>
+      
+  <style>
+    .colab-df-container {
+      display:flex;
+      flex-wrap:wrap;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+      <script>
+        const buttonEl =
+          document.querySelector('#df-e7fa0f55-0bab-4ccc-b237-b6d32f156752 button.colab-df-convert');
+        buttonEl.style.display =
+          google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+        async function convertToInteractive(key) {
+          const element = document.querySelector('#df-e7fa0f55-0bab-4ccc-b237-b6d32f156752');
+          const dataTable =
+            await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                     [key], {});
+          if (!dataTable) return;
+
+          const docLinkHtml = 'Like what you see? Visit the ' +
+            '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+            + ' to learn more about interactive tables.';
+          element.innerHTML = '';
+          dataTable['output_type'] = 'display_data';
+          await google.colab.output.renderOutput(dataTable, element);
+          const docLink = document.createElement('div');
+          docLink.innerHTML = docLinkHtml;
+          element.appendChild(docLink);
+        }
+      </script>
+    </div>
+  </div>
+  
+</div>
+</div>
+<section id="analysys-of-the-dataset-and-aplication-of-necessary-transformations" class="cell markdown" id="UZh0pJ8gNaYY">
+<h1>Analysys of the dataset and aplication of necessary transformations</h1>
+</section>
+<div class="cell code" data-execution_count="4" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="MmYKOmZYQg_i" data-outputId="fb2d17ca-2733-4e29-8e4d-997344de437f">
+<div class="sourceCode" id="cb4"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># 1. Basic info of dataframe</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>df.info()</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>&lt;class &#39;pandas.core.frame.DataFrame&#39;&gt;
+RangeIndex: 18539 entries, 0 to 18538
+Data columns (total 89 columns):
+ #   Column                       Non-Null Count  Dtype 
+---  ------                       --------------  ----- 
+ 0   Known As                     18539 non-null  object
+ 1   Full Name                    18539 non-null  object
+ 2   Overall                      18539 non-null  int64 
+ 3   Potential                    18539 non-null  int64 
+ 4   Value(in Euro)               18539 non-null  int64 
+ 5   Positions Played             18539 non-null  object
+ 6   Best Position                18539 non-null  object
+ 7   Nationality                  18539 non-null  object
+ 8   Image Link                   18539 non-null  object
+ 9   Age                          18539 non-null  int64 
+ 10  Height(in cm)                18539 non-null  int64 
+ 11  Weight(in kg)                18539 non-null  int64 
+ 12  TotalStats                   18539 non-null  int64 
+ 13  BaseStats                    18539 non-null  int64 
+ 14  Club Name                    18539 non-null  object
+ 15  Wage(in Euro)                18539 non-null  int64 
+ 16  Release Clause               18539 non-null  int64 
+ 17  Club Position                18539 non-null  object
+ 18  Contract Until               18539 non-null  object
+ 19  Club Jersey Number           18539 non-null  object
+ 20  Joined On                    18539 non-null  int64 
+ 21  On Loan                      18539 non-null  object
+ 22  Preferred Foot               18539 non-null  object
+ 23  Weak Foot Rating             18539 non-null  int64 
+ 24  Skill Moves                  18539 non-null  int64 
+ 25  International Reputation     18539 non-null  int64 
+ 26  National Team Name           18539 non-null  object
+ 27  National Team Image Link     18539 non-null  object
+ 28  National Team Position       18539 non-null  object
+ 29  National Team Jersey Number  18539 non-null  object
+ 30  Attacking Work Rate          18539 non-null  object
+ 31  Defensive Work Rate          18539 non-null  object
+ 32  Pace Total                   18539 non-null  int64 
+ 33  Shooting Total               18539 non-null  int64 
+ 34  Passing Total                18539 non-null  int64 
+ 35  Dribbling Total              18539 non-null  int64 
+ 36  Defending Total              18539 non-null  int64 
+ 37  Physicality Total            18539 non-null  int64 
+ 38  Crossing                     18539 non-null  int64 
+ 39  Finishing                    18539 non-null  int64 
+ 40  Heading Accuracy             18539 non-null  int64 
+ 41  Short Passing                18539 non-null  int64 
+ 42  Volleys                      18539 non-null  int64 
+ 43  Dribbling                    18539 non-null  int64 
+ 44  Curve                        18539 non-null  int64 
+ 45  Freekick Accuracy            18539 non-null  int64 
+ 46  LongPassing                  18539 non-null  int64 
+ 47  BallControl                  18539 non-null  int64 
+ 48  Acceleration                 18539 non-null  int64 
+ 49  Sprint Speed                 18539 non-null  int64 
+ 50  Agility                      18539 non-null  int64 
+ 51  Reactions                    18539 non-null  int64 
+ 52  Balance                      18539 non-null  int64 
+ 53  Shot Power                   18539 non-null  int64 
+ 54  Jumping                      18539 non-null  int64 
+ 55  Stamina                      18539 non-null  int64 
+ 56  Strength                     18539 non-null  int64 
+ 57  Long Shots                   18539 non-null  int64 
+ 58  Aggression                   18539 non-null  int64 
+ 59  Interceptions                18539 non-null  int64 
+ 60  Positioning                  18539 non-null  int64 
+ 61  Vision                       18539 non-null  int64 
+ 62  Penalties                    18539 non-null  int64 
+ 63  Composure                    18539 non-null  int64 
+ 64  Marking                      18539 non-null  int64 
+ 65  Standing Tackle              18539 non-null  int64 
+ 66  Sliding Tackle               18539 non-null  int64 
+ 67  Goalkeeper Diving            18539 non-null  int64 
+ 68  Goalkeeper Handling          18539 non-null  int64 
+ 69   GoalkeeperKicking           18539 non-null  int64 
+ 70  Goalkeeper Positioning       18539 non-null  int64 
+ 71  Goalkeeper Reflexes          18539 non-null  int64 
+ 72  ST Rating                    18539 non-null  int64 
+ 73  LW Rating                    18539 non-null  int64 
+ 74  LF Rating                    18539 non-null  int64 
+ 75  CF Rating                    18539 non-null  int64 
+ 76  RF Rating                    18539 non-null  int64 
+ 77  RW Rating                    18539 non-null  int64 
+ 78  CAM Rating                   18539 non-null  int64 
+ 79  LM Rating                    18539 non-null  int64 
+ 80  CM Rating                    18539 non-null  int64 
+ 81  RM Rating                    18539 non-null  int64 
+ 82  LWB Rating                   18539 non-null  int64 
+ 83  CDM Rating                   18539 non-null  int64 
+ 84  RWB Rating                   18539 non-null  int64 
+ 85  LB Rating                    18539 non-null  int64 
+ 86  CB Rating                    18539 non-null  int64 
+ 87  RB Rating                    18539 non-null  int64 
+ 88  GK Rating                    18539 non-null  int64 
+dtypes: int64(71), object(18)
+memory usage: 12.6+ MB
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="5" data-colab="{&quot;height&quot;:411,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="jZkKBCc4Qjm5" data-outputId="419352d5-a9ff-484f-e463-30fbf59fb9d3">
+<div class="sourceCode" id="cb6"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co"># 2. Describe overall</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>df.describe().<span class="bu">round</span>(decimals<span class="op">=</span><span class="dv">0</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="5">
+
+  <div id="df-8f878ca2-01f3-4460-833b-79b8f0abe665">
+    <div class="colab-df-container">
+      <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Overall</th>
+      <th>Potential</th>
+      <th>Value(in Euro)</th>
+      <th>Age</th>
+      <th>Height(in cm)</th>
+      <th>Weight(in kg)</th>
+      <th>TotalStats</th>
+      <th>BaseStats</th>
+      <th>Wage(in Euro)</th>
+      <th>Release Clause</th>
+      <th>...</th>
+      <th>LM Rating</th>
+      <th>CM Rating</th>
+      <th>RM Rating</th>
+      <th>LWB Rating</th>
+      <th>CDM Rating</th>
+      <th>RWB Rating</th>
+      <th>LB Rating</th>
+      <th>CB Rating</th>
+      <th>RB Rating</th>
+      <th>GK Rating</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>count</th>
+      <td>18539.0</td>
+      <td>18539.0</td>
+      <td>18539.0</td>
+      <td>18539.0</td>
+      <td>18539.0</td>
+      <td>18539.0</td>
+      <td>18539.0</td>
+      <td>18539.0</td>
+      <td>18539.0</td>
+      <td>18539.0</td>
+      <td>...</td>
+      <td>18539.0</td>
+      <td>18539.0</td>
+      <td>18539.0</td>
+      <td>18539.0</td>
+      <td>18539.0</td>
+      <td>18539.0</td>
+      <td>18539.0</td>
+      <td>18539.0</td>
+      <td>18539.0</td>
+      <td>18539.0</td>
+    </tr>
+    <tr>
+      <th>mean</th>
+      <td>66.0</td>
+      <td>71.0</td>
+      <td>2875461.0</td>
+      <td>25.0</td>
+      <td>182.0</td>
+      <td>75.0</td>
+      <td>1602.0</td>
+      <td>358.0</td>
+      <td>8825.0</td>
+      <td>5081688.0</td>
+      <td>...</td>
+      <td>58.0</td>
+      <td>57.0</td>
+      <td>58.0</td>
+      <td>56.0</td>
+      <td>56.0</td>
+      <td>56.0</td>
+      <td>56.0</td>
+      <td>55.0</td>
+      <td>56.0</td>
+      <td>23.0</td>
+    </tr>
+    <tr>
+      <th>std</th>
+      <td>7.0</td>
+      <td>6.0</td>
+      <td>7635129.0</td>
+      <td>5.0</td>
+      <td>7.0</td>
+      <td>7.0</td>
+      <td>273.0</td>
+      <td>40.0</td>
+      <td>19461.0</td>
+      <td>14672035.0</td>
+      <td>...</td>
+      <td>14.0</td>
+      <td>13.0</td>
+      <td>14.0</td>
+      <td>14.0</td>
+      <td>14.0</td>
+      <td>14.0</td>
+      <td>14.0</td>
+      <td>15.0</td>
+      <td>14.0</td>
+      <td>15.0</td>
+    </tr>
+    <tr>
+      <th>min</th>
+      <td>47.0</td>
+      <td>48.0</td>
+      <td>0.0</td>
+      <td>16.0</td>
+      <td>155.0</td>
+      <td>49.0</td>
+      <td>759.0</td>
+      <td>224.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>...</td>
+      <td>18.0</td>
+      <td>18.0</td>
+      <td>18.0</td>
+      <td>17.0</td>
+      <td>19.0</td>
+      <td>17.0</td>
+      <td>17.0</td>
+      <td>18.0</td>
+      <td>17.0</td>
+      <td>10.0</td>
+    </tr>
+    <tr>
+      <th>25%</th>
+      <td>62.0</td>
+      <td>67.0</td>
+      <td>475000.0</td>
+      <td>21.0</td>
+      <td>177.0</td>
+      <td>70.0</td>
+      <td>1470.0</td>
+      <td>331.0</td>
+      <td>1000.0</td>
+      <td>665000.0</td>
+      <td>...</td>
+      <td>54.0</td>
+      <td>53.0</td>
+      <td>54.0</td>
+      <td>51.0</td>
+      <td>48.0</td>
+      <td>51.0</td>
+      <td>49.0</td>
+      <td>45.0</td>
+      <td>49.0</td>
+      <td>17.0</td>
+    </tr>
+    <tr>
+      <th>50%</th>
+      <td>66.0</td>
+      <td>71.0</td>
+      <td>1000000.0</td>
+      <td>25.0</td>
+      <td>182.0</td>
+      <td>75.0</td>
+      <td>1640.0</td>
+      <td>358.0</td>
+      <td>3000.0</td>
+      <td>1500000.0</td>
+      <td>...</td>
+      <td>62.0</td>
+      <td>60.0</td>
+      <td>62.0</td>
+      <td>59.0</td>
+      <td>59.0</td>
+      <td>59.0</td>
+      <td>59.0</td>
+      <td>58.0</td>
+      <td>59.0</td>
+      <td>18.0</td>
+    </tr>
+    <tr>
+      <th>75%</th>
+      <td>70.0</td>
+      <td>75.0</td>
+      <td>2000000.0</td>
+      <td>29.0</td>
+      <td>186.0</td>
+      <td>80.0</td>
+      <td>1786.0</td>
+      <td>385.0</td>
+      <td>8000.0</td>
+      <td>3400000.0</td>
+      <td>...</td>
+      <td>67.0</td>
+      <td>66.0</td>
+      <td>67.0</td>
+      <td>66.0</td>
+      <td>66.0</td>
+      <td>66.0</td>
+      <td>65.0</td>
+      <td>66.0</td>
+      <td>65.0</td>
+      <td>20.0</td>
+    </tr>
+    <tr>
+      <th>max</th>
+      <td>91.0</td>
+      <td>95.0</td>
+      <td>190500000.0</td>
+      <td>44.0</td>
+      <td>206.0</td>
+      <td>105.0</td>
+      <td>2312.0</td>
+      <td>502.0</td>
+      <td>450000.0</td>
+      <td>366700000.0</td>
+      <td>...</td>
+      <td>92.0</td>
+      <td>91.0</td>
+      <td>92.0</td>
+      <td>88.0</td>
+      <td>89.0</td>
+      <td>88.0</td>
+      <td>87.0</td>
+      <td>90.0</td>
+      <td>87.0</td>
+      <td>90.0</td>
+    </tr>
+  </tbody>
+</table>
+<p>8 rows × 71 columns</p>
+</div>
+      <button class="colab-df-convert" onclick="convertToInteractive('df-8f878ca2-01f3-4460-833b-79b8f0abe665')"
+              title="Convert this dataframe to an interactive table."
+              style="display:none;">
+        
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+       width="24px">
+    <path d="M0 0h24v24H0V0z" fill="none"/>
+    <path d="M18.56 5.44l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94zm-11 1L8.5 8.5l.94-2.06 2.06-.94-2.06-.94L8.5 2.5l-.94 2.06-2.06.94zm10 10l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94z"/><path d="M17.41 7.96l-1.37-1.37c-.4-.4-.92-.59-1.43-.59-.52 0-1.04.2-1.43.59L10.3 9.45l-7.72 7.72c-.78.78-.78 2.05 0 2.83L4 21.41c.39.39.9.59 1.41.59.51 0 1.02-.2 1.41-.59l7.78-7.78 2.81-2.81c.8-.78.8-2.07 0-2.86zM5.41 20L4 18.59l7.72-7.72 1.47 1.35L5.41 20z"/>
+  </svg>
+      </button>
+      
+  <style>
+    .colab-df-container {
+      display:flex;
+      flex-wrap:wrap;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+      <script>
+        const buttonEl =
+          document.querySelector('#df-8f878ca2-01f3-4460-833b-79b8f0abe665 button.colab-df-convert');
+        buttonEl.style.display =
+          google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+        async function convertToInteractive(key) {
+          const element = document.querySelector('#df-8f878ca2-01f3-4460-833b-79b8f0abe665');
+          const dataTable =
+            await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                     [key], {});
+          if (!dataTable) return;
+
+          const docLinkHtml = 'Like what you see? Visit the ' +
+            '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+            + ' to learn more about interactive tables.';
+          element.innerHTML = '';
+          dataTable['output_type'] = 'display_data';
+          await google.colab.output.renderOutput(dataTable, element);
+          const docLink = document.createElement('div');
+          docLink.innerHTML = docLinkHtml;
+          element.appendChild(docLink);
+        }
+      </script>
+    </div>
+  </div>
+  
+</div>
+</div>
+<div class="cell code" data-execution_count="6" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="0T4NuEUIQl37" data-outputId="2a3ab479-fa6f-42ef-ea46-4556edd4ed6d">
+<div class="sourceCode" id="cb7"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="co"># 3. Checking the shape of Data Frame</span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>df.shape</span></code></pre></div>
+<div class="output execute_result" data-execution_count="6">
+<pre><code>(18539, 89)</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="7" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="LcJVLTh_QodR" data-outputId="a7c6fd54-b1c2-4511-ee49-a216c62e3aff">
+<div class="sourceCode" id="cb9"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co"># 4. Check whether the is any null values</span></span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(df.isnull().<span class="bu">sum</span>())</span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&#39;Total null value count:</span><span class="sc">{df.</span>isnull()<span class="sc">.</span><span class="bu">sum</span>()<span class="sc">.</span><span class="bu">sum</span>()<span class="sc">}</span><span class="ss">&#39;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Known As          0
+Full Name         0
+Overall           0
+Potential         0
+Value(in Euro)    0
+                 ..
+RWB Rating        0
+LB Rating         0
+CB Rating         0
+RB Rating         0
+GK Rating         0
+Length: 89, dtype: int64
+Total null value count:0
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="8" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="nhyY6rOoQsig" data-outputId="fae10d13-f3a7-4c1e-8a4c-bcfe5e7a8aae">
+<div class="sourceCode" id="cb11"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="co"># 5. Looking into Nationality feature</span></span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&#39;Nationality feature has </span><span class="sc">{df</span>[<span class="st">&quot;Nationality&quot;</span>]<span class="sc">.</span>nunique()<span class="sc">}</span><span class="ss"> unique values&#39;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Nationality feature has 21 unique values
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="9" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="EohqLqtHQuFb" data-outputId="da71d294-7d26-498d-ce61-659d3b4c2a14">
+<div class="sourceCode" id="cb13"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="co"># 6. Count value per Nationality</span></span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a>df_nationality_counts <span class="op">=</span> df[<span class="st">&quot;Nationality&quot;</span>].value_counts()</span>
+<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a>df_nationality_counts</span></code></pre></div>
+<div class="output execute_result" data-execution_count="9">
+<pre><code>Other                  6527
+England                1632
+Germany                1204
+Spain                  1074
+France                  963
+Argentina               937
+Brazil                  728
+Italy                   623
+China PR                439
+United States           437
+Netherlands             428
+Poland                  390
+Sweden                  390
+Republic of Ireland     385
+Portugal                382
+Norway                  373
+Romania                 341
+Saudi Arabia            331
+Korea Republic          319
+Belgium                 318
+Denmark                 318
+Name: Nationality, dtype: int64</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="10" data-colab="{&quot;height&quot;:279,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="RDTK4hq-QxQR" data-outputId="6c6e26d6-701b-410d-e513-0a79fa8709db">
+<div class="sourceCode" id="cb15"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="co"># 7. Plot the count of players</span></span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a>df_nationality_counts.plot(kind<span class="op">=</span><span class="st">&quot;barh&quot;</span>)</span>
+<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&quot;Count of players by Nationality&quot;</span>)<span class="op">;</span></span></code></pre></div>
+<div class="output display_data">
+<p><img src="vertopal_4cca106a9d3d4c8594f3be9a43446a33/a62b23263ff4bde33b140c3aa5300204061aa1f6.png" /></p>
+</div>
+</div>
+<div class="cell code" data-execution_count="11" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="dut0pjNdUY0t" data-outputId="11cb9d20-e4be-4927-81ad-82cfba857f3b">
+<div class="sourceCode" id="cb16"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="co"># 8. Perform one-hot encoding on columns</span></span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a>one_hot_df <span class="op">=</span> pd.get_dummies(df,</span>
+<span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a>                            columns <span class="op">=</span> [<span class="st">&#39;Nationality&#39;</span>, <span class="st">&#39;Best Position&#39;</span>, <span class="st">&#39;Attacking Work Rate&#39;</span>, <span class="st">&#39;Defensive Work Rate&#39;</span>],</span>
+<span id="cb16-4"><a href="#cb16-4" aria-hidden="true" tabindex="-1"></a>                            prefix <span class="op">=</span> [<span class="st">&#39;Country&#39;</span>, <span class="st">&#39;Best_Position&#39;</span>, <span class="st">&#39;Attacking_Work_Rate&#39;</span>, <span class="st">&#39;Defensive_Work_Rate&#39;</span>])</span>
+<span id="cb16-5"><a href="#cb16-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-6"><a href="#cb16-6" aria-hidden="true" tabindex="-1"></a>one_hot_df[<span class="st">&#39;Preferred Foot&#39;</span>] <span class="op">=</span> <span class="fl">1.0</span> <span class="op">*</span> (df[<span class="st">&#39;Preferred Foot&#39;</span>] <span class="op">==</span> <span class="st">&#39;Right&#39;</span>)</span>
+<span id="cb16-7"><a href="#cb16-7" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(one_hot_df)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>             Known As           Full Name  Overall  Potential  Value(in Euro)  \
+0            L. Messi        Lionel Messi       91         91        54000000   
+1          K. Benzema       Karim Benzema       91         91        64000000   
+2      R. Lewandowski  Robert Lewandowski       91         91        84000000   
+3        K. De Bruyne     Kevin De Bruyne       91         91       107500000   
+4           K. Mbappé       Kylian Mbappé       91         95       190500000   
+...               ...                 ...      ...        ...             ...   
+18534      D. Collins      Darren Collins       47         56          110000   
+18535    Yang Dejiang        Dejiang Yang       47         57           90000   
+18536       L. Mullan         Liam Mullan       47         67          130000   
+18537    D. McCallion    Daithí McCallion       47         61          100000   
+18538        N. Rabha         Nabin Rabha       47         50           60000   
+
+      Positions Played                                        Image Link  Age  \
+0                   RW  https://cdn.sofifa.net/players/158/023/23_60.png   35   
+1                CF,ST  https://cdn.sofifa.net/players/165/153/23_60.png   34   
+2                   ST  https://cdn.sofifa.net/players/188/545/23_60.png   33   
+3               CM,CAM  https://cdn.sofifa.net/players/192/985/23_60.png   31   
+4                ST,LW  https://cdn.sofifa.net/players/231/747/23_60.png   23   
+...                ...                                               ...  ...   
+18534            ST,RM  https://cdn.sofifa.net/players/243/725/23_60.png   21   
+18535              CDM  https://cdn.sofifa.net/players/261/933/23_60.png   17   
+18536               CM  https://cdn.sofifa.net/players/267/823/23_60.png   18   
+18537               CB  https://cdn.sofifa.net/players/267/824/23_60.png   17   
+18538               LB  https://cdn.sofifa.net/players/261/424/23_60.png   25   
+
+       Height(in cm)  Weight(in kg)  ...  Best_Position_RM  Best_Position_RW  \
+0                169             67  ...                 0                 0   
+1                185             81  ...                 0                 0   
+2                185             81  ...                 0                 0   
+3                181             70  ...                 0                 0   
+4                182             73  ...                 0                 0   
+...              ...            ...  ...               ...               ...   
+18534            174             68  ...                 0                 0   
+18535            175             60  ...                 0                 0   
+18536            170             65  ...                 1                 0   
+18537            178             65  ...                 0                 0   
+18538            176             66  ...                 0                 0   
+
+      Best_Position_RWB  Best_Position_ST  Attacking_Work_Rate_High  \
+0                     0                 0                         0   
+1                     0                 0                         0   
+2                     0                 1                         1   
+3                     0                 0                         1   
+4                     0                 1                         1   
+...                 ...               ...                       ...   
+18534                 0                 0                         0   
+18535                 0                 0                         0   
+18536                 0                 0                         1   
+18537                 0                 0                         0   
+18538                 0                 0                         0   
+
+      Attacking_Work_Rate_Low Attacking_Work_Rate_Medium  \
+0                           1                          0   
+1                           0                          1   
+2                           0                          0   
+3                           0                          0   
+4                           0                          0   
+...                       ...                        ...   
+18534                       0                          1   
+18535                       0                          1   
+18536                       0                          0   
+18537                       0                          1   
+18538                       0                          1   
+
+      Defensive_Work_Rate_High  Defensive_Work_Rate_Low  \
+0                            0                        1   
+1                            0                        0   
+2                            0                        0   
+3                            1                        0   
+4                            0                        1   
+...                        ...                      ...   
+18534                        0                        0   
+18535                        0                        0   
+18536                        0                        0   
+18537                        0                        0   
+18538                        0                        0   
+
+      Defensive_Work_Rate_Medium  
+0                              0  
+1                              1  
+2                              1  
+3                              0  
+4                              0  
+...                          ...  
+18534                          1  
+18535                          1  
+18536                          1  
+18537                          1  
+18538                          1  
+
+[18539 rows x 127 columns]
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="12" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="djEAm6q3Qzr3" data-outputId="bfefa508-b3a1-4dcb-d65f-ba7f7014e111">
+<div class="sourceCode" id="cb18"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a>target <span class="op">=</span> <span class="st">&quot;Wage(in Euro)&quot;</span></span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a>features <span class="op">=</span> []</span>
+<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> feature <span class="kw">in</span> one_hot_df.columns:</span>
+<span id="cb18-4"><a href="#cb18-4" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> feature <span class="kw">not</span> <span class="kw">in</span> [<span class="st">&quot;Wage(in Euro)&quot;</span>, <span class="st">&quot;Known As&quot;</span>, <span class="st">&quot;Full Name&quot;</span>, <span class="st">&quot;Image Link&quot;</span>,</span>
+<span id="cb18-5"><a href="#cb18-5" aria-hidden="true" tabindex="-1"></a>                       <span class="st">&quot;Club Name&quot;</span>, <span class="st">&quot;Club Jersey Number&quot;</span>, <span class="st">&quot;National Team Name&quot;</span>,</span>
+<span id="cb18-6"><a href="#cb18-6" aria-hidden="true" tabindex="-1"></a>                       <span class="st">&quot;National Team Image Link&quot;</span>,  <span class="st">&quot;National Team Jersey Number&quot;</span>,</span>
+<span id="cb18-7"><a href="#cb18-7" aria-hidden="true" tabindex="-1"></a>                       <span class="st">&quot;Contract Until&quot;</span>, <span class="st">&quot;Joined On&quot;</span>, <span class="st">&quot;Positions Played&quot;</span>,</span>
+<span id="cb18-8"><a href="#cb18-8" aria-hidden="true" tabindex="-1"></a>                       <span class="st">&quot;Club Position&quot;</span>, <span class="st">&quot;National Team Position&quot;</span>, <span class="st">&quot;On Loan&quot;</span>, <span class="st">&quot;Preferred Foot&quot;</span>]:</span>
+<span id="cb18-9"><a href="#cb18-9" aria-hidden="true" tabindex="-1"></a>        features.append(feature)</span>
+<span id="cb18-10"><a href="#cb18-10" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="bu">len</span>(features))</span>
+<span id="cb18-11"><a href="#cb18-11" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(features)</span>
+<span id="cb18-12"><a href="#cb18-12" aria-hidden="true" tabindex="-1"></a>y <span class="op">=</span> df[target]</span>
+<span id="cb18-13"><a href="#cb18-13" aria-hidden="true" tabindex="-1"></a>X <span class="op">=</span> one_hot_df[features]</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>111
+[&#39;Overall&#39;, &#39;Potential&#39;, &#39;Value(in Euro)&#39;, &#39;Age&#39;, &#39;Height(in cm)&#39;, &#39;Weight(in kg)&#39;, &#39;TotalStats&#39;, &#39;BaseStats&#39;, &#39;Release Clause&#39;, &#39;Weak Foot Rating&#39;, &#39;Skill Moves&#39;, &#39;International Reputation&#39;, &#39;Pace Total&#39;, &#39;Shooting Total&#39;, &#39;Passing Total&#39;, &#39;Dribbling Total&#39;, &#39;Defending Total&#39;, &#39;Physicality Total&#39;, &#39;Crossing&#39;, &#39;Finishing&#39;, &#39;Heading Accuracy&#39;, &#39;Short Passing&#39;, &#39;Volleys&#39;, &#39;Dribbling&#39;, &#39;Curve&#39;, &#39;Freekick Accuracy&#39;, &#39;LongPassing&#39;, &#39;BallControl&#39;, &#39;Acceleration&#39;, &#39;Sprint Speed&#39;, &#39;Agility&#39;, &#39;Reactions&#39;, &#39;Balance&#39;, &#39;Shot Power&#39;, &#39;Jumping&#39;, &#39;Stamina&#39;, &#39;Strength&#39;, &#39;Long Shots&#39;, &#39;Aggression&#39;, &#39;Interceptions&#39;, &#39;Positioning&#39;, &#39;Vision&#39;, &#39;Penalties&#39;, &#39;Composure&#39;, &#39;Marking&#39;, &#39;Standing Tackle&#39;, &#39;Sliding Tackle&#39;, &#39;Goalkeeper Diving&#39;, &#39;Goalkeeper Handling&#39;, &#39; GoalkeeperKicking&#39;, &#39;Goalkeeper Positioning&#39;, &#39;Goalkeeper Reflexes&#39;, &#39;ST Rating&#39;, &#39;LW Rating&#39;, &#39;LF Rating&#39;, &#39;CF Rating&#39;, &#39;RF Rating&#39;, &#39;RW Rating&#39;, &#39;CAM Rating&#39;, &#39;LM Rating&#39;, &#39;CM Rating&#39;, &#39;RM Rating&#39;, &#39;LWB Rating&#39;, &#39;CDM Rating&#39;, &#39;RWB Rating&#39;, &#39;LB Rating&#39;, &#39;CB Rating&#39;, &#39;RB Rating&#39;, &#39;GK Rating&#39;, &#39;Country_Argentina&#39;, &#39;Country_Belgium&#39;, &#39;Country_Brazil&#39;, &#39;Country_China PR&#39;, &#39;Country_Denmark&#39;, &#39;Country_England&#39;, &#39;Country_France&#39;, &#39;Country_Germany&#39;, &#39;Country_Italy&#39;, &#39;Country_Korea Republic&#39;, &#39;Country_Netherlands&#39;, &#39;Country_Norway&#39;, &#39;Country_Other&#39;, &#39;Country_Poland&#39;, &#39;Country_Portugal&#39;, &#39;Country_Republic of Ireland&#39;, &#39;Country_Romania&#39;, &#39;Country_Saudi Arabia&#39;, &#39;Country_Spain&#39;, &#39;Country_Sweden&#39;, &#39;Country_United States&#39;, &#39;Best_Position_CAM&#39;, &#39;Best_Position_CB&#39;, &#39;Best_Position_CDM&#39;, &#39;Best_Position_CF&#39;, &#39;Best_Position_CM&#39;, &#39;Best_Position_GK&#39;, &#39;Best_Position_LB&#39;, &#39;Best_Position_LM&#39;, &#39;Best_Position_LW&#39;, &#39;Best_Position_LWB&#39;, &#39;Best_Position_RB&#39;, &#39;Best_Position_RM&#39;, &#39;Best_Position_RW&#39;, &#39;Best_Position_RWB&#39;, &#39;Best_Position_ST&#39;, &#39;Attacking_Work_Rate_High&#39;, &#39;Attacking_Work_Rate_Low&#39;, &#39;Attacking_Work_Rate_Medium&#39;, &#39;Defensive_Work_Rate_High&#39;, &#39;Defensive_Work_Rate_Low&#39;, &#39;Defensive_Work_Rate_Medium&#39;]
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="13" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="9zrIsnVmQ3Vl" data-outputId="c5829696-8812-4676-84f0-2decedde68ab">
+<div class="sourceCode" id="cb20"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a>X_train, X_test, y_train, y_test <span class="op">=</span> train_test_split(</span>
+<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a>    X, y, test_size<span class="op">=</span><span class="fl">0.2</span>, random_state<span class="op">=</span><span class="dv">42</span></span>
+<span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb20-4"><a href="#cb20-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-5"><a href="#cb20-5" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;X_train shape:&quot;</span>, X_train.shape)</span>
+<span id="cb20-6"><a href="#cb20-6" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;y_train shape:&quot;</span>, y_train.shape)</span>
+<span id="cb20-7"><a href="#cb20-7" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;X_test shape:&quot;</span>, X_test.shape)</span>
+<span id="cb20-8"><a href="#cb20-8" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;y_test shape:&quot;</span>, y_test.shape)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>X_train shape: (14831, 111)
+y_train shape: (14831,)
+X_test shape: (3708, 111)
+y_test shape: (3708,)
+</code></pre>
+</div>
+</div>
+<section id="training-of-predictive-models" class="cell markdown" id="hCSV2oCtNvyt">
+<h1>Training of predictive models</h1>
+</section>
+<section id="training-of-a-naive-average-model" class="cell markdown" id="3gIle4j6OIVK">
+<h2>Training of a naive average model</h2>
+</section>
+<div class="cell markdown" id="f53qiZsRQNvz">
+<p>The first model predicts the average value of the training dataset and we use it as a baseline for more sophisticated models.</p>
+<p>The predected average value is equal to 8895.02.</p>
+<p>This model achieves mean absolute error equal to 9846.17 and mean squared equal to 385673057.09 on the training set and mean absolute error equal to 9564.98 and mean squared equal to 350793716.95 on the test set.</p>
+</div>
+<div class="cell code" data-execution_count="14" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="N-O4KNu4Q9bv" data-outputId="87cb891f-31fc-45c3-d09a-6bbd826b9937">
+<div class="sourceCode" id="cb22"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a><span class="co"># 1. Create a naive average model</span></span>
+<span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a>y_mean <span class="op">=</span> y_train.mean()</span>
+<span id="cb22-3"><a href="#cb22-3" aria-hidden="true" tabindex="-1"></a>y_pred_baseline_train <span class="op">=</span> [y_mean] <span class="op">*</span> <span class="bu">len</span>(y_train)</span>
+<span id="cb22-4"><a href="#cb22-4" aria-hidden="true" tabindex="-1"></a>y_pred_baseline_test <span class="op">=</span> [y_mean] <span class="op">*</span> <span class="bu">len</span>(y_test)</span>
+<span id="cb22-5"><a href="#cb22-5" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Mean apt price: &quot;</span>, <span class="bu">round</span>(y_mean, <span class="dv">2</span>))</span>
+<span id="cb22-6"><a href="#cb22-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-7"><a href="#cb22-7" aria-hidden="true" tabindex="-1"></a>mse_training_baseline <span class="op">=</span> <span class="bu">round</span>(mean_squared_error(y_train, y_pred_baseline_train), <span class="dv">2</span>)</span>
+<span id="cb22-8"><a href="#cb22-8" aria-hidden="true" tabindex="-1"></a>mae_training_baseline <span class="op">=</span> <span class="bu">round</span>(mean_absolute_error(y_train, y_pred_baseline_train), <span class="dv">2</span>)</span>
+<span id="cb22-9"><a href="#cb22-9" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Training MAE: &quot;</span>, mae_training_baseline)</span>
+<span id="cb22-10"><a href="#cb22-10" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Training MSE: &quot;</span>, mse_training_baseline)</span>
+<span id="cb22-11"><a href="#cb22-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-12"><a href="#cb22-12" aria-hidden="true" tabindex="-1"></a>mse_test_baseline <span class="op">=</span> <span class="bu">round</span>(mean_squared_error(y_test, y_pred_baseline_test), <span class="dv">2</span>)</span>
+<span id="cb22-13"><a href="#cb22-13" aria-hidden="true" tabindex="-1"></a>mae_test_baseline <span class="op">=</span> <span class="bu">round</span>(mean_absolute_error(y_test, y_pred_baseline_test), <span class="dv">2</span>)</span>
+<span id="cb22-14"><a href="#cb22-14" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Test MAE: &quot;</span>, mae_test_baseline)</span>
+<span id="cb22-15"><a href="#cb22-15" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Test MSE: &quot;</span>, mse_test_baseline)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Mean apt price:  8895.02
+Training MAE:  9846.17
+Training MSE:  385673057.09
+Test MAE:  9564.98
+Test MSE:  350793716.95
+</code></pre>
+</div>
+</div>
+<section id="training-of-a-linear-regression-model" class="cell markdown" id="CysSsZLBOOrC">
+<h2>Training of a linear regression model</h2>
+</section>
+<div class="cell markdown" id="w8ZtS7XzR9Hx">
+<p>The second model performs the linear regression. We fit the model on the training set and evaluate on the test set</p>
+<p>The linear model achieves mean absolute error equal to 4796.46 and mean squared equal to 98984826.08 on the training set and mean absolute error equal to 4720.74 and mean squared equal to 92139082.12 on the test set.</p>
+</div>
+<div class="cell code" data-execution_count="15" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="ECV2lyXKRC1W" data-outputId="68182bf0-802d-4b6d-aef0-30089c34bab4">
+<div class="sourceCode" id="cb24"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a><span class="co"># 1. Create a linear regression model</span></span>
+<span id="cb24-2"><a href="#cb24-2" aria-hidden="true" tabindex="-1"></a>model <span class="op">=</span> LinearRegression()</span>
+<span id="cb24-3"><a href="#cb24-3" aria-hidden="true" tabindex="-1"></a>model.fit(X_train, y_train)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="15">
+<pre><code>LinearRegression()</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="16" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="AmG6GY5TRGJz" data-outputId="14b04c78-3f72-4849-dd09-347b2fe7880a">
+<div class="sourceCode" id="cb26"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a><span class="co"># 2. Evaluate the linear model performance on training data</span></span>
+<span id="cb26-2"><a href="#cb26-2" aria-hidden="true" tabindex="-1"></a>y_pred_training <span class="op">=</span> model.predict(X_train)</span>
+<span id="cb26-3"><a href="#cb26-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-4"><a href="#cb26-4" aria-hidden="true" tabindex="-1"></a>mse_training_linear <span class="op">=</span> mean_squared_error(y_train, y_pred_training)</span>
+<span id="cb26-5"><a href="#cb26-5" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Training MSE: &quot;</span>, <span class="bu">round</span>(mse_training_linear, <span class="dv">2</span>))</span>
+<span id="cb26-6"><a href="#cb26-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-7"><a href="#cb26-7" aria-hidden="true" tabindex="-1"></a>mae_training_linear <span class="op">=</span> mean_absolute_error(y_train, y_pred_training)</span>
+<span id="cb26-8"><a href="#cb26-8" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Training MAE: &quot;</span>, <span class="bu">round</span>(mae_training_linear, <span class="dv">2</span>))</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Training MSE:  98984826.08
+Training MAE:  4796.46
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="17" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="BHCbeZXjRIC5" data-outputId="02c1f353-46df-4f9a-eaff-27e4905860dd">
+<div class="sourceCode" id="cb28"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a><span class="co"># 3. Evaluate the linear model performance on test data</span></span>
+<span id="cb28-2"><a href="#cb28-2" aria-hidden="true" tabindex="-1"></a>y_pred_test <span class="op">=</span> pd.Series(model.predict(X_test))</span>
+<span id="cb28-3"><a href="#cb28-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb28-4"><a href="#cb28-4" aria-hidden="true" tabindex="-1"></a>mse_test_linear <span class="op">=</span> mean_squared_error(y_test, y_pred_test)</span>
+<span id="cb28-5"><a href="#cb28-5" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Test MSE: &quot;</span>, <span class="bu">round</span>(mse_test_linear, <span class="dv">2</span>))</span>
+<span id="cb28-6"><a href="#cb28-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb28-7"><a href="#cb28-7" aria-hidden="true" tabindex="-1"></a>mae_test_linear <span class="op">=</span> mean_absolute_error(y_test, y_pred_test)</span>
+<span id="cb28-8"><a href="#cb28-8" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Test MAE: &quot;</span>, <span class="bu">round</span>(mae_test_linear, <span class="dv">2</span>))</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Test MSE:  92139082.12
+Test MAE:  4720.74
+</code></pre>
+</div>
+</div>
+<section id="training-of-a-random-forest-regressor" class="cell markdown" id="ppn9Hz_-OUZk">
+<h2>Training of a random forest regressor</h2>
+</section>
+<div class="cell markdown" id="-mcMCWq3ThCU">
+<p>The last model is a random forest regressor. Similarly, we fit the model on the training set and evaluate on the test set</p>
+<p>The random forest model achieves mean absolute error equal to 1416.14 and mean squared equal to 11674281.56 on the training set and mean absolute error equal to 3663.75 and mean squared equal to 75408844.11 on the test set.</p>
+</div>
+<div class="cell code" data-execution_count="18" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="GF4zyCDDhSmO" data-outputId="146307e2-5963-4f64-dbb7-4310b3f3d4db">
+<div class="sourceCode" id="cb30"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb30-1"><a href="#cb30-1" aria-hidden="true" tabindex="-1"></a><span class="co"># 1. Create a random forest regressor</span></span>
+<span id="cb30-2"><a href="#cb30-2" aria-hidden="true" tabindex="-1"></a>forest_reg <span class="op">=</span> RandomForestRegressor(n_estimators<span class="op">=</span><span class="dv">100</span>)</span>
+<span id="cb30-3"><a href="#cb30-3" aria-hidden="true" tabindex="-1"></a>forest_reg.fit(X_train, y_train)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="18">
+<pre><code>RandomForestRegressor()</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="19" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="09enZ_Mni4EP" data-outputId="9570247d-c10d-4f82-9938-14a6502c9585">
+<div class="sourceCode" id="cb32"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb32-1"><a href="#cb32-1" aria-hidden="true" tabindex="-1"></a><span class="co"># 2. Evaluate the random forest classifier performance on training data</span></span>
+<span id="cb32-2"><a href="#cb32-2" aria-hidden="true" tabindex="-1"></a>y_pred_training <span class="op">=</span> forest_reg.predict(X_train)</span>
+<span id="cb32-3"><a href="#cb32-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-4"><a href="#cb32-4" aria-hidden="true" tabindex="-1"></a>mse_training_forest <span class="op">=</span> mean_squared_error(y_train, y_pred_training)</span>
+<span id="cb32-5"><a href="#cb32-5" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Training MSE: &quot;</span>, <span class="bu">round</span>(mse_training_forest, <span class="dv">2</span>))</span>
+<span id="cb32-6"><a href="#cb32-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-7"><a href="#cb32-7" aria-hidden="true" tabindex="-1"></a>mae_training_forest <span class="op">=</span> mean_absolute_error(y_train, y_pred_training)</span>
+<span id="cb32-8"><a href="#cb32-8" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Training MAE: &quot;</span>, <span class="bu">round</span>(mae_training_forest, <span class="dv">2</span>))</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Training MSE:  11674281.56
+Training MAE:  1416.14
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="20" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="Unaxam3-jE7c" data-outputId="4bea551c-14d8-4757-92fa-f7271c514992">
+<div class="sourceCode" id="cb34"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb34-1"><a href="#cb34-1" aria-hidden="true" tabindex="-1"></a><span class="co"># 3. Evaluate the random forest classifier  performance on test data</span></span>
+<span id="cb34-2"><a href="#cb34-2" aria-hidden="true" tabindex="-1"></a>y_pred_test <span class="op">=</span> pd.Series(forest_reg.predict(X_test))</span>
+<span id="cb34-3"><a href="#cb34-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb34-4"><a href="#cb34-4" aria-hidden="true" tabindex="-1"></a>mse_test_forest <span class="op">=</span> mean_squared_error(y_test, y_pred_test)</span>
+<span id="cb34-5"><a href="#cb34-5" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Test MSE: &quot;</span>, <span class="bu">round</span>(mse_test_forest, <span class="dv">2</span>))</span>
+<span id="cb34-6"><a href="#cb34-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb34-7"><a href="#cb34-7" aria-hidden="true" tabindex="-1"></a>mae_test_forest <span class="op">=</span> mean_absolute_error(y_test, y_pred_test)</span>
+<span id="cb34-8"><a href="#cb34-8" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Test MAE: &quot;</span>, <span class="bu">round</span>(mae_test_forest, <span class="dv">2</span>))</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Test MSE:  75408844.11
+Test MAE:  3663.75
+</code></pre>
+</div>
+</div>
+<section id="summary" class="cell markdown" id="qYP7apr0T6h5">
+<h1>Summary</h1>
+</section>
+<div class="cell markdown" id="sb8EyX7KUEvG">
+<p>As we expected, the baseline model perform the worst of these three models both in MSE and MAE metric.</p>
+<p>The random forest regressor performed better than the linear model in both metrics, although we observe huge difference in these metrics between performances of the random forest regressor on the training set and the test set. This might suggest that the random forest regressor is actually overfitting a lot</p>
+</div>
+<section id="plots" class="cell markdown" id="cWoWw9-TZR97">
+<h2>Plots</h2>
+</section>
+<div class="cell code" data-execution_count="21" data-colab="{&quot;height&quot;:542,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="PAt_7OnSVpJH" data-outputId="98f829ce-daf7-4d88-e17c-3c3419973c70">
+<div class="sourceCode" id="cb36"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb36-1"><a href="#cb36-1" aria-hidden="true" tabindex="-1"></a>MSE_training <span class="op">=</span> pd.DataFrame({<span class="st">&#39;model_name&#39;</span>: [<span class="st">&#39;average&#39;</span>, <span class="st">&#39;linear&#39;</span>, <span class="st">&#39;random_forest&#39;</span>], <span class="st">&#39;value&#39;</span>: [mse_training_baseline, mse_training_linear, mse_training_forest]})</span>
+<span id="cb36-2"><a href="#cb36-2" aria-hidden="true" tabindex="-1"></a>fig <span class="op">=</span> px.bar(MSE_training, x<span class="op">=</span><span class="st">&#39;model_name&#39;</span>, y<span class="op">=</span><span class="st">&#39;value&#39;</span>, title <span class="op">=</span> <span class="st">&#39;MSE on the training set&#39;</span>, labels <span class="op">=</span> {<span class="st">&#39;model_name&#39;</span>: <span class="st">&#39;Model&#39;</span>, <span class="st">&#39;value&#39;</span>: <span class="st">&#39;MSE&#39;</span>})</span>
+<span id="cb36-3"><a href="#cb36-3" aria-hidden="true" tabindex="-1"></a>fig.show()</span></code></pre></div>
+<div class="output display_data">
+<html>
+<head><meta charset="utf-8" /></head>
+<body>
+    <div>            <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_SVG"></script><script type="text/javascript">if (window.MathJax) {MathJax.Hub.Config({SVG: {font: "STIX-Web"}});}</script>                <script type="text/javascript">window.PlotlyConfig = {MathJaxConfig: 'local'};</script>
+        <script src="https://cdn.plot.ly/plotly-2.8.3.min.js"></script>                <div id="762dc256-4f9a-4a9b-a758-8137a5539f7e" class="plotly-graph-div" style="height:525px; width:100%;"></div>            <script type="text/javascript">                                    window.PLOTLYENV=window.PLOTLYENV || {};                                    if (document.getElementById("762dc256-4f9a-4a9b-a758-8137a5539f7e")) {                    Plotly.newPlot(                        "762dc256-4f9a-4a9b-a758-8137a5539f7e",                        [{"alignmentgroup":"True","hovertemplate":"Model=%{x}<br>MSE=%{y}<extra></extra>","legendgroup":"","marker":{"color":"#636efa","pattern":{"shape":""}},"name":"","offsetgroup":"","orientation":"v","showlegend":false,"textposition":"auto","x":["average","linear","random_forest"],"xaxis":"x","y":[385673057.09,98984826.0828503,11674281.556267278],"yaxis":"y","type":"bar"}],                        {"template":{"data":{"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"barpolar":[{"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"type":"carpet"}],"choropleth":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"choropleth"}],"contour":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"contour"}],"contourcarpet":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"contourcarpet"}],"heatmap":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"heatmap"}],"heatmapgl":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"heatmapgl"}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"histogram2d":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"histogram2d"}],"histogram2dcontour":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"histogram2dcontour"}],"mesh3d":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"mesh3d"}],"parcoords":[{"line":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"parcoords"}],"pie":[{"automargin":true,"type":"pie"}],"scatter":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatter"}],"scatter3d":[{"line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatter3d"}],"scattercarpet":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattercarpet"}],"scattergeo":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattergeo"}],"scattergl":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattergl"}],"scattermapbox":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattermapbox"}],"scatterpolar":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterpolar"}],"scatterpolargl":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterpolargl"}],"scatterternary":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterternary"}],"surface":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"surface"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}]},"layout":{"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"autotypenumbers":"strict","coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]],"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]},"colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"geo":{"bgcolor":"white","lakecolor":"white","landcolor":"#E5ECF6","showlakes":true,"showland":true,"subunitcolor":"white"},"hoverlabel":{"align":"left"},"hovermode":"closest","mapbox":{"style":"light"},"paper_bgcolor":"white","plot_bgcolor":"#E5ECF6","polar":{"angularaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"bgcolor":"#E5ECF6","radialaxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"scene":{"xaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","gridwidth":2,"linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white"},"yaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","gridwidth":2,"linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white"},"zaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","gridwidth":2,"linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white"}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"ternary":{"aaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"baxis":{"gridcolor":"white","linecolor":"white","ticks":""},"bgcolor":"#E5ECF6","caxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"title":{"x":0.05},"xaxis":{"automargin":true,"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","zerolinewidth":2},"yaxis":{"automargin":true,"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","zerolinewidth":2}}},"xaxis":{"anchor":"y","domain":[0.0,1.0],"title":{"text":"Model"}},"yaxis":{"anchor":"x","domain":[0.0,1.0],"title":{"text":"MSE"}},"legend":{"tracegroupgap":0},"title":{"text":"MSE on the training set"},"barmode":"relative"},                        {"responsive": true}                    ).then(function(){
+                            
+var gd = document.getElementById('762dc256-4f9a-4a9b-a758-8137a5539f7e');
+var x = new MutationObserver(function (mutations, observer) {{
+        var display = window.getComputedStyle(gd).display;
+        if (!display || display === 'none') {{
+            console.log([gd, 'removed!']);
+            Plotly.purge(gd);
+            observer.disconnect();
+        }}
+}});
+
+// Listen for the removal of the full notebook cells
+var notebookContainer = gd.closest('#notebook-container');
+if (notebookContainer) {{
+    x.observe(notebookContainer, {childList: true});
+}}
+
+// Listen for the clearing of the current output cell
+var outputEl = gd.closest('.output');
+if (outputEl) {{
+    x.observe(outputEl, {childList: true});
+}}
+
+                        })                };                            </script>        </div>
+</body>
+</html>
+</div>
+</div>
+<div class="cell code" data-execution_count="22" data-colab="{&quot;height&quot;:542,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="0VRffFyYZhV7" data-outputId="dc65479e-daba-4d4d-83f3-b2c217a4634a">
+<div class="sourceCode" id="cb37"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb37-1"><a href="#cb37-1" aria-hidden="true" tabindex="-1"></a>MAE_training <span class="op">=</span> pd.DataFrame({<span class="st">&#39;model_name&#39;</span>: [<span class="st">&#39;average&#39;</span>, <span class="st">&#39;linear&#39;</span>, <span class="st">&#39;random_forest&#39;</span>], <span class="st">&#39;value&#39;</span>: [mae_training_baseline, mae_training_linear, mae_training_forest]})</span>
+<span id="cb37-2"><a href="#cb37-2" aria-hidden="true" tabindex="-1"></a>fig <span class="op">=</span> px.bar(MSE_training, x<span class="op">=</span><span class="st">&#39;model_name&#39;</span>, y<span class="op">=</span><span class="st">&#39;value&#39;</span>, title <span class="op">=</span> <span class="st">&#39;MAE on the training set&#39;</span>, labels <span class="op">=</span> {<span class="st">&#39;model_name&#39;</span>: <span class="st">&#39;Model&#39;</span>, <span class="st">&#39;value&#39;</span>: <span class="st">&#39;MAE&#39;</span>})</span>
+<span id="cb37-3"><a href="#cb37-3" aria-hidden="true" tabindex="-1"></a>fig.show()</span></code></pre></div>
+<div class="output display_data">
+<html>
+<head><meta charset="utf-8" /></head>
+<body>
+    <div>            <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_SVG"></script><script type="text/javascript">if (window.MathJax) {MathJax.Hub.Config({SVG: {font: "STIX-Web"}});}</script>                <script type="text/javascript">window.PlotlyConfig = {MathJaxConfig: 'local'};</script>
+        <script src="https://cdn.plot.ly/plotly-2.8.3.min.js"></script>                <div id="6c35a139-6282-4e37-b0d5-692f3aa27cc1" class="plotly-graph-div" style="height:525px; width:100%;"></div>            <script type="text/javascript">                                    window.PLOTLYENV=window.PLOTLYENV || {};                                    if (document.getElementById("6c35a139-6282-4e37-b0d5-692f3aa27cc1")) {                    Plotly.newPlot(                        "6c35a139-6282-4e37-b0d5-692f3aa27cc1",                        [{"alignmentgroup":"True","hovertemplate":"Model=%{x}<br>MAE=%{y}<extra></extra>","legendgroup":"","marker":{"color":"#636efa","pattern":{"shape":""}},"name":"","offsetgroup":"","orientation":"v","showlegend":false,"textposition":"auto","x":["average","linear","random_forest"],"xaxis":"x","y":[385673057.09,98984826.0828503,11674281.556267278],"yaxis":"y","type":"bar"}],                        {"template":{"data":{"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"barpolar":[{"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"type":"carpet"}],"choropleth":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"choropleth"}],"contour":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"contour"}],"contourcarpet":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"contourcarpet"}],"heatmap":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"heatmap"}],"heatmapgl":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"heatmapgl"}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"histogram2d":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"histogram2d"}],"histogram2dcontour":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"histogram2dcontour"}],"mesh3d":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"mesh3d"}],"parcoords":[{"line":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"parcoords"}],"pie":[{"automargin":true,"type":"pie"}],"scatter":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatter"}],"scatter3d":[{"line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatter3d"}],"scattercarpet":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattercarpet"}],"scattergeo":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattergeo"}],"scattergl":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattergl"}],"scattermapbox":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattermapbox"}],"scatterpolar":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterpolar"}],"scatterpolargl":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterpolargl"}],"scatterternary":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterternary"}],"surface":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"surface"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}]},"layout":{"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"autotypenumbers":"strict","coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]],"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]},"colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"geo":{"bgcolor":"white","lakecolor":"white","landcolor":"#E5ECF6","showlakes":true,"showland":true,"subunitcolor":"white"},"hoverlabel":{"align":"left"},"hovermode":"closest","mapbox":{"style":"light"},"paper_bgcolor":"white","plot_bgcolor":"#E5ECF6","polar":{"angularaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"bgcolor":"#E5ECF6","radialaxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"scene":{"xaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","gridwidth":2,"linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white"},"yaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","gridwidth":2,"linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white"},"zaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","gridwidth":2,"linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white"}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"ternary":{"aaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"baxis":{"gridcolor":"white","linecolor":"white","ticks":""},"bgcolor":"#E5ECF6","caxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"title":{"x":0.05},"xaxis":{"automargin":true,"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","zerolinewidth":2},"yaxis":{"automargin":true,"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","zerolinewidth":2}}},"xaxis":{"anchor":"y","domain":[0.0,1.0],"title":{"text":"Model"}},"yaxis":{"anchor":"x","domain":[0.0,1.0],"title":{"text":"MAE"}},"legend":{"tracegroupgap":0},"title":{"text":"MAE on the training set"},"barmode":"relative"},                        {"responsive": true}                    ).then(function(){
+                            
+var gd = document.getElementById('6c35a139-6282-4e37-b0d5-692f3aa27cc1');
+var x = new MutationObserver(function (mutations, observer) {{
+        var display = window.getComputedStyle(gd).display;
+        if (!display || display === 'none') {{
+            console.log([gd, 'removed!']);
+            Plotly.purge(gd);
+            observer.disconnect();
+        }}
+}});
+
+// Listen for the removal of the full notebook cells
+var notebookContainer = gd.closest('#notebook-container');
+if (notebookContainer) {{
+    x.observe(notebookContainer, {childList: true});
+}}
+
+// Listen for the clearing of the current output cell
+var outputEl = gd.closest('.output');
+if (outputEl) {{
+    x.observe(outputEl, {childList: true});
+}}
+
+                        })                };                            </script>        </div>
+</body>
+</html>
+</div>
+</div>
+<div class="cell code" data-execution_count="23" data-colab="{&quot;height&quot;:542,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="BmFw3pwDZWn6" data-outputId="31880bda-12ea-43fd-b8a1-a65f805f680f">
+<div class="sourceCode" id="cb38"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb38-1"><a href="#cb38-1" aria-hidden="true" tabindex="-1"></a>MSE_test <span class="op">=</span> pd.DataFrame({<span class="st">&#39;model_name&#39;</span>: [<span class="st">&#39;average&#39;</span>, <span class="st">&#39;linear&#39;</span>, <span class="st">&#39;random_forest&#39;</span>], <span class="st">&#39;value&#39;</span>: [mse_test_baseline, mse_test_linear, mse_test_forest]})</span>
+<span id="cb38-2"><a href="#cb38-2" aria-hidden="true" tabindex="-1"></a>fig <span class="op">=</span> px.bar(MSE_test, x<span class="op">=</span><span class="st">&#39;model_name&#39;</span>, y<span class="op">=</span><span class="st">&#39;value&#39;</span>, title <span class="op">=</span> <span class="st">&#39;MSE on the test set&#39;</span>, labels <span class="op">=</span> {<span class="st">&#39;model_name&#39;</span>: <span class="st">&#39;Model&#39;</span>, <span class="st">&#39;value&#39;</span>: <span class="st">&#39;MSE&#39;</span>})</span>
+<span id="cb38-3"><a href="#cb38-3" aria-hidden="true" tabindex="-1"></a>fig.show()</span></code></pre></div>
+<div class="output display_data">
+<html>
+<head><meta charset="utf-8" /></head>
+<body>
+    <div>            <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_SVG"></script><script type="text/javascript">if (window.MathJax) {MathJax.Hub.Config({SVG: {font: "STIX-Web"}});}</script>                <script type="text/javascript">window.PlotlyConfig = {MathJaxConfig: 'local'};</script>
+        <script src="https://cdn.plot.ly/plotly-2.8.3.min.js"></script>                <div id="60cb23e8-3765-47e4-8c7a-946e4b718713" class="plotly-graph-div" style="height:525px; width:100%;"></div>            <script type="text/javascript">                                    window.PLOTLYENV=window.PLOTLYENV || {};                                    if (document.getElementById("60cb23e8-3765-47e4-8c7a-946e4b718713")) {                    Plotly.newPlot(                        "60cb23e8-3765-47e4-8c7a-946e4b718713",                        [{"alignmentgroup":"True","hovertemplate":"Model=%{x}<br>MSE=%{y}<extra></extra>","legendgroup":"","marker":{"color":"#636efa","pattern":{"shape":""}},"name":"","offsetgroup":"","orientation":"v","showlegend":false,"textposition":"auto","x":["average","linear","random_forest"],"xaxis":"x","y":[350793716.95,92139082.11595689,75408844.11380798],"yaxis":"y","type":"bar"}],                        {"template":{"data":{"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"barpolar":[{"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"type":"carpet"}],"choropleth":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"choropleth"}],"contour":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"contour"}],"contourcarpet":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"contourcarpet"}],"heatmap":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"heatmap"}],"heatmapgl":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"heatmapgl"}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"histogram2d":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"histogram2d"}],"histogram2dcontour":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"histogram2dcontour"}],"mesh3d":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"mesh3d"}],"parcoords":[{"line":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"parcoords"}],"pie":[{"automargin":true,"type":"pie"}],"scatter":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatter"}],"scatter3d":[{"line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatter3d"}],"scattercarpet":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattercarpet"}],"scattergeo":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattergeo"}],"scattergl":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattergl"}],"scattermapbox":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattermapbox"}],"scatterpolar":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterpolar"}],"scatterpolargl":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterpolargl"}],"scatterternary":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterternary"}],"surface":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"surface"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}]},"layout":{"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"autotypenumbers":"strict","coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]],"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]},"colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"geo":{"bgcolor":"white","lakecolor":"white","landcolor":"#E5ECF6","showlakes":true,"showland":true,"subunitcolor":"white"},"hoverlabel":{"align":"left"},"hovermode":"closest","mapbox":{"style":"light"},"paper_bgcolor":"white","plot_bgcolor":"#E5ECF6","polar":{"angularaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"bgcolor":"#E5ECF6","radialaxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"scene":{"xaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","gridwidth":2,"linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white"},"yaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","gridwidth":2,"linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white"},"zaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","gridwidth":2,"linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white"}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"ternary":{"aaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"baxis":{"gridcolor":"white","linecolor":"white","ticks":""},"bgcolor":"#E5ECF6","caxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"title":{"x":0.05},"xaxis":{"automargin":true,"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","zerolinewidth":2},"yaxis":{"automargin":true,"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","zerolinewidth":2}}},"xaxis":{"anchor":"y","domain":[0.0,1.0],"title":{"text":"Model"}},"yaxis":{"anchor":"x","domain":[0.0,1.0],"title":{"text":"MSE"}},"legend":{"tracegroupgap":0},"title":{"text":"MSE on the test set"},"barmode":"relative"},                        {"responsive": true}                    ).then(function(){
+                            
+var gd = document.getElementById('60cb23e8-3765-47e4-8c7a-946e4b718713');
+var x = new MutationObserver(function (mutations, observer) {{
+        var display = window.getComputedStyle(gd).display;
+        if (!display || display === 'none') {{
+            console.log([gd, 'removed!']);
+            Plotly.purge(gd);
+            observer.disconnect();
+        }}
+}});
+
+// Listen for the removal of the full notebook cells
+var notebookContainer = gd.closest('#notebook-container');
+if (notebookContainer) {{
+    x.observe(notebookContainer, {childList: true});
+}}
+
+// Listen for the clearing of the current output cell
+var outputEl = gd.closest('.output');
+if (outputEl) {{
+    x.observe(outputEl, {childList: true});
+}}
+
+                        })                };                            </script>        </div>
+</body>
+</html>
+</div>
+</div>
+<div class="cell code" data-execution_count="24" data-colab="{&quot;height&quot;:542,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="Hr0Wp0B_ZwuM" data-outputId="7195a160-b35e-4bb7-c1cd-aab032c30e26">
+<div class="sourceCode" id="cb39"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb39-1"><a href="#cb39-1" aria-hidden="true" tabindex="-1"></a>MAE_test <span class="op">=</span> pd.DataFrame({<span class="st">&#39;model_name&#39;</span>: [<span class="st">&#39;average&#39;</span>, <span class="st">&#39;linear&#39;</span>, <span class="st">&#39;random_forest&#39;</span>], <span class="st">&#39;value&#39;</span>: [mae_test_baseline, mae_test_linear, mae_test_forest]})</span>
+<span id="cb39-2"><a href="#cb39-2" aria-hidden="true" tabindex="-1"></a>fig <span class="op">=</span> px.bar(MSE_training, x<span class="op">=</span><span class="st">&#39;model_name&#39;</span>, y<span class="op">=</span><span class="st">&#39;value&#39;</span>, title <span class="op">=</span> <span class="st">&#39;MAE on the test set&#39;</span>, labels <span class="op">=</span> {<span class="st">&#39;model_name&#39;</span>: <span class="st">&#39;Model&#39;</span>, <span class="st">&#39;value&#39;</span>: <span class="st">&#39;MAE&#39;</span>})</span>
+<span id="cb39-3"><a href="#cb39-3" aria-hidden="true" tabindex="-1"></a>fig.show()</span></code></pre></div>
+<div class="output display_data">
+<html>
+<head><meta charset="utf-8" /></head>
+<body>
+    <div>            <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_SVG"></script><script type="text/javascript">if (window.MathJax) {MathJax.Hub.Config({SVG: {font: "STIX-Web"}});}</script>                <script type="text/javascript">window.PlotlyConfig = {MathJaxConfig: 'local'};</script>
+        <script src="https://cdn.plot.ly/plotly-2.8.3.min.js"></script>                <div id="856959eb-7573-4a62-9c64-e932a7fabcbc" class="plotly-graph-div" style="height:525px; width:100%;"></div>            <script type="text/javascript">                                    window.PLOTLYENV=window.PLOTLYENV || {};                                    if (document.getElementById("856959eb-7573-4a62-9c64-e932a7fabcbc")) {                    Plotly.newPlot(                        "856959eb-7573-4a62-9c64-e932a7fabcbc",                        [{"alignmentgroup":"True","hovertemplate":"Model=%{x}<br>MAE=%{y}<extra></extra>","legendgroup":"","marker":{"color":"#636efa","pattern":{"shape":""}},"name":"","offsetgroup":"","orientation":"v","showlegend":false,"textposition":"auto","x":["average","linear","random_forest"],"xaxis":"x","y":[385673057.09,98984826.0828503,11674281.556267278],"yaxis":"y","type":"bar"}],                        {"template":{"data":{"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"barpolar":[{"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"type":"carpet"}],"choropleth":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"choropleth"}],"contour":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"contour"}],"contourcarpet":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"contourcarpet"}],"heatmap":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"heatmap"}],"heatmapgl":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"heatmapgl"}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"histogram2d":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"histogram2d"}],"histogram2dcontour":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"histogram2dcontour"}],"mesh3d":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"mesh3d"}],"parcoords":[{"line":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"parcoords"}],"pie":[{"automargin":true,"type":"pie"}],"scatter":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatter"}],"scatter3d":[{"line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatter3d"}],"scattercarpet":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattercarpet"}],"scattergeo":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattergeo"}],"scattergl":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattergl"}],"scattermapbox":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattermapbox"}],"scatterpolar":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterpolar"}],"scatterpolargl":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterpolargl"}],"scatterternary":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterternary"}],"surface":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"surface"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}]},"layout":{"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"autotypenumbers":"strict","coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]],"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]},"colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"geo":{"bgcolor":"white","lakecolor":"white","landcolor":"#E5ECF6","showlakes":true,"showland":true,"subunitcolor":"white"},"hoverlabel":{"align":"left"},"hovermode":"closest","mapbox":{"style":"light"},"paper_bgcolor":"white","plot_bgcolor":"#E5ECF6","polar":{"angularaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"bgcolor":"#E5ECF6","radialaxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"scene":{"xaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","gridwidth":2,"linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white"},"yaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","gridwidth":2,"linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white"},"zaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","gridwidth":2,"linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white"}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"ternary":{"aaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"baxis":{"gridcolor":"white","linecolor":"white","ticks":""},"bgcolor":"#E5ECF6","caxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"title":{"x":0.05},"xaxis":{"automargin":true,"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","zerolinewidth":2},"yaxis":{"automargin":true,"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","zerolinewidth":2}}},"xaxis":{"anchor":"y","domain":[0.0,1.0],"title":{"text":"Model"}},"yaxis":{"anchor":"x","domain":[0.0,1.0],"title":{"text":"MAE"}},"legend":{"tracegroupgap":0},"title":{"text":"MAE on the test set"},"barmode":"relative"},                        {"responsive": true}                    ).then(function(){
+                            
+var gd = document.getElementById('856959eb-7573-4a62-9c64-e932a7fabcbc');
+var x = new MutationObserver(function (mutations, observer) {{
+        var display = window.getComputedStyle(gd).display;
+        if (!display || display === 'none') {{
+            console.log([gd, 'removed!']);
+            Plotly.purge(gd);
+            observer.disconnect();
+        }}
+}});
+
+// Listen for the removal of the full notebook cells
+var notebookContainer = gd.closest('#notebook-container');
+if (notebookContainer) {{
+    x.observe(notebookContainer, {childList: true});
+}}
+
+// Listen for the clearing of the current output cell
+var outputEl = gd.closest('.output');
+if (outputEl) {{
+    x.observe(outputEl, {childList: true});
+}}
+
+                        })                };                            </script>        </div>
+</body>
+</html>
+</div>
+</div>
+</body>
+</html>

@@ -4,15 +4,18 @@ The goal of the second homework is to become familiar with SHapley Additive exPl
 
 Calculate these explanations on the model from Homework 1 and gather conclusions from the results.
 
-Focus on the presentation of results; for technical issues, seek support at [Materials towards Homework 2: SHAP with XGBoost & SVM](https://github.com/mim-uw/eXplainableMachineLearning-2023/blob/main/Materials/hw2_shap_with_xgboost_on_titanic.html).
+Focus on the presentation of results; for technical issues, seek support at [Materials towards Homework 2: SHAP with XGBoost & SVM](https://mim-uw.github.io/eXplainableMachineLearning-2023/hw2_shap_with_xgboost_on_titanic.html).
 
 Submit the homework to this directory.
 
 ## Deadline 
 
-2022-10-20 EOD
+~~2022-10-20 EOD~~
 
-## Task
+2022-10-24 23:59
+
+
+## Task A
 
 For the selected models, prepare a knitr/jupyter notebook based on the following points (you can use models created in Homework 1).
 Submit your results on GitHub to the directory `Homeworks/HW2`.
@@ -26,6 +29,20 @@ Submit your results on GitHub to the directory `Homeworks/HW2`.
 7. (Using one explanation package of choice) Train another model of any class: neural network, linear model, decision tree etc. and find an observation for which SHAP attributions are different between this model and the one trained in point (1).
 8. Comment on the results obtained in points (4)-(7)
 
+## Task B
+
+Calculate Shapley values for player A given the following value function
+
+```
+v() = 0
+v(A) = 20
+v(B) = 20
+v(C) = 60
+v(A,B) = 60
+v(A,C) = 70
+v(B,C) = 70
+v(A,B,C) = 100
+```
 
 ## **Important note:**
 

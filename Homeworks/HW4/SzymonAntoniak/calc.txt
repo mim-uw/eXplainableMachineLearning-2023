@@ -1,0 +1,6 @@
+f(X,Y) = (X+Y)^2
+X == Y ~ U[-1,1]
+PD_f_X(z) = E_marginal_Y(f|X=z) = E((z+Y)^2)=z^2 + zEY + EY^2 =
+= z^2 + 1/12(1+1)^2 = z^2 + 1/3
+
+ME_f_X(z) = E_joint(f|X=z) = E((z+z)^2)=4z^2
