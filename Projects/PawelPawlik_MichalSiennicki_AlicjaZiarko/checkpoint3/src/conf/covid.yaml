@@ -1,0 +1,13 @@
+defaults:
+  - logger: default
+  - trainer: default
+  - datamodule: covid
+  - module: default
+
+module:
+  num_classes: 3
+  model:
+    out_features: 3
+  loss:
+    weight:
+      data: [1., 1., 1.]
