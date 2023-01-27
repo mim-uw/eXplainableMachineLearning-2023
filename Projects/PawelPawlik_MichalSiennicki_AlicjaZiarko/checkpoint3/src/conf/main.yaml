@@ -1,0 +1,5 @@
+defaults:
+  - logger: default
+  - trainer: default
+  - datamodule: melanoma
+  - module: default

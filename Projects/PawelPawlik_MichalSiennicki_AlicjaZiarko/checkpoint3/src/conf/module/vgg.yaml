@@ -1,0 +1,5 @@
+defaults:
+  - default@_here_
+
+model:
+  _target_: model.vgg.get_vgg16
