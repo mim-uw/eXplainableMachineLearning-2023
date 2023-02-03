@@ -1,12 +1,3 @@
-% TODO
-% Introduction
-% Take Pawel's indices and check if good on CRP, if good then just use them, if not select different ones (https://github.com/sienmich/xai_crp_lrp/blob/main/lrp/config.py)
-% Select ~3 layers that have something interesting
-% Also use VGG
-% Desrive those explanations variance
-% Write Conclusion / summary
-% Reread and fix all grammar mistakes, unify style
-
 \documentclass[twoside,11pt]{article}
 
 % Any additional packages needed should be included after jmlr2e.
@@ -71,16 +62,14 @@ Layer-Wise Relevance Propagation (LRP) \citep{Montavon2019} on medical datasets 
 \end{abstract}
 
 \section{Introduction}
-In recent years deep learning models have achieved tremendous success in the field of computer vision. One application of them is diagnosing medical conditions from photos and scans. In comparison to other domains, the possibility of a model being wrong is much more serious. Hence treating it as a black box is not a possibility. For that reason it important to be able to make use of interpretability methods. In this paper, we apply two different explainability methods to investigate the predictions of two different models on two different medical datasets. We were able to verify which features are important to the models.
+In recent years deep learning models have achieved tremendous success in computer vision. One application of them is diagnosing medical conditions from photos and scans. In comparison to other domains, the possibility of a model being wrong is much more serious. Hence treating it as a black box is not a possibility. For that reason, it is essential to be able to make use of interpretability methods. In this paper, we apply two different explainability methods to investigate the predictions of two different models on two different medical datasets. We were able to verify which features are important to the models. Furthermore, we investigate how the explanations from the data points change when augmentations are applied to them.
+\paragraph{Related Work}
+Methods of explainable machine learning have been successfully applied to aid diagnostics. In \citep{Covid_stuff} many methods for interpreting Covid-19 severity predictions were investigated and compared.
+In \citep{mahima2021assessment} explainable AI is used to analyze the robustness of Neural Networks to adversarial examples.
+Best to our knowledge, there was no analysis of how augmentations affect explanations of neural network predictions on medical data.
 
 \section{Methodology}
-
-\paragraph{Models}
-We have tested two different Convolutional Neural Network (CNN) architectures - ResNet50 \citep{DBLP:journals/corr/HeZRS15} and VGG16 \citep{https://doi.org/10.48550/arxiv.1409.1556}. VGG16 is built as a series of convolutional and pooling layers with a dense head. ResNet50 on the other hand has residual connections, which counters the fading gradients problem. This fact is important to understand some differences in interpretation visualizations between those two architectures.
-
-% \subsection{Datasets, Augmentations, Training}
-\paragraph{Experimental Setup}
-The datasets, augmentations, and training results are described in Appendix \ref{appendix:datasets}.
+The models, datasets, augmentations, and training results are described in Appendix \ref{appendix:datasets}.
 
 \paragraph{LRP}
 Layer-Wise Relevance Propagation \citep{Montavon2019} is a method designed to explain CNN-based models.
@@ -216,7 +205,10 @@ There are some interesting features that are used by the networks for prediction
 
 \clearpage
 \appendix
-\section{Datasets} \label{appendix:datasets}
+\section{Models, Datasets} \label{appendix:datasets}
+\subsection{Models}
+We have tested two different Convolutional Neural Network (CNN) architectures - ResNet50 \citep{DBLP:journals/corr/HeZRS15} and VGG16 \citep{https://doi.org/10.48550/arxiv.1409.1556}. VGG16 is built as a series of convolutional and pooling layers with a dense head. ResNet50 on the other hand has residual connections, which counters the fading gradients problem. This fact is important to understand some differences in interpretation visualizations between those two architectures.
+
 \subsection{COVID-QU-Ex}
 \begin{figure}[t]
     \centering
